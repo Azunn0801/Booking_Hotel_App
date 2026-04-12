@@ -1,0 +1,76 @@
+// window.addEventListener('load', function () {
+//   const wp63 = window.wp63;
+
+//   window.agoda = window.agoda || {};
+//   window.agoda.trafficMessage = {
+//     wp_server: wp63.server,
+//     browser_language: wp63.current_language,
+//     device_type_id: wp63.device_id,
+//     page_type_id: wp63.page_type_id,
+//     wp_request_url: window.location.pathname,
+//     wp_cookies: window.document.cookie,
+//     wp_referer_url: wp63.http_referer,
+//     wp_http_method: wp63.http_method,
+//     wp_query_string: wp63.query_string,
+//   };
+
+//   const messagingClient = MessagingClient.instantiate({
+//       apiKey: 'febaymaxdevs',
+//       workerUrl: '/traveltips/messaging-client/messaging-client-worker.js',
+//       polyfillsUrl: '/traveltips/messaging-client/messaging-client-polyfills.js',
+//       mode: window.wp63.config.mode
+//   });
+
+//   const message = messagingClient.create('WPTraffic', window.agoda.trafficMessage);
+//   messagingClient.send(message);
+// });
+
+window.addEventListener('load', async function () {
+  async function fetchCookieData() {
+    try {
+      const response = await fetch('https://www.agoda.com/api/cronos/wordpress/cookies');
+      const data = await response.json();
+      return { status: response.status, data };
+    } catch (error) {
+      console.error('API call failed', error);
+      return { status: 'failed', error: error.message };
+    }
+  }
+
+  // Get API data
+  const apiResult = await fetchCookieData();
+
+  // Extract data from the API result
+  const userId = apiResult.data ? apiResult.data.userId : null;
+  const sessionId = apiResult.data ? apiResult.data.sessionId : null;
+
+  window.agoda = window.agoda || {};
+
+  // Populate the trafficMessage object with Cookie data and status
+  window.agoda.trafficMessage = {
+    wp_server: wp63.server,
+    browser_language: wp63.current_language,
+    device_type_id: wp63.device_id,
+    page_type_id: wp63.page_type_id,
+    wp_request_url: window.location.pathname,
+    wp_cookies: window.document.cookie,
+    wp_referer_url: wp63.http_referer,
+    wp_http_method: wp63.http_method,
+    wp_query_string: wp63.query_string,
+    wp_cookie_api_status: apiResult.status,
+    wp_user_id: userId,
+    wp_session_id: sessionId,
+    wp_cid: (new URLSearchParams(window.location.search)).get('cid'),
+  };
+
+  const messagingClient = MessagingClient.instantiate({
+    apiKey: 'febaymaxdevs', // pragma: allowlist secret
+    workerUrl: '/traveltips/messaging-client/messaging-client-worker.js',
+    polyfillsUrl: '/traveltips/messaging-client/messaging-client-polyfills.js',
+    mode: window.wp63.config.mode
+  });
+
+  // Create and send the message
+  const message = messagingClient.create('WPTraffic', window.agoda.trafficMessage);
+  messagingClient.send(message);
+}, {once : true});
