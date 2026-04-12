@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnSort"
+            style="@style/FilterChipStyle">
+
+            <ImageView
+                android:src="@drawable/ic_keyboard_arrow_down"
+                style="@style/FilterIconStyle"/>
+
+            <TextView
+                android:text="Sắp xếp"
+                style="@style/FilterTextStyle"/>
+
+            <ImageView
+                android:src="@drawable/ic_keyboard_arrow_down"
+                style="@style/FilterArrowStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnFilter"
+            style="@style/FilterChipStyle">
+
+            <ImageView
+                android:src="@drawable/ic_heart_outline"
+                style="@style/FilterIconStyle"/> <TextView
+            android:text="Bộ lọc"
+            style="@style/FilterTextStyle"/>
+
+            <ImageView
+                android:src="@drawable/ic_keyboard_arrow_down"
+                style="@style/FilterArrowStyle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</HorizontalScrollView>
