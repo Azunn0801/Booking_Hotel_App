@@ -11,9 +11,11 @@ def fetch_and_seed_final():
     url = "https://agoda-com.p.rapidapi.com/hotels/search-overnight"
     querystring = {
         "id": "1_318",
-        "checkinDate": "2026-03-05",
-        "checkoutDate": "2026-03-07",
-        "limit": "20"
+        "checkinDate": "2026-06-05",
+        "checkoutDate": "2026-06-07",
+        "limit": "20",
+        "language":"vi-vn",
+        "currency":"VND"
     }
     headers = {
         "x-rapidapi-key": "7ac8e7f4aamshe3afd8116a3789dp118aa9jsnf974be0679d4",
@@ -38,8 +40,15 @@ def fetch_and_seed_final():
             hotel_name = info.get('localeName') or info.get('defaultName')
             if not hotel_name: continue
 
-            # 1. Lưu hoặc lấy Khách sạn
+            # --- TRÍCH XUẤT REVIEW CHUẨN XÁC TỪ JSON ---
+            reviews_data = content.get('reviews') or {}
+            cumulative = reviews_data.get('cumulative') or {}
+            real_score = cumulative.get('score') or 0.0
+            real_review_count = cumulative.get('reviewCount') or 0 
+
+            # 1. Lưu mới hoặc CẬP NHẬT Khách sạn
             hotel = db.query(models.Hotel).filter(models.Hotel.name == hotel_name).first()
+            
             if not hotel:
                 # Xử lý link ảnh
                 img_url = ""
@@ -54,21 +63,25 @@ def fetch_and_seed_final():
                     address=f"{info.get('address', {}).get('area', {}).get('name', '')}, {info.get('address', {}).get('city', {}).get('name', '')}",
                     city=info.get('address', {}).get('city', {}).get('name', 'New York'),
                     city_id="1_318",
-                    rating=float(info.get('rating') or 0),
+                    rating=float(real_score),              # Điểm thật
+                    review_count=int(real_review_count),     # Số lượng thật
                     star_rating=int(info.get('rating') or 0),
                     property_type=info.get('propertyType', 'Hotel'),
                     image_url=img_url
                 )
                 db.add(hotel)
-                db.flush() # Để lấy ID của hotel vừa tạo gán cho room
+                db.flush() 
                 count_h += 1
+            else:
+                # --- QUAN TRỌNG: NẾU KHÁCH SẠN ĐÃ CÓ, PHẢI UPDATE LẠI REVIEW ---
+                hotel.rating = float(real_score)
+                hotel.review_count = int(real_review_count)
 
-            # 2. Bóc tách dữ liệu Phòng và Giá
+            # 2. Xử lý Phòng (Giữ nguyên logic của bạn)
             pricing = item.get('pricing') or {}
             offers = pricing.get('offers') or []
             if offers:
                 room_data = offers[0].get('roomOffers', [{}])[0].get('room', {})
-                # Lấy giá inclusive thực tế
                 price_val = 0
                 price_list = room_data.get('pricing') or []
                 if price_list:

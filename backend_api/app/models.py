@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, ForeignKey, DateTime, Boolean, Text
+from sqlalchemy import Column, Integer, String, Float, ForeignKey, DateTime, Boolean, Text, String
 from sqlalchemy.orm import relationship
 from app.database import Base # cite: database.py
 
@@ -22,6 +22,7 @@ class Hotel(Base):
     neighborhood_id = Column(String) # Tham số 'neighborhoods'
     facilities = Column(Text) # Lưu ID tiện nghi dạng chuỗi: "93,80"
     image_url = Column(String)
+    review_count = Column(Integer, default=0)
     
     rooms = relationship("Room", back_populates="hotel")
 

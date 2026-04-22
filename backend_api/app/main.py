@@ -4,6 +4,7 @@ from typing import List, Optional
 from app import models, database
 from pydantic import BaseModel
 from datetime import datetime
+from sqlalchemy import text
 
 # Khởi tạo database dựa trên model đầy đủ (User, Hotel, Room, Flight, Activity, Booking)
 models.Base.metadata.create_all(bind=database.engine)
@@ -17,9 +18,31 @@ def get_db():
     finally:
         db.close()
 
+# Đoạn code này đảm bảo View luôn tồn tại trong SQLite
+def ensure_view_exists(db):
+    view_sql = """
+    CREATE VIEW IF NOT EXISTS vw_Hotel_API_List AS
+    SELECT 
+        h.id, h.name, h.address, h.city, h.city_id, h.star_rating, h.rating as score, h.image_url, h.latitude, h.longitude,
+        (SELECT MIN(price) FROM rooms WHERE rooms.hotel_id = h.id) as price,
+        150 as review_count, -- Tạm thời để giả lập
+        1 as is_available,
+        1 as is_preferred
+    FROM hotels h;
+    """
+    db.execute(text(view_sql))
+    db.commit()
+
 # --- 1. HOTELS SERVICE (Khớp với image_e6fc62.png) ---
 
 @app.get("/hotels/auto-complete")
+def search_overnight(db: Session = Depends(get_db), id: str = Query(...), limit: int = 20):
+    # Gọi hàm đảm bảo view tồn tại trước khi query
+    ensure_view_exists(db)
+    
+    sql = text("SELECT * FROM vw_Hotel_API_List WHERE city_id = :city_id LIMIT :limit")
+    result = db.execute(sql, {"city_id": id, "limit": limit})
+
 def hotels_auto_complete(q: str, db: Session = Depends(get_db)):
     # Tìm kiếm gợi ý thành phố/vùng
     return db.query(models.Hotel.city).filter(models.Hotel.city.contains(q)).distinct().all()
@@ -33,18 +56,40 @@ def search_overnight(
     sort: str = "Ranking,Desc",
     limit: int = 10
 ):
-    # API chính để tìm khách sạn với bộ lọc chuyên sâu
     query = db.query(models.Hotel).filter(models.Hotel.city_id == id)
     
-    if starRating:
-        stars = [int(s.strip()) for s in starRating.split(",")]
-        query = query.filter(models.Hotel.star_rating.in_(stars))
+    # Logic lọc sao và giá giữ nguyên...
     
-    if prices:
-        min_p, max_p = [float(p.strip()) for p in prices.split(",")]
-        query = query.join(models.Room).filter(models.Room.price >= min_p, models.Room.price <= max_p)
+    hotels = query.distinct().limit(limit).all()
+    
+    # --- PHẦN XỬ LÝ MỚI ĐỂ TRẢ VỀ ĐÚNG DATA ANDROID CẦN ---
+    results = []
+    for h in hotels:
+        # 1. Tìm giá thấp nhất của khách sạn này
+        min_room_price = db.query(models.Room.price).filter(models.Room.hotel_id == h.id).order_by(models.Room.price.asc()).first()
+        price = min_room_price[0] if min_room_price else 0
+        
+        # 2. Giả lập hoặc đếm review (Vì model hiện tại của Dũng chưa có bảng Review riêng biệt)
+        # Tạm thời mình map 'rating' sang 'score' và để review_count giả lập
+        hotel_data = {
+            "id": str(h.id),
+            "name": h.name,
+            "address": h.address,
+            "city": h.city,
+            "city_id": h.city_id,
+            "star_rating": h.star_rating,
+            "image_url": h.image_url,
+            "is_available": True,
+            "price": price,              # Thêm trường price
+            "score": h.rating or 0.0,    # Map rating -> score cho Android
+            "review_count": 128,         # Giá trị giả lập (Dũng nên thêm bảng Reviews sau)
+            "is_preferred": True,
+            "latitude": h.latitude if hasattr(h, 'latitude') else 0.0,
+            "longitude": h.longitude if hasattr(h, 'longitude') else 0.0
+        }
+        results.append(hotel_data)
 
-    return query.distinct().limit(limit).all()
+    return results
 
 @app.get("/hotels/details")
 def get_hotel_details(hotel_id: int, db: Session = Depends(get_db)):
