@@ -21,11 +21,14 @@ def get_db():
 # Đoạn code này đảm bảo View luôn tồn tại trong SQLite
 def ensure_view_exists(db):
     view_sql = """
+    -- Đảm bảo câu lệnh SQL trong View lấy đúng cột:
     CREATE VIEW IF NOT EXISTS vw_Hotel_API_List AS
     SELECT 
-        h.id, h.name, h.address, h.city, h.city_id, h.star_rating, h.rating as score, h.image_url, h.latitude, h.longitude,
+        h.id, h.name, h.address, h.city, h.city_id, h.star_rating, 
+        h.rating as score, 
+        h.review_count,  -- Lấy thẳng từ bảng hotels, KHÔNG ĐỂ SỐ CỨNG Ở ĐÂY
+        h.image_url, h.latitude, h.longitude,
         (SELECT MIN(price) FROM rooms WHERE rooms.hotel_id = h.id) as price,
-        150 as review_count, -- Tạm thời để giả lập
         1 as is_available,
         1 as is_preferred
     FROM hotels h;
@@ -35,15 +38,10 @@ def ensure_view_exists(db):
 
 # --- 1. HOTELS SERVICE (Khớp với image_e6fc62.png) ---
 
-@app.get("/hotels/auto-complete")
-def search_overnight(db: Session = Depends(get_db), id: str = Query(...), limit: int = 20):
-    # Gọi hàm đảm bảo view tồn tại trước khi query
-    ensure_view_exists(db)
-    
-    sql = text("SELECT * FROM vw_Hotel_API_List WHERE city_id = :city_id LIMIT :limit")
-    result = db.execute(sql, {"city_id": id, "limit": limit})
+# --- 1. HOTELS SERVICE (Khớp với image_e6fc62.png) ---
 
-def hotels_auto_complete(q: str, db: Session = Depends(get_db)):
+@app.get("/hotels/auto-complete")
+def hotels_auto_complete(q: str = Query(...), db: Session = Depends(get_db)):
     # Tìm kiếm gợi ý thành phố/vùng
     return db.query(models.Hotel.city).filter(models.Hotel.city.contains(q)).distinct().all()
 
@@ -62,15 +60,17 @@ def search_overnight(
     
     hotels = query.distinct().limit(limit).all()
     
-    # --- PHẦN XỬ LÝ MỚI ĐỂ TRẢ VỀ ĐÚNG DATA ANDROID CẦN ---
+    # --- PHẦN XỬ LÝ ĐỂ LẤY GIÁ GỐC VÀ KHUYẾN MÃI ---
     results = []
     for h in hotels:
-        # 1. Tìm giá thấp nhất của khách sạn này
-        min_room_price = db.query(models.Room.price).filter(models.Room.hotel_id == h.id).order_by(models.Room.price.asc()).first()
-        price = min_room_price[0] if min_room_price else 0
+        # 1. Tìm thông tin PHÒNG RẺ NHẤT của khách sạn này (Lấy toàn bộ object Room)
+        min_room = db.query(models.Room).filter(models.Room.hotel_id == h.id).order_by(models.Room.price.asc()).first()
         
-        # 2. Giả lập hoặc đếm review (Vì model hiện tại của Dũng chưa có bảng Review riêng biệt)
-        # Tạm thời mình map 'rating' sang 'score' và để review_count giả lập
+        # Bóc tách 3 loại giá từ bảng Room (nếu không có phòng thì mặc định là 0)
+        price = min_room.price if min_room else 0
+        original_price = min_room.original_price if min_room else 0
+        discount_percent = min_room.discount_percent if min_room else 0
+        
         hotel_data = {
             "id": str(h.id),
             "name": h.name,
@@ -80,9 +80,14 @@ def search_overnight(
             "star_rating": h.star_rating,
             "image_url": h.image_url,
             "is_available": True,
-            "price": price,              # Thêm trường price
-            "score": h.rating or 0.0,    # Map rating -> score cho Android
-            "review_count": 128,         # Giá trị giả lập (Dũng nên thêm bảng Reviews sau)
+            
+            # --- 3 TRƯỜNG GIÁ TRỊ MỚI ĐỂ HIỂN THỊ UI ---
+            "price": price,                       # Giá bán thực tế
+            "original_price": original_price,     # Giá gạch chéo
+            "discount_percent": discount_percent, # Cột % giảm giá
+            
+            "score": h.rating or 0.0,    
+            "review_count": h.review_count or 0,  # Đã lấy số thật từ DB
             "is_preferred": True,
             "latitude": h.latitude if hasattr(h, 'latitude') else 0.0,
             "longitude": h.longitude if hasattr(h, 'longitude') else 0.0

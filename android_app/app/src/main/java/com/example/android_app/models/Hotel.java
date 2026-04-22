@@ -43,6 +43,12 @@ public class Hotel implements Serializable {
     @SerializedName("is_preferred") // FIX: Ánh xạ từ is_preferred
     private boolean isPreferred;
 
+    @SerializedName("original_price")
+    private double originalPrice;
+
+    @SerializedName("discount_percent")
+    private int discountPercent;
+
     // Constructor cho Loading/Skeleton
     public Hotel(boolean isLoading) {
         this.isLoading = isLoading;
@@ -105,4 +111,12 @@ public class Hotel implements Serializable {
     public void setLatitude(double latitude) { this.latitude = latitude; }
     public double getLongitude() { return longitude; }
     public void setLongitude(double longitude) { this.longitude = longitude; }
+
+    public double getOriginalPrice() {
+        return originalPrice;
+    }
+
+    public int getDiscountPercent() {
+        return discountPercent;
+    }
 }

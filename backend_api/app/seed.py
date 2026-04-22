@@ -80,21 +80,75 @@ def fetch_and_seed_final():
             # 2. Xử lý Phòng (Giữ nguyên logic của bạn)
             pricing = item.get('pricing') or {}
             offers = pricing.get('offers') or []
+            
             if offers:
-                room_data = offers[0].get('roomOffers', [{}])[0].get('room', {})
-                price_val = 0
-                price_list = room_data.get('pricing') or []
-                if price_list:
-                    price_val = price_list[0].get('price', {}).get('perNight', {}).get('inclusive', {}).get('display', 0)
+                first_offer = offers[0]
+                room_offers = first_offer.get('roomOffers') or []
+                
+                if room_offers:
+                    room_obj = room_offers[0].get('room') or {}
+                    
+                    # 1. LẤY GIÁ BÁN THỰC TẾ
+                    price_val = 0
+                    crossed_out = 0
+                    pricing_list = room_obj.get('pricing') or []
+                    if pricing_list:
+                        price_val = pricing_list[0].get('price', {}).get('perNight', {}).get('inclusive', {}).get('display', 0)
+                        crossed_out = pricing_list[0].get('price', {}).get('perNight', {}).get('inclusive', {}).get('crossedOutPrice', 0)
+                    
+                    # 2. LẤY KHUYẾN MÃI (NẾU CÓ)
+                    promotions = room_obj.get('promotions') or {}
+                    discount_percent = 0
+                    if promotions and "promotionDiscount" in promotions:
+                        discount_percent = promotions["promotionDiscount"].get("value", 0)
 
-                new_room = models.Room(
-                    hotel_id=hotel.id,
-                    room_name=item.get('enrichment', {}).get('roomInformation', {}).get('cheapestRoomName', 'Standard Room'),
-                    price=float(price_val),
-                    is_available=pricing.get('isAvailable', True)
-                )
-                db.add(new_room)
-                count_r += 1
+                    # 3. TÍNH TOÁN GIÁ GỐC
+                    original_price = price_val
+                    if crossed_out > 0:
+                        original_price = crossed_out
+                        discount_percent = int((1 - (price_val / crossed_out)) * 100)
+                    elif discount_percent > 0:
+                        original_price = price_val / (1 - (discount_percent / 100.0))
+
+                    # 4. LƯU PHÒNG
+                    base_room_name = item.get('enrichment', {}).get('roomInformation', {}).get('cheapestRoomName') or "Standard Room"
+                    
+                    # 1. PHÒNG TIÊU CHUẨN (Dữ liệu thật từ API)
+                    room1 = models.Room(
+                        hotel_id=hotel.id,
+                        room_name=base_room_name,
+                        price=float(price_val),                 
+                        original_price=float(original_price),   
+                        discount_percent=int(discount_percent), 
+                        is_available=True
+                    )
+                    db.add(room1)
+                    count_r += 1
+
+                    # 2. PHÒNG CAO CẤP (Deluxe) - Giá đắt hơn 30%
+                    room2 = models.Room(
+                        hotel_id=hotel.id,
+                        room_name=f"Deluxe {base_room_name}",
+                        price=float(price_val * 1.3),                 
+                        original_price=float(original_price * 1.3),   
+                        discount_percent=int(discount_percent), # Giữ nguyên % giảm giá
+                        is_available=True
+                    )
+                    db.add(room2)
+                    count_r += 1
+
+                    # 3. PHÒNG THƯƠNG GIA (Executive Suite) - Giá đắt gấp đôi, Flash Sale 25%
+                    suite_price = price_val * 2.0
+                    room3 = models.Room(
+                        hotel_id=hotel.id,
+                        room_name="Executive Suite City View",
+                        price=float(suite_price),                 
+                        original_price=float(suite_price / (1 - 0.25)), # Giá gốc cao hơn để tạo sale 25% 
+                        discount_percent=25, 
+                        is_available=True
+                    )
+                    db.add(room3)
+                    count_r += 1
 
         db.commit()
         db.close()

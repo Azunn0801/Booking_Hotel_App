@@ -34,7 +34,18 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
     public void onBindViewHolder(@NonNull RoomViewHolder holder, int position) {
         Room room = roomList.get(position);
         holder.tvName.setText(room.getRoomName());
-        holder.tvPrice.setText(room.getPrice() + " $");
+//        holder.tvPrice.setText(room.getPrice() + " $");
+        // 1. Định dạng giá bán thực tế
+        if (holder.tvPrice != null) {
+            // Ép Java hiển thị số nguyên, có dấu phẩy ngăn cách hàng nghìn và đuôi ₫
+            holder.tvPrice.setText(String.format(java.util.Locale.US, "%,.0f ₫", room.getPrice()));
+        }
+
+// 2. (Nếu bạn có làm giá gốc) Định dạng giá gạch chéo
+        if (holder.tvOriginalPrice != null && room.getOriginalPrice() > 0) {
+            holder.tvOriginalPrice.setText(String.format(java.util.Locale.US, "%,.0f ₫", room.getOriginalPrice()));
+            holder.tvOriginalPrice.setPaintFlags(holder.tvOriginalPrice.getPaintFlags() | android.graphics.Paint.STRIKE_THRU_TEXT_FLAG);
+        }
         holder.tvAmenities.setText("Tiện nghi: " + room.getAmenities());
 
         holder.btnBook.setOnClickListener(v -> {
@@ -49,7 +60,8 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
     }
 
     public static class RoomViewHolder extends RecyclerView.ViewHolder {
-        TextView tvName, tvPrice, tvAmenities;
+        // CHÈN THÊM tvOriginalPrice VÀO ĐÂY
+        TextView tvName, tvPrice, tvAmenities, tvOriginalPrice;
         Button btnBook;
 
         public RoomViewHolder(@NonNull View itemView) {
@@ -58,6 +70,10 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
             tvPrice = itemView.findViewById(R.id.tvRoomPrice);
             tvAmenities = itemView.findViewById(R.id.tvRoomAmenities);
             btnBook = itemView.findViewById(R.id.btnBook);
+
+            // CHÈN THÊM ÁNH XẠ Ở ĐÂY
+            // Lưu ý: R.id.tvOriginalPrice phải khớp với ID trong file item_room.xml của bạn
+            tvOriginalPrice = itemView.findViewById(R.id.tvOriginalPrice);
         }
     }
 }

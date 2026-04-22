@@ -3,6 +3,7 @@ package com.example.android_app;
 import com.example.android_app.adapters.RoomAdapter;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 import android.widget.ImageView;
 import android.widget.RatingBar;
@@ -20,9 +21,13 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import androidx.annotation.NonNull;
+import java.util.List;
+import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
-
+    private RecyclerView rvRooms;
+    private RoomAdapter roomAdapter;
+    private List<Room> roomList = new ArrayList<>();
     private Hotel hotel;
 
     @Override
@@ -45,30 +50,37 @@ public class DetailActivity extends AppCompatActivity {
         name.setText(hotel.getName());
         rating.setRating(hotel.getStarRating());
         Glide.with(this).load(hotel.getImageUrl()).into(img);
+
+        // Đảm bảo ID rvRooms khớp với file activity_detail.xml của bạn
+        rvRooms = findViewById(R.id.rvRooms);
+        rvRooms.setLayoutManager(new LinearLayoutManager(this));
+
+        // Khởi tạo Adapter và gán cho RecyclerView
+        roomAdapter = new RoomAdapter(this, roomList);
+        rvRooms.setAdapter(roomAdapter);
     }
 
     private void loadRooms() {
-        RecyclerView rvRooms = findViewById(R.id.rvRooms);
-        rvRooms.setLayoutManager(new LinearLayoutManager(this));
+        if (hotel != null && hotel.getId() != null) {
+            int hotelId = Integer.parseInt(hotel.getId());
 
-        ApiService apiService = ApiClient.getClient().create(ApiService.class);
-
-        // Gọi API lấy danh sách phòng theo ID khách sạn
-        apiService.getHotelRooms(hotel.getId()).enqueue(new Callback<List<Room>>() {
-            @Override
-            public void onResponse(@NonNull Call<List<Room>> call, @NonNull Response<List<Room>> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    // DÒNG QUAN TRỌNG: Khởi tạo Adapter với dữ liệu từ Server
-                    RoomAdapter adapter = new RoomAdapter(DetailActivity.this, response.body());
-                    rvRooms.setAdapter(adapter);
+            // LƯU Ý: Đổi 'apiService' thành biến hoặc class gọi API thực tế của bạn
+            // (Ví dụ: ApiClient.getApiService().getRoomPrices...)
+            ApiClient.getClient().create(ApiService.class).getRoomPrices(hotelId).enqueue(new Callback<List<Room>>() {
+                @Override
+                public void onResponse(Call<List<Room>> call, Response<List<Room>> response) {
+                    if (response.isSuccessful() && response.body() != null) {
+                        roomList.clear();
+                        roomList.addAll(response.body());
+                        roomAdapter.notifyDataSetChanged(); // Cập nhật giao diện
+                    }
                 }
-            }
 
-            @Override
-            public void onFailure(@NonNull Call<List<Room>> call, @NonNull Throwable t) {
-                // Hiện thông báo lỗi nếu không kết nối được
-                Toast.makeText(DetailActivity.this, "Lỗi tải phòng: " + t.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        });
+                @Override
+                public void onFailure(Call<List<Room>> call, Throwable t) {
+                    Log.e("API_ERROR", "Không lấy được danh sách phòng: " + t.getMessage());
+                }
+            });
+        }
     }
 }

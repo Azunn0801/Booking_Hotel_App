@@ -64,41 +64,60 @@ public class HotelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             Hotel hotel = hotelList.get(position);
             HotelViewHolder hotelHolder = (HotelViewHolder) holder;
 
-            // --- CÁC DÒNG GÂY CRASH THƯỜNG GẶP ---
+            // --- ĐIỂM SỐ VÀ NHẬN XÉT ---
 
-            // Lỗi 1: Điểm số là số thực/nguyên -> Phải ép sang String
-            // SAI: hotelHolder.tvScoreBox.setText(hotel.getScore());
-            // ĐÚNG:
             if (hotelHolder.tvScoreBox != null) {
                 hotelHolder.tvScoreBox.setText(String.valueOf(hotel.getScore()));
             }
 
-            // Lỗi 2: Số lượng review là số nguyên -> Phải cộng thêm chuỗi ""
-            // SAI: hotelHolder.tvReviewCount.setText(hotel.getReviewCount());
-            // ĐÚNG:
             if (hotelHolder.tvReviewCount != null) {
                 hotelHolder.tvReviewCount.setText(hotel.getReviewCount() + " nhận xét");
             }
 
-            // Lỗi 3: Giá tiền là số -> Phải dùng String.format
+            // --- XỬ LÝ GIÁ VÀ KHUYẾN MÃI (ĐÃ FIX LOGIC THẬT) ---
+
+            // Hiển thị giá bán cuối cùng (luôn hiện)
             if (hotelHolder.tvFinalPrice != null) {
-                // Định dạng: 1,000,000 ₫ (Dùng Locale.US để dấu phẩy chuẩn)
                 hotelHolder.tvFinalPrice.setText(String.format(java.util.Locale.US, "%,.0f ₫", hotel.getPrice()));
             }
 
-            if (hotelHolder.tvOriginalPrice != null) {
-                // Giá gốc giả định cao hơn 30%
-                double originalPrice = hotel.getPrice() * 1.3;
-                hotelHolder.tvOriginalPrice.setText(String.format(java.util.Locale.US, "%,.0f ₫", originalPrice));
-                // Gạch ngang giá cũ
-                hotelHolder.tvOriginalPrice.setPaintFlags(hotelHolder.tvOriginalPrice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+            // Kiểm tra xem có khuyến mãi thật hay không
+            if (hotel.getDiscountPercent() > 0) {
+                // Có giảm giá -> Hiện giá gốc gạch chéo
+                if (hotelHolder.tvOriginalPrice != null) {
+                    hotelHolder.tvOriginalPrice.setVisibility(View.VISIBLE);
+                    hotelHolder.tvOriginalPrice.setText(String.format(java.util.Locale.US, "%,.0f ₫", hotel.getOriginalPrice()));
+                    hotelHolder.tvOriginalPrice.setPaintFlags(hotelHolder.tvOriginalPrice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                }
+
+                // Hiện cái badge % đỏ (Giả sử id trong layout của bạn là tvDiscountBadge)
+                if (hotelHolder.tvDiscountBadge != null) {
+                    hotelHolder.tvDiscountBadge.setVisibility(View.VISIBLE);
+                    hotelHolder.tvDiscountBadge.setText("-" + hotel.getDiscountPercent() + "%");
+                }
+            } else {
+                // Không có giảm giá -> Ẩn giá gốc và badge đi cho gọn UI
+                if (hotelHolder.tvOriginalPrice != null) {
+                    hotelHolder.tvOriginalPrice.setVisibility(View.GONE);
+                }
+                if (hotelHolder.tvDiscountBadge != null) {
+                    hotelHolder.tvDiscountBadge.setVisibility(View.GONE);
+                }
             }
 
             // --- CÁC THÔNG TIN CƠ BẢN KHÁC ---
 
             if (hotelHolder.tvHotelName != null) hotelHolder.tvHotelName.setText(hotel.getName());
             if (hotelHolder.tvAddress != null) hotelHolder.tvAddress.setText(hotel.getAddress());
-            if (hotelHolder.tvRatingText != null) hotelHolder.tvRatingText.setText("Tuyệt vời"); // Hoặc lấy từ API
+
+            // Làm cho chữ xếp loại linh hoạt theo điểm số
+            if (hotelHolder.tvRatingText != null) {
+                String ratingText = "Tuyệt vời";
+                if (hotel.getScore() < 7.0) ratingText = "Khá tốt";
+                else if (hotel.getScore() < 8.5) ratingText = "Rất tốt";
+
+                hotelHolder.tvRatingText.setText(ratingText);
+            }
 
             // RatingBar (Sao)
             if (hotelHolder.ratingBar != null) {

@@ -19,6 +19,12 @@ public class Room implements Serializable {
     @SerializedName("is_available")
     private boolean isAvailable;
 
+    @com.google.gson.annotations.SerializedName("original_price")
+    private double originalPrice;
+
+    @com.google.gson.annotations.SerializedName("discount_percent")
+    private int discountPercent;
+
     public Room() {}
 
     // Getter và Setter
@@ -39,4 +45,21 @@ public class Room implements Serializable {
 
     public boolean isAvailable() { return isAvailable; }
     public void setAvailable(boolean available) { isAvailable = available; }
+
+    public double getOriginalPrice() {
+        return originalPrice;
+    }
+
+    public int getDiscountPercent() {
+        return discountPercent;
+    }
+
+    // Nếu bạn cần Setter thì có thể thêm vào:
+    public void setOriginalPrice(double originalPrice) {
+        this.originalPrice = originalPrice;
+    }
+
+    public void setDiscountPercent(int discountPercent) {
+        this.discountPercent = discountPercent;
+    }
 }

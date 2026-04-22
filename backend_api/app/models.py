@@ -37,6 +37,10 @@ class Room(Base):
 
     hotel = relationship("Hotel", back_populates="rooms")
 
+    price = Column(Float, default=0.0)             # Giá bán thực tế (Giá đã giảm)
+    original_price = Column(Float, default=0.0)    # Giá gốc (Giá gạch chéo)
+    discount_percent = Column(Integer, default=0)  # Phần trăm giảm giá (VD: 10, 15)
+
 class Flight(Base): # Cho endpoint flights/search
     __tablename__ = "flights"
     id = Column(Integer, primary_key=True, index=True)

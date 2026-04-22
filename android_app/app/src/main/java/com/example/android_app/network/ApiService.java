@@ -24,4 +24,7 @@ public interface ApiService {
     // SỬA: Đổi int thành String cho hotel_id
     @GET("hotels/{hotel_id}/rooms")
     Call<List<Room>> getHotelRooms(@Path("hotel_id") String hotelId);
+
+    @GET("/hotels/room-prices")
+    Call<List<Room>> getRoomPrices(@Query("hotel_id") int hotelId);
 }
