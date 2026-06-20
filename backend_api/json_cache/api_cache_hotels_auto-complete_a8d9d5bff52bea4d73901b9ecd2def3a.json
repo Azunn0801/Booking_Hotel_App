@@ -1,0 +1,424 @@
+{
+  "expires_at": "2026-06-17T05:08:01.309645",
+  "data": {
+    "places": [
+      {
+        "id": 17190,
+        "name": "Vũng Tàu",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 17190,
+          "name": "Vũng Tàu"
+        },
+        "country": {
+          "id": 38,
+          "name": "Việt Nam"
+        },
+        "latitude": 10.402391,
+        "longitude": 107.148628,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 6329,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Thành phố Hồ Chí Minh"
+        }
+      },
+      {
+        "id": 5818,
+        "name": "Vũ Hán",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5818,
+          "name": "Vũ Hán"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 30.570065,
+        "longitude": 114.292145,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 5024,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hồ Bắc"
+        }
+      },
+      {
+        "id": 233,
+        "name": "London",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 233,
+          "name": "London"
+        },
+        "country": {
+          "id": 107,
+          "name": "Vương quốc Anh"
+        },
+        "latitude": 51.518144,
+        "longitude": -0.122223,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 24105,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Luân Đôn, Anh"
+        }
+      },
+      {
+        "id": 212624,
+        "name": "Vùng quê Hongcheon",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 212624,
+          "name": "Vùng quê Hongcheon"
+        },
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc"
+        },
+        "latitude": 37.696589,
+        "longitude": 127.887383,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 344,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Đảo Kangwon"
+        }
+      },
+      {
+        "id": 58786,
+        "name": "Trung Tâm Montreal",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 9933,
+          "name": "Montreal (QC)"
+        },
+        "country": {
+          "id": 100,
+          "name": "Canada"
+        },
+        "latitude": 45.49997,
+        "longitude": -73.572693,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 870,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Quebec"
+        }
+      },
+      {
+        "id": 136396,
+        "name": "Vukovar",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 136396,
+          "name": "Vukovar"
+        },
+        "country": {
+          "id": 128,
+          "name": "Croatia"
+        },
+        "latitude": 45.3433,
+        "longitude": 18.9997,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 69,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Vukovarsko-Srijemska"
+        }
+      },
+      {
+        "id": 2994,
+        "name": "Dubai",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 2994,
+          "name": "Dubai"
+        },
+        "country": {
+          "id": 64,
+          "name": "Các Tiểu Vương Quốc Ả Rập Thống nhất"
+        },
+        "latitude": 25.260346,
+        "longitude": 55.305176,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 19464,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tiểu vương quốc Dubai"
+        }
+      },
+      {
+        "id": 98958,
+        "name": "Vinkovci",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 98958,
+          "name": "Vinkovci"
+        },
+        "country": {
+          "id": 128,
+          "name": "Croatia"
+        },
+        "latitude": 45.287931,
+        "longitude": 18.802586,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 65,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Vukovarsko-Srijemska"
+        }
+      },
+      {
+        "id": 36837,
+        "name": "Hakata",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 16527,
+          "name": "Fukuoka"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 33.58055,
+        "longitude": 130.44245,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 1505,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Fukuoka"
+        }
+      },
+      {
+        "id": 27713,
+        "name": "Sukhumvit",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 9395,
+          "name": "Bangkok"
+        },
+        "country": {
+          "id": 106,
+          "name": "Thái Lan"
+        },
+        "latitude": 13.715849,
+        "longitude": 100.58623,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 5326,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Thủ đô Bangkok"
+        }
+      },
+      {
+        "id": 565668,
+        "name": "Sapporo",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 3435,
+          "name": "Sapporo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 43.024315,
+        "longitude": 141.333207,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 2636,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Hokkaido"
+        }
+      },
+      {
+        "id": 9590,
+        "name": "Namba",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 9590,
+          "name": "Osaka"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 34.659885,
+        "longitude": 135.496018,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 4610,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Osaka"
+        }
+      },
+      {
+        "id": 60922,
+        "name": "Umeda",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 9590,
+          "name": "Osaka"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 34.70445,
+        "longitude": 135.49215,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 1333,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Osaka"
+        }
+      },
+      {
+        "id": 27125,
+        "name": "Richmond",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 17610,
+          "name": "Richmond (BC)"
+        },
+        "country": {
+          "id": 100,
+          "name": "Canada"
+        },
+        "latitude": 49.161995,
+        "longitude": -123.114963,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 278,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng British Columbia"
+        }
+      },
+      {
+        "id": 28049,
+        "name": "Shinjuku",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.701248,
+        "longitude": 139.710259,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 3812,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:08:02.4961607+07:00",
+    "serverName": "as-pc-3i-mapi-cronos-prod-cd65f6d4-xlr6n",
+    "processTime": null
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "type": "section",
+  "name": "Room Grid",
+  "children": [
+    {
+      "type": "property_context",
+      "summary": {
+        "propertyId": 9062231,
+        "localeName": "Hyatt Place New York City / Times Square",
+        "imageUrl": "https://pix8.agoda.net/hotelImages/13594584/157500602/63e78523b9bc16e518b48d48226c06c9.jpg?ca=10&ce=1&s=800x600",
+        "isAgodaVerified": false,
+        "isAgodaGuaranteeProgram": false,
+        "isSoldOut": false,
+        "propertyType": "hotel",
+        "facilityIds": [
+          57,
+          11,
+          7,
+          116,
+          151,
+          181,
+          254,
+          2138,
+          2578,
+          109,
+          79,
+          57,
+          2519,
+          2373,
+          2399,
+          2521,
+          2508,
+          2513,
+          2398,
+          2511,
+          2375,
+          2512,
+          2396,
+          2381,
+          2376,
+          2518,
+          2517,
+          2507,
+          2528,
+          126,
+          11,
+          7,
+          6,
+          2389,
+          2534,
+          2574,
+          2532,
+          2531,
+          2537,
+          369,
+          240,
+          118,
+          364,
+          13,
+          83,
+          2575,
+          2576,
+          2368,
+          125,
+          16,
+          2529,
+          81,
+          116,
+          235,
+          2573,
+          2540,
+          24,
+          119,
+          272,
+          2533,
+          2577,
+          2541,
+          2530,
+          354
+        ],
+        "blockedNationalities": [],
+        "peopleLooking": 0,
+        "checkInInformation": {
+          "checkInFrom": "15:00",
+          "checkOutUntil": "12:00"
+        }
+      },
+      "address": {
+        "address": "350 W 39th St",
+        "cityName": "New York (NY)",
+        "cityId": 318,
+        "countryId": 181
+      },
+      "policy": {
+        "isFreeChildrenStay": true,
+        "minChildAgeStayFree": 0,
+        "maxChildAgeStayFree": 17,
+        "minDisplayedChildAge": 0,
+        "maxDisplayedChildAge": 18,
+        "minInfantAge": 0,
+        "maxInfantAge": 0,
+        "additionalPolicies": [
+          "Độ tuổi tối thiểu cần thiết để nhận phòng là 21 tuổi.",
+          "Tại thời điểm này, chúng tôi đánh giá cao việc khách của chúng tôi có thể muốn có cơ hội hạn chế các điểm tiếp xúc tiềm năng với những người khác trong không gian của họ. Do đó, Hyatt Place Times Square đang điều chỉnh dịch vụ dọn phòng tiêu chuẩn hằng ngày để cung cấp dịch vụ dọn phòng mỗi ngày thứ ba trong thời gian lưu trú của khách. Vui lòng biết rằng việc kiểm tra an toàn và sức khỏe định kỳ trong các phòng dành cho khách sẽ vẫn được thực hiện. Nếu quý khách muốn được hưởng dịch vụ dọn phòng đầy đủ hằng ngày, vui lòng cho đội ngũ lễ tân của chúng tôi biết.",
+          "Chi phí đặt cọc an ninh 200 USD sẽ được thu khi nhận phòng, dùng thanh toán những phụ phí hoặc hư hại trong quá trình lưu trú và sẽ được hoàn lại khi khách trả phòng.",
+          "Trẻ sơ sinh 0-2 tuổi [bao gồm cả bé 2 tuổi]: Lưu trú miễn phí khi sử dụng giường có sẵn. Lưu ý, nếu quý khách cần cũi em bé, việc này có thể phát sinh thêm phụ phí và phụ thuộc vào tình trạng thực tế.",
+          "Trẻ em 3-17 tuổi [bao gồm cả bé 17 tuổi]: Ở miễn phí nếu sử dụng giường có sẵn.",
+          "Những khách từ 18 tuổi trở lên tính là người lớn",
+          "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+          "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+        ]
+      },
+      "reviewInfo": {
+        "defaultProviderId": 332,
+        "defaultScoreBreakdown": {
+          "overall": 8.2,
+          "cleanliness": 8.5,
+          "facilities": 7.8,
+          "location": 9.0,
+          "staffPerformance": 8.4,
+          "valueForMoney": 7.9
+        },
+        "defaultReviewCount": 578,
+        "recommendationScore": 0,
+        "combinedReviewScore": 8.2,
+        "combinedReviewScoreText": "Tuyệt vời",
+        "combinedReviewCount": 578
+      },
+      "child": {
+        "type": "screen_container",
+        "header": {
+          "type": "header",
+          "isTransparent": false,
+          "backVariant": "arrow",
+          "content": {
+            "type": "header_pill",
+            "title": "Hyatt Place New York City / Times Square",
+            "subtitle": "20 thg 6 - 21 thg 6, 2 khách",
+            "icon": "53f98c2a",
+            "analytics": {
+              "elementName": "mob-property-search-criteria",
+              "version": 1,
+              "context": {},
+              "actions": [
+                "click"
+              ]
+            },
+            "onClick": {
+              "type": "show_edit_search"
+            }
+          },
+          "trailingItems": [
+            {
+              "type": "favorite_header_icon",
+              "propertyId": 9062231,
+              "icon": "0dbe6efb",
+              "selectedIcon": "1c4d93ad",
+              "shouldHighlight": false,
+              "analytics": {
+                "elementName": "mob-property-favorite",
+                "version": 1,
+                "context": {
+                  "is_property_favorite": false
+                },
+                "actions": [
+                  "click"
+                ]
+              }
+            },
+            {
+              "type": "share_header_icon",
+              "shouldHighlight": false,
+              "analytics": {
+                "elementName": "mob-property-share",
+                "version": 1,
+                "context": {},
+                "actions": [
+                  "click"
+                ]
+              },
+              "onClick": {
+                "type": "share_property_v2",
+                "id": 9062231,
+                "name": "Hyatt Place New York City / Times Square",
+                "imageUrl": "https://pix8.agoda.net/hotelImages/13594584/157500602/63e78523b9bc16e518b48d48226c06c9.jpg?ca=10&ce=1&s=800x600",
+                "isNha": false,
+                "title": "Xem Hyatt Place New York City / Times Square trên Agoda:"
+              }
+            }
+          ]
+        },
+        "headerIsOverlay": false,
+        "content": {
+          "type": "filter_container",
+          "filterGroupId": "room-grid-filter",
+          "initialSelectedFilters": [],
+          "content": {
+            "type": "scroll_vertical_list",
+            "isRootList": true,
+            "children": [
+              {
+                "type": "box_container_v3",
+                "verticalPadding": "l",
+                "horizontalPadding": "l",
+                "widthType": "content_fit",
+                "content": {
+                  "type": "static_vertical_list_v2",
+                  "spacing": "xl",
+                  "alignment": "center",
+                  "children": [
+                    {
+                      "type": "box_container_v3",
+                      "verticalPadding": "s",
+                      "horizontalPadding": "s",
+                      "widthType": "content_fit"
+                    },
+                    {
+                      "type": "static_vertical_list_v2",
+                      "spacing": "s",
+                      "alignment": "center",
+                      "children": [
+                        {
+                          "type": "truncated_horizontal_list_v2",
+                          "spacing": "s",
+                          "alignment": "center",
+                          "variant": "truncate_in_between",
+                          "children": [
+                            {
+                              "type": "image",
+                              "image": {
+                                "type": "icon_image",
+                                "icon": "984c9153",
+                                "size": "xl",
+                                "tint": "urgency.plain.foreground"
+                              },
+                              "scaleMode": "fit",
+                              "aspectRatio": "ratio_1_1"
+                            },
+                            {
+                              "type": "text",
+                              "value": "Hết phòng!",
+                              "maxLines": 1,
+                              "textStyle": {
+                                "typography": "title1",
+                                "color": "alert",
+                                "textAlign": "center"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "value": "Phòng cuối cùng của chúng tôi đã được đặt",
+                          "maxLines": 1,
+                          "textStyle": {
+                            "typography": "body4",
+                            "color": "alert",
+                            "textAlign": "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "default_button",
+                      "title": "Xem nơi ở khác",
+                      "variant": "primary",
+                      "state": "default",
+                      "widthType": "parent_fit",
+                      "analytics": {
+                        "elementName": "mob-property-sold-out-see-other-properties",
+                        "version": 1,
+                        "context": {},
+                        "actions": [
+                          "click"
+                        ]
+                      },
+                      "onClick": {
+                        "type": "show_ssr"
+                      }
+                    },
+                    {
+                      "type": "text_link_button",
+                      "text": "hoặc đổi ngày",
+                      "analytics": {
+                        "elementName": "mob-property-sold-out-change-your-dates",
+                        "version": 1,
+                        "context": {},
+                        "actions": [
+                          "click"
+                        ]
+                      },
+                      "onClick": {
+                        "type": "show_edit_search"
+                      }
+                    }
+                  ]
+                },
+                "analytics": {
+                  "elementName": "mob-property-sold-out-all",
+                  "version": 1,
+                  "context": {},
+                  "actions": [
+                    "seen"
+                  ]
+                }
+              }
+            ],
+            "isLazy": true
+          }
+        }
+      }
+    }
+  ],
+  "screens": []
+}

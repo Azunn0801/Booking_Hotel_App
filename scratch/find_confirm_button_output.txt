@@ -1,0 +1,11 @@
+FOUND:
+text-inherit ab5c2-items-center ab5c2-flex ab5c2-flex-row      " bis_skin_checked="1">
+                                                  <span role="img" aria-hidden="true" class="ab5c2-inline-flex ab5c2-align-baseline ab5c2-mr-8">
+                                                    <svg viewBox="0 0 1 1" role="presentation" class="" style="width: 20px; height: 20px; mask: /*savepage-url=https://cdn6.agoda.net/cdn-design-system/icons/2df2b57f.svg*/ var(--savepage-url-23) left top / contain no-repeat;"><rect width="100%" height="100%"></rect>
+                                                    </svg>
+                                                  </span>
+                                                  <span class="sc-aXZVg Typographystyled__TypographyStyled-sc-1uoovui-0 ifcRDN eOlZUF">ĐẶT NGAY!</span>
+                                                </div>
+                                              </button>
+                                            </div>
+                     

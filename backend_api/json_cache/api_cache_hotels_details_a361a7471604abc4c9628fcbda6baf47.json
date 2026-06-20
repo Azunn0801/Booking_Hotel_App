@@ -1,0 +1,3171 @@
+{
+  "expires_at": "2026-06-17T05:08:31.275590",
+  "data": {
+    "data": {
+      "propertyDetailsSearch": {
+        "propertyDetails": [
+          {
+            "propertyId": 33829122,
+            "contentDetail": {
+              "propertyId": 33829122,
+              "hostProfile": null,
+              "contentImages": {
+                "hotelImages": [
+                  {
+                    "id": 119439432,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/3792867ef4c050169c4ad5d9d229268a.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 6,
+                    "uploadedDate": "2022-12-24T12:26:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 117620451,
+                    "caption": "Deluxe giường đôi - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/3f4bbfcd5383a48d2853ec88388f9274.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-11-01T15:45:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866256,
+                    "caption": "Hành lang",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/e7596011677fa96f84460a50b6f27e4a.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:34:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 934506645,
+                    "caption": "",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/b97271e2074fcd101e5198dc7a4f2fd2.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-04-10T21:08:43.227+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084555,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/e73f08f53ffd448b26e3b0bad18bd160.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.303+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 125139714,
+                    "caption": "Bể bơi",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/f19344a09f99b97f21fa8adfde77ee0a.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-06-02T10:54:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 125139715,
+                    "caption": "Bể bơi",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/babf038e15f1d4ecca76eec3b29fa71b.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-06-02T10:54:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866299,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/f9d6208e03c2f7e549d842302f131737.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:37:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 925971476,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/43f3dac62245a1bd1c3e635631972ea0.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-27T18:01:49.193+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116215452,
+                    "caption": "Phòng Suite - Giường đôi - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/c4ab043b5870fbb48266b038bb617348.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T10:11:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439401,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/16ad5b4638e001d696609e504906e854.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:23:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866300,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/6486e3637cd8dcc6494005dfb0444474.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:38:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503651,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874351/e627b8064864b804712f56fe61b1ebc3.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:03.807+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 769114180,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/e1ca8176b19192b1c3669ba1cd5bbbac.jpeg?s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2024-07-02T21:52:42.667+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866289,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/3ae92cffee6906a59f10b7cc3023803a.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:36:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439428,
+                    "caption": "Phòng Suite - Giường đôi - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/380485518d0e1a66f90f4e9ce2983eef.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-12-24T12:26:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084560,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/82c4f44da936bcc33b2bdbebae2c17d1.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.430+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866279,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/e9ab739865b6bf950a0a8ac9a37d7388.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:36:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116216191,
+                    "caption": "Phòng Executive Giường Đôi Hoặc 2 Giường Đơn Có Cửa Sổ - Phòng tắm",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/5bca3f9a3e2a7fddaec73cf9c5659cfa.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T11:15:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439404,
+                    "caption": "Nhà hàng",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/29b98d4845cf05f70ecfcadae4b0b010.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:24:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084550,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/ce9cd5415d93040e68e58d59b725a30c.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.220+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116222316,
+                    "caption": "Deluxe giường đôi - Ban công/sân hiên",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/069facb7a2109ee45601f71378d7b19c.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T16:58:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084516,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/1468caafc02711887c8ece31579770be.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.117+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439400,
+                    "caption": "Khu vực hút thuốc",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/c8b5c59a0b0b582e9cb048d4a80cedb7.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:23:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1565282025,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/40237422/1382350984/6a9de06ecb317e81aba57ff89f921dfb.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2026-05-16T06:15:34.830+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866261,
+                    "caption": "Khu vực hút thuốc",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/b266b36675038c411aaa9e544d8f2aad.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:35:00.000+07:00",
+                    "snippet": {
+                      "snippet": "Khách sạn dễ thương nhất mình từng trải nghiệm",
+                      "reviewDate": "2022-11-16T02:13:00.000+07:00",
+                      "memberName": "Trần",
+                      "countryCode": "VN",
+                      "countryNationality": "Việt Nam",
+                      "countryId": 38
+                    }
+                  },
+                  {
+                    "id": 928084522,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/04e23c927077122279b3fd9022c509d3.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.140+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084531,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/e4b8e0ffc02aab58e7eda17b517ad64e.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.163+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866272,
+                    "caption": "Hành lang",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/83dad2be6004123cc5f445bb508413f6.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:35:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 769114171,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/ab9bff833ad4ca8f02c61120b668eca4.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2024-07-02T21:52:42.660+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503652,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874351/6b31c508d608bdff86ce58f08c84717e.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:03.853+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 925971472,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/138f0e796a16f69d4c55c6d86e4f31c2.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-27T18:01:49.183+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1062939806,
+                    "caption": "",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/0/a6759df146acce4641b7578a61f44894.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 6,
+                    "uploadedDate": "2025-07-07T14:56:48.077+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1073713701,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874360/80b1b6d2261b428209213b83f1595aee.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-15T16:19:50.220+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1409207040,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/ceeb4332e6a748b1b61e3ba17739b7e7.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2026-01-26T10:34:56.803+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084524,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/f60565f211625f8075a0b9b7a3a42703.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.147+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116215734,
+                    "caption": "Phòng Tiêu Chuẩn - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/034d1a9fad76ce3e3747f64fb8baa83c.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T10:44:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866254,
+                    "caption": "Khu vực công cộng",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/1c48c02c955114096d3825c33a2d9f96.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:34:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866287,
+                    "caption": "Hành lang",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/3ba2558e80f38f3d3bef7b97f6e7ff68.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:36:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 989347992,
+                    "caption": "Phòng nghỉ",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/1134048978/c181805646407067188cd70be4682d91.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-05-02T20:40:16.073+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1344751959,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/776898bc11dfa8038a2fb8778330e52a.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-12-24T15:58:44.627+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084512,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/88d6f4eea6e1157767e0ba2badd4ece0.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.100+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116215805,
+                    "caption": "Superior Có cửa sổ - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/c4f98a0afe30b8b99e9a1dd009098b51.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T10:51:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 121866271,
+                    "caption": "Hành lang",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/92fbe03b34d0c147a36ba401c3fc5b7f.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2023-03-12T17:35:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084548,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/9a0f00b458a46c8f92cfb37a5b0e18e6.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.210+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503653,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/1187874352/0a202b2a004673059b0835aa46ebd9c6.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:03.917+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439403,
+                    "caption": "Khu vực hút thuốc",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/dc0ed9853f36ed6728e1f19a9256212d.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:23:00.000+07:00",
+                    "snippet": {
+                      "snippet": "Nhưng không… D’Melin ngập tràn sự tử tế đến mức làm tôi choáng ngợp!",
+                      "reviewDate": "2022-08-14T04:22:00.000+07:00",
+                      "memberName": "Sun",
+                      "countryCode": "VN",
+                      "countryNationality": "Việt Nam",
+                      "countryId": 38
+                    }
+                  },
+                  {
+                    "id": 928084553,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/68799384/0/9fd75b4bca7eaa6782b0987083089f16.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.247+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439417,
+                    "caption": "Superior Có cửa sổ - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/b316e77ec49e5fc1e47843fa70109a7f.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-12-24T12:26:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084503,
+                    "caption": "",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/d351b53a42807c261ce897467a5f3f0b.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.087+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084529,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/ac0e79680e5bf1449d661fef64d21ba4.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.160+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503657,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874354/ca4ec54740ffe680ad3937f355b1a120.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:04.147+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1062939825,
+                    "caption": "",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/0/21a8ab7cbb65972bd942400620ed45ca.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-07-07T14:56:48.200+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 928084521,
+                    "caption": "",
+                    "groupId": "dining",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/0cf5721c5e274616e0f8fe1cf5b29704.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-03-31T18:51:13.130+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503654,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874352/699f3017a7b512258ed18d53feda703f.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:03.943+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439399,
+                    "caption": "Lễ tân",
+                    "groupId": "property",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/82d74f4a8b74d25e8969fdb3d384ba46.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:23:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081751393,
+                    "caption": "",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/e301830c6ccf88e038a7718bf629a48e.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-07-25T16:55:31.547+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1065387536,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/33829122/0/4122941cbba673f01324365e6afe3bc6.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2025-07-09T02:10:51.963+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 119439402,
+                    "caption": "Bể bơi",
+                    "groupId": "facility",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/2b39f7dac89d806e280ce346322c724a.png?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": "2022-12-24T12:23:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 116215703,
+                    "caption": "Phòng Tiêu Chuẩn - Giường",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/hotelImages/33829122/-1/6f3bd3b13665f97d27d6e3a23b5e8721.jpg?ce=0&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2022-09-20T10:42:00.000+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1565282019,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/40237422/1382350984/e45df10c620e7ebc6e8b71c92d9933b4.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2026-05-16T06:15:34.790+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1081503659,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/76407470/1187874354/0884cbd323e043b9a31f6acdf1c28a3a.jpeg?ce=2&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2025-07-24T18:26:04.177+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 1565254917,
+                    "caption": "",
+                    "groupId": "room",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/property/40237422/1382350995/0ace62bf601660900625abc3bd67fc9d.jpeg?ce=3&s=800x600"
+                      }
+                    ],
+                    "typeId": 7,
+                    "uploadedDate": "2026-05-16T06:06:54.480+07:00",
+                    "snippet": null
+                  },
+                  {
+                    "id": 0,
+                    "caption": "Hòn Bà - Cách nơi ở 150 m",
+                    "groupId": "nearby",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/geo/poi/253047/2_253047.jpg?ca=6&ce=1&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": null,
+                    "snippet": null
+                  },
+                  {
+                    "id": 0,
+                    "caption": "Bãi trước - Cách nơi ở 210 m",
+                    "groupId": "nearby",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/geo/poi/1442913/2_1442913.jpg?ca=6&ce=1&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": null,
+                    "snippet": null
+                  },
+                  {
+                    "id": 0,
+                    "caption": "Hải đăng Vũng Tàu - Cách nơi ở 870 m",
+                    "groupId": "nearby",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/geo/poi/128788/2_128788_02.jpg?ca=6&ce=1&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": null,
+                    "snippet": null
+                  },
+                  {
+                    "id": 0,
+                    "caption": "Ngọn hải đăng - Cách nơi ở 890 m",
+                    "groupId": "nearby",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/geo/poi/100212/2_100212.jpg?ca=6&ce=1&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": null,
+                    "snippet": null
+                  },
+                  {
+                    "id": 0,
+                    "caption": "Công viên nước Vũng Tàu - cách nơi ở 2.77 km",
+                    "groupId": "nearby",
+                    "urls": [
+                      {
+                        "key": "full",
+                        "value": "//pix7.agoda.net/geo/poi/150367/2_150367_02.jpg?ca=6&ce=1&s=800x600"
+                      }
+                    ],
+                    "typeId": 5,
+                    "uploadedDate": null,
+                    "snippet": null
+                  }
+                ],
+                "matterports": [
+                  {
+                    "id": 8301,
+                    "orderId": 1,
+                    "url": "https://my.matterport.com/show/?m=N7ky5XhzoyK&help=1",
+                    "thumbnailUrl": "https://pix8.agoda.net/hotelimages/33829122/551379682/3b61161bb30f1c5993d78aceb7572f22.jpeg?ce=0",
+                    "roomTypeId": 551379682
+                  }
+                ],
+                "categories": [
+                  {
+                    "category": "Phòng",
+                    "count": 22
+                  },
+                  {
+                    "category": "Khách sạn",
+                    "count": 9
+                  },
+                  {
+                    "category": "Cơ sở vật chất",
+                    "count": 15
+                  },
+                  {
+                    "category": "Ăn uống",
+                    "count": 17
+                  },
+                  {
+                    "category": "Nơi tham quan gần đây",
+                    "count": 5
+                  }
+                ]
+              },
+              "contentReviewScore": {
+                "combinedReviewScore": {
+                  "cumulative": {
+                    "score": 9.1,
+                    "reviewCount": 2693
+                  }
+                },
+                "providerReviewScore": [
+                  {
+                    "providerId": 332,
+                    "isDefault": true,
+                    "cumulative": {
+                      "score": 9.1,
+                      "reviewCount": 2693
+                    },
+                    "demographics": {
+                      "groups": [
+                        {
+                          "id": 1,
+                          "reviewCount": 101,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.2
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 8.8
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 9.1
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "reviewCount": 1491,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.5
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 9.2
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.6
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 9.2
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "reviewCount": 272,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 9.0
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 9.1
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "reviewCount": 160,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.1
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 8.7
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 8.9
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "reviewCount": 49,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.0
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.1
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 8.6
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.0
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.3
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 8.8
+                            }
+                          ]
+                        },
+                        {
+                          "id": 6,
+                          "reviewCount": 304,
+                          "grades": [
+                            {
+                              "id": "overall",
+                              "score": 9.2
+                            },
+                            {
+                              "id": "cleanliness",
+                              "score": 9.4
+                            },
+                            {
+                              "id": "facilities",
+                              "score": 9.2
+                            },
+                            {
+                              "id": "location",
+                              "score": 9.2
+                            },
+                            {
+                              "id": "staffPerformance",
+                              "score": 9.5
+                            },
+                            {
+                              "id": "valueForMoney",
+                              "score": 9.2
+                            }
+                          ]
+                        }
+                      ],
+                      "allGuest": {
+                        "id": 0,
+                        "reviewCount": 2693,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 9.1
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 9.4
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 9.1
+                          },
+                          {
+                            "id": "location",
+                            "score": 9.4
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 9.5
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 9.2
+                          }
+                        ]
+                      }
+                    },
+                    "trendingScore": {
+                      "past14DaysUplift": -0.1046,
+                      "past30DaysUplift": -0.108
+                    }
+                  }
+                ]
+              },
+              "contentReviewSummaries": {
+                "snippets": [
+                  {
+                    "snippet": "Phòng đẹp, nhân viên thân thiện, lịch sự, rcm mn nên tới nha",
+                    "reviewRating": 10.0,
+                    "reviewer": "Huyên",
+                    "date": "2023-12-10T11:51:00.000+07:00",
+                    "countryId": 38,
+                    "countryName": "Việt Nam"
+                  },
+                  {
+                    "snippet": "Gdinh minh để quên đồ dc ksan giúp gửi về tận nhà.",
+                    "reviewRating": 10.0,
+                    "reviewer": "Thi Diem Trang",
+                    "date": "2022-10-31T10:44:00.000+07:00",
+                    "countryId": 84,
+                    "countryName": "Bắc Macedonia"
+                  },
+                  {
+                    "snippet": "Phòng sạch sẽ có thư wellcome rất dễ thương và lịch sự.",
+                    "reviewRating": 10.0,
+                    "reviewer": "Đắc",
+                    "date": "2024-08-19T01:53:00.000+07:00",
+                    "countryId": 38,
+                    "countryName": "Việt Nam"
+                  }
+                ],
+                "recommendationScores": {
+                  "recommendationScore": 92
+                },
+                "positiveMentions": {
+                  "bcomReviewScores": null
+                }
+              },
+              "contentEngagement": {
+                "lastBooked": "2025-04-08T23:20:25.627+07:00",
+                "noOfPeopleLooking": 0
+              },
+              "contentHighlights": {
+                "locationHighlights": [
+                  {
+                    "distanceKm": 0.0,
+                    "highlightType": "city-center"
+                  },
+                  {
+                    "distanceKm": 0.2,
+                    "highlightType": "public-beach"
+                  }
+                ],
+                "favoriteFeatures": [
+                  {
+                    "id": 287,
+                    "name": "Cách bãi biển 200 mét",
+                    "symbol": "beach"
+                  },
+                  {
+                    "id": 109,
+                    "name": "Wi-Fi miễn phí trong tất cả các phòng!",
+                    "symbol": "free-wifi-in-all-rooms"
+                  },
+                  {
+                    "id": 25,
+                    "name": "Điều hòa",
+                    "symbol": "air-conditioning"
+                  },
+                  {
+                    "id": 240,
+                    "name": "Dọn phòng hằng ngày",
+                    "symbol": "daily-housekeeping"
+                  },
+                  {
+                    "id": 68,
+                    "name": "Vườn",
+                    "symbol": "garden"
+                  },
+                  {
+                    "id": 260,
+                    "name": "Đi bộ đường dài",
+                    "symbol": "hiking-trails"
+                  },
+                  {
+                    "id": 8,
+                    "name": "Dịch vụ giặt là",
+                    "symbol": "laundry-service"
+                  },
+                  {
+                    "id": 83,
+                    "name": "Khu vực hút thuốc",
+                    "symbol": "smoking-area"
+                  },
+                  {
+                    "id": 5,
+                    "name": "Thang máy",
+                    "symbol": "wheelchair-accessible"
+                  },
+                  {
+                    "id": 12,
+                    "name": "Dịch vụ phòng",
+                    "symbol": "room-service"
+                  },
+                  {
+                    "id": 80,
+                    "name": "Bãi để xe",
+                    "symbol": "car-park"
+                  },
+                  {
+                    "id": 124,
+                    "name": "Giữ hành lý",
+                    "symbol": "luggage-storage"
+                  },
+                  {
+                    "id": 287,
+                    "name": "Bãi biển",
+                    "symbol": "beach"
+                  },
+                  {
+                    "id": 40,
+                    "name": "Tủ lạnh nhỏ trong phòng",
+                    "symbol": "mini-bar"
+                  }
+                ]
+              },
+              "contentFeatures": {
+                "featureGroups": [
+                  {
+                    "id": 50,
+                    "name": "Tiện nghi phổ biến",
+                    "order": 0,
+                    "features": [
+                      {
+                        "id": 65,
+                        "featureName": "Bể bơi [ngoài trời]",
+                        "symbol": "outdoor-pool",
+                        "available": true,
+                        "order": 8,
+                        "images": [
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/2b39f7dac89d806e280ce346322c724a.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/f19344a09f99b97f21fa8adfde77ee0a.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/babf038e15f1d4ecca76eec3b29fa71b.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 83,
+                        "featureName": "Khu vực hút thuốc",
+                        "symbol": "smoking-area",
+                        "available": true,
+                        "order": 150,
+                        "images": [
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/c8b5c59a0b0b582e9cb048d4a80cedb7.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/dc0ed9853f36ed6728e1f19a9256212d.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/b266b36675038c411aaa9e544d8f2aad.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 116,
+                        "featureName": "Bàn tiếp tân [24 giờ]",
+                        "symbol": "24hour-frontdesk",
+                        "available": true,
+                        "order": 119,
+                        "images": [
+                          {
+                            "caption": "Lễ tân",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/82d74f4a8b74d25e8969fdb3d384ba46.png?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 12,
+                    "name": "Ngôn ngữ được sử dụng",
+                    "order": 1,
+                    "features": [
+                      {
+                        "id": 185,
+                        "featureName": "tiếng Việt",
+                        "symbol": "flag-vn",
+                        "available": true,
+                        "order": 44,
+                        "images": []
+                      },
+                      {
+                        "id": 151,
+                        "featureName": "Tiếng Anh",
+                        "symbol": "flag-gb",
+                        "available": true,
+                        "order": 1,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 41,
+                    "name": "Truy cập Internet",
+                    "order": 3,
+                    "features": [
+                      {
+                        "id": 90,
+                        "featureName": "Internet",
+                        "symbol": "internet",
+                        "available": true,
+                        "order": 0,
+                        "images": []
+                      },
+                      {
+                        "id": 109,
+                        "featureName": "Wi-Fi miễn phí trong tất cả các phòng!",
+                        "symbol": "free-wifi-in-all-rooms",
+                        "available": true,
+                        "order": 38,
+                        "images": []
+                      },
+                      {
+                        "id": 79,
+                        "featureName": "Wi-Fi ở nơi công cộng",
+                        "symbol": "wifi-in-public-areas",
+                        "available": true,
+                        "order": 122,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 40,
+                    "name": "Thư giãn & Vui chơi giải trí",
+                    "order": 5,
+                    "features": [
+                      {
+                        "id": 93,
+                        "featureName": "Bể bơi",
+                        "symbol": "pool",
+                        "available": true,
+                        "order": 0,
+                        "images": []
+                      },
+                      {
+                        "id": 65,
+                        "featureName": "Bể bơi [ngoài trời]",
+                        "symbol": "outdoor-pool",
+                        "available": true,
+                        "order": 8,
+                        "images": [
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/2b39f7dac89d806e280ce346322c724a.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/f19344a09f99b97f21fa8adfde77ee0a.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Bể bơi",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/babf038e15f1d4ecca76eec3b29fa71b.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 134,
+                        "featureName": "Bi-a",
+                        "symbol": "billiards",
+                        "available": true,
+                        "order": 21,
+                        "images": []
+                      },
+                      {
+                        "id": 260,
+                        "featureName": "Đi bộ đường dài",
+                        "symbol": "hiking-trails",
+                        "available": true,
+                        "order": 0,
+                        "images": []
+                      },
+                      {
+                        "id": 2552,
+                        "featureName": "Nhà tắm chung",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 71,
+                        "images": []
+                      },
+                      {
+                        "id": 68,
+                        "featureName": "Vườn",
+                        "symbol": "garden",
+                        "available": true,
+                        "order": 24,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 57,
+                    "name": "Độ sạch sẽ và an toàn",
+                    "order": 6,
+                    "features": [
+                      {
+                        "id": 2513,
+                        "featureName": "Dịch vụ thanh toán không sử dụng tiền mặt",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 232,
+                        "images": []
+                      },
+                      {
+                        "id": 2370,
+                        "featureName": "khử trùng hằng ngày",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 18,
+                        "images": []
+                      },
+                      {
+                        "id": 2400,
+                        "featureName": "Khử trùng hằng ngày trong tất cả các phòng",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 178,
+                        "images": []
+                      },
+                      {
+                        "id": 2376,
+                        "featureName": "nước rửa tay",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 25,
+                        "images": []
+                      },
+                      {
+                        "id": 2518,
+                        "featureName": "Phòng được vệ sinh giữa các lần ở",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 237,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 44,
+                    "name": "Ăn uống",
+                    "order": 7,
+                    "features": [
+                      {
+                        "id": 12,
+                        "featureName": "Dịch vụ phòng",
+                        "symbol": "room-service",
+                        "available": true,
+                        "order": 125,
+                        "images": []
+                      },
+                      {
+                        "id": 2580,
+                        "featureName": "Nước đóng chai",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 266,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 38,
+                    "name": "Dịch vụ và tiện nghi",
+                    "order": 8,
+                    "features": [
+                      {
+                        "id": 249,
+                        "featureName": "Dịch vụ bưu chính",
+                        "symbol": "postal-service",
+                        "available": true,
+                        "order": 112,
+                        "images": []
+                      },
+                      {
+                        "id": 8,
+                        "featureName": "Dịch vụ giặt là",
+                        "symbol": "laundry-service",
+                        "available": true,
+                        "order": 134,
+                        "images": []
+                      },
+                      {
+                        "id": 240,
+                        "featureName": "Dọn phòng hằng ngày",
+                        "symbol": "daily-housekeeping",
+                        "available": true,
+                        "order": 105,
+                        "images": []
+                      },
+                      {
+                        "id": 124,
+                        "featureName": "Giữ hành lý",
+                        "symbol": "luggage-storage",
+                        "available": true,
+                        "order": 121,
+                        "images": []
+                      },
+                      {
+                        "id": 83,
+                        "featureName": "Khu vực hút thuốc",
+                        "symbol": "smoking-area",
+                        "available": true,
+                        "order": 150,
+                        "images": [
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/c8b5c59a0b0b582e9cb048d4a80cedb7.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/dc0ed9853f36ed6728e1f19a9256212d.png?ce=0&s=800x600"
+                              }
+                            ]
+                          },
+                          {
+                            "caption": "Khu vực hút thuốc",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/b266b36675038c411aaa9e544d8f2aad.jpg?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "featureName": "Thang máy",
+                        "symbol": "wheelchair-accessible",
+                        "available": true,
+                        "order": 0,
+                        "images": []
+                      },
+                      {
+                        "id": 128,
+                        "featureName": "Tủ có khoá",
+                        "symbol": "lockers",
+                        "available": true,
+                        "order": 151,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 37,
+                    "name": "Dễ dàng tiếp cận",
+                    "order": 9,
+                    "features": [
+                      {
+                        "id": 116,
+                        "featureName": "Bàn tiếp tân [24 giờ]",
+                        "symbol": "24hour-frontdesk",
+                        "available": true,
+                        "order": 119,
+                        "images": [
+                          {
+                            "caption": "Lễ tân",
+                            "urls": [
+                              {
+                                "value": "//pix7.agoda.net/hotelImages/33829122/-1/82d74f4a8b74d25e8969fdb3d384ba46.png?ce=0&s=800x600"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 235,
+                        "featureName": "Bảo vệ [24 giờ]",
+                        "symbol": "24hour-security",
+                        "available": true,
+                        "order": 100,
+                        "images": []
+                      },
+                      {
+                        "id": 2573,
+                        "featureName": "Bình chữa cháy",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 259,
+                        "images": []
+                      },
+                      {
+                        "id": 2539,
+                        "featureName": "CCTV bên ngoài chỗ nghỉ",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 255,
+                        "images": []
+                      },
+                      {
+                        "id": 2540,
+                        "featureName": "CCTV trong khu vực chung",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 256,
+                        "images": []
+                      },
+                      {
+                        "id": 24,
+                        "featureName": "Được phép đưa thú nuôi vào",
+                        "symbol": "pets-allowed",
+                        "available": false,
+                        "order": 141,
+                        "images": []
+                      },
+                      {
+                        "id": 272,
+                        "featureName": "Nhận phòng [24 giờ]",
+                        "symbol": "24hour-check-in",
+                        "available": true,
+                        "order": 154,
+                        "images": []
+                      },
+                      {
+                        "id": 2577,
+                        "featureName": "Phòng không hút thuốc",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 263,
+                        "images": []
+                      },
+                      {
+                        "id": 2541,
+                        "featureName": "Thiết bị báo cháy",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 257,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 39,
+                    "name": "Đi lại",
+                    "order": 10,
+                    "features": [
+                      {
+                        "id": 355,
+                        "featureName": "Bãi đỗ xe [gần bên]",
+                        "symbol": "car-park-nearby",
+                        "available": true,
+                        "order": 164,
+                        "images": []
+                      },
+                      {
+                        "id": 22,
+                        "featureName": "Bãi đỗ xe có nhân viên",
+                        "symbol": "valet-parking",
+                        "available": true,
+                        "order": 123,
+                        "images": []
+                      },
+                      {
+                        "id": 2583,
+                        "featureName": "Bãi đỗ xe đạp",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 269,
+                        "images": []
+                      },
+                      {
+                        "id": 123,
+                        "featureName": "Ô tô cho thuê",
+                        "symbol": "car-hire",
+                        "available": true,
+                        "order": 130,
+                        "images": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 66094,
+                    "name": "Có trong tất cả phòng",
+                    "order": 22,
+                    "features": [
+                      {
+                        "id": 26,
+                        "featureName": "Áo choàng tắm",
+                        "symbol": "bathrobes",
+                        "available": true,
+                        "order": 160,
+                        "images": null
+                      },
+                      {
+                        "id": 29,
+                        "featureName": "Bàn làm việc",
+                        "symbol": "desk",
+                        "available": true,
+                        "order": 12,
+                        "images": null
+                      },
+                      {
+                        "id": 144,
+                        "featureName": "Cách âm",
+                        "symbol": "soundproofing",
+                        "available": true,
+                        "order": 121,
+                        "images": null
+                      },
+                      {
+                        "id": 211,
+                        "featureName": "Cà phê hòa tan miễn phí",
+                        "symbol": "complimentary-instant-coffee",
+                        "available": true,
+                        "order": 30,
+                        "images": null
+                      },
+                      {
+                        "id": 2685,
+                        "featureName": "Cửa sổ",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 237,
+                        "images": null
+                      },
+                      {
+                        "id": 227,
+                        "featureName": "Dép đi trong nhà",
+                        "symbol": "slippers",
+                        "available": true,
+                        "order": 56,
+                        "images": null
+                      },
+                      {
+                        "id": 195,
+                        "featureName": "Dịch vụ báo thức",
+                        "symbol": "wake-up-service",
+                        "available": true,
+                        "order": 117,
+                        "images": null
+                      },
+                      {
+                        "id": 277,
+                        "featureName": "Đầu báo khói",
+                        "symbol": "smoke-detector",
+                        "available": true,
+                        "order": 97,
+                        "images": null
+                      },
+                      {
+                        "id": 139,
+                        "featureName": "Điện thoại",
+                        "symbol": "telephone",
+                        "available": true,
+                        "order": 125,
+                        "images": null
+                      },
+                      {
+                        "id": 25,
+                        "featureName": "Điều hòa",
+                        "symbol": "air-conditioning",
+                        "available": true,
+                        "order": 114,
+                        "images": null
+                      },
+                      {
+                        "id": 217,
+                        "featureName": "Đồ uống mời khách miễn phí",
+                        "symbol": "free-welcome-drink",
+                        "available": true,
+                        "order": 41,
+                        "images": null
+                      },
+                      {
+                        "id": 210,
+                        "featureName": "Giá treo quần áo",
+                        "symbol": "clothes-rack",
+                        "available": true,
+                        "order": 29,
+                        "images": null
+                      },
+                      {
+                        "id": 222,
+                        "featureName": "Gương",
+                        "symbol": "mirror",
+                        "available": true,
+                        "order": 48,
+                        "images": null
+                      },
+                      {
+                        "id": 101,
+                        "featureName": "Két sắt cho máy tính xách tay",
+                        "symbol": "laptop-safe-box",
+                        "available": true,
+                        "order": 136,
+                        "images": null
+                      },
+                      {
+                        "id": 34,
+                        "featureName": "Két sắt trong phòng",
+                        "symbol": "in-room-safe",
+                        "available": true,
+                        "order": 139,
+                        "images": null
+                      },
+                      {
+                        "id": 15,
+                        "featureName": "Không hút thuốc",
+                        "symbol": "non-smoking-room",
+                        "available": true,
+                        "order": 113,
+                        "images": null
+                      },
+                      {
+                        "id": 47,
+                        "featureName": "Máy pha trà/cà phê",
+                        "symbol": "coffee-tea-maker",
+                        "available": true,
+                        "order": 151,
+                        "images": null
+                      },
+                      {
+                        "id": 30,
+                        "featureName": "Máy sấy tóc",
+                        "symbol": "hair-dryer ",
+                        "available": true,
+                        "order": 147,
+                        "images": null
+                      },
+                      {
+                        "id": 49,
+                        "featureName": "Nước đóng chai miễn phí",
+                        "symbol": "complimentary-bottled-water",
+                        "available": true,
+                        "order": 158,
+                        "images": null
+                      },
+                      {
+                        "id": 2668,
+                        "featureName": "Ổ cắm điện gần giường",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 222,
+                        "images": null
+                      },
+                      {
+                        "id": 233,
+                        "featureName": "Sàn gỗ/gỗ miếng",
+                        "symbol": "wooden-parqueted-flooring",
+                        "available": true,
+                        "order": 63,
+                        "images": null
+                      },
+                      {
+                        "id": 2665,
+                        "featureName": "Thùng rác",
+                        "symbol": "confirmation-instant",
+                        "available": true,
+                        "order": 219,
+                        "images": null
+                      },
+                      {
+                        "id": 212,
+                        "featureName": "Trà miễn phí",
+                        "symbol": "complimentary-tea",
+                        "available": true,
+                        "order": 34,
+                        "images": null
+                      },
+                      {
+                        "id": 31,
+                        "featureName": "Truy cập Internet - không dây",
+                        "symbol": "wifi",
+                        "available": true,
+                        "order": 107,
+                        "images": null
+                      },
+                      {
+                        "id": 40,
+                        "featureName": "Tủ lạnh nhỏ trong phòng",
+                        "symbol": "mini-bar",
+                        "available": true,
+                        "order": 118,
+                        "images": null
+                      },
+                      {
+                        "id": 232,
+                        "featureName": "Tủ quần áo",
+                        "symbol": "closet",
+                        "available": true,
+                        "order": 62,
+                        "images": null
+                      },
+                      {
+                        "id": 36,
+                        "featureName": "TV [màn hình phẳng]",
+                        "symbol": "tv-flat-screen",
+                        "available": true,
+                        "order": 13,
+                        "images": null
+                      },
+                      {
+                        "id": 141,
+                        "featureName": "Vật dụng tắm rửa",
+                        "symbol": "toiletries",
+                        "available": true,
+                        "order": 142,
+                        "images": null
+                      },
+                      {
+                        "id": 38,
+                        "featureName": "Vòi sen",
+                        "symbol": "shower",
+                        "available": true,
+                        "order": 144,
+                        "images": null
+                      },
+                      {
+                        "id": 75,
+                        "featureName": "Wi-Fi [miễn phí]",
+                        "symbol": "wifi",
+                        "available": true,
+                        "order": 111,
+                        "images": null
+                      }
+                    ]
+                  }
+                ],
+                "hotelFacilities": [
+                  {
+                    "id": 249
+                  },
+                  {
+                    "id": 5
+                  },
+                  {
+                    "id": 120
+                  },
+                  {
+                    "id": 2580
+                  },
+                  {
+                    "id": 185
+                  },
+                  {
+                    "id": 2046
+                  },
+                  {
+                    "id": 24
+                  },
+                  {
+                    "id": 2400
+                  },
+                  {
+                    "id": 2552
+                  },
+                  {
+                    "id": 93
+                  },
+                  {
+                    "id": 2373
+                  },
+                  {
+                    "id": 2520
+                  },
+                  {
+                    "id": 2540
+                  },
+                  {
+                    "id": 2367
+                  },
+                  {
+                    "id": 132
+                  },
+                  {
+                    "id": 116
+                  },
+                  {
+                    "id": 1
+                  },
+                  {
+                    "id": 6
+                  },
+                  {
+                    "id": 2541
+                  },
+                  {
+                    "id": 260
+                  },
+                  {
+                    "id": 252
+                  },
+                  {
+                    "id": 65
+                  },
+                  {
+                    "id": 2577
+                  },
+                  {
+                    "id": 2537
+                  },
+                  {
+                    "id": 109
+                  },
+                  {
+                    "id": 124
+                  },
+                  {
+                    "id": 13
+                  },
+                  {
+                    "id": 2370
+                  },
+                  {
+                    "id": 134
+                  },
+                  {
+                    "id": 128
+                  },
+                  {
+                    "id": 244
+                  },
+                  {
+                    "id": 2546
+                  },
+                  {
+                    "id": 2208
+                  },
+                  {
+                    "id": 2529
+                  },
+                  {
+                    "id": 17
+                  },
+                  {
+                    "id": 2376
+                  },
+                  {
+                    "id": 22
+                  },
+                  {
+                    "id": 118
+                  },
+                  {
+                    "id": 12
+                  },
+                  {
+                    "id": 2573
+                  },
+                  {
+                    "id": 274
+                  },
+                  {
+                    "id": 7
+                  },
+                  {
+                    "id": 271
+                  },
+                  {
+                    "id": 240
+                  },
+                  {
+                    "id": 251
+                  },
+                  {
+                    "id": 80
+                  },
+                  {
+                    "id": 123
+                  },
+                  {
+                    "id": 355
+                  },
+                  {
+                    "id": 2513
+                  },
+                  {
+                    "id": 2518
+                  },
+                  {
+                    "id": 2165
+                  },
+                  {
+                    "id": 11
+                  },
+                  {
+                    "id": 2389
+                  },
+                  {
+                    "id": 351
+                  },
+                  {
+                    "id": 2130
+                  },
+                  {
+                    "id": 23
+                  },
+                  {
+                    "id": 8
+                  },
+                  {
+                    "id": 119
+                  },
+                  {
+                    "id": 235
+                  },
+                  {
+                    "id": 2198
+                  },
+                  {
+                    "id": 272
+                  },
+                  {
+                    "id": 287
+                  },
+                  {
+                    "id": 151
+                  },
+                  {
+                    "id": 239
+                  },
+                  {
+                    "id": 79
+                  },
+                  {
+                    "id": 2583
+                  },
+                  {
+                    "id": 2539
+                  },
+                  {
+                    "id": 68
+                  },
+                  {
+                    "id": 369
+                  },
+                  {
+                    "id": 90
+                  },
+                  {
+                    "id": 254
+                  },
+                  {
+                    "id": 354
+                  },
+                  {
+                    "id": 83
+                  },
+                  {
+                    "id": 364
+                  }
+                ],
+                "summary": {
+                  "chineseFriendly": false,
+                  "hygienePlusFacilities": null
+                }
+              },
+              "contentInformation": {
+                "policies": {
+                  "children": {
+                    "stayFreeAgeRange": {
+                      "min": 0,
+                      "max": 6
+                    },
+                    "details": [
+                      {
+                        "title": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                        "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+                      }
+                    ]
+                  },
+                  "hotelAgePolicy": {
+                    "infantAges": {
+                      "min": 0,
+                      "max": 0
+                    },
+                    "childAges": {
+                      "min": 0,
+                      "max": 6
+                    },
+                    "isChildStayFree": true,
+                    "minGuestAge": 0
+                  },
+                  "extraBed": [
+                    "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+                  ],
+                  "additional": [
+                    "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+                  ],
+                  "adult": [],
+                  "minAge": []
+                },
+                "isAgodaVerified": true,
+                "messaging": {
+                  "hostName": null,
+                  "isAllowedPreBooking": true,
+                  "isAllowedPostBooking": true,
+                  "isAllowedWithBooking": true,
+                  "isAllowedInHouseFeedback": false,
+                  "isAllowedInHouseRequest": false
+                },
+                "blockedNationalities": [],
+                "checkInInformation": {
+                  "checkInFrom": {
+                    "hh": 14,
+                    "mm": 0
+                  },
+                  "checkOutUntil": {
+                    "hh": 12,
+                    "mm": 0
+                  }
+                },
+                "usefulInfoGroups": [
+                  {
+                    "id": 1,
+                    "name": "Nhận phòng/ Trả phòng",
+                    "usefulInfo": [
+                      {
+                        "id": 8,
+                        "name": "Nhận phòng từ",
+                        "description": "02:00 PM",
+                        "symbol": "express-check-in-check-out"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Trả phòng đến",
+                        "description": "12:00 PM",
+                        "symbol": "express-check-in-check-out"
+                      },
+                      {
+                        "id": 38,
+                        "name": "Quầy tiếp tân mở cửa đến",
+                        "description": "11:59 PM",
+                        "symbol": "24hour-frontdesk"
+                      },
+                      {
+                        "id": 44,
+                        "name": "Trả phòng từ",
+                        "description": "12:00 AM",
+                        "symbol": "express-check-in-check-out"
+                      },
+                      {
+                        "id": 45,
+                        "name": "Nhận phòng đến",
+                        "description": "11:59 PM",
+                        "symbol": "express-check-in-check-out"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "name": "Di chuyển",
+                    "usefulInfo": [
+                      {
+                        "id": 1,
+                        "name": "Khoảng cách từ trung tâm thành phố",
+                        "description": "1 km",
+                        "symbol": "distance-from-city-center"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "name": "Thông tin khác",
+                    "usefulInfo": [
+                      {
+                        "id": 35,
+                        "name": "Phí bữa sáng (áp dụng khi không bao gồm trong giá phòng)",
+                        "description": "300000 VND",
+                        "symbol": "free-breakfast"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "name": "Về khách sạn",
+                    "usefulInfo": [
+                      {
+                        "id": 4,
+                        "name": "Khách sạn được xây vào năm",
+                        "description": "2022",
+                        "symbol": "year-hotel-built"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Số tầng khách sạn",
+                        "description": "5",
+                        "symbol": "number-of-floors"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Điện áp trong phòng",
+                        "description": "220",
+                        "symbol": "room-voltage"
+                      },
+                      {
+                        "id": 28,
+                        "name": "Số lượng phòng",
+                        "description": "34",
+                        "symbol": "number-of-rooms"
+                      },
+                      {
+                        "id": 34,
+                        "name": "Phòng / tầng không hút thuốc",
+                        "description": "yes",
+                        "symbol": "non-smoking-room"
+                      },
+                      {
+                        "id": 36,
+                        "name": "Số lượng nhà hàng",
+                        "description": "1",
+                        "symbol": "restaurant"
+                      },
+                      {
+                        "id": 37,
+                        "name": "Số lượng quán bar/lounge",
+                        "description": "1",
+                        "symbol": "mini-bar"
+                      },
+                      {
+                        "id": 46,
+                        "name": "Mã số giấy phép / Mã số thuế địa phương / Tên cơ quan",
+                        "description": "3502436067",
+                        "symbol": "tax-id"
+                      }
+                    ]
+                  }
+                ],
+                "notes": {
+                  "importantNotes": [],
+                  "publicNotes": [
+                    "Cơ sở lưu trú sẽ thu phụ phí trẻ em từ 6 tuổi đến 11 tuổi với mức giá 200.000 VNĐ mỗi đêm. 11 tuổi trở lên được tính là người lớn. Phụ phí sẽ được thanh toán cho khách sạn.",
+                    "Quý khách phải chịu trách nhiệm về mọi thiệt hại xảy ra trong thời gian lưu trú và sẽ phải trả phí vào ngày trả phòng. Số tiền phụ thuộc và quyết định của cơ sở lưu trú. Vui lòng liên hệ với cơ sở lưu trú để biết thêm thông tin"
+                  ]
+                },
+                "description": {
+                  "short": "Khám phá Hotel DMelin - Nơi lưu trú lý tưởng tại Vũng Tàu. Nằm chỉ cách trung tâm thành phố Vũng Tàu",
+                  "long": "<b>Khám phá Hotel DMelin - Nơi lưu trú lý tưởng tại Vũng Tàu</b><br><br>Nằm chỉ cách trung tâm thành phố Vũng Tàu chưa đầy 1 km, Hotel DMelin mang đến sự kết hợp hoàn hảo giữa tiện nghi hiện đại và vị trí thuận tiện để khám phá vẻ đẹp của thành phố biển xinh đẹp này. Khách sạn mới xây dựng năm 2022, với 34 phòng nghỉ thoải mái, trang bị đầy đủ tiện nghi, sẽ mang đến cho bạn trải nghiệm lưu trú tuyệt vời và dễ chịu.\n\nHotel DMelin mở cửa đón khách từ 14:00 chiều và kết thúc dịch vụ trả phòng vào lúc 12:00 trưa hôm sau, tạo điều kiện thuận lợi để bạn bắt đầu và kết thúc ngày nghỉ của mình một cách dễ dàng. Đặc biệt, khách sạn thân thiện với gia đình khi cho phép trẻ em từ 0 đến 6 tuổi lưu trú miễn phí, giúp các gia đình có thể tận hưởng kỳ nghỉ vui vẻ và tiết kiệm. Với vị trí đắc địa, dịch vụ chu đáo và chính sách thân thiện, Hotel DMelin chính là điểm đến lý tưởng cho chuyến du lịch của bạn tại Vũng Tàu.<br><br><b>Tiện Nghi Giải Trí Đặc Sắc Tại Hotel DMelin</b><br><br>Tại Hotel DMelin, du khách không chỉ được tận hưởng không gian nghỉ dưỡng thoải mái mà còn có cơ hội thư giãn trong khu vườn xinh đẹp và yên bình. Khu vườn rộng lớn được chăm sóc tỉ mỉ với cảnh quan xanh mướt, giúp du khách có thể dạo chơi, thư giãn và tận hưởng không khí trong lành của thiên nhiên. Đây là nơi lý tưởng để thưởng thức những buổi sáng sớm yên bình hoặc những buổi chiều tà dịu dàng, mang lại cảm giác bình yên và tươi mới cho mỗi khách lưu trú.<br><br><b>Tiện Nghi Thể Thao Đẳng Cấp Tại Hotel DMelin</b><br><br>Tại Hotel DMelin, du khách sẽ được tận hưởng những tiện nghi thể thao đẳng cấp ngay trong khuôn viên khách sạn. Hồ bơi ngoài trời rộng lớn và thoáng đãng là điểm đến lý tưởng để thư giãn, tắm mát và tận hưởng không khí trong lành của biển xanh. Ngoài ra, khách còn có cơ hội khám phá những cung đường đi bộ xuyên rừng và ven biển tuyệt đẹp, phù hợp cho những ai yêu thích hoạt động trekking và khám phá thiên nhiên hoang sơ. Đặc biệt, chỉ cách khách sạn vài bước chân là bãi biển dài và cát trắng mịn, nơi du khách có thể thả mình dưới ánh nắng vàng, tham gia các hoạt động thể thao biển hoặc đơn giản là thưởng thức vẻ đẹp hoang sơ của bãi biển tuyệt vời này.<br><br><b>Tiện nghi thuận tiện tại Hôtel D'Melin</b><br><br>Hôtel D'Melin tọa lạc tại Vũng Tàu, Việt Nam và cung cấp một loạt các tiện nghi thuận tiện để đáp ứng nhu cầu của khách hàng. Dịch vụ giặt là, dịch vụ phòng và Wi-Fi miễn phí trong các khu vực công cộng là những tiện ích mà khách hàng có thể tận hưởng tại đây. Khách sạn cũng cung cấp Wi-Fi miễn phí trong tất cả các phòng, giúp khách hàng luôn kết nối được với thế giới bên ngoài. Ngoài ra, Hôtel D'Melin còn có dịch vụ giữ hành lý và dọn phòng hàng ngày, giúp khách hàng có một trải nghiệm thoải mái và tiện lợi hơn.<br><br><b>Tiện nghi vận chuyển tại Hôtel D'Melin</b><br><br>Hôtel D'Melin tọa lạc tại Vũng Tàu, Việt Nam, và cung cấp nhiều tiện nghi vận chuyển để đảm bảo du khách có một trải nghiệm thuận tiện và thoải mái. Khách sạn cung cấp dịch vụ đưa đón sân bay, đảm bảo rằng bạn có một hành trình đến và đi từ sân bay một cách dễ dàng và không gặp rắc rối. Ngoài ra, Hôtel D'Melin cũng có dịch vụ đỗ xe valet, giúp khách hàng tiết kiệm thời gian và công sức khi tìm kiếm chỗ đỗ xe. Nếu bạn muốn tự lái, khách sạn cũng cung cấp bãi đậu xe để bạn có thể an toàn đỗ xe. Nếu bạn muốn khám phá vùng đất mới, Hôtel D'Melin cũng cung cấp dịch vụ thuê xe, giúp bạn dễ dàng di chuyển trong thành phố. Cuối cùng, nếu bạn muốn sử dụng dịch vụ taxi, khách sạn cũng có dịch vụ đặt xe taxi, đảm bảo rằng bạn có phương tiện di chuyển nhanh chóng và thuận tiện.<br><br><b>Tiện Nghi Phòng Nghỉ Tại Hotel DMelin</b><br><br>Tại Hotel DMelin, khách lưu trú sẽ được tận hưởng các tiện nghi hiện đại và thoải mái trong không gian phòng sang trọng. Phòng được trang bị điều hòa không khí giúp duy trì nhiệt độ lý tưởng, cùng với rèm chắn sáng giúp bạn thư giãn và nghỉ ngơi dễ dàng. Mỗi phòng còn có ban công hoặc sân thượng, mang lại không gian mở thoáng đãng để thưởng thức cảnh biển hoặc thành phố. Các tiện ích như khăn tắm, đồ vệ sinh cá nhân, dầu gội, sữa tắm miễn phí cùng với nước khoáng đóng chai miễn phí mang đến sự tiện lợi tối đa cho khách hàng.\n\nNgoài ra, phòng còn được cung cấp các đồ dùng như áo choàng tắm, máy sấy tóc, truyền hình để giải trí, cùng với bộ đồ dùng trà và cà phê miễn phí giúp bạn bắt đầu ngày mới thật năng động. Đặc biệt, rèm chắn sáng giúp bạn có thể ngủ ngon mà không bị làm phiền bởi ánh sáng bên ngoài, mang lại trải nghiệm nghỉ dưỡng hoàn hảo tại khách sạn.<br><br><b>Tiện Nghi Ẩm Thực Đẳng Cấp Tại Hotel DMelin</b><br><br>Tại Hotel DMelin, khách hàng sẽ được trải nghiệm dịch vụ phòng ăn tiện lợi và đa dạng ngay tại phòng của mình, mang đến sự thoải mái tối đa trong suốt kỳ nghỉ hoặc chuyến công tác. Ngoài ra, khách còn có thể thưởng thức bữa sáng buffet phong phú mỗi ngày, với các món ăn đa dạng từ truyền thống đến quốc tế, giúp bắt đầu ngày mới tràn đầy năng lượng. Đội ngũ nhân viên phục vụ luôn sẵn sàng đảm bảo mọi nhu cầu của khách hàng được đáp ứng chu đáo và nhanh chóng.\n\nHệ thống dọn phòng hàng ngày đảm bảo không gian luôn sạch sẽ, gọn gàng, mang lại cảm giác dễ chịu và thư thái cho khách trong suốt thời gian lưu trú. Với sự kết hợp giữa dịch vụ ẩm thực chất lượng và chăm sóc tận tình, Hotel DMelin cam kết mang đến trải nghiệm nghỉ dưỡng tuyệt vời, làm hài lòng cả những khách hàng khó tính nhất.<br><br><b>Lựa chọn phòng tại Hôtel D'Melin, Vũng Tàu, Việt Nam</b><br><br>Hôtel D'Melin tọa lạc tại Vũng Tàu, Việt Nam và cung cấp một loạt các phòng lựa chọn phong cách và tiện nghi. Các phòng tiêu chuẩn có diện tích 20 mét vuông và được trang bị một giường King Bed thoải mái. Phòng Deluxe sang trọng rộng 23 mét vuông, có sẵn giường King Bed hoặc 2 giường đơn. Nếu bạn muốn tận hưởng không gian rộng rãi hơn, Suite - Double với diện tích 37 mét vuông và giường Super King Bed là lựa chọn hoàn hảo. Bên cạnh đó, Hôtel D'Melin cũng cung cấp phòng Superior Window rộng rãi 15 mét vuông với một giường King Bed.<br><br><b>Khám phá Phường 2 - Trung tâm sầm uất của Vũng Tàu</b><br><br>Phường 2 tọa lạc tại trung tâm thành phố Vũng Tàu, Việt Nam, là một khu vực sầm uất và đáng khám phá. Với vị trí thuận lợi, du khách có thể dễ dàng tiếp cận đến các điểm tham quan nổi tiếng như Bãi Trước, Bãi Dứa và Bãi Dâu chỉ trong vài phút đi bộ.\n\nPhường 2 là nơi tập trung nhiều nhà hàng, quán cà phê, cửa hàng và chợ địa phương, tạo nên một không gian sôi động và đa dạng về ẩm thực. Du khách có thể thưởng thức những món ăn đặc sản đậm chất Việt Nam, như bánh xèo, bánh khọt và hải sản tươi ngon. Ngoài ra, khu vực này cũng có nhiều cửa hàng bán đồ lưu niệm và quần áo thời trang, là nơi lý tưởng để mua sắm và khám phá văn hóa địa phương.\n\nKhông chỉ là trung tâm mua sắm và ẩm thực, Phường 2 còn có nhiều điểm tham quan thú vị. Du khách có thể tham gia các tour du lịch khám phá vùng biển xinh đẹp, tham quan các điểm du lịch nổi tiếng như Hải Đăng Vũng Tàu và Bảo tàng Vũng Tàu. Bên cạnh đó, khu vực này cũng có nhiều công viên và khu vui chơi giải trí, là nơi lý tưởng để thư giãn và tận hưởng những khoảnh khắc vui vẻ cùng gia đình và bạn bè.<br><br><b>Hướng dẫn đến Hôtel D'Melin từ sân bay gần Vũng Tàu</b><br><br>Hôtel D'Melin nằm ở Phường 2, Vũng Tàu, Việt Nam, và có nhiều sân bay gần đó mà bạn có thể lựa chọn để đến đây. Sân bay quốc tế Tân Sơn Nhất ở thành phố Hồ Chí Minh là sân bay lớn nhất và cách Vũng Tàu khoảng 125 km. Khi bạn đến sân bay Tân Sơn Nhất, bạn có thể di chuyển đến Hôtel D'Melin bằng xe buýt hoặc taxi. Xe buýt là một lựa chọn tiết kiệm chi phí, và bạn có thể đi xe buýt số 109 đi Vũng Tàu từ sân bay. Thời gian di chuyển bằng xe buýt khoảng 2-3 giờ tùy thuộc vào lưu lượng giao thông. Nếu bạn muốn di chuyển thoải mái hơn, bạn có thể đi taxi từ sân bay Tân Sơn Nhất đến Hôtel D'Melin. Thời gian di chuyển bằng taxi khoảng 1,5 - 2 giờ tuỳ thuộc vào lưu lượng giao thông và giá cả cũng cao hơn so với xe buýt.<br><br><b>Khám phá các điểm tham quan gần Hôtel D'Melin</b><br><br>Hôtel D'Melin tọa lạc gần một số điểm tham quan nổi tiếng tại Vũng Tàu, Việt Nam. Khi lưu trú tại khách sạn này, bạn có thể dễ dàng khám phá những điểm đến hấp dẫn như Hải đăng Vũng Tàu, Tượng Chúa Kitô Vua và Bảo tàng Vũ khí Cổ. Hải đăng Vũng Tàu là biểu tượng nổi tiếng của thành phố, với kiến trúc độc đáo và tầm nhìn tuyệt vời từ trên đỉnh. Tượng Chúa Kitô Vua là một công trình tôn giáo đẹp mắt, tọa lạc trên đồi cao, mang đến cảm giác yên bình và tĩnh lặng cho du khách. Bảo tàng Vũ khí Cổ là nơi trưng bày nhiều loại vũ khí cổ độc đáo, cho phép du khách khám phá lịch sử và văn hóa của khu vực. Đây là những điểm đến thú vị để bạn khám phá trong thời gian lưu trú tại Hôtel D'Melin.<br><br><b>Những nhà hàng xung quanh Hôtel D'Melin</b><br><br>Hôtel D'Melin nằm gần nhiều nhà hàng phục vụ các món ăn ngon và đa dạng. Khách có thể thưởng thức hương vị Ý tuyệt vời tại Luca Pizza & Italian Restaurant và Nhà hàng David Pizzeria. Nếu bạn muốn thưởng thức ẩm thực Việt Nam, hãy đến 88 Food Garden hoặc thử món hủ tiếu hải sản tại Loc Duong. Quán bar Belly's Watering Hole và Lucy's Sports Bar là những địa điểm lý tưởng để thư giãn và thưởng thức đồ uống. Nếu bạn muốn tận hưởng không gian ngoài trời và tầm nhìn đẹp, hãy đến Marina Club - Cafe & Lounge. Compass Restaurant và Tom and Jerry cung cấp các món ăn ngon và phục vụ khách chất lượng. Cuối cùng, nếu bạn thích ẩm thực phương Tây, hãy ghé qua Burger Club để thưởng thức các loại burger tuyệt vời.<br><br><b>Những điểm mua sắm nổi tiếng gần Hôtel D'Melin</b><br><br>Nằm trong khu vực gần Hôtel D'Melin, du khách có thể dễ dàng tiếp cận với nhiều điểm mua sắm nổi tiếng. Một trong số đó là Chợ Xóm Lưới, một thị trấn nhỏ nằm cách khách sạn chỉ vài bước chân. Tại đây, bạn có thể tìm thấy một loạt các sản phẩm địa phương như đồ lưu niệm, quần áo, giày dép và đặc sản địa phương. Chợ Xóm Lưới cũng nổi tiếng với những món ăn đường phố hấp dẫn như bánh xèo, bánh bèo và hủ tiếu. Điều này tạo nên một trải nghiệm mua sắm và ẩm thực độc đáo cho du khách khi lưu trú tại Hôtel D'Melin.<br><br><b>Giá trung bình phòng tại Hôtel D'Melin so sánh với giá trung bình phòng ở cùng thành phố</b><br><br>Với giá trung bình chỉ $44 một đêm, Hôtel D'Melin là một lựa chọn tuyệt vời cho khách du lịch muốn tiết kiệm chi phí ở Vũng Tàu. So với giá trung bình phòng ở thành phố này là $83, khách sạn này không chỉ cung cấp một trải nghiệm lưu trú tốt mà còn giúp bạn tiết kiệm một khoản tiền đáng kể.\n\nHôtel D'Melin không chỉ nổi bật với giá cả hợp lý mà còn mang đến dịch vụ chất lượng cao. Từ phòng nghỉ thoải mái và tiện nghi đến nhân viên thân thiện và chuyên nghiệp, khách sạn này cam kết mang đến sự hài lòng tuyệt đối cho khách hàng. Với giá trung bình phòng chỉ $44, bạn có thể tận hưởng một kỳ nghỉ tuyệt vời mà không cần lo lắng về chi phí.<br><br><b>Trải nghiệm tuyệt vời tại Hôtel D'Melin</b><br><br>Hôtel D'Melin là một khách sạn tuyệt vời tại Vũng Tàu, Việt Nam, được đánh giá cao bởi khách hàng với tổng điểm 9.3. Khách sạn này không chỉ được đánh giá cao về giá trị, mà còn được khen ngợi về các tiện nghi và vị trí tuyệt vời. \n\nVới điểm số 9.2 cho giá trị, Hôtel D'Melin cung cấp một trải nghiệm tuyệt vời cho khách hàng với mức giá hợp lý. Khách sạn này cung cấp các dịch vụ và tiện nghi đẳng cấp, từ phòng nghỉ thoải mái đến nhà hàng tuyệt vời và bể bơi ngoài trời. Khách hàng cảm thấy rằng họ nhận được sự đáng giá tuyệt vời cho tiền bỏ ra.\n\nVới điểm số 9.4 cho vị trí, Hôtel D'Melin nằm ở vị trí thuận lợi, gần các điểm tham quan nổi tiếng và bãi biển xinh đẹp của Vũng Tàu. Khách hàng có thể dễ dàng khám phá thành phố và tận hưởng những phút giây thư giãn trên bãi biển. Bên cạnh đó, khách sạn cũng cung cấp dịch vụ đưa đón sân bay tiện lợi, giúp khách hàng di chuyển một cách thuận tiện và nhanh chóng."
+                },
+                "nhaInformation": null,
+                "restaurantOnSite": [],
+                "certificate": null,
+                "staffVaccinationInfo": null
+              },
+              "contentSummary": {
+                "accommodation": {
+                  "accommodationType": 34,
+                  "accommodationName": "Khách sạn"
+                },
+                "agodaGuaranteeProgram": true,
+                "hasHostExperience": false,
+                "localeName": "Khách sạn DMelin",
+                "defaultName": "Hotel DMelin",
+                "propertyType": "Hotel",
+                "propertyLinks": {
+                  "propertyPage": "/hotel-d-melin-vung-tau/hotel/vung-tau-vn.html"
+                },
+                "geoInfo": {
+                  "latitude": 10.342016220092773,
+                  "longitude": 107.07612609863281,
+                  "obfuscatedLat": 10.342016220092773,
+                  "obfuscatedLong": 107.07612609863281
+                },
+                "address": {
+                  "address1": "No. 12, Truong Cong Dinh, Ward 2, Vung Tau",
+                  "address2": "",
+                  "postalCode": "78206",
+                  "country": {
+                    "id": 38,
+                    "name": "Việt Nam"
+                  },
+                  "city": {
+                    "id": 17190,
+                    "name": "Vũng Tàu"
+                  },
+                  "area": {
+                    "name": "Phường 2"
+                  }
+                },
+                "spokenLanguages": [
+                  {
+                    "id": 1
+                  },
+                  {
+                    "id": 24
+                  }
+                ],
+                "nhaSummary": {
+                  "isRareFind": null,
+                  "supportedLongStay": null
+                },
+                "rating": 4.0
+              },
+              "contentLocalInformation": {
+                "nearbyPlaces": [
+                  {
+                    "name": "Chợ Xóm Lưới",
+                    "distanceInKm": 0.08,
+                    "geoInfo": {
+                      "latitude": 10.341403,
+                      "longitude": 107.076476
+                    },
+                    "typeId": 24,
+                    "typeName": "Trung Tâm và Khu Mua Sắm"
+                  },
+                  {
+                    "name": "Phòng khám New World",
+                    "distanceInKm": 0.22,
+                    "geoInfo": {
+                      "latitude": 10.3435239,
+                      "longitude": 107.0774804
+                    },
+                    "typeId": 25,
+                    "typeName": "Bệnh Viện và Cơ Sở Y Tế"
+                  },
+                  {
+                    "name": "Ngân hàng Vietcombank",
+                    "distanceInKm": 0.44,
+                    "geoInfo": {
+                      "latitude": 10.34599,
+                      "longitude": 107.0757
+                    },
+                    "typeId": 38,
+                    "typeName": "Ngân Hàng và Quầy Đổi Ngoại Tệ"
+                  },
+                  {
+                    "name": "Phòng chuẩn đoán Y học cổ truyền Vạn Phước Xuân",
+                    "distanceInKm": 0.56,
+                    "geoInfo": {
+                      "latitude": 10.3450481,
+                      "longitude": 107.0801901
+                    },
+                    "typeId": 25,
+                    "typeName": "Bệnh Viện và Cơ Sở Y Tế"
+                  },
+                  {
+                    "name": "Bãi đỗ xe máy",
+                    "distanceInKm": 0.57,
+                    "geoInfo": {
+                      "latitude": 10.3395208,
+                      "longitude": 107.071528
+                    },
+                    "typeId": 130,
+                    "typeName": "Bãi đỗ xe"
+                  },
+                  {
+                    "name": "Bến tàu tốc hành",
+                    "distanceInKm": 0.61,
+                    "geoInfo": {
+                      "latitude": 10.339169829464439,
+                      "longitude": 107.07133769989014
+                    },
+                    "typeId": 47,
+                    "typeName": "Bến Du Thuyền"
+                  },
+                  {
+                    "name": "Bãi đỗ xe quán cà phê Mũi Đá",
+                    "distanceInKm": 0.63,
+                    "geoInfo": {
+                      "latitude": 10.3390268,
+                      "longitude": 107.0711949
+                    },
+                    "typeId": 130,
+                    "typeName": "Bãi đỗ xe"
+                  },
+                  {
+                    "name": "Câu lạc bộ Thể thao Xuân Hòa",
+                    "distanceInKm": 0.64,
+                    "geoInfo": {
+                      "latitude": 10.347575,
+                      "longitude": 107.0745338
+                    },
+                    "typeId": 125,
+                    "typeName": "Trung tâm thể thao và Yoga"
+                  },
+                  {
+                    "name": "Siêu thị Mỹ Nghệ",
+                    "distanceInKm": 0.65,
+                    "geoInfo": {
+                      "latitude": 10.3476761,
+                      "longitude": 107.0744874
+                    },
+                    "typeId": 48,
+                    "typeName": "Siêu Thị"
+                  },
+                  {
+                    "name": "Phòng khám Đông Y",
+                    "distanceInKm": 0.7,
+                    "geoInfo": {
+                      "latitude": 10.3482967,
+                      "longitude": 107.0760945
+                    },
+                    "typeId": 25,
+                    "typeName": "Bệnh Viện và Cơ Sở Y Tế"
+                  }
+                ],
+                "topPlaces": [
+                  {
+                    "name": "Hải đăng Vũng Tàu",
+                    "distanceInKm": 0.88,
+                    "geoInfo": {
+                      "latitude": 10.334256,
+                      "longitude": 107.07756
+                    },
+                    "typeId": 20,
+                    "typeName": "Địa điểm giải trí"
+                  },
+                  {
+                    "name": "Ngọn hải đăng",
+                    "distanceInKm": 0.89,
+                    "geoInfo": {
+                      "latitude": 10.33414,
+                      "longitude": 107.07771
+                    },
+                    "typeId": 35,
+                    "typeName": "Tòa Nhà Nổi Tiếng"
+                  },
+                  {
+                    "name": "Sân vận động Lam Sơn",
+                    "distanceInKm": 1.18,
+                    "geoInfo": {
+                      "latitude": 10.35232,
+                      "longitude": 107.07358
+                    },
+                    "typeId": 19,
+                    "typeName": "Các Sân Thể Thao"
+                  },
+                  {
+                    "name": "Bãi sau",
+                    "distanceInKm": 1.79,
+                    "geoInfo": {
+                      "latitude": 10.345395,
+                      "longitude": 107.100013
+                    },
+                    "typeId": 5,
+                    "typeName": "Bãi Biển"
+                  },
+                  {
+                    "name": "Tượng Chúa Kitô Vua",
+                    "distanceInKm": 1.98,
+                    "geoInfo": {
+                      "latitude": 10.326289,
+                      "longitude": 107.08462
+                    },
+                    "typeId": 13,
+                    "typeName": "Đài Kỷ Niệm và Di Tích Lịch Sử"
+                  },
+                  {
+                    "name": "Đức Mẹ Bãi Dâu",
+                    "distanceInKm": 3.29,
+                    "geoInfo": {
+                      "latitude": 10.3703,
+                      "longitude": 107.0672
+                    },
+                    "typeId": 13,
+                    "typeName": "Đài Kỷ Niệm và Di Tích Lịch Sử"
+                  },
+                  {
+                    "name": "Thánh Giá Long Tân",
+                    "distanceInKm": 31.3,
+                    "geoInfo": {
+                      "latitude": 10.553064,
+                      "longitude": 107.265441
+                    },
+                    "typeId": 4,
+                    "typeName": "Điểm Tham Quan"
+                  }
+                ],
+                "nearbyProperties": [
+                  {
+                    "categoryName": "Sân bay lân cận",
+                    "categorySymbol": "airports",
+                    "places": [
+                      {
+                        "name": "Sân bay Quốc tế Tân Sơn Nhất (SGN)",
+                        "distanceInKm": 69.93,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.818463,
+                          "longitude": 106.658824
+                        }
+                      },
+                      {
+                        "name": "Sân bay Quốc tế Cần Thơ (VCA)",
+                        "distanceInKm": 152.11,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.080483,
+                          "longitude": 105.712177
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "categoryName": "Phương tiện công cộng",
+                    "categorySymbol": "bus-and-rail-stations",
+                    "places": [
+                      {
+                        "name": "Bến xe Vũng Tàu",
+                        "distanceInKm": 1.52,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.350532,
+                          "longitude": 107.086987
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "categoryName": "Bệnh viện & phòng khám",
+                    "categorySymbol": "hospitals-clinics",
+                    "places": [
+                      {
+                        "name": "Phòng khám New World",
+                        "distanceInKm": 0.22,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.3435239,
+                          "longitude": 107.0774804
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "categoryName": "Cửa hàng tạp hóa",
+                    "categorySymbol": "Convenience Store",
+                    "places": [
+                      {
+                        "name": "Family Mart",
+                        "distanceInKm": 1.48,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.3507154,
+                          "longitude": 107.0862803
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "categoryName": "Rút tiền mặt",
+                    "categorySymbol": "ATM",
+                    "places": [
+                      {
+                        "name": "ATM",
+                        "distanceInKm": 0.67,
+                        "duration": null,
+                        "durationIcon": null,
+                        "geoInfo": {
+                          "latitude": 10.3436,
+                          "longitude": 107.0819
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "walkablePlaces": {
+                  "title": "Trên cả tuyệt vời để đi bộ",
+                  "description": "45 nơi nằm trong khoảng cách có thể đi bộ",
+                  "totalCount": 45,
+                  "walkableCategories": [
+                    {
+                      "categoryName": "Điểm thu hút du lịch và Nhà hàng (45)",
+                      "totalCount": 45,
+                      "topPlaces": [
+                        {
+                          "name": "Công viên Trần Hưng Đạo",
+                          "distanceInKm": 0.15,
+                          "geoInfo": {
+                            "latitude": 10.3421355,
+                            "longitude": 107.0774580678947
+                          }
+                        },
+                        {
+                          "name": "Hòn Bà",
+                          "distanceInKm": 0.16,
+                          "geoInfo": {
+                            "latitude": 10.34171,
+                            "longitude": 107.07468
+                          }
+                        },
+                        {
+                          "name": "Tàu cánh ngầm Vũng Tàu",
+                          "distanceInKm": 0.16,
+                          "geoInfo": {
+                            "latitude": 10.34171,
+                            "longitude": 107.07468
+                          }
+                        },
+                        {
+                          "name": "Công viên Bãi Trước",
+                          "distanceInKm": 0.19,
+                          "geoInfo": {
+                            "latitude": 10.342076,
+                            "longitude": 107.074435
+                          }
+                        },
+                        {
+                          "name": "Bãi trước",
+                          "distanceInKm": 0.2,
+                          "geoInfo": {
+                            "latitude": 10.3434,
+                            "longitude": 107.074198
+                          }
+                        },
+                        {
+                          "name": "Ba Ria - Vung Tau Children House",
+                          "distanceInKm": 0.28,
+                          "geoInfo": {
+                            "latitude": 10.34435565,
+                            "longitude": 107.0751620063184
+                          }
+                        },
+                        {
+                          "name": "Bảo tàng Vũ khí Cổ",
+                          "distanceInKm": 0.29,
+                          "geoInfo": {
+                            "latitude": 10.339968,
+                            "longitude": 107.074517
+                          }
+                        },
+                        {
+                          "name": "Tòa nhà Lotus Sea",
+                          "distanceInKm": 0.31,
+                          "geoInfo": {
+                            "latitude": 10.340335,
+                            "longitude": 107.073848
+                          }
+                        },
+                        {
+                          "name": "Bãi Trước",
+                          "distanceInKm": 0.34,
+                          "geoInfo": {
+                            "latitude": 10.3437751,
+                            "longitude": 107.0735981
+                          }
+                        },
+                        {
+                          "name": "Công viên Quang Trung",
+                          "distanceInKm": 0.57,
+                          "geoInfo": {
+                            "latitude": 10.3466802,
+                            "longitude": 107.0738673757027
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nearbyShops": [
+                  {
+                    "name": "Chợ Xóm Lưới",
+                    "typeId": 24,
+                    "distanceInKm": 0.08,
+                    "geoInfo": {
+                      "latitude": 10.341403,
+                      "longitude": 107.076476
+                    }
+                  },
+                  {
+                    "name": "Siêu thị Mỹ Nghệ",
+                    "typeId": 48,
+                    "distanceInKm": 0.65,
+                    "geoInfo": {
+                      "latitude": 10.3476761,
+                      "longitude": 107.0744874
+                    }
+                  },
+                  {
+                    "name": "Cam",
+                    "typeId": 48,
+                    "distanceInKm": 0.71,
+                    "geoInfo": {
+                      "latitude": 10.3478497,
+                      "longitude": 107.078782
+                    }
+                  },
+                  {
+                    "name": "Cửa hàng Quỳnh Thi",
+                    "typeId": 48,
+                    "distanceInKm": 0.75,
+                    "geoInfo": {
+                      "latitude": 10.3487297,
+                      "longitude": 107.0752177
+                    }
+                  },
+                  {
+                    "name": "Trung tâm Thương mại Lam Sơn Square",
+                    "typeId": 24,
+                    "distanceInKm": 0.81,
+                    "geoInfo": {
+                      "latitude": 10.348942,
+                      "longitude": 107.07399
+                    }
+                  },
+                  {
+                    "name": "Trung tâm thương mại Lam Sơn Square",
+                    "typeId": 24,
+                    "distanceInKm": 0.81,
+                    "geoInfo": {
+                      "latitude": 10.34896,
+                      "longitude": 107.0739
+                    }
+                  }
+                ]
+              },
+              "contentExperiences": {
+                "experience": [
+                  {
+                    "symbol": "map-attraction",
+                    "landmarks": [
+                      {
+                        "name": "Công viên Trần Hưng Đạo",
+                        "geoInfo": {
+                          "latitude": 10.3421355,
+                          "longitude": 107.0774580678947
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.15
+                      },
+                      {
+                        "name": "Tàu cánh ngầm Vũng Tàu",
+                        "geoInfo": {
+                          "latitude": 10.34171,
+                          "longitude": 107.07468
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.16
+                      },
+                      {
+                        "name": "Hòn Bà",
+                        "geoInfo": {
+                          "latitude": 10.34171,
+                          "longitude": 107.07468
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.16
+                      },
+                      {
+                        "name": "Công viên Bãi Trước",
+                        "geoInfo": {
+                          "latitude": 10.342076,
+                          "longitude": 107.074435
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.19
+                      },
+                      {
+                        "name": "Ba Ria - Vung Tau Children House",
+                        "geoInfo": {
+                          "latitude": 10.34435565,
+                          "longitude": 107.0751620063184
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.28
+                      }
+                    ]
+                  },
+                  {
+                    "symbol": "balloon",
+                    "landmarks": [
+                      {
+                        "name": "Bãi trước",
+                        "geoInfo": {
+                          "latitude": 10.3434,
+                          "longitude": 107.074198
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.26
+                      },
+                      {
+                        "name": "Hải đăng Vũng Tàu",
+                        "geoInfo": {
+                          "latitude": 10.334256,
+                          "longitude": 107.07756
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.88
+                      },
+                      {
+                        "name": "Bạch Dinh",
+                        "geoInfo": {
+                          "latitude": 10.350721,
+                          "longitude": 107.068548
+                        },
+                        "scores": null,
+                        "distanceInKm": 1.27
+                      },
+                      {
+                        "name": "Quán bar Black Pearl Bar",
+                        "geoInfo": {
+                          "latitude": 10.330133,
+                          "longitude": 107.076706
+                        },
+                        "scores": null,
+                        "distanceInKm": 1.32
+                      }
+                    ]
+                  },
+                  {
+                    "symbol": "shopping",
+                    "landmarks": [
+                      {
+                        "name": "Chợ Xóm Lưới",
+                        "geoInfo": {
+                          "latitude": 10.341403,
+                          "longitude": 107.076476
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.08
+                      },
+                      {
+                        "name": "Trung tâm Thương mại Lam Sơn Square",
+                        "geoInfo": {
+                          "latitude": 10.348942,
+                          "longitude": 107.07399
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.81
+                      },
+                      {
+                        "name": "Trung tâm thương mại Lam Sơn Square",
+                        "geoInfo": {
+                          "latitude": 10.34896,
+                          "longitude": 107.0739
+                        },
+                        "scores": null,
+                        "distanceInKm": 0.81
+                      },
+                      {
+                        "name": "Chợ Vũng Tàu",
+                        "geoInfo": {
+                          "latitude": 10.348209,
+                          "longitude": 107.085874
+                        },
+                        "scores": null,
+                        "distanceInKm": 1.27
+                      },
+                      {
+                        "name": "Trung tâm thương mại Imperial Plaza",
+                        "geoInfo": {
+                          "latitude": 10.34311,
+                          "longitude": 107.09478
+                        },
+                        "scores": null,
+                        "distanceInKm": 2.04
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "metaLab": {
+              "propertyAttributes": [
+                {
+                  "attributeId": 2,
+                  "value": "false"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "expires_at": "2026-06-17T05:26:50.285503",
+  "data": {
+    "places": [
+      {
+        "id": 5085,
+        "name": "Tokyo",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.679052,
+        "longitude": 139.768753,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 12486,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 108512,
+        "name": "Hachioji",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 108512,
+          "name": "Hachioji"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.71992,
+        "longitude": 139.29023,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 194,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 31078,
+        "name": "Khu nghỉ dưỡng Disney Tokyo",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.639787,
+        "longitude": 139.910064,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 190,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 597460,
+        "name": "Vùng Tokyo Dome",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.711714,
+        "longitude": 139.747343,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 141,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 108498,
+        "name": "Chofu",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 108498,
+          "name": "Chofu"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.65679,
+        "longitude": 139.50181,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 124,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 565745,
+        "name": "Tokyo Station",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.685927,
+        "longitude": 139.770055,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 402,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 108568,
+        "name": "Musashino",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 108568,
+          "name": "Musashino"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.73313,
+        "longitude": 139.51089,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 137,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 29622,
+        "name": "Sân Bay Quốc Tế Narita",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 106352,
+          "name": "Narita"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.820602,
+        "longitude": 140.361509,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 147,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Chiba"
+        }
+      },
+      {
+        "id": 708975,
+        "name": "Izu Islands",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 708975,
+          "name": "Izu Islands"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 34.01147,
+        "longitude": 139.5772,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 110,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 108559,
+        "name": "Machida",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 108559,
+          "name": "Machida"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.57625,
+        "longitude": 139.43006,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 35,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 28049,
+        "name": "Shinjuku",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.701248,
+        "longitude": 139.710259,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 3812,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 32813,
+        "name": "Ueno",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.718382,
+        "longitude": 139.771231,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 978,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 32814,
+        "name": "Ginza",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.671043,
+        "longitude": 139.765309,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 366,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 500681,
+        "name": "Asakusa",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.719481,
+        "longitude": 139.811794,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 2742,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 500682,
+        "name": "Akihabara",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.698274,
+        "longitude": 139.770028,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 881,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:26:51.5496412+07:00",
+    "serverName": "as-pc-3h-mapi-cronos-prod-6b69f58cc8-xwhf4",
+    "processTime": null
+  }
+}

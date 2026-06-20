@@ -1,0 +1,12 @@
+{
+  "expires_at": "2026-06-17T05:22:07.063151",
+  "data": {
+    "data": null,
+    "errors": {
+      "checkoutDate": "checkoutDate is required",
+      "checkinDate": "checkinDate is required"
+    },
+    "status": false,
+    "message": "Errors"
+  }
+}

@@ -52,12 +52,35 @@
                 android:textStyle="bold"
                 android:textColor="@android:color/black"/>
 
-            <RatingBar
-                android:id="@+id/detailRatingBar"
-                style="?android:attr/ratingBarStyleSmall"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"/>
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <RatingBar
+                    android:id="@+id/detailRatingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:isIndicator="true"/>
+
+                <TextView
+                    android:id="@+id/tvDetailScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_review_score"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="0.0"/>
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/tvDetailAddress"
@@ -69,8 +92,185 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:background="#EEEEEE"
+                android:layout_marginVertical="16dp"/>
+
+            <!-- Check-in / Check-out times -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nhận phòng từ"
+                        android:textSize="12sp"
+                        android:textColor="#888888" />
+                    <TextView
+                        android:id="@+id/tvCheckInTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14:00"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trả phòng đến"
+                        android:textSize="12sp"
+                        android:textColor="#888888" />
+                    <TextView
+                        android:id="@+id/tvCheckOutTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDetailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
                 android:background="#DDDDDD"
                 android:layout_marginVertical="16dp"/>
+
+            <!-- Demographics Review Breakdown -->
+            <TextView
+                android:id="@+id/tvDemographicsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khách hàng nói gì?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <HorizontalScrollView
+                android:id="@+id/hsvDemographics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone">
+                
+                <LinearLayout
+                    android:id="@+id/layoutDemographics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+            </HorizontalScrollView>
+
+            <View
+                android:id="@+id/dividerDemographics"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone"/>
+
+            <!-- Review Snippets -->
+            <TextView
+                android:id="@+id/tvReviewSnippetsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đánh giá nổi bật"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/layoutReviewSnippets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone"/>
+
+            <View
+                android:id="@+id/dividerReviews"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone"/>
+
+            <!-- Feature Groups -->
+            <TextView
+                android:id="@+id/tvFeaturesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiện nghi khách sạn"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/layoutFeatureGroups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone"/>
+
+            <View
+                android:id="@+id/dividerFeatures"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone"/>
+
+            <!-- Nearby Places -->
+            <TextView
+                android:id="@+id/tvNearbyTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khu vực lân cận"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/layoutNearbyPlaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginVertical="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -84,7 +284,8 @@
                 android:id="@+id/rvRooms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:nestedScrollingEnabled="false"/>
+                android:nestedScrollingEnabled="false"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

@@ -1,0 +1,316 @@
+{
+  "comments": [
+    {
+      "id": 1064259781,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "Jaebum",
+        "demographicName": "Gia đình có em bé",
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc",
+          "countryIso2": "KR"
+        },
+        "checkInDate": "2025-12-20",
+        "checkOutDate": "2025-12-29"
+      },
+      "reviewDetail": {
+        "date": "2026-01-04",
+        "title": "Khách sạn có giá trị tốt nhất ở Manhattan, New York",
+        "originalTitle": "뉴욕 맨하튼 최고 가성비 호텔",
+        "positive": "",
+        "negative": "",
+        "comment": "Vị trí rất gần với hầu hết các điểm tham quan, có thể đi bộ đến đó, và có thể đặt đồ ăn từ tầng 1 nên tôi rất hài lòng. Giường rất thoải mái, tôi đã ngủ rất sâu, và bữa sáng cũng rất tuyệt. Tôi muốn quay lại nữa.",
+        "originalComment": "위치는 대부분의 관광지까지 걸어서 갈 수 있고, 1층에서 배달시켜 먹을 수 있어서 너무 만족합니다. 그리고 침대가 너무 좋아 잠도 푹 잤고, 아침 조식도 훌륭합니다. 또 가고 싶습니다.",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 10.0,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    },
+    {
+      "id": 1067272551,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "Ruslan",
+        "demographicName": "Cặp đôi",
+        "country": {
+          "id": 192,
+          "name": "Indonesia",
+          "countryIso2": "ID"
+        },
+        "checkInDate": "2026-01-05",
+        "checkOutDate": "2026-01-07"
+      },
+      "reviewDetail": {
+        "date": "2026-01-14",
+        "title": "Khách sạn được đề xuất để ở lại ở NYC",
+        "originalTitle": "Recommended hotel to stay in NYC",
+        "positive": "",
+        "negative": "",
+        "comment": "Nhân viên tiếp tân thân thiện và nhanh nhẹn. Quy trình nhận phòng nhanh chóng. Vị trí tuyệt vời, gần ga tàu và Quảng trường Thời đại. Bữa sáng ngon với nhiều sự lựa chọn. Nhược điểm duy nhất là phòng quá nhỏ.",
+        "originalComment": "Pleasant and responsive receptionist staffs. Fast check-in process.\nGreat location, close to train station and Times Square. Good breakfast with many varieties. The only downside is the room is too small.",
+        "languageId": 26
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 8.0,
+        "scoreText": "Tuyệt vời"
+      }
+    },
+    {
+      "id": 922252843,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "Sohye",
+        "demographicName": "Nhóm",
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc",
+          "countryIso2": "KR"
+        },
+        "checkInDate": "2025-01-28",
+        "checkOutDate": "2025-02-01"
+      },
+      "reviewDetail": {
+        "date": "2025-02-01",
+        "title": "Nhà hàng bữa sáng nổi tiếng, địa điểm ngon.",
+        "originalTitle": "조식맛집 위치맛집",
+        "positive": "",
+        "negative": "",
+        "comment": "Giá trị rất tốt, có thể sử dụng thoải mái với người lớn tuổi. Tôi đã ở 4 đêm và mỗi ngày đều được dọn dẹp. Vị trí cũng thuận tiện. Bữa sáng có thực đơn thay đổi một chút mỗi ngày, bánh mì và cà phê thì rất ngon. Cần lưu ý thang máy có thể không tiện, nên tôi khuyên nên chọn tầng cao. Phòng đôi không có view thành phố, không nên chọn thanh toán cho view thành phố.",
+        "originalComment": "가성비 굿입니다 어르신들 모시고도 충분히 편히 쓸수있고 4박했는데 매일 청소되어있고 위치접근성도 좋습니다 조식은 매일 메뉴가 조금씩 바뀌고 베이글과 커피도 진짜 맛있습니다 엘베가 불편할수있으니 고층 추천합니다 더블침대룸은 시티뷰가 없습니다 시티뷰 결재는 추천하지않습니다",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 10.0,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    },
+    {
+      "id": 1126679545,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "Vinay",
+        "demographicName": "Cặp đôi",
+        "country": {
+          "id": 100,
+          "name": "Canada",
+          "countryIso2": "CA"
+        },
+        "checkInDate": "2026-05-31",
+        "checkOutDate": "2026-06-01"
+      },
+      "reviewDetail": {
+        "date": "2026-06-01",
+        "title": "Chỗ ở tuyệt vời!! Nhân viên tuyệt vời",
+        "originalTitle": "Great stay!!great staff ",
+        "positive": "",
+        "negative": "",
+        "comment": "Cô nhân viên lễ tân rất xuất sắc....bữa sáng tuyệt vời \nMọi thứ đều tuyệt vời.",
+        "originalComment": "Lady at the reception was exceptionally good….superb breakfast \nEverything was great ",
+        "languageId": 1
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 9.2,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    },
+    {
+      "id": 1083444365,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "Satsuki",
+        "demographicName": "Nhóm",
+        "country": {
+          "id": 167,
+          "name": "Tây Ban Nha",
+          "countryIso2": "ES"
+        },
+        "checkInDate": "2026-03-09",
+        "checkOutDate": "2026-03-13"
+      },
+      "reviewDetail": {
+        "date": "2026-03-16",
+        "title": "Đây là một khách sạn bình thường.",
+        "originalTitle": "普通のホテルです",
+        "positive": "",
+        "negative": "",
+        "comment": "Không có gì đặc biệt tốt hay xấu, nhưng nếu chỉ cần lưu trú tại New York với mức giá này thì có lẽ cũng không đến nỗi tệ. Vòi sen cố định và nước chỉ nóng lên sau khi đã có nước chảy ra, nên ban đầu tôi gặp khó khăn. Có tủ lạnh và két sắt, nhưng trong phòng thì không có ấm đun nước.",
+        "originalComment": "可もなく不可もなくこの値段でニューヨークに滞在するだけならそこまで悪くないかと思います。シャワーが据え置きで、水が出てからじゃないとお湯にならないので最初は苦労しました。冷蔵庫と金庫はありますが、部屋にポットはありません。",
+        "languageId": 6
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 7.2,
+        "scoreText": "Rất tốt"
+      }
+    },
+    {
+      "id": 926300585,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "이서은",
+        "demographicName": "Gia đình có em bé",
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc",
+          "countryIso2": "KR"
+        },
+        "checkInDate": "2025-01-31",
+        "checkOutDate": "2025-02-06"
+      },
+      "reviewDetail": {
+        "date": "2025-02-06",
+        "title": "Đánh giá chỗ ở",
+        "originalTitle": "숙소 후기",
+        "positive": "",
+        "negative": "",
+        "comment": "Vị trí gần Time Square và \nđi bộ thì khá ổn.\nTại New York, có thể giải quyết bữa sáng với giá này cũng tốt.\nTuy nhiên, tôi đã được phân phòng khác với phòng đã đặt,\nnên tôi phải nói lại với lễ tân để đổi phòng.\nNgoài phần này ra, nhìn chung ở New York,\nvới giá này mà có tình trạng như vậy thì cũng khá ổn.",
+        "originalComment": "위치는 타임스퀘어와 가까운 편이고 \n걸어 다니기에 괜찮았어요.\n뉴욕에서 이 가격에 조식도 해결 할 수 있어서 좋았습니다.\n다만,  예약한 방과 다른 방을 배정받아\n재차 프론트에 말씀드려 방을 바꿔야 했습니다.\n이 부분 빼고는 전반적으로 뉴욕에서 \n이 가격에 이정도 컨디션이면 괜찮았습니다. \n",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 8.0,
+        "scoreText": "Tuyệt vời"
+      }
+    },
+    {
+      "id": 914241624,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "seonghee",
+        "demographicName": "Gia đình có em bé",
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc",
+          "countryIso2": "KR"
+        },
+        "checkInDate": "2025-01-08",
+        "checkOutDate": "2025-01-11"
+      },
+      "reviewDetail": {
+        "date": "2025-01-11",
+        "title": "Tôi đã nghỉ ngơi tốt cùng với đứa trẻ.",
+        "originalTitle": "아이와 함께 잘쉬었습니다",
+        "positive": "",
+        "negative": "",
+        "comment": "Bữa sáng ổn đấy. Có 2 chai nước. Có cả tủ lạnh. Ăn sáng no nê rồi đi chơi, tối về mua pizza ăn cũng được. Có quán bagel ngon ở gần đây. Dưới tầng hầm có phòng gym, có thể tập thể dục. Nếu sức khỏe tốt thì tốt. Nhân viên cũng thân thiện, lần sau mình sẽ sử dụng dịch vụ nữa.",
+        "originalComment": "조식 괜찮구요. 물도 2병있습니다. 냉장고 있습니다. 아침 든든히 먹고 돌아다니다가 저녁에 들어오면서 피자 사와서 먹으면 됩니다. 베이글 맛집 주변에 있어요. 지하에 헬스장있고 운동도 됩니다. 체력이 좋으면요.. 직원도 친절하고 담에도 이용할거예요",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 10.0,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    },
+    {
+      "id": 941331202,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "이강석",
+        "demographicName": "Gia đình có em bé",
+        "country": {
+          "id": 181,
+          "name": "Hoa Kỳ",
+          "countryIso2": "US"
+        },
+        "checkInDate": "2025-03-28",
+        "checkOutDate": "2025-03-31"
+      },
+      "reviewDetail": {
+        "date": "2025-04-04",
+        "title": "Nếu bạn đang tìm một khách sạn có giá cả phải chăng và vị trí tốt, đây là sự lựa chọn tốt nhất.",
+        "originalTitle": "위치 좋은 가성비 호텔을 찾는다면 최고의 선택",
+        "positive": "",
+        "negative": "",
+        "comment": "Midtown ở bất kỳ nơi nào cũng dễ dàng tiếp cận và có ga tàu điện ngầm gần đó, thật là một vị trí tuyệt vời cho những khách du lịch đi bộ. Bữa sáng là cơ bản nên bớt lo lắng về buổi sáng, và các tiện nghi khác cũng rất tốt ^^",
+        "originalComment": "미드타운 어느곳이든 쉽게 접근할 수 있고 지하철역도 가까워서 뚜벅이 여향객들에게 너무 좋은 위치입니다.\n조식이 기본이라 아침에 대한 걱정도 덜 수 있고 기타 부대시설도 너무 좋았어요^^",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 8.8,
+        "scoreText": "Tuyệt vời"
+      }
+    },
+    {
+      "id": 908387226,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "CHAEEUN",
+        "demographicName": "Nhóm",
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc",
+          "countryIso2": "KR"
+        },
+        "checkInDate": "2024-12-23",
+        "checkOutDate": "2024-12-27"
+      },
+      "reviewDetail": {
+        "date": "2024-12-24",
+        "title": "Hoàn hảo",
+        "originalTitle": "Perfect",
+        "positive": "",
+        "negative": "",
+        "comment": "Vị trí đẹp nhưng phòng hơi nhỏ (Tôi nghĩ đó là vì nó nằm ở NYC)  \nBữa sáng miễn phí  \nDịch vụ hoàn hảo  \n⭐️⭐️⭐️⭐️⭐️",
+        "originalComment": "Nice location but the room is quite small(I think that’s because it is located in NYC)\nFree breakfast\nPerfect service\n⭐️⭐️⭐️⭐️⭐️",
+        "languageId": 9
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 9.6,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    },
+    {
+      "id": 1064304635,
+      "providerId": 332,
+      "reviewerInfo": {
+        "name": "MYLEE",
+        "demographicName": "Gia đình có trẻ em",
+        "country": {
+          "id": 70,
+          "name": "Philippines",
+          "countryIso2": "PH"
+        },
+        "checkInDate": "2025-12-30",
+        "checkOutDate": "2026-01-03"
+      },
+      "reviewDetail": {
+        "date": "2026-01-04",
+        "title": "Phòng nhỏ, giá cao nhưng sạch sẽ và dịch vụ hiệu quả.",
+        "originalTitle": "Small, Overpriced Room but Clean and Efficient Service",
+        "positive": "",
+        "negative": "",
+        "comment": "Phòng 20 mét vuông tại Hyatt Place Times Square cảm thấy chật chội cho ba người với một giường đôi và không có chỗ để hành lý, và giá cả thì quá cao. Tuy nhiên, phòng sạch sẽ với dịch vụ dọn dẹp hàng ngày và thay đổi ga trải giường. Bữa sáng phong phú mà không kiểm tra phòng, thang máy thì đủ, và việc nhận phòng và trả phòng nhanh chóng.",
+        "originalComment": "Compact 20 sqm room at Hyatt Place Times Square felt cramped for three with a double bed and no luggage space, and was overpriced. Still, it was clean with daily housekeeping and linen changes. Breakfast was generous without room checks, elevators were ample, and check in and check out fast.",
+        "languageId": 1
+      },
+      "responseInfo": null,
+      "rating": {
+        "score": 10.0,
+        "scoreText": "Trên cả tuyệt vời"
+      }
+    }
+  ],
+  "errors": [],
+  "resultStatus": {
+    "category": 1,
+    "serverStatus": 9000,
+    "message": "",
+    "serverMessage": "",
+    "severity": 1,
+    "isSuccess": true
+  },
+  "serverTime": "2026-06-16T08:31:12.1025183+07:00",
+  "serverName": "as-pc-3f-mapi-cronos-prod-7d4dd66c94-4jtpq",
+  "processTime": null
+}

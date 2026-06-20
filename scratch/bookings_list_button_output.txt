@@ -1,0 +1,25 @@
+ridItem__GridItemStyled-sc-3btv1u-0 iEIdzM" bis_skin_checked="1">
+                                              <button data-testid="shimmer-cta" data-action="book" leadingicon="fill.symbol.lock-locked" type="button" class="ab5c2-box ab5c2-bg-product-primary ab5c2-fill-generic-base-inverted ab5c2-text-generic-base-inverted ab5c2-items-center ab5c2-cursor-pointer ab5c2-flex ab5c2-flex-col ab5c2-justify-center ab5c2-px-16 ab5c2-py-8  ab5c2-rounded-base ab5c2-border-0   ab5c2-interactive-style ab5c2-interactive-primary ab5c2-focus-ring-interactive-border ab5c2-interactive-bg  " style="height: 36px;">
+                                                <div class="ab5c2-box ab5c2-fill-inherit ab5c2-text-inherit ab5c2-items-center ab5c2-flex ab5c2-flex-row      " bis_skin_checked="1">
+                                                  <span role="img" aria-hidden="true" class="ab5c2-inline-flex ab5c2-align-baseline ab5c2-mr-8">
+                                                    <svg viewBox="0 0 1 1" role="presentation" class="" style="width: 20px; height: 20px; mask: /*savepage-url=https://cdn6.agoda.net/cdn-design-system/icons/2df2b57f.svg*/ var(--savepage-url-23) left top / contain no-repeat;"><rect width="100%" height="100%"></rect>
+                                                    </svg>
+                                                  </span>
+                                                  <span class="sc-aXZVg Typographystyled__TypographyStyled-sc-1uoovui-0 ifcRDN eOlZUF">ĐẶT NGAY!</span>
+                                                </div>
+                                              </button>
+                                            </div>
+                                            <div class="GridItem__GridItemStyled-sc-3btv1u-0 iEIdzM" bis_skin_checked="1">
+                                              <div data-element-name="sticky-cta-footer" class="ab5c2-box ab5c2-fill-inherit ab5c2-text-inherit      " bis_skin_checked="1">
+                                                <div class="ab5c2-box ab5c2-fill-inherit ab5c2-text-inherit ab5c2-text-center      " bis_skin_checked="1"><span class="sc-aXZVg Typographystyled__TypographyStyled-sc-1uoovui-0 ifcRDN eHPJRe" data-element-name="nocc-required-assurance-message">Không cần thẻ tín dụng hoặc thanh toán để đặt phòng</span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </section></span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div data-testid="right-content" class="GridItem__GridItemStyled-sc-3btv1u-0 sMhHM" bis_skin_checked="1">
+                                <aside data-testid="column-grid-container" class="ab5c2-box ab5c2-fill-inherit 

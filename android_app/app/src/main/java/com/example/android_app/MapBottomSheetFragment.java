@@ -10,7 +10,7 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.android_app.models.Hotel;
+import com.example.android_app.models.Property;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -27,13 +27,13 @@ import java.util.List;
 
 public class MapBottomSheetFragment extends BottomSheetDialogFragment implements OnMapReadyCallback {
 
-    private List<Hotel> hotelList;
+    private List<Property> propertyList;
 
     // Cách khởi tạo chuẩn để truyền dữ liệu an toàn
-    public static MapBottomSheetFragment newInstance(List<Hotel> hotels) {
+    public static MapBottomSheetFragment newInstance(List<Property> properties) {
         MapBottomSheetFragment fragment = new MapBottomSheetFragment();
         Bundle args = new Bundle();
-        args.putSerializable("hotels", (Serializable) hotels);
+        args.putSerializable("properties", (Serializable) properties);
         fragment.setArguments(args);
         return fragment;
     }
@@ -42,7 +42,7 @@ public class MapBottomSheetFragment extends BottomSheetDialogFragment implements
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            hotelList = (List<Hotel>) getArguments().getSerializable("hotels");
+            propertyList = (List<Property>) getArguments().getSerializable("properties");
         }
     }
 
@@ -65,19 +65,19 @@ public class MapBottomSheetFragment extends BottomSheetDialogFragment implements
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
-        if (hotelList == null || hotelList.isEmpty()) return;
+        if (propertyList == null || propertyList.isEmpty()) return;
 
         LatLngBounds.Builder builder = new LatLngBounds.Builder();
         boolean hasPoints = false;
 
-        for (Hotel hotel : hotelList) {
-            // Kiểm tra nếu hotel có tọa độ (Tránh văng app nếu lat/lng = 0)
-            if (!hotel.isLoading() && hotel.getLatitude() != 0) {
-                LatLng pos = new LatLng(hotel.getLatitude(), hotel.getLongitude());
+        for (Property property : propertyList) {
+            // Kiểm tra nếu property có tọa độ (Tránh văng app nếu lat/lng = 0)
+            if (!property.isLoading() && property.getLatitude() != 0) {
+                LatLng pos = new LatLng(property.getLatitude(), property.getLongitude());
                 googleMap.addMarker(new MarkerOptions()
                         .position(pos)
-                        .title(hotel.getName())
-                        .snippet(String.format("₫ %,.0f", hotel.getPrice())));
+                        .title(property.getName())
+                        .snippet(String.format("₫ %,.0f", property.getPrice())));
 
                 builder.include(pos);
                 hasPoints = true;

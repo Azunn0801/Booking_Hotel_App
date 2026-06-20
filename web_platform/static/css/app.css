@@ -1,0 +1,1820 @@
+/* =======================================================================
+   app.css — Agoda Clone Design System (High Fidelity)
+   Màu sắc theo Agoda.com gốc: Cam #e57237, Blue #5392f9, Green #00aa6c
+   ======================================================================= */
+
+/* -----------------------------------------------------------------------
+   1. Design Tokens
+   ----------------------------------------------------------------------- */
+:root {
+    /* Brand Colors (Curated HSL tailored colors) */
+    --ag-orange: hsl(217, 95%, 59%);           /* Vibrant royal blue instead of generic orange */
+    --ag-orange-dark: hsl(217, 95%, 49%);      /* Hover blue */
+    --ag-orange-light: hsl(217, 95%, 96%);     /* Subtle light blue bg */
+    --ag-blue: hsl(217, 95%, 59%);
+    --ag-blue-dark: hsl(217, 95%, 49%);
+    --ag-blue-light: hsl(217, 95%, 96%);
+    
+    /* Elegant Accent (Gold/Amber for premium badges & stars) */
+    --ag-accent: hsl(38, 95%, 52%);
+    --ag-accent-dark: hsl(38, 95%, 42%);
+    --ag-accent-light: hsl(38, 95%, 96%);
+
+    --ag-green: hsl(150, 80%, 38%);            /* Emerald green score badge */
+    --ag-green-dark: hsl(150, 80%, 28%);
+    --ag-teal: hsl(184, 80%, 35%);
+
+    /* Neutral palette */
+    --ag-text-primary: hsl(220, 20%, 15%);
+    --ag-text-secondary: hsl(220, 10%, 40%);
+    --ag-text-muted: hsl(220, 10%, 55%);
+    --ag-text-placeholder: hsl(220, 10%, 75%);
+    --ag-border: hsl(220, 12%, 92%);
+    --ag-border-focus: var(--ag-orange);
+    --ag-bg-page: hsl(220, 20%, 97%);           /* Soft cool page background */
+    --ag-bg-card: hsl(0, 0%, 100%);
+    
+    /* Modern Smooth Shadows */
+    --ag-shadow-sm: 0 2px 8px hsla(220, 20%, 15%, 0.04);
+    --ag-shadow-md: 0 8px 24px hsla(220, 20%, 15%, 0.08);
+    --ag-shadow-lg: 0 16px 48px hsla(220, 20%, 15%, 0.12);
+
+    /* VIP Bronze */
+    --ag-vip-bg: hsl(38, 100%, 96%);
+    --ag-vip-border: hsl(38, 100%, 85%);
+    --ag-vip-text: hsl(38, 100%, 35%);
+
+    /* Discount */
+    --ag-discount: hsl(354, 76%, 53%);         /* Premium ruby red */
+
+    /* Header */
+    --ag-header-height: 72px;                  /* Elevated height for elegance */
+    --ag-radius-sm: 6px;
+    --ag-radius-md: 12px;
+    --ag-radius-lg: 20px;
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--ag-bg-page);
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(220, 10%, 80%);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(220, 10%, 65%);
+}
+
+/* Glassmorphism card helper */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Premium gradient animations */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+/* -----------------------------------------------------------------------
+   2. Reset & Base
+   ----------------------------------------------------------------------- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--ag-bg-page);
+    color: var(--ag-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* -----------------------------------------------------------------------
+   3. Header — AgHeader
+   ----------------------------------------------------------------------- */
+.AgHeader {
+    background: #ffffff;
+    border-bottom: 1px solid var(--ag-border);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: var(--ag-header-height);
+    display: flex;
+    align-items: center;
+}
+
+.AgHeader__inner {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 0;
+}
+
+/* Logo */
+.AgHeader__logo-wrap {
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.AgHeader__logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.AgHeader__logo-img {
+    height: 44px;
+    width: auto;
+    display: block;
+}
+
+/* Nav */
+.AgHeader__nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    gap: 2px;
+}
+
+.AgHeader__nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ag-text-secondary);
+    text-decoration: none;
+    position: relative;
+    transition: color 0.15s;
+    white-space: nowrap;
+}
+
+.AgHeader__nav-link:hover {
+    color: var(--ag-orange);
+}
+
+.AgHeader__nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    right: 12px;
+    height: 3px;
+    background: var(--ag-orange);
+    border-radius: 3px 3px 0 0;
+    transform: scaleX(0);
+    transition: transform 0.15s;
+}
+
+.AgHeader__nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+.AgHeader__nav-link--deals {
+    color: var(--ag-orange);
+    font-weight: 600;
+    position: relative;
+}
+
+.AgHeader__new-badge {
+    background: var(--ag-orange);
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+/* Right Section */
+.AgHeader__right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.AgHeader__locale-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ag-text-secondary);
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.AgHeader__locale-btn:hover {
+    background-color: var(--ag-bg-page);
+}
+
+.AgHeader__flag {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.AgHeader__currency-code {
+    font-weight: 600;
+    color: var(--ag-text-primary);
+}
+
+.AgHeader__list-btn {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ag-orange);
+    border: 1.5px solid var(--ag-orange);
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+
+.AgHeader__list-btn:hover {
+    background: var(--ag-orange);
+    color: white;
+}
+
+/* Auth Buttons */
+.AgHeader__auth {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.AgHeader__btn-login {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ag-text-secondary);
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.15s;
+}
+
+.AgHeader__btn-login:hover {
+    color: var(--ag-orange);
+    background-color: var(--ag-orange-light);
+}
+
+.AgHeader__btn-register {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background: var(--ag-orange);
+    padding: 7px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.15s;
+    border: 1.5px solid var(--ag-orange);
+}
+
+.AgHeader__btn-register:hover {
+    background: var(--ag-orange-dark);
+    border-color: var(--ag-orange-dark);
+}
+
+/* User Menu */
+.AgHeader__user-menu {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.AgHeader__user-trigger {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border: 1px solid var(--ag-border);
+    border-radius: 24px;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    background: #fafafa;
+}
+
+.AgHeader__user-menu:hover .AgHeader__user-trigger {
+    border-color: var(--ag-orange);
+}
+
+.AgHeader__user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--ag-orange);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.AgHeader__user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.AgHeader__user-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ag-text-primary);
+    line-height: 1.2;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.AgHeader__vip-badge {
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--ag-vip-text);
+    background: var(--ag-vip-bg);
+    border: 1px solid var(--ag-vip-border);
+    padding: 1px 4px;
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 1px;
+}
+
+.AgHeader__user-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--ag-shadow-lg);
+    border: 1px solid var(--ag-border);
+    min-width: 200px;
+    padding: 6px 0;
+    z-index: 100;
+    display: none;
+}
+
+.AgHeader__user-menu:hover .AgHeader__user-dropdown {
+    display: block;
+}
+
+.AgHeader__dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ag-text-secondary);
+    text-decoration: none;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.AgHeader__dropdown-item:hover {
+    background: var(--ag-bg-page);
+    color: var(--ag-orange);
+}
+
+.AgHeader__dropdown-item--logout {
+    color: #e22b35;
+}
+
+.AgHeader__dropdown-item--logout:hover {
+    background: #fff5f5;
+    color: #e22b35;
+}
+
+.AgHeader__dropdown-divider {
+    height: 1px;
+    background: var(--ag-border);
+    margin: 4px 0;
+}
+
+/* -----------------------------------------------------------------------
+   4. Main Content
+   ----------------------------------------------------------------------- */
+.AgMain {
+    flex: 1;
+}
+
+/* -----------------------------------------------------------------------
+   5. Hero Section (Homepage Cusco theme)
+   ----------------------------------------------------------------------- */
+.Hero {
+    position: relative;
+    background: linear-gradient(180deg, #2b395d 0%, #192035 100%);
+    padding: 48px 0 100px;
+    color: white;
+    overflow: hidden;
+}
+
+/* City landmark silhouette */
+.Hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 160px;
+    background-image: url('/resources_web/cdn6.agoda.net/images/kite-js/illustrations/athena/map/landmarks.svg');
+    background-repeat: repeat-x;
+    background-size: auto 160px;
+    background-position: bottom center;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.Hero__content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.Hero__title {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* -----------------------------------------------------------------------
+   6. CuscoWidget — Search Box
+   ----------------------------------------------------------------------- */
+.CuscoWidget {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+/* Tabs */
+.CuscoWidget__tabs {
+    display: flex;
+    gap: 2px;
+    padding: 0 0 0 4px;
+}
+
+.CuscoWidget__tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: rgba(255,255,255,0.88);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    padding: 10px 18px;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+
+.CuscoWidget__tab:hover {
+    background: rgba(255,255,255,0.22);
+    color: white;
+}
+
+.CuscoWidget__tab--active {
+    background: #ffffff;
+    color: var(--ag-orange);
+}
+
+.CuscoWidget__tab--active:hover {
+    background: #ffffff;
+    color: var(--ag-orange);
+}
+
+/* Container */
+.CuscoWidget__container {
+    background: #ffffff;
+    border-radius: 0 8px 8px 8px;
+    padding: 20px 20px 56px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+    position: relative;
+}
+
+/* Stay pills */
+.CuscoWidget__pills {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.CuscoWidget__pill {
+    padding: 6px 18px;
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    border: 1.5px solid var(--ag-border);
+    background: white;
+    color: var(--ag-text-secondary);
+    transition: all 0.15s;
+}
+
+.CuscoWidget__pill:hover {
+    border-color: var(--ag-orange);
+    color: var(--ag-orange);
+}
+
+.CuscoWidget__pill--active {
+    background: #fdf3ee;
+    color: var(--ag-orange);
+    border-color: var(--ag-orange);
+}
+
+/* Form */
+.CuscoWidget__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Field */
+.CuscoWidget__field {
+    border: 1.5px solid var(--ag-border);
+    border-radius: 4px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    transition: border-color 0.15s;
+    cursor: pointer;
+}
+
+.CuscoWidget__field:hover {
+    border-color: #aaa;
+}
+
+.CuscoWidget__field:focus-within {
+    border-color: var(--ag-orange);
+    box-shadow: 0 0 0 2px rgba(229,114,55,0.12);
+}
+
+.CuscoWidget__field--destination {
+    position: relative;
+}
+
+/* Row of date + guests */
+.CuscoWidget__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr;
+    gap: 12px;
+}
+
+.CuscoWidget__icon {
+    font-size: 18px;
+    color: var(--ag-text-muted);
+    flex-shrink: 0;
+}
+
+.CuscoWidget__input-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.CuscoWidget__input-wrapper input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    width: 100%;
+    color: var(--ag-text-primary);
+    padding: 2px 0;
+    background: transparent;
+}
+
+.CuscoWidget__input-wrapper input::placeholder {
+    color: var(--ag-text-placeholder);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.CuscoWidget__label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--ag-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+}
+
+.CuscoWidget__val {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ag-text-primary);
+}
+
+.CuscoWidget__date-info,
+.CuscoWidget__guests-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Autocomplete dropdown */
+.CuscoWidget__autocomplete {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: -1px;
+    right: -1px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: var(--ag-shadow-lg);
+    border: 1px solid var(--ag-border);
+    z-index: 200;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+
+.CuscoWidget__autocomplete-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background 0.1s;
+}
+
+.CuscoWidget__autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.CuscoWidget__autocomplete-item:hover {
+    background: var(--ag-orange-light);
+}
+
+.CuscoWidget__autocomplete-item-icon {
+    font-size: 18px;
+    color: var(--ag-orange);
+    flex-shrink: 0;
+}
+
+.CuscoWidget__autocomplete-item-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ag-text-primary);
+}
+
+.CuscoWidget__autocomplete-item-sub {
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    margin-top: 1px;
+}
+
+/* Guests dropdown */
+.CuscoWidget__field--guests {
+    position: relative;
+}
+
+.CuscoWidget__guests-dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--ag-shadow-lg);
+    border: 1px solid var(--ag-border);
+    padding: 20px;
+    z-index: 200;
+    display: none;
+}
+
+.CuscoWidget__dropdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.CuscoWidget__dropdown-row:last-child {
+    margin-bottom: 0;
+}
+
+.CuscoWidget__dropdown-row > span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ag-text-primary);
+}
+
+.counter-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.counter-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid var(--ag-orange);
+    background: white;
+    color: var(--ag-orange);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.15s;
+    flex-shrink: 0;
+}
+
+.counter-btn:hover {
+    background: var(--ag-orange);
+    color: white;
+}
+
+.counter-btn:disabled {
+    border-color: var(--ag-border);
+    color: var(--ag-text-placeholder);
+    cursor: not-allowed;
+}
+
+.counter-btn:disabled:hover {
+    background: white;
+    color: var(--ag-text-placeholder);
+}
+
+.counter-box > span {
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 24px;
+    text-align: center;
+    color: var(--ag-text-primary);
+}
+
+/* Footer of form */
+.CuscoWidget__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.CuscoWidget__checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ag-text-secondary);
+    cursor: pointer;
+    user-select: none;
+}
+
+.CuscoWidget__checkbox-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--ag-orange);
+    cursor: pointer;
+}
+
+/* Search Button — ORANGE như Agoda gốc */
+.CuscoWidget__btn-search {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--ag-orange);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
+    border: none;
+    padding: 13px 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(229,114,55,0.45);
+    transition: all 0.15s;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    z-index: 10;
+}
+
+.CuscoWidget__btn-search:hover {
+    background: var(--ag-orange-dark);
+    box-shadow: 0 6px 20px rgba(229,114,55,0.5);
+    transform: translateX(-50%) translateY(-1px);
+}
+
+.CuscoWidget__btn-search:active {
+    transform: translateX(-50%) translateY(0);
+}
+
+/* -----------------------------------------------------------------------
+   7. Trip Savings Banner
+   ----------------------------------------------------------------------- */
+.TripSavingsBanner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #eef7ee;
+    border: 1px solid #c3e3c3;
+    border-radius: 6px;
+    padding: 14px 20px;
+    max-width: 980px;
+    margin: 40px auto 0;
+}
+
+.TripSavingsBanner__img {
+    height: 32px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.TripSavingsBanner__title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.TripSavingsBanner__sub {
+    font-size: 12px;
+    color: #4e8d52;
+    margin-top: 2px;
+}
+
+/* -----------------------------------------------------------------------
+   8. QR Banner (App Download)
+   ----------------------------------------------------------------------- */
+.QRBanner {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 260px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--ag-shadow-lg);
+    border: 1px solid var(--ag-border);
+    padding: 18px 16px 16px;
+    z-index: 1000;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.QRBanner__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+
+.QRBanner__close:hover {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.QRBanner__title {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+    line-height: 1.4;
+    margin-bottom: 4px;
+    padding-right: 20px;
+}
+
+.QRBanner__subtitle {
+    display: block;
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    margin-bottom: 14px;
+}
+
+.QRBanner__phone-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.QRBanner__phone-mockup {
+    width: 140px;
+    height: 190px;
+    border: 3px solid #222;
+    border-radius: 20px;
+    background: #f8f9fa;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.QRBanner__phone-mockup::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    width: 36px;
+    height: 4px;
+    background: #222;
+    border-radius: 2px;
+}
+
+.QRBanner__agoji {
+    width: 48px;
+    height: 48px;
+}
+
+.QRBanner__qr-code-img {
+    width: 76px;
+    height: 76px;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect x="10" y="10" width="25" height="25" fill="%23333"/><rect x="14" y="14" width="17" height="17" fill="white"/><rect x="17" y="17" width="11" height="11" fill="%23333"/><rect x="65" y="10" width="25" height="25" fill="%23333"/><rect x="69" y="14" width="17" height="17" fill="white"/><rect x="72" y="17" width="11" height="11" fill="%23333"/><rect x="10" y="65" width="25" height="25" fill="%23333"/><rect x="14" y="69" width="17" height="17" fill="white"/><rect x="17" y="72" width="11" height="11" fill="%23333"/><rect x="40" y="15" width="10" height="5" fill="%23333"/><rect x="55" y="15" width="5" height="10" fill="%23333"/><rect x="40" y="25" width="5" height="10" fill="%23333"/><rect x="50" y="30" width="15" height="5" fill="%23333"/><rect x="40" y="40" width="20" height="5" fill="%23333"/><rect x="40" y="50" width="5" height="15" fill="%23333"/><rect x="55" y="45" width="5" height="10" fill="%23333"/><rect x="65" y="45" width="20" height="5" fill="%23333"/><rect x="75" y="50" width="10" height="10" fill="%23333"/><rect x="65" y="65" width="10" height="10" fill="%23333"/><rect x="80" y="65" width="5" height="25" fill="%23333"/><rect x="55" y="70" width="15" height="5" fill="%23333"/><rect x="55" y="80" width="10" height="10" fill="%23333"/></svg>');
+    background-size: cover;
+}
+
+/* -----------------------------------------------------------------------
+   9. Recommendations Section
+   ----------------------------------------------------------------------- */
+.Recommendations {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 20px 40px;
+}
+
+.Recommendations__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.Recommendations__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+    margin: 0;
+}
+
+.HotelGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1100px) {
+    .HotelGrid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 800px) {
+    .HotelGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+    .HotelGrid { grid-template-columns: 1fr; }
+}
+
+/* -----------------------------------------------------------------------
+   10. Hotel Card
+   ----------------------------------------------------------------------- */
+.HotelCard {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--ag-shadow-sm);
+    border: 1px solid var(--ag-border);
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.HotelCard:hover {
+    box-shadow: var(--ag-shadow-md);
+    transform: translateY(-3px);
+}
+
+.HotelCard__image {
+    height: 196px;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.HotelCard__badge-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--ag-discount);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.HotelCard__content {
+    padding: 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.HotelCard__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+    margin: 0 0 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+    min-height: 40px;
+}
+
+.HotelCard__location {
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.HotelCard__rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.HotelCard__rating-badge {
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px 4px 4px 0;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.score-excellent {
+    background: var(--ag-green);
+}
+
+.score-good {
+    background: #40bcf4;  /* Agoda teal-blue for good scores */
+}
+
+.score-ok {
+    background: #ffb300;
+}
+
+.HotelCard__rating-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.rating-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+}
+
+.review-count {
+    font-size: 11px;
+    color: var(--ag-text-muted);
+}
+
+.HotelCard__price {
+    margin-top: auto;
+    text-align: right;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: var(--ag-text-muted);
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+
+.price-value {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--ag-orange);        /* ORANGE như Agoda gốc */
+    line-height: 1;
+}
+
+.price-sub {
+    font-size: 10px;
+    color: var(--ag-text-muted);
+    margin-top: 2px;
+}
+
+/* -----------------------------------------------------------------------
+   11. Search Page Layout
+   ----------------------------------------------------------------------- */
+.SearchPage {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px 20px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .SearchPage { grid-template-columns: 1fr; }
+}
+
+/* Filter sidebar */
+.FilterPanel {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid var(--ag-border);
+    overflow: hidden;
+    position: sticky;
+    top: calc(var(--ag-header-height) + 16px);
+}
+
+.FilterPanel__header {
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--ag-border);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+}
+
+.FilterPanel__section {
+    padding: 16px 18px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.FilterPanel__section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ag-text-secondary);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Search results */
+.SearchResults {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.SearchResults__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid var(--ag-border);
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.SearchResults__count {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ag-text-primary);
+}
+
+/* Search Result Card (horizontal) */
+.ResultCard {
+    display: flex;
+    background: white;
+    border: 1px solid var(--ag-border);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s;
+}
+
+.ResultCard:hover {
+    box-shadow: var(--ag-shadow-md);
+}
+
+.ResultCard__image {
+    width: 240px;
+    min-height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eee;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.ResultCard__badge-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--ag-discount);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.ResultCard__body {
+    flex: 1;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ResultCard__title {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ag-blue);
+    margin: 0 0 6px;
+    line-height: 1.3;
+}
+
+.ResultCard__title:hover {
+    text-decoration: underline;
+}
+
+.ResultCard__location {
+    font-size: 13px;
+    color: var(--ag-text-muted);
+    margin-bottom: 8px;
+}
+
+.ResultCard__rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.ResultCard__price-box {
+    margin-top: auto;
+    text-align: right;
+}
+
+.ResultCard__original-price {
+    text-decoration: line-through;
+    color: var(--ag-text-muted);
+    font-size: 12px;
+}
+
+.ResultCard__price {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--ag-orange);
+}
+
+.ResultCard__price-note {
+    font-size: 11px;
+    color: var(--ag-text-muted);
+}
+
+.ResultCard__view-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--ag-orange);
+    color: white;
+    padding: 9px 22px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: background 0.15s;
+    text-decoration: none;
+}
+
+.ResultCard__view-btn:hover {
+    background: var(--ag-orange-dark);
+}
+
+/* -----------------------------------------------------------------------
+   12. Detail Page
+   ----------------------------------------------------------------------- */
+.DetailPage {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.DetailHero__gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.DetailHero__main-img {
+    grid-row: 1 / 3;
+    background-size: cover;
+    background-position: center;
+    background-color: #eee;
+}
+
+.DetailHero__sub-img {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+/* Booking box */
+.BookingBox {
+    background: white;
+    border: 1px solid var(--ag-border);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.BookingBox__price {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--ag-orange);
+    margin-bottom: 16px;
+}
+
+.BookingBox__btn {
+    width: 100%;
+    background: var(--ag-orange);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.BookingBox__btn:hover {
+    background: var(--ag-orange-dark);
+}
+
+/* -----------------------------------------------------------------------
+   13. Loader Spinner
+   ----------------------------------------------------------------------- */
+.PageLoader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    color: var(--ag-text-muted);
+}
+
+.PageLoader__agoji {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.PageLoader__text {
+    font-size: 14px;
+    color: var(--ag-text-muted);
+}
+
+/* -----------------------------------------------------------------------
+   14. Footer — AgFooter (Full Agoda-style)
+   ----------------------------------------------------------------------- */
+.AgFooter {
+    background: #f5f5f5;
+    border-top: 1px solid var(--ag-border);
+    margin-top: auto;
+    font-size: 13px;
+}
+
+/* SEO link grid */
+.AgFooter__seo {
+    padding: 40px 0 24px;
+}
+
+.AgFooter__seo-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+@media (max-width: 1024px) {
+    .AgFooter__seo-inner { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .AgFooter__seo-inner { grid-template-columns: 1fr; }
+}
+
+.AgFooter__col-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+    margin: 0 0 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.AgFooter__col-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.AgFooter__subsection-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ag-text-secondary);
+    margin: 0 0 6px;
+}
+
+.AgFooter__link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.AgFooter__link-list a {
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+    line-height: 1.6;
+}
+
+.AgFooter__link-list a:hover {
+    color: var(--ag-orange);
+    text-decoration: underline;
+}
+
+/* Bottom bar */
+.AgFooter__bottom {
+    background: #ebebeb;
+    border-top: 1px solid #ddd;
+    padding: 18px 0;
+}
+
+.AgFooter__bottom-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.AgFooter__bottom-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+}
+
+.AgFooter__bottom-links a {
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.AgFooter__bottom-links a:hover {
+    color: var(--ag-orange);
+}
+
+.AgFooter__bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--ag-text-muted);
+}
+
+.AgFooter__copyright {
+    font-weight: 500;
+}
+
+.AgFooter__booking-holdings {
+    padding-left: 12px;
+    border-left: 1px solid #ccc;
+}
+
+/* -----------------------------------------------------------------------
+   15. Misc Utilities
+   ----------------------------------------------------------------------- */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.star-rating {
+    color: #ffb300;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* Custom Scrollbar override */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--ag-bg-page);
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(220, 10%, 80%);
+    border-radius: var(--ag-radius-sm);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(220, 10%, 65%);
+}
+
+/* Premium Hotel Card & Grid System */
+.HotelGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 24px;
+    padding: 24px 0;
+}
+
+.HotelCard {
+    display: flex;
+    flex-direction: column;
+    background: var(--ag-bg-card);
+    border-radius: var(--ag-radius-md);
+    overflow: hidden;
+    box-shadow: var(--ag-shadow-sm);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--ag-border);
+}
+
+.HotelCard:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--ag-shadow-md);
+    border-color: transparent;
+}
+
+.HotelCard__image {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: hsl(220, 10%, 94%);
+    transition: filter 0.3s;
+}
+
+.HotelCard:hover .HotelCard__image {
+    filter: brightness(0.95);
+}
+
+.HotelCard__badge-discount {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: var(--ag-discount);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: var(--ag-radius-sm);
+    box-shadow: 0 4px 10px hsla(354, 76%, 53%, 0.3);
+}
+
+.HotelCard__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+}
+
+.HotelCard__stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 6px;
+}
+
+.HotelCard__stars span {
+    color: var(--ag-accent);
+    font-size: 11px;
+}
+
+.HotelCard__title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+    margin: 0 0 6px 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 42px;
+}
+
+.HotelCard__location {
+    font-size: 12px;
+    color: var(--ag-text-muted);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.HotelCard__rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    margin-top: auto;
+}
+
+.HotelCard__rating-badge {
+    background: var(--ag-green);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 6px;
+    border-radius: var(--ag-radius-sm) var(--ag-radius-sm) var(--ag-radius-sm) 0;
+}
+
+.HotelCard__rating-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.rating-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ag-text-primary);
+}
+
+.review-count {
+    font-size: 10px;
+    color: var(--ag-text-muted);
+}
+
+.HotelCard__price {
+    text-align: right;
+    border-top: 1px solid var(--ag-border);
+    padding-top: 12px;
+}
+
+.price-original {
+    text-decoration: line-through;
+    color: var(--ag-text-placeholder);
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.price-value {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--ag-orange);
+    line-height: 1;
+}
+
+.price-sub {
+    font-size: 10px;
+    color: var(--ag-text-muted);
+    margin-top: 4px;
+}
+
+/* Cusco Search Widget Enhancements */
+.CuscoWidget__container {
+    border-radius: var(--ag-radius-md) !important;
+    box-shadow: var(--ag-shadow-lg) !important;
+}
+
+.CuscoWidget__tab {
+    border-radius: var(--ag-radius-md) var(--ag-radius-md) 0 0 !important;
+}
+
+.CuscoWidget__field {
+    border-radius: var(--ag-radius-sm) !important;
+}
+
+.CuscoWidget__field:focus-within {
+    border-color: var(--ag-orange) !important;
+    box-shadow: 0 0 0 3px hsla(217, 95%, 59%, 0.15) !important;
+}
+
+.CuscoWidget__btn-search {
+    border-radius: 24px !important;
+    box-shadow: 0 4px 14px hsla(217, 95%, 59%, 0.3) !important;
+    transition: all 0.3s;
+}
+
+.CuscoWidget__btn-search:hover {
+    background: var(--ag-orange-dark) !important;
+    transform: translateX(-50%) scale(1.05) !important;
+}
+
+/* Form Actions Button Transitions */
+.Btn {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.Btn:active {
+    transform: translateY(0);
+}
+

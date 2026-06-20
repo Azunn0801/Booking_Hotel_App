@@ -1,0 +1,370 @@
+{
+  "expires_at": "2026-06-17T05:07:53.162275",
+  "data": {
+    "places": [
+      {
+        "id": 17190,
+        "name": "Vũng Tàu",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 17190,
+          "name": "Vũng Tàu"
+        },
+        "country": {
+          "id": 38,
+          "name": "Việt Nam"
+        },
+        "latitude": 10.402391,
+        "longitude": 107.148628,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 6329,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Thành phố Hồ Chí Minh"
+        }
+      },
+      {
+        "id": 212624,
+        "name": "Vùng quê Hongcheon",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 212624,
+          "name": "Vùng quê Hongcheon"
+        },
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc"
+        },
+        "latitude": 37.696589,
+        "longitude": 127.887383,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 344,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Đảo Kangwon"
+        }
+      },
+      {
+        "id": 389,
+        "name": "Vùng Kanto",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 40872,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 388,
+        "name": "Vùng Kansai",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 25070,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 479,
+        "name": "Vùng Tokai",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 8984,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 390,
+        "name": "Vùng Koshinetsu",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 8058,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 2525,
+        "name": "Vùng Gurugram",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 35,
+          "name": "Ấn Độ"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 16346,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 630,
+        "name": "Vùng Marmara",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 45,
+          "name": "Thổ Nhĩ Kỳ"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 20785,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 117,
+        "name": "Vùng Thượng Bavaria",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 101,
+          "name": "Đức"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 24016,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 669595,
+        "name": "Vùng Everest  (Nepal)",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 669595,
+          "name": "Vùng Everest  (Nepal)"
+        },
+        "country": {
+          "id": 120,
+          "name": "Nepal"
+        },
+        "latitude": 27.74887,
+        "longitude": 86.63635,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 34,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Khu Sagarmatha"
+        }
+      },
+      {
+        "id": 597460,
+        "name": "Vùng Tokyo Dome",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.711714,
+        "longitude": 139.747343,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 141,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 163973,
+        "name": "Vùng hành chính Sassoferrato",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 163973,
+          "name": "Vùng hành chính Sassoferrato"
+        },
+        "country": {
+          "id": 205,
+          "name": "Ý"
+        },
+        "latitude": 43.4333,
+        "longitude": 12.85,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 28,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Marche"
+        }
+      },
+      {
+        "id": 434,
+        "name": "Vùng Normandy",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 153,
+          "name": "Pháp"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 92689,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 239,
+        "name": "Vùng Hạ Saint-Lawrence",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 100,
+          "name": "Canada"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 993,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 36768,
+        "name": "Vùng Lagoi",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 19436,
+          "name": "Bintan Island"
+        },
+        "country": {
+          "id": 192,
+          "name": "Indonesia"
+        },
+        "latitude": 1.174253,
+        "longitude": 104.39827,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 40,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quần đảo Riau"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:07:54.4428274+07:00",
+    "serverName": "as-pc-3g-mapi-cronos-prod-84b786d49b-sr5pn",
+    "processTime": null
+  }
+}

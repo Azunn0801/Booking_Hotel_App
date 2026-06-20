@@ -1,0 +1,1 @@
+{"response_data": {"data": null, "errors": {"checkoutDate": "The checkoutDate must be after 2026-06-20"}, "status": false, "message": "Errors"}, "expires_at": "2026-06-19T23:21:23.757646"}

@@ -1,0 +1,445 @@
+{
+  "places": [
+    {
+      "id": 17190,
+      "name": "Vũng Tàu",
+      "typeId": 1,
+      "typeName": "Thành Phố",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.402391,
+      "longitude": 107.148628,
+      "searchType": 1,
+      "imageUrl": null,
+      "activeHotels": 6329,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 80639,
+      "name": "Thắng Tam",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.342318,
+      "longitude": 107.091071,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 2747,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 20467,
+      "name": "Phường 2",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.333281,
+      "longitude": 107.080701,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 1735,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 281119,
+      "name": "Bãi biển Hồ Tràm",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.470932,
+      "longitude": 107.409725,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 292,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 519700,
+      "name": "Phường 8",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.355154,
+      "longitude": 107.094254,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 482,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 62139,
+      "name": "Phường 1",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.351288,
+      "longitude": 107.071743,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 187,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 93600,
+      "name": "Phường 5",
+      "typeId": 2,
+      "typeName": "Vùng",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": null,
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.377651,
+      "longitude": 107.061284,
+      "searchType": 2,
+      "imageUrl": null,
+      "activeHotels": 231,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 36643921,
+      "name": "Căn hộ The Sóng Vũng Tàu - Green House",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 80639,
+        "name": "Thắng Tam"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.3500337600708,
+      "longitude": 107.09611511230469,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 33941483,
+      "name": "Căn hộ THE SÓNG VŨNG TÀU - TRINH'S HOUSE",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 80639,
+        "name": "Thắng Tam"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.3500337600708,
+      "longitude": 107.09611511230469,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 44184739,
+      "name": "Căn hộ The Sóng - Mai Villa Vũng Tàu",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 80639,
+        "name": "Thắng Tam"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.349960327148438,
+      "longitude": 107.09612274169922,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 64197808,
+      "name": "The Song Vũng Tàu Xinh",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 80639,
+        "name": "Thắng Tam"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.350024223327637,
+      "longitude": 107.09586334228516,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 22642078,
+      "name": "Khách sạn Premier Pearl Vũng Tàu",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 20467,
+        "name": "Phường 2"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.3321247590636,
+      "longitude": 107.08901401683,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 915994,
+      "name": "Bánh bèo Tuyết Mai",
+      "typeId": 3,
+      "typeName": "Điểm du lịch",
+      "subTypeId": 31,
+      "subTypeName": "Nhà Hàng và Quán Cà Phê",
+      "area": {
+        "id": 20467,
+        "name": "Phường 2"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.33311,
+      "longitude": 107.08186,
+      "searchType": 3,
+      "imageUrl": null,
+      "activeHotels": 2595,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 161729,
+      "name": "Khách sạn The Imperial Vũng Tàu",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 80639,
+        "name": "Thắng Tam"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.3441352844238,
+      "longitude": 107.095069885254,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "id": 11534281,
+      "name": "Fusion Suites Vũng Tàu",
+      "typeId": 4,
+      "typeName": "Khách Sạn",
+      "subTypeId": 0,
+      "subTypeName": "",
+      "area": {
+        "id": 20467,
+        "name": "Phường 2"
+      },
+      "city": {
+        "id": 17190,
+        "name": "Vũng Tàu"
+      },
+      "country": {
+        "id": 38,
+        "name": "Việt Nam"
+      },
+      "latitude": 10.341588973999023,
+      "longitude": 107.0757827758789,
+      "searchType": 4,
+      "imageUrl": null,
+      "activeHotels": 0,
+      "landingUrl": null,
+      "state": {
+        "id": 1,
+        "name": "Thành phố Hồ Chí Minh"
+      }
+    }
+  ],
+  "errors": [],
+  "resultStatus": {
+    "category": 1,
+    "serverStatus": 9000,
+    "message": "",
+    "serverMessage": "",
+    "severity": 1,
+    "isSuccess": true
+  },
+  "serverTime": "2026-06-16T08:28:08.0028992+07:00",
+  "serverName": "as-pc-3f-mapi-cronos-prod-7d4dd66c94-wf98j",
+  "processTime": null
+}

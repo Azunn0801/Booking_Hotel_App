@@ -1,0 +1,11 @@
+{
+  "expires_at": "2026-06-17T05:22:41.844369",
+  "data": {
+    "data": null,
+    "errors": {
+      "limit": "The limit has a value from 1 to 50"
+    },
+    "status": false,
+    "message": "Errors"
+  }
+}

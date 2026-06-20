@@ -41,6 +41,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
+            android:id="@+id/btnWishlistHeart"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:layout_margin="8dp"
@@ -68,6 +69,20 @@
             app:layout_constraintStart_toEndOf="@id/imgHotel"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/tvPropertyTypeBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_badge_gray"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="Khách sạn"
+            android:textColor="#666666"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@id/tvHotelName"
+            app:layout_constraintTop_toBottomOf="@id/tvHotelName" />
+
         <LinearLayout
             android:id="@+id/layoutRating"
             android:layout_width="0dp"
@@ -77,7 +92,7 @@
             android:layout_marginTop="4dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/tvHotelName"
-            app:layout_constraintTop_toBottomOf="@id/tvHotelName">
+            app:layout_constraintTop_toBottomOf="@id/tvPropertyTypeBadge">
 
             <RatingBar
                 android:id="@+id/ratingBar"

@@ -1,0 +1,3220 @@
+{
+  "data": {
+    "propertyDetailsSearch": {
+      "propertyDetails": [
+        {
+          "propertyId": 9062231,
+          "contentDetail": {
+            "propertyId": 9062231,
+            "hostProfile": null,
+            "contentImages": {
+              "hotelImages": [
+                {
+                  "id": 89113457,
+                  "caption": "Phòng nghỉ",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/157500602/63e78523b9bc16e518b48d48226c06c9.jpg?ca=10&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2020-03-06T13:51:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 712896843,
+                  "caption": "Ngoại cảnh khách sạn",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/881864417.jpg?k=ccd261cf01e3febe1c8791ea081a167ee33c17a2d1107534e9934d8b70983a91&o="
+                    }
+                  ],
+                  "typeId": 6,
+                  "uploadedDate": "2026-06-10T04:47:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748516,
+                  "caption": "Hành lang",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097959.jpg?k=ab20dbda2bee600cf6dad2b3c875ff652a2dad04e6ec12ca6cc88addbc555e98&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748523,
+                  "caption": "Hành lang",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097960.jpg?k=73aa2ebfbbf23854799c6a4a31ae4f403a2e5a8ad12d6f31a565c7ce27399a48&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748512,
+                  "caption": "Quầy bar/Pub",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097970.jpg?k=f6928f09e8a58a2f1007d314de15688eba163d52870369e4a35b779cf19509f2&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748519,
+                  "caption": "Ngoại cảnh khách sạn",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097995.jpg?k=73c9911d09b9de873dce495c013f2cf289d8b5aadbe624515737c67705abecbc&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748525,
+                  "caption": "Phòng họp/ hội nghị",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097961.jpg?k=c52415039a1608ae92bdd27471e0dcb6ad52a6804350350dba6e60b9ee02ed1e&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748509,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098010.jpg?k=a06eb39368cbce36014038858a5b9e154e249ad77c66f8dcfcf13ff641fc997b&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748745,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097981.jpg?k=70065a6913d4f890da5561143a430e78eae5cef8a9e17cf0dd456482f6579b1b&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748514,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097968.jpg?k=3eb9757a25022f7dc449f8685598cdf7d90a0266d233ee4a0baa8ac90e0e980c&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748537,
+                  "caption": "Phòng tập",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098021.jpg?k=b313f2e6a67740d906a1e3cfefd41de79e43efdefb8dbed9c20ec532684a158a&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748823,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097981.jpg?k=70065a6913d4f890da5561143a430e78eae5cef8a9e17cf0dd456482f6579b1b&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748533,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098017.jpg?k=911eed20467af086f16b0bf7a032c289d67fadc85f2449c03852cc12a6d49090&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748526,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097964.jpg?k=840b8126f288b745a64e6f257f0146e4acdd0a730c5e55a00fae065350059cc9&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748856,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097981.jpg?k=70065a6913d4f890da5561143a430e78eae5cef8a9e17cf0dd456482f6579b1b&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748510,
+                  "caption": "Quầy bar/Pub",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098018.jpg?k=9bcf1e5c4967c0834c0e1243cae7d486bec65c3f0b0d657769d3f62669649e39&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748513,
+                  "caption": "Phòng họp/ hội nghị",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098040.jpg?k=a36ed95314a9f0a7eff974020a64df6ddfd7ac035fa59fbd135718239c445c4e&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748903,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097981.jpg?k=70065a6913d4f890da5561143a430e78eae5cef8a9e17cf0dd456482f6579b1b&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748528,
+                  "caption": "",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098024.jpg?k=ca99d57671483fe4e8f632426a4e7f4a3456af6a65ca0f0a7d91f7c612d5aeeb&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748518,
+                  "caption": "",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098042.jpg?k=6a175306e03026c74bf852e98ee52e557cf42e7474ee3c2c7a4f2d04d2951fc8&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 89112654,
+                  "caption": "Phòng nghỉ",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/157500594/14b2541236bf3cd3f83b7ae1f3f2fbd8.jpg?ca=10&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2020-03-06T13:34:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748520,
+                  "caption": "",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882098025.jpg?k=959fab4eede681624d8c9153e2d625d4964d12bfbaf878fcecb19b4757626b20&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748531,
+                  "caption": "Quầy bar/Pub",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097991.jpg?k=c6424d14e427a658d739af9c9a57ca428e3e705fec21d797e6fb3b9726007cc4&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748742,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097990.jpg?k=68a02fb23ad47b0f831f528862a713ad5989eb05defcc53f24916b83070ae9a3&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748511,
+                  "caption": "Quầy bar/Pub",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097993.jpg?k=cb84c2f75b3132aa895ff5e1dae65ceba4d2f13e9f25c3154249198d23890fe8&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282082,
+                  "caption": "Quán bar",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/d7ec130666f6d228a8697c9048295b73.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748852,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097990.jpg?k=68a02fb23ad47b0f831f528862a713ad5989eb05defcc53f24916b83070ae9a3&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282086,
+                  "caption": "Lễ tân",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/06fe42c0aa7bada2b518299d0bb60dd8.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282081,
+                  "caption": "Hành lang",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/98074788df6f460bb051cc41e216fabc.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748899,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097990.jpg?k=68a02fb23ad47b0f831f528862a713ad5989eb05defcc53f24916b83070ae9a3&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282079,
+                  "caption": "Quán bar",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/b0d6e20cefb6d4bafd4a46012096ff06.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282088,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/f76cab621e83073f94a47510fae551cf.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748820,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097982.jpg?k=f8c04f367eb7c983017d3bff3145305735116bffffd256e289e0bf1f2d8906d1&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282090,
+                  "caption": "Ngoại cảnh khách sạn",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/b62aac1e7a8af6e19cd86c02a349eef2.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282094,
+                  "caption": "Lễ tân",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/8b3246978091c2b46112582822aa487f.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359749014,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097985.jpg?k=1c6bd1553cc567e107f2ce234b9aacf59be96317b770f56607fef8b48dabf1a1&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:47:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282080,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/ac3fa8cc0af2c8011c6de0060973f508.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282095,
+                  "caption": "Lễ tân",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/7b1e3b9a22158ca123e445843fc40b1e.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748809,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097985.jpg?k=1c6bd1553cc567e107f2ce234b9aacf59be96317b770f56607fef8b48dabf1a1&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282078,
+                  "caption": "Quán bar",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/a84571961507334e0a35c9d068afe480.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282093,
+                  "caption": "Phòng tập",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/2951c83c13e12af8216da98a7cb384ff.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748955,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097985.jpg?k=1c6bd1553cc567e107f2ce234b9aacf59be96317b770f56607fef8b48dabf1a1&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282092,
+                  "caption": "Ngoại cảnh khách sạn",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/aaec9ff555c288eceb904b63a47d5cc8.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282089,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/78019876932ca5596126a69349a45b32.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 89112339,
+                  "caption": "Phòng Tiêu Chuẩn có 2 Giường Đôi - Phòng nghỉ",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/157500593/e9565c8d96b444a5491adb71c92bb030.jpg?ca=10&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2020-03-06T13:27:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282084,
+                  "caption": "Hành lang",
+                  "groupId": "property",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/f31993b5722aaed28edf704b6c45db2d.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282087,
+                  "caption": "Quán bar",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/9f7fc8a21d674deebd62a6906da32c7f.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748536,
+                  "caption": "Phòng tắm",
+                  "groupId": "facility",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097979.jpg?k=2164e1ecfd3320aa96f57eea4bc93e9bad59b8d79fba6c9f98699c103004c9e3&o="
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 200282085,
+                  "caption": "Nhà hàng",
+                  "groupId": "dining",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/hotelImages/13594584/0/3265d3e65d46b99276952f8dcc5899b0.jpeg?ce=3&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": "2026-06-15T10:52:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359749012,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097988.jpg?k=b3f13173d61818719a7a9a9702c1f3d7f1988b96a8e05bfa4dc1817346f70fbd&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:47:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 1359748810,
+                  "caption": "",
+                  "groupId": "room",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//q-xx.bstatic.com/xdata/images/hotel/840x460/882097988.jpg?k=b3f13173d61818719a7a9a9702c1f3d7f1988b96a8e05bfa4dc1817346f70fbd&o="
+                    }
+                  ],
+                  "typeId": 7,
+                  "uploadedDate": "2026-06-10T20:46:00.000+07:00",
+                  "snippet": null
+                },
+                {
+                  "id": 0,
+                  "caption": "Quảng trường Thời Đại - Cách nơi ở 720 m",
+                  "groupId": "nearby",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/geo/poi/10226/2_10226_02.jpg?ca=6&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": null,
+                  "snippet": null
+                },
+                {
+                  "id": 0,
+                  "caption": "Đại lộ Broadway - Cách nơi ở 720 m",
+                  "groupId": "nearby",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/geo/poi/10132/2_10132_03.jpg?ca=7&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": null,
+                  "snippet": null
+                },
+                {
+                  "id": 0,
+                  "caption": "Công viên công cộng Bryant Park - Cách nơi ở 920 m",
+                  "groupId": "nearby",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/geo/poi/10322/2_10322_03.jpg?ca=7&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": null,
+                  "snippet": null
+                },
+                {
+                  "id": 0,
+                  "caption": "Ga tàu điện Grand Central - cách nơi ở 1.45 km",
+                  "groupId": "nearby",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/geo/poi/10251/2_10251_03.jpg?ca=7&ce=1&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": null,
+                  "snippet": null
+                },
+                {
+                  "id": 0,
+                  "caption": "Gantry Plaza State Park - cách nơi ở 3.16 km",
+                  "groupId": "nearby",
+                  "urls": [
+                    {
+                      "key": "full",
+                      "value": "//pix7.agoda.net/geo/poi/42794/d4add19e71928db2316deb42a1b4591a.jpg?ce=0&s=800x600"
+                    }
+                  ],
+                  "typeId": 5,
+                  "uploadedDate": null,
+                  "snippet": null
+                }
+              ],
+              "matterports": [],
+              "categories": [
+                {
+                  "category": "Phòng",
+                  "count": 16
+                },
+                {
+                  "category": "Khách sạn",
+                  "count": 14
+                },
+                {
+                  "category": "Cơ sở vật chất",
+                  "count": 13
+                },
+                {
+                  "category": "Ăn uống",
+                  "count": 8
+                },
+                {
+                  "category": "Nơi tham quan gần đây",
+                  "count": 5
+                }
+              ]
+            },
+            "contentReviewScore": {
+              "combinedReviewScore": {
+                "cumulative": {
+                  "score": 8.2,
+                  "reviewCount": 578
+                }
+              },
+              "providerReviewScore": [
+                {
+                  "providerId": 332,
+                  "isDefault": true,
+                  "cumulative": {
+                    "score": 8.2,
+                    "reviewCount": 578
+                  },
+                  "demographics": {
+                    "groups": [
+                      {
+                        "id": 1,
+                        "reviewCount": 28,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.1
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.3
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.8
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.6
+                          }
+                        ]
+                      },
+                      {
+                        "id": 2,
+                        "reviewCount": 160,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.5
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.7
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 8.1
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.9
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.6
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 8.2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 3,
+                        "reviewCount": 81,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.5
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "location",
+                            "score": 9.0
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.4
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.7
+                          }
+                        ]
+                      },
+                      {
+                        "id": 4,
+                        "reviewCount": 104,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.4
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.5
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "location",
+                            "score": 9.1
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.5
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 8.0
+                          }
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "reviewCount": 44,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.0
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.4
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.3
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.7
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.1
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.7
+                          }
+                        ]
+                      },
+                      {
+                        "id": 6,
+                        "reviewCount": 67,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.1
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.6
+                          },
+                          {
+                            "id": "location",
+                            "score": 9.0
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.0
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.4
+                          }
+                        ]
+                      }
+                    ],
+                    "allGuest": {
+                      "id": 0,
+                      "reviewCount": 578,
+                      "grades": [
+                        {
+                          "id": "overall",
+                          "score": 8.2
+                        },
+                        {
+                          "id": "cleanliness",
+                          "score": 8.5
+                        },
+                        {
+                          "id": "facilities",
+                          "score": 7.8
+                        },
+                        {
+                          "id": "location",
+                          "score": 9.0
+                        },
+                        {
+                          "id": "staffPerformance",
+                          "score": 8.4
+                        },
+                        {
+                          "id": "valueForMoney",
+                          "score": 7.9
+                        }
+                      ]
+                    }
+                  },
+                  "trendingScore": {
+                    "past14DaysUplift": -0.0333,
+                    "past30DaysUplift": -0.0708
+                  }
+                },
+                {
+                  "providerId": 3038,
+                  "isDefault": false,
+                  "cumulative": {
+                    "score": 8.1,
+                    "reviewCount": 9605
+                  },
+                  "demographics": {
+                    "groups": [
+                      {
+                        "id": 2,
+                        "reviewCount": 6232,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 8.0
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.9
+                          },
+                          {
+                            "id": "roomComfort",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.5
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 8.2
+                          }
+                        ]
+                      },
+                      {
+                        "id": 3,
+                        "reviewCount": 1177,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.2
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.7
+                          },
+                          {
+                            "id": "roomComfort",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.4
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 8.0
+                          }
+                        ]
+                      },
+                      {
+                        "id": 4,
+                        "reviewCount": 3817,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.7
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.7
+                          },
+                          {
+                            "id": "roomComfort",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.2
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.7
+                          }
+                        ]
+                      },
+                      {
+                        "id": 5,
+                        "reviewCount": 3817,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.7
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.7
+                          },
+                          {
+                            "id": "roomComfort",
+                            "score": 7.8
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.2
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 7.7
+                          }
+                        ]
+                      },
+                      {
+                        "id": 6,
+                        "reviewCount": 2990,
+                        "grades": [
+                          {
+                            "id": "overall",
+                            "score": 8.2
+                          },
+                          {
+                            "id": "cleanliness",
+                            "score": 8.0
+                          },
+                          {
+                            "id": "facilities",
+                            "score": 7.9
+                          },
+                          {
+                            "id": "location",
+                            "score": 8.9
+                          },
+                          {
+                            "id": "roomComfort",
+                            "score": 8.2
+                          },
+                          {
+                            "id": "staffPerformance",
+                            "score": 8.3
+                          },
+                          {
+                            "id": "valueForMoney",
+                            "score": 8.0
+                          }
+                        ]
+                      }
+                    ],
+                    "allGuest": {
+                      "id": 0,
+                      "reviewCount": 9605,
+                      "grades": [
+                        {
+                          "id": "overall",
+                          "score": 8.1
+                        },
+                        {
+                          "id": "cleanliness",
+                          "score": 8.0
+                        },
+                        {
+                          "id": "facilities",
+                          "score": 7.8
+                        },
+                        {
+                          "id": "location",
+                          "score": 8.8
+                        },
+                        {
+                          "id": "roomComfort",
+                          "score": 8.1
+                        },
+                        {
+                          "id": "staffPerformance",
+                          "score": 8.3
+                        },
+                        {
+                          "id": "valueForMoney",
+                          "score": 7.9
+                        }
+                      ]
+                    }
+                  },
+                  "trendingScore": null
+                },
+                {
+                  "providerId": 28999,
+                  "isDefault": false,
+                  "cumulative": {
+                    "score": 7.3,
+                    "reviewCount": 60
+                  },
+                  "demographics": {
+                    "groups": [],
+                    "allGuest": {
+                      "id": 0,
+                      "reviewCount": 60,
+                      "grades": [
+                        {
+                          "id": "overall",
+                          "score": 7.3
+                        }
+                      ]
+                    }
+                  },
+                  "trendingScore": null
+                }
+              ]
+            },
+            "contentReviewSummaries": {
+              "snippets": [],
+              "recommendationScores": {
+                "recommendationScore": null
+              },
+              "positiveMentions": {
+                "bcomReviewScores": null
+              }
+            },
+            "contentEngagement": {
+              "lastBooked": "2025-04-09T08:26:44.877+07:00",
+              "noOfPeopleLooking": 0
+            },
+            "contentHighlights": {
+              "locationHighlights": [
+                {
+                  "distanceKm": 0.0,
+                  "highlightType": "city-center"
+                }
+              ],
+              "favoriteFeatures": [
+                {
+                  "id": 73555,
+                  "name": "Cách phương tiện công cộng 350 mét",
+                  "symbol": "train-new"
+                },
+                {
+                  "id": 22,
+                  "name": "Tọa lạc tại trung tâm New York (NY)",
+                  "symbol": "pin-heart-of-the-city"
+                },
+                {
+                  "id": 11,
+                  "name": "Nhà hàng",
+                  "symbol": "restaurant"
+                },
+                {
+                  "id": 240,
+                  "name": "Dọn phòng hằng ngày",
+                  "symbol": "daily-housekeeping"
+                },
+                {
+                  "id": 220,
+                  "name": "Vải trải giường",
+                  "symbol": "linens"
+                }
+              ]
+            },
+            "contentFeatures": {
+              "featureGroups": [
+                {
+                  "id": 50,
+                  "name": "Tiện nghi phổ biến",
+                  "order": 0,
+                  "features": [
+                    {
+                      "id": 57,
+                      "featureName": "Phòng tập",
+                      "symbol": "fitness-center",
+                      "available": true,
+                      "order": 3,
+                      "images": [
+                        {
+                          "caption": "Phòng tập",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/2951c83c13e12af8216da98a7cb384ff.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 11,
+                      "featureName": "Nhà hàng",
+                      "symbol": "restaurant",
+                      "available": true,
+                      "order": 131,
+                      "images": [
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/ac3fa8cc0af2c8011c6de0060973f508.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/3265d3e65d46b99276952f8dcc5899b0.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/f76cab621e83073f94a47510fae551cf.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/78019876932ca5596126a69349a45b32.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "featureName": "Quán bar",
+                      "symbol": "mini-bar",
+                      "available": true,
+                      "order": 139,
+                      "images": [
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/a84571961507334e0a35c9d068afe480.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/b0d6e20cefb6d4bafd4a46012096ff06.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/d7ec130666f6d228a8697c9048295b73.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/9f7fc8a21d674deebd62a6906da32c7f.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 116,
+                      "featureName": "Bàn tiếp tân [24 giờ]",
+                      "symbol": "24hour-frontdesk",
+                      "available": true,
+                      "order": 119,
+                      "images": [
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/06fe42c0aa7bada2b518299d0bb60dd8.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/8b3246978091c2b46112582822aa487f.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/7b1e3b9a22158ca123e445843fc40b1e.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 12,
+                  "name": "Ngôn ngữ được sử dụng",
+                  "order": 1,
+                  "features": [
+                    {
+                      "id": 151,
+                      "featureName": "Tiếng Anh",
+                      "symbol": "flag-gb",
+                      "available": true,
+                      "order": 1,
+                      "images": []
+                    },
+                    {
+                      "id": 181,
+                      "featureName": "tiếng Tây Ban Nha",
+                      "symbol": "flag-es",
+                      "available": true,
+                      "order": 38,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 55,
+                  "name": "Khả năng tiếp cận cho người khuyết tật",
+                  "order": 2,
+                  "features": [
+                    {
+                      "id": 254,
+                      "featureName": "Phù hợp cho xe lăn",
+                      "symbol": "wheelchair-accessible",
+                      "available": true,
+                      "order": 116,
+                      "images": []
+                    },
+                    {
+                      "id": 2138,
+                      "featureName": "Thang máy",
+                      "symbol": "wheelchair-accessible",
+                      "available": true,
+                      "order": 0,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 41,
+                  "name": "Truy cập Internet",
+                  "order": 4,
+                  "features": [
+                    {
+                      "id": 2578,
+                      "featureName": "Dịch vụ Internet",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 264,
+                      "images": []
+                    },
+                    {
+                      "id": 109,
+                      "featureName": "Wi-Fi miễn phí trong tất cả các phòng!",
+                      "symbol": "free-wifi-in-all-rooms",
+                      "available": true,
+                      "order": 38,
+                      "images": []
+                    },
+                    {
+                      "id": 79,
+                      "featureName": "Wi-Fi ở nơi công cộng",
+                      "symbol": "wifi-in-public-areas",
+                      "available": true,
+                      "order": 122,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 40,
+                  "name": "Thư giãn & Vui chơi giải trí",
+                  "order": 6,
+                  "features": [
+                    {
+                      "id": 57,
+                      "featureName": "Phòng tập",
+                      "symbol": "fitness-center",
+                      "available": true,
+                      "order": 3,
+                      "images": [
+                        {
+                          "caption": "Phòng tập",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/2951c83c13e12af8216da98a7cb384ff.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 57,
+                  "name": "Độ sạch sẽ và an toàn",
+                  "order": 7,
+                  "features": [
+                    {
+                      "id": 2519,
+                      "featureName": "Băng niêm phong phòng dành cho khách sau khi vệ sinh",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 238,
+                      "images": []
+                    },
+                    {
+                      "id": 2373,
+                      "featureName": "bộ dụng cụ sơ cứu",
+                      "symbol": "first-aid-kit",
+                      "available": true,
+                      "order": 23,
+                      "images": []
+                    },
+                    {
+                      "id": 2399,
+                      "featureName": "Cách bày bàn ăn an toàn",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 31,
+                      "images": []
+                    },
+                    {
+                      "id": 2521,
+                      "featureName": "Có thể yêu cầu không khử trùng phòng",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 240,
+                      "images": []
+                    },
+                    {
+                      "id": 2508,
+                      "featureName": "Dịch vụ bán thức ăn sáng mang về",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 227,
+                      "images": []
+                    },
+                    {
+                      "id": 2513,
+                      "featureName": "Dịch vụ thanh toán không sử dụng tiền mặt",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 232,
+                      "images": []
+                    },
+                    {
+                      "id": 2398,
+                      "featureName": "Giãn cách vật lý ít nhất 1 mét",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 20,
+                      "images": []
+                    },
+                    {
+                      "id": 2511,
+                      "featureName": "Giặt đồ vải lanh và quần áo bằng nước nóng",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 230,
+                      "images": []
+                    },
+                    {
+                      "id": 2375,
+                      "featureName": "khẩu trang miễn phí",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 24,
+                      "images": []
+                    },
+                    {
+                      "id": 2512,
+                      "featureName": "Không có văn phòng phẩm dùng chung",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 231,
+                      "images": []
+                    },
+                    {
+                      "id": 2396,
+                      "featureName": "Màn bảo vệ ở khu vực chung",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 19,
+                      "images": []
+                    },
+                    {
+                      "id": 2381,
+                      "featureName": "Nhân viên được đào tạo về giao thức an toàn",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 30,
+                      "images": []
+                    },
+                    {
+                      "id": 2376,
+                      "featureName": "nước rửa tay",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 25,
+                      "images": []
+                    },
+                    {
+                      "id": 2518,
+                      "featureName": "Phòng được vệ sinh giữa các lần ở",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 237,
+                      "images": []
+                    },
+                    {
+                      "id": 2517,
+                      "featureName": "Sản phẩm làm sạch chống virus",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 236,
+                      "images": []
+                    },
+                    {
+                      "id": 2507,
+                      "featureName": "Vật dụng nhà bếp và bộ đồ ăn được vệ sinh",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 226,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 44,
+                  "name": "Ăn uống",
+                  "order": 8,
+                  "features": [
+                    {
+                      "id": 2528,
+                      "featureName": "Giờ giảm giá đồ uống",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 245,
+                      "images": []
+                    },
+                    {
+                      "id": 126,
+                      "featureName": "Máy bán hàng tự động",
+                      "symbol": "vending-machine",
+                      "available": true,
+                      "order": 146,
+                      "images": []
+                    },
+                    {
+                      "id": 11,
+                      "featureName": "Nhà hàng",
+                      "symbol": "restaurant",
+                      "available": true,
+                      "order": 131,
+                      "images": [
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/ac3fa8cc0af2c8011c6de0060973f508.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/3265d3e65d46b99276952f8dcc5899b0.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/f76cab621e83073f94a47510fae551cf.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Nhà hàng",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/78019876932ca5596126a69349a45b32.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 7,
+                      "featureName": "Quán bar",
+                      "symbol": "mini-bar",
+                      "available": true,
+                      "order": 139,
+                      "images": [
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/a84571961507334e0a35c9d068afe480.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/b0d6e20cefb6d4bafd4a46012096ff06.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/d7ec130666f6d228a8697c9048295b73.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Quán bar",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/9f7fc8a21d674deebd62a6906da32c7f.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 6,
+                      "featureName": "Quán cà phê",
+                      "symbol": "coffee-shop",
+                      "available": true,
+                      "order": 136,
+                      "images": []
+                    },
+                    {
+                      "id": 2389,
+                      "featureName": "Quầy đồ ăn vặt",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 36,
+                      "images": []
+                    },
+                    {
+                      "id": 2534,
+                      "featureName": "Sắp xếp bữa ăn thay thế",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 250,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 38,
+                  "name": "Dịch vụ và tiện nghi",
+                  "order": 9,
+                  "features": [
+                    {
+                      "id": 2574,
+                      "featureName": "Có cung cấp hóa đơn",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 260,
+                      "images": []
+                    },
+                    {
+                      "id": 2532,
+                      "featureName": "Cơ sở vật chất cho họp mặt/tiệc lớn",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 248,
+                      "images": []
+                    },
+                    {
+                      "id": 2531,
+                      "featureName": "Dịch vụ làm đẹp",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 247,
+                      "images": []
+                    },
+                    {
+                      "id": 2537,
+                      "featureName": "Dịch vụ ủi đồ",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 253,
+                      "images": []
+                    },
+                    {
+                      "id": 369,
+                      "featureName": "dịch vụ văn phòng (fax & photocopy)",
+                      "symbol": "fax-or-photo",
+                      "available": true,
+                      "order": 177,
+                      "images": []
+                    },
+                    {
+                      "id": 240,
+                      "featureName": "Dọn phòng hằng ngày",
+                      "symbol": "daily-housekeeping",
+                      "available": true,
+                      "order": 105,
+                      "images": []
+                    },
+                    {
+                      "id": 118,
+                      "featureName": "Giặt khô",
+                      "symbol": "dryer",
+                      "available": true,
+                      "order": 135,
+                      "images": []
+                    },
+                    {
+                      "id": 364,
+                      "featureName": "hoàn toàn không hút thuốc",
+                      "symbol": "non-smoking",
+                      "available": true,
+                      "order": 173,
+                      "images": []
+                    },
+                    {
+                      "id": 13,
+                      "featureName": "Két sắt",
+                      "symbol": "lockers",
+                      "available": true,
+                      "order": 142,
+                      "images": []
+                    },
+                    {
+                      "id": 83,
+                      "featureName": "Khu vực hút thuốc",
+                      "symbol": "smoking-area",
+                      "available": true,
+                      "order": 150,
+                      "images": []
+                    },
+                    {
+                      "id": 2575,
+                      "featureName": "Máy điều hòa ở khu vực chung",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 261,
+                      "images": []
+                    },
+                    {
+                      "id": 2576,
+                      "featureName": "Máy sưởi ở khu vực chung",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 262,
+                      "images": []
+                    },
+                    {
+                      "id": 2368,
+                      "featureName": "Nhận/trả phòng không tiếp xúc",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 85,
+                      "images": []
+                    },
+                    {
+                      "id": 125,
+                      "featureName": "Rút tiền mặt",
+                      "symbol": "atm-cash-machine-on-site",
+                      "available": true,
+                      "order": 144,
+                      "images": []
+                    },
+                    {
+                      "id": 16,
+                      "featureName": "Tiện nghi cho khách khuyết tật",
+                      "symbol": "wheelchair-accessible",
+                      "available": true,
+                      "order": 0,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 43,
+                  "name": "Dành cho trẻ em",
+                  "order": 10,
+                  "features": [
+                    {
+                      "id": 2529,
+                      "featureName": "Bữa ăn cho trẻ",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 10,
+                      "images": []
+                    },
+                    {
+                      "id": 81,
+                      "featureName": "Phòng gia đình",
+                      "symbol": "family-room",
+                      "available": true,
+                      "order": 128,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 37,
+                  "name": "Dễ dàng tiếp cận",
+                  "order": 11,
+                  "features": [
+                    {
+                      "id": 116,
+                      "featureName": "Bàn tiếp tân [24 giờ]",
+                      "symbol": "24hour-frontdesk",
+                      "available": true,
+                      "order": 119,
+                      "images": [
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/06fe42c0aa7bada2b518299d0bb60dd8.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/8b3246978091c2b46112582822aa487f.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        },
+                        {
+                          "caption": "Lễ tân",
+                          "urls": [
+                            {
+                              "value": "//pix7.agoda.net/hotelImages/13594584/0/7b1e3b9a22158ca123e445843fc40b1e.jpeg?ce=3&s=800x600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 235,
+                      "featureName": "Bảo vệ [24 giờ]",
+                      "symbol": "24hour-security",
+                      "available": true,
+                      "order": 100,
+                      "images": []
+                    },
+                    {
+                      "id": 2573,
+                      "featureName": "Bình chữa cháy",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 259,
+                      "images": []
+                    },
+                    {
+                      "id": 2540,
+                      "featureName": "CCTV trong khu vực chung",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 256,
+                      "images": []
+                    },
+                    {
+                      "id": 24,
+                      "featureName": "Được phép đưa thú nuôi vào",
+                      "symbol": "pets-allowed",
+                      "available": true,
+                      "order": 141,
+                      "images": []
+                    },
+                    {
+                      "id": 119,
+                      "featureName": "Nhận/trả phòng [nhanh]",
+                      "symbol": "express-check-in-check-out",
+                      "available": true,
+                      "order": 120,
+                      "images": []
+                    },
+                    {
+                      "id": 272,
+                      "featureName": "Nhận phòng [24 giờ]",
+                      "symbol": "24hour-check-in",
+                      "available": true,
+                      "order": 154,
+                      "images": []
+                    },
+                    {
+                      "id": 2533,
+                      "featureName": "Phòng không gây dị ứng",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 249,
+                      "images": []
+                    },
+                    {
+                      "id": 2577,
+                      "featureName": "Phòng không hút thuốc",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 263,
+                      "images": []
+                    },
+                    {
+                      "id": 2541,
+                      "featureName": "Thiết bị báo cháy",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 257,
+                      "images": []
+                    },
+                    {
+                      "id": 2530,
+                      "featureName": "Tính năng an toàn/bảo mật",
+                      "symbol": "confirmation-instant",
+                      "available": true,
+                      "order": 246,
+                      "images": []
+                    }
+                  ]
+                },
+                {
+                  "id": 39,
+                  "name": "Đi lại",
+                  "order": 12,
+                  "features": [
+                    {
+                      "id": 354,
+                      "featureName": "Bãi đỗ xe [tại chỗ]",
+                      "symbol": "car-park-onsite",
+                      "available": true,
+                      "order": 163,
+                      "images": []
+                    }
+                  ]
+                }
+              ],
+              "hotelFacilities": [
+                {
+                  "id": 88
+                },
+                {
+                  "id": 352
+                },
+                {
+                  "id": 2512
+                },
+                {
+                  "id": 2381
+                },
+                {
+                  "id": 5
+                },
+                {
+                  "id": 2575
+                },
+                {
+                  "id": 24
+                },
+                {
+                  "id": 2531
+                },
+                {
+                  "id": 125
+                },
+                {
+                  "id": 20
+                },
+                {
+                  "id": 2373
+                },
+                {
+                  "id": 57
+                },
+                {
+                  "id": 2533
+                },
+                {
+                  "id": 2540
+                },
+                {
+                  "id": 2508
+                },
+                {
+                  "id": 2530
+                },
+                {
+                  "id": 116
+                },
+                {
+                  "id": 6
+                },
+                {
+                  "id": 2574
+                },
+                {
+                  "id": 2541
+                },
+                {
+                  "id": 2528
+                },
+                {
+                  "id": 2396
+                },
+                {
+                  "id": 92
+                },
+                {
+                  "id": 361
+                },
+                {
+                  "id": 2577
+                },
+                {
+                  "id": 2537
+                },
+                {
+                  "id": 109
+                },
+                {
+                  "id": 124
+                },
+                {
+                  "id": 2519
+                },
+                {
+                  "id": 13
+                },
+                {
+                  "id": 129
+                },
+                {
+                  "id": 2368
+                },
+                {
+                  "id": 2529
+                },
+                {
+                  "id": 2149
+                },
+                {
+                  "id": 2376
+                },
+                {
+                  "id": 22
+                },
+                {
+                  "id": 118
+                },
+                {
+                  "id": 2398
+                },
+                {
+                  "id": 12
+                },
+                {
+                  "id": 236
+                },
+                {
+                  "id": 181
+                },
+                {
+                  "id": 2573
+                },
+                {
+                  "id": 2521
+                },
+                {
+                  "id": 274
+                },
+                {
+                  "id": 81
+                },
+                {
+                  "id": 7
+                },
+                {
+                  "id": 271
+                },
+                {
+                  "id": 240
+                },
+                {
+                  "id": 2578
+                },
+                {
+                  "id": 2390
+                },
+                {
+                  "id": 80
+                },
+                {
+                  "id": 2513
+                },
+                {
+                  "id": 2375
+                },
+                {
+                  "id": 2518
+                },
+                {
+                  "id": 2165
+                },
+                {
+                  "id": 16
+                },
+                {
+                  "id": 2145
+                },
+                {
+                  "id": 11
+                },
+                {
+                  "id": 2511
+                },
+                {
+                  "id": 2389
+                },
+                {
+                  "id": 2532
+                },
+                {
+                  "id": 351
+                },
+                {
+                  "id": 2130
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 119
+                },
+                {
+                  "id": 235
+                },
+                {
+                  "id": 2399
+                },
+                {
+                  "id": 2198
+                },
+                {
+                  "id": 2576
+                },
+                {
+                  "id": 272
+                },
+                {
+                  "id": 151
+                },
+                {
+                  "id": 2517
+                },
+                {
+                  "id": 2534
+                },
+                {
+                  "id": 126
+                },
+                {
+                  "id": 79
+                },
+                {
+                  "id": 2507
+                },
+                {
+                  "id": 369
+                },
+                {
+                  "id": 2138
+                },
+                {
+                  "id": 90
+                },
+                {
+                  "id": 254
+                },
+                {
+                  "id": 354
+                },
+                {
+                  "id": 83
+                },
+                {
+                  "id": 364
+                }
+              ],
+              "summary": {
+                "chineseFriendly": false,
+                "hygienePlusFacilities": null
+              }
+            },
+            "contentInformation": {
+              "policies": {
+                "children": {
+                  "stayFreeAgeRange": {
+                    "min": 0,
+                    "max": 17
+                  },
+                  "details": [
+                    {
+                      "title": "Trẻ sơ sinh 0-2 tuổi [bao gồm cả bé 2 tuổi]",
+                      "description": "Lưu trú miễn phí khi sử dụng giường có sẵn. Lưu ý, nếu quý khách cần cũi em bé, việc này có thể phát sinh thêm phụ phí và phụ thuộc vào tình trạng thực tế."
+                    },
+                    {
+                      "title": "Trẻ em 3-17 tuổi [bao gồm cả bé 17 tuổi]",
+                      "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+                    }
+                  ]
+                },
+                "hotelAgePolicy": {
+                  "infantAges": {
+                    "min": 0,
+                    "max": 2
+                  },
+                  "childAges": {
+                    "min": 3,
+                    "max": 17
+                  },
+                  "isChildStayFree": true,
+                  "minGuestAge": 0
+                },
+                "extraBed": [
+                  "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+                ],
+                "additional": [
+                  "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+                ],
+                "adult": [
+                  "Những khách từ 18 tuổi trở lên tính là người lớn"
+                ],
+                "minAge": []
+              },
+              "isAgodaVerified": false,
+              "messaging": {
+                "hostName": null,
+                "isAllowedPreBooking": false,
+                "isAllowedPostBooking": false,
+                "isAllowedWithBooking": false,
+                "isAllowedInHouseFeedback": false,
+                "isAllowedInHouseRequest": false
+              },
+              "blockedNationalities": [],
+              "checkInInformation": {
+                "checkInFrom": {
+                  "hh": 15,
+                  "mm": 0
+                },
+                "checkOutUntil": {
+                  "hh": 12,
+                  "mm": 0
+                }
+              },
+              "usefulInfoGroups": [
+                {
+                  "id": 1,
+                  "name": "Nhận phòng/ Trả phòng",
+                  "usefulInfo": [
+                    {
+                      "id": 8,
+                      "name": "Nhận phòng từ",
+                      "description": "15:00",
+                      "symbol": "express-check-in-check-out"
+                    },
+                    {
+                      "id": 9,
+                      "name": "Trả phòng đến",
+                      "description": "12:00",
+                      "symbol": "express-check-in-check-out"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "name": "Thông tin khác",
+                  "usefulInfo": [
+                    {
+                      "id": 35,
+                      "name": "Phí bữa sáng (áp dụng khi không bao gồm trong giá phòng)",
+                      "description": "15 USD",
+                      "symbol": "free-breakfast"
+                    }
+                  ]
+                }
+              ],
+              "notes": {
+                "importantNotes": [],
+                "publicNotes": [
+                  "Độ tuổi tối thiểu cần thiết để nhận phòng là 21 tuổi.",
+                  "Tại thời điểm này, chúng tôi đánh giá cao việc khách của chúng tôi có thể muốn có cơ hội hạn chế các điểm tiếp xúc tiềm năng với những người khác trong không gian của họ. Do đó, Hyatt Place Times Square đang điều chỉnh dịch vụ dọn phòng tiêu chuẩn hằng ngày để cung cấp dịch vụ dọn phòng mỗi ngày thứ ba trong thời gian lưu trú của khách. Vui lòng biết rằng việc kiểm tra an toàn và sức khỏe định kỳ trong các phòng dành cho khách sẽ vẫn được thực hiện. Nếu quý khách muốn được hưởng dịch vụ dọn phòng đầy đủ hằng ngày, vui lòng cho đội ngũ lễ tân của chúng tôi biết.",
+                  "Chi phí đặt cọc an ninh 200 USD sẽ được thu khi nhận phòng, dùng thanh toán những phụ phí hoặc hư hại trong quá trình lưu trú và sẽ được hoàn lại khi khách trả phòng."
+                ]
+              },
+              "description": {
+                "short": "Khám phá Hyatt Place New York City/Times Square. Hyatt Place New York City/Times Square là một khách",
+                "long": "<b>Khám phá Hyatt Place New York City/Times Square</b><br><br>Hyatt Place New York City/Times Square là một khách sạn 4 sao nằm tại New York (NY), Hoa Kỳ. Với vị trí đắc địa ngay trung tâm của thành phố, khách sạn này là một điểm đến lý tưởng cho du khách muốn khám phá Times Square và các điểm tham quan nổi tiếng khác trong thành phố lớn này.\n\nKhách sạn có giờ nhận phòng từ 03:00 PM và giờ trả phòng đến 12:00 PM. Điều này cho phép du khách có thời gian thoải mái để check-in và check-out mà không cần lo lắng về thời gian. Hyatt Place New York City/Times Square cũng có chính sách thuận lợi cho trẻ em. Khách sạn cho phép trẻ em từ 3 đến 17 tuổi ở miễn phí, giúp gia đình có thể tận hưởng kỳ nghỉ mà không phải lo lắng về chi phí phụ thu thêm.<br><br><b>Nhà hàng và tiện nghi ẩm thực tại Hyatt Place New York City/times Square</b><br><br>Hyatt Place New York City/times Square là một khách sạn tuyệt vời nằm ở trung tâm thành phố New York, với những tiện nghi ẩm thực đa dạng và hấp dẫn. Khách sạn này có một nhà hàng rộng rãi và sang trọng, nơi bạn có thể thưởng thức những món ăn ngon từ khắp nơi trên thế giới. Với không gian thiết kế hiện đại và phục vụ chuyên nghiệp, nhà hàng sẽ mang đến cho bạn một trải nghiệm ẩm thực tuyệt vời.\n\nNgoài ra, Hyatt Place New York City/times Square cũng có một quầy bar tuyệt vời, nơi bạn có thể thưởng thức những loại cocktail độc đáo và hương vị đặc biệt. Quầy bar được trang bị đầy đủ các loại đồ uống và rượu vang chất lượng, cùng với không gian thoải mái và ấm cúng. Hãy đến và thưởng thức những món ăn ngon và đồ uống tuyệt hảo tại Hyatt Place New York City/times Square!<br><br><b>Các loại phòng đa dạng tại Hyatt Place New York City / Times Square</b><br><br>Hyatt Place New York City / Times Square mang đến một loạt các lựa chọn phòng phù hợp với nhu cầu của từng khách hàng. Từ phòng Standard King Bed với giường King thoải mái, đến các phòng cao cấp như High Floor King Bed hoặc City View King Bed, mỗi phòng đều mang đến sự tiện nghi và phong cách riêng biệt. Ngoài ra, khách còn có thể lựa chọn các phòng có hai giường đôi hoặc kết hợp giữa giường King và sofa bed, giúp phù hợp cho nhóm bạn hoặc gia đình nhỏ. Các phòng đặc biệt như Accessible King Bed Rollin Shower cũng mở ra sự tiện lợi cho khách có yêu cầu đặc biệt, đảm bảo mọi khách đều có trải nghiệm thoải mái nhất khi lưu trú.\n\nKhi đặt phòng qua Agoda, bạn sẽ nhận được mức giá tốt nhất cùng quá trình đặt phòng nhanh chóng và dễ dàng. Không cần lo lắng về việc so sánh giá hay thủ tục phức tạp, hệ thống của chúng tôi giúp bạn có trải nghiệm đặt phòng mượt mà, an toàn. Điều này đảm bảo bạn có thể tập trung vào việc tận hưởng chuyến đi của mình tại trung tâm thành phố New York sôi động, mà không phải bận tâm về các thủ tục đặt phòng phức tạp.<br><br><b>Quảng trường Thời Đại - Trung tâm sôi động của New York</b><br><br>Quảng trường Thời Đại, nằm tại trung tâm thành phố New York, Hoa Kỳ, là một điểm đến hấp dẫn không thể bỏ qua khi bạn đến thăm thành phố này. Với vị trí tuyệt vời gần khách sạn Hyatt Place New York City/times Square, quảng trường này là trái tim của sự sôi động và sự náo nhiệt của thành phố.\n\nQuảng trường Thời Đại nổi tiếng với những đèn neon sáng lấp lánh, biển quảng cáo lớn và không gian mở rộng, tạo ra một không khí sống động và năng động. Đây là nơi tập trung của các cửa hàng, nhà hàng, khách sạn, rạp chiếu phim và các điểm tham quan nổi tiếng khác. Bạn có thể dạo chơi trên đường phố, thưởng thức những món ăn đa dạng từ khắp nơi trên thế giới và tận hưởng không gian vui chơi giải trí tuyệt vời.\n\nQuảng trường Thời Đại cũng là nơi diễn ra nhiều sự kiện văn hóa và giải trí quan trọng, như các buổi biểu diễn âm nhạc, triển lãm nghệ thuật và lễ hội đèn lồng. Điều này tạo ra một không khí sôi động và thú vị, thu hút du khách và người dân địa phương đến tham gia. Với vị trí thuận lợi và không gian đa dạng, Quảng trường Thời Đại là một điểm đến tuyệt vời để khám phá và trải nghiệm cuộc sống đô thị sôi động của New York.<br><br><b>Cách di chuyển từ sân bay gần New York đến Hyatt Place New York City/times Square</b><br><br>Hyatt Place New York City/times Square là một khách sạn sang trọng và tiện nghi tọa lạc tại Quảng trường Thời Đại, New York (NY), Hoa Kỳ. Để đến đây từ sân bay gần New York, bạn có một số phương tiện di chuyển tiện lợi để lựa chọn.\n\nNếu bạn đến từ Sân bay Quốc tế John F. Kennedy (JFK), bạn có thể sử dụng dịch vụ taxi hoặc dịch vụ xe buýt công cộng để đến Hyatt Place New York City/times Square. Dịch vụ taxi là phương tiện nhanh nhất và tiện lợi nhất, nhưng cũng đắt hơn. Nếu bạn muốn tiết kiệm chi phí, bạn có thể sử dụng dịch vụ xe buýt công cộng. Bạn cần đi bộ khoảng 10 phút từ điểm dừng xe buýt gần khách sạn đến Hyatt Place New York City/times Square.\n\nNếu bạn đến từ Sân bay LaGuardia (LGA), bạn cũng có thể sử dụng dịch vụ taxi hoặc dịch vụ xe buýt công cộng để đến khách sạn. Tương tự như từ Sân bay JFK, dịch vụ taxi là phương tiện nhanh nhất và tiện lợi nhất, trong khi dịch vụ xe buýt công cộng là phương tiện tiết kiệm chi phí hơn. Từ điểm dừng xe buýt gần khách sạn, bạn chỉ cần đi bộ khoảng 5 phút để đến Hyatt Place New York City/times Square.<br><br><b>Khám phá những điểm đến nổi tiếng gần Hyatt Place New York City/Times Square</b><br><br>Nằm tại vị trí đắc địa, Hyatt Place New York City/Times Square là nơi lý tưởng để khám phá những điểm đến nổi tiếng của thành phố New York. Chỉ cách khách sạn một vài bước chân, bạn có thể đến thăm Tua ngắm cảnh Top of the Rock, nơi cung cấp một góc nhìn tuyệt đẹp về toàn cảnh thành phố. \n\nNếu bạn muốn trải nghiệm sự sôi động và lung linh của thành phố đêm, Times Square là lựa chọn không thể bỏ qua. Đại lộ Broadway nằm ngay gần đây, với những buổi biểu diễn nghệ thuật đỉnh cao và những cửa hàng mua sắm sôi động. \n\nNgoài ra, bạn cũng có thể ghé thăm Cây thông điện Trung tâm Rockefeller, Công viên công cộng Bryant Park, Sảnh âm nhạc Radio City và Bảo tàng Madame Tussaud's New York. Đừng quên khám phá Gulliver's Gate - một thế giới thu nhỏ đầy màu sắc và thú vị. Vào mùa Giáng sinh, không thể bỏ qua Christmas Spectacular Starring the Radio City Rockettes. Cuối cùng, hãy khám phá Khu phố Garment District với những cửa hàng thời trang và nhà thiết kế nổi tiếng. Hyatt Place New York City/Times Square sẽ đưa bạn đến gần với những trải nghiệm tuyệt vời này.<br><br><b>Vị trí thuận lợi gần các ga tàu điện ngầm tại Hyatt Place New York City/times Square</b><br><br>Hyatt Place New York City/times Square nằm ở vị trí lý tưởng gần nhiều ga tàu điện ngầm quan trọng. Khách sạn chỉ cách Ga tàu điện ngầm 50th Street và Ga tàu điện ngầm 49th Street vài bước chân. Điều này cho phép du khách dễ dàng tiếp cận với các điểm tham quan và khu mua sắm nổi tiếng như Times Square và Rockefeller Center.\n\nNgoài ra, Hyatt Place New York City/times Square cũng gần Ga tàu điện ngầm Times Square-42nd Street và Ga tàu điện ngầm 47th-50th Str.- Rockefeller Center. Điều này rất thuận lợi cho du khách muốn khám phá thành phố New York và di chuyển đến các khu vực khác một cách dễ dàng. Nếu bạn muốn khám phá những địa điểm nổi tiếng khác như Bryant Park hoặc muốn đi bằng xe buýt, Ga tàu điện ngầm 42nd Str./Fifth Avenue-Bryant Park và Ga tàu điện ngầm 42nd St Port Authority Bus Terminal cũng chỉ cách khách sạn một quãng đường ngắn.\n\nVới vị trí thuận lợi gần nhiều ga tàu điện ngầm quan trọng, Hyatt Place New York City/times Square là lựa chọn lý tưởng cho du khách muốn khám phá thành phố New York một cách thuận tiện và dễ dàng.<br><br><b>Những nhà hàng xung quanh Hyatt Place New York City/times Square</b><br><br>Hyatt Place New York City/times Square nằm gần nhiều nhà hàng nổi tiếng như Junior's Restaurant & Bakery, Junior's Restaurant and Bakery, Tony's Di Napoli, V{IV}, Aqua Boil, Virgil's Real BBQ - Times Square, Pure Thai Cookhouse, Mom's Kitchen and Bar, Times Square Diner & Grill, Izakaya Mew. Với một loạt các lựa chọn từ nhà hàng Mỹ truyền thống đến ẩm thực Ý và Thái Lan, du khách có thể thưởng thức các món ăn ngon và độc đáo ngay trong khu vực lân cận khách sạn. Dù bạn muốn thưởng thức một bữa tối sang trọng hay thưởng thức các món ăn đường phố độc đáo, Hyatt Place New York City/times Square sẽ là điểm dừng chân lý tưởng cho những ai yêu thích ẩm thực.<br><br><b>Khám phá những điểm mua sắm tuyệt vời gần Hyatt Place New York City/times Square</b><br><br>Nằm ở vị trí tuyệt vời ngay gần khu Times Square, Hyatt Place New York City/times Square mang đến cho du khách những trải nghiệm mua sắm đáng nhớ. Chỉ cách khách sạn vài bước chân là Grand Slam New York, nơi bạn có thể tìm thấy những món đồ kỷ niệm độc đáo về thành phố New York. Nếu bạn là người yêu thích nghệ thuật, Paine Webber Art Gallery là điểm đến không thể bỏ qua, với những bức tranh và tác phẩm nghệ thuật độc đáo. Đừng quên ghé qua Global Gold & Silver, nơi bạn có thể tìm thấy những món đồ trang sức vàng và bạc đẳng cấp. Nếu bạn muốn trải nghiệm mua sắm thú vị hơn, hãy tham gia Style Room NYC Shopping Tour Experiences để được khám phá những cửa hàng thời trang độc đáo. Hyatt Place New York City/times Square là nơi lý tưởng để khám phá những điểm mua sắm tuyệt vời này.<br><br><b>Giá phòng trung bình tại Hyatt Place New York City/times Square so sánh với giá phòng trung bình ở cùng thành phố</b><br><br>Nằm tại trung tâm thành phố New York, Hyatt Place New York City/times Square là một khách sạn đẳng cấp với giá phòng trung bình là $180. Điều này có nghĩa là khách hàng có thể trải nghiệm không gian sang trọng và tiện nghi tại một trong những địa điểm tốt nhất của thành phố mà không cần phải chi trả quá nhiều tiền.\n\nSo với giá phòng trung bình ở New York (NY) là $222, giá phòng tại Hyatt Place New York City/times Square có mức giá hợp lý hơn. Với sự kết hợp giữa vị trí thuận tiện, tiện nghi hiện đại và dịch vụ chất lượng, khách sạn này đáng giá mỗi đồng bạn chi trả. Hãy đặt phòng ngay để tận hưởng một kỳ nghỉ tuyệt vời tại thành phố New York mà không lo về giá cả!<br><br><b>Kỳ nghỉ thú vị tại Hyatt Place New York City/times Square</b><br><br>Hyatt Place New York City/times Square là một khách sạn đáng chú ý tại New York. Với các đánh giá tích cực từ khách hàng, đây là nơi lý tưởng để trải nghiệm một kỳ nghỉ tuyệt vời.\n\nNhân viên tại đây đều thân thiện và nhiệt tình. Họ luôn sẵn lòng giúp đỡ và tạo ra một không gian thoải mái cho khách hàng. Phòng ốc ở đây sạch sẽ và thoải mái, mang đến cảm giác thật dễ chịu. Vị trí của khách sạn cũng rất tốt, thuận tiện cho việc di chuyển và tham quan.\n\nMột điểm đặc biệt ở đây là sự chú trọng đến sự sạch sẽ. Khách sạn mang đến một diện mạo mới, tươi mới và luôn được giữ gìn sạch sẽ. Đặc biệt, vị trí của khách sạn cực kỳ tuyệt vời, gần Times Square nhưng lại nằm trên một con phố yên tĩnh. Bữa sáng tại đây cũng rất ngon, vượt quá mong đợi của khách hàng. Giá cả cũng rất hợp lý, tạo điều kiện thuận lợi cho du khách.<br><br><b>Hyatt Place New York City/times Square - Đánh giá tích cực từ khách hàng</b><br><br>Hyatt Place New York City/times Square là một khách sạn tuyệt vời, được khách hàng đánh giá cao với tổng điểm 8.1. Điểm số này chứng tỏ sự hài lòng của khách hàng với trải nghiệm lưu trú tại đây. Khách hàng đánh giá khách sạn này với điểm số 8.1 cho giá trị, cho thấy họ cảm thấy hài lòng với giá cả phải chăng so với chất lượng dịch vụ mà khách sạn cung cấp.\n\nKhách sạn cũng được đánh giá cao với điểm số 7.8 cho tiện nghi. Điều này cho thấy khách hàng đánh giá cao sự thuận tiện và chất lượng các tiện nghi tại khách sạn. Với các dịch vụ và tiện ích hiện đại, khách sạn đáp ứng được nhu cầu của khách hàng và mang lại trải nghiệm lưu trú tuyệt vời.\n\nKhách sạn còn nhận được điểm số 8.5 cho vệ sinh và 8.9 cho vị trí. Điều này chứng tỏ sự chăm sóc và quan tâm của khách sạn đối với vệ sinh và sự sạch sẽ. Đồng thời, vị trí của khách sạn cũng được khách hàng đánh giá cao, với điểm số 8.9. Với vị trí tuyệt vời tại trung tâm thành phố New York và gần Times Square, khách sạn này là lựa chọn lý tưởng cho du khách muốn khám phá thành phố sôi động này."
+              },
+              "nhaInformation": null,
+              "restaurantOnSite": [
+                {
+                  "id": 1443168,
+                  "name": "1",
+                  "servings": [
+                    "tự chọn"
+                  ],
+                  "cuisines": [
+                    "Mỹ"
+                  ]
+                },
+                {
+                  "id": 1443169,
+                  "name": "2",
+                  "servings": [],
+                  "cuisines": [
+                    "Mỹ"
+                  ]
+                },
+                {
+                  "id": 1443170,
+                  "name": "Restaurant",
+                  "servings": [],
+                  "cuisines": []
+                }
+              ],
+              "certificate": null,
+              "staffVaccinationInfo": null
+            },
+            "contentSummary": {
+              "accommodation": {
+                "accommodationType": 34,
+                "accommodationName": "Khách sạn"
+              },
+              "agodaGuaranteeProgram": false,
+              "hasHostExperience": false,
+              "localeName": "Hyatt Place New York City / Times Square",
+              "defaultName": "Hyatt Place New York City / Times Square",
+              "propertyType": "Hotel",
+              "propertyLinks": {
+                "propertyPage": "/hyatt-place-new-york-city-times-square/hotel/new-york-ny-us.html"
+              },
+              "geoInfo": {
+                "latitude": 40.75596618652344,
+                "longitude": -73.99370574951172,
+                "obfuscatedLat": 40.75596618652344,
+                "obfuscatedLong": -73.99370574951172
+              },
+              "address": {
+                "address1": "350 W 39th St",
+                "address2": "",
+                "postalCode": "10018-1402",
+                "country": {
+                  "id": 181,
+                  "name": "Hoa Kỳ"
+                },
+                "city": {
+                  "id": 318,
+                  "name": "New York (NY)"
+                },
+                "area": {
+                  "name": "Quảng trường Thời Đại"
+                }
+              },
+              "spokenLanguages": [
+                {
+                  "id": 1
+                },
+                {
+                  "id": 5
+                }
+              ],
+              "nhaSummary": {
+                "isRareFind": null,
+                "supportedLongStay": null
+              },
+              "rating": 4.0
+            },
+            "contentLocalInformation": {
+              "nearbyPlaces": [
+                {
+                  "name": "Consulate General of Guyana",
+                  "distanceInKm": 0.14,
+                  "geoInfo": {
+                    "latitude": 40.754895,
+                    "longitude": -73.992929
+                  },
+                  "typeId": 28,
+                  "typeName": "Đại Sứ Quán và Lãnh Sự Quán"
+                },
+                {
+                  "name": "Cao đẳng Hunter College Msa Building",
+                  "distanceInKm": 0.31,
+                  "geoInfo": {
+                    "latitude": 40.75858,
+                    "longitude": -73.994859
+                  },
+                  "typeId": 9,
+                  "typeName": "Trường Cao Đẳng và Đại Học"
+                },
+                {
+                  "name": "Urbo Supply",
+                  "distanceInKm": 0.31,
+                  "geoInfo": {
+                    "latitude": 40.75673,
+                    "longitude": -73.99014
+                  },
+                  "typeId": 24,
+                  "typeName": "Trung Tâm và Khu Mua Sắm"
+                },
+                {
+                  "name": "Staley Gretzinger",
+                  "distanceInKm": 0.31,
+                  "geoInfo": {
+                    "latitude": 40.754322,
+                    "longitude": -73.9907
+                  },
+                  "typeId": 24,
+                  "typeName": "Trung Tâm và Khu Mua Sắm"
+                },
+                {
+                  "name": "Metropolitan Community Church of New York",
+                  "distanceInKm": 0.32,
+                  "geoInfo": {
+                    "latitude": 40.755445,
+                    "longitude": -73.99742
+                  },
+                  "typeId": 29,
+                  "typeName": "Nơi Thờ Cúng"
+                },
+                {
+                  "name": "Stage 42",
+                  "distanceInKm": 0.32,
+                  "geoInfo": {
+                    "latitude": 40.758881,
+                    "longitude": -73.993866
+                  },
+                  "typeId": 23,
+                  "typeName": "Nhà hát"
+                },
+                {
+                  "name": "Holy Cross Church",
+                  "distanceInKm": 0.33,
+                  "geoInfo": {
+                    "latitude": 40.75805,
+                    "longitude": -73.991
+                  },
+                  "typeId": 29,
+                  "typeName": "Nơi Thờ Cúng"
+                },
+                {
+                  "name": "Congregation Beth Israel West Side Jewish Center",
+                  "distanceInKm": 0.33,
+                  "geoInfo": {
+                    "latitude": 40.753253,
+                    "longitude": -73.99524
+                  },
+                  "typeId": 29,
+                  "typeName": "Nơi Thờ Cúng"
+                },
+                {
+                  "name": "Drama Book Shop",
+                  "distanceInKm": 0.33,
+                  "geoInfo": {
+                    "latitude": 40.7554,
+                    "longitude": -73.989819
+                  },
+                  "typeId": 32,
+                  "typeName": "Cửa Hiệu"
+                },
+                {
+                  "name": "Joey New York",
+                  "distanceInKm": 0.34,
+                  "geoInfo": {
+                    "latitude": 40.75307,
+                    "longitude": -73.99261
+                  },
+                  "typeId": 24,
+                  "typeName": "Trung Tâm và Khu Mua Sắm"
+                }
+              ],
+              "topPlaces": [
+                {
+                  "name": "Quảng trường Thời Đại",
+                  "distanceInKm": 0.72,
+                  "geoInfo": {
+                    "latitude": 40.757974,
+                    "longitude": -73.985542
+                  },
+                  "typeId": 10,
+                  "typeName": "Phố Nổi Tiếng"
+                },
+                {
+                  "name": "Đại lộ Broadway",
+                  "distanceInKm": 0.72,
+                  "geoInfo": {
+                    "latitude": 40.757969,
+                    "longitude": -73.985535
+                  },
+                  "typeId": 13,
+                  "typeName": "Đài Kỷ Niệm và Di Tích Lịch Sử"
+                },
+                {
+                  "name": "Tòa nhà Empire State",
+                  "distanceInKm": 1.08,
+                  "geoInfo": {
+                    "latitude": 40.74844,
+                    "longitude": -73.985664
+                  },
+                  "typeId": 14,
+                  "typeName": "Viện Bảo Tàng và Phòng Trưng Bày Nghệ Thuật"
+                },
+                {
+                  "name": "Tua ngắm cảnh Top of the Rock",
+                  "distanceInKm": 1.26,
+                  "geoInfo": {
+                    "latitude": 40.759003,
+                    "longitude": -73.979324
+                  },
+                  "typeId": 35,
+                  "typeName": "Tòa Nhà Nổi Tiếng"
+                },
+                {
+                  "name": "High Line",
+                  "distanceInKm": 1.28,
+                  "geoInfo": {
+                    "latitude": 40.747992,
+                    "longitude": -74.004688
+                  },
+                  "typeId": 39,
+                  "typeName": "Công Viên Công Cộng"
+                },
+                {
+                  "name": "Ga Trung tâm Grand Central",
+                  "distanceInKm": 1.43,
+                  "geoInfo": {
+                    "latitude": 40.752726,
+                    "longitude": -73.977229
+                  },
+                  "typeId": 13,
+                  "typeName": "Đài Kỷ Niệm và Di Tích Lịch Sử"
+                },
+                {
+                  "name": "Công viên Trung tâm",
+                  "distanceInKm": 2.32,
+                  "geoInfo": {
+                    "latitude": 40.7674,
+                    "longitude": -73.970699
+                  },
+                  "typeId": 39,
+                  "typeName": "Công Viên Công Cộng"
+                },
+                {
+                  "name": "Bảo tàng nghệ thuật Metropolitan",
+                  "distanceInKm": 3.62,
+                  "geoInfo": {
+                    "latitude": 40.77931,
+                    "longitude": -73.96371
+                  },
+                  "typeId": 14,
+                  "typeName": "Viện Bảo Tàng và Phòng Trưng Bày Nghệ Thuật"
+                },
+                {
+                  "name": "Bảo tàng & Đài tưởng niệm Quốc gia 11/9",
+                  "distanceInKm": 5.22,
+                  "geoInfo": {
+                    "latitude": 40.711524,
+                    "longitude": -74.01353
+                  },
+                  "typeId": 14,
+                  "typeName": "Viện Bảo Tàng và Phòng Trưng Bày Nghệ Thuật"
+                },
+                {
+                  "name": "tượng nữ thần tự do",
+                  "distanceInKm": 8.57,
+                  "geoInfo": {
+                    "latitude": 40.689201,
+                    "longitude": -74.044403
+                  },
+                  "typeId": 13,
+                  "typeName": "Đài Kỷ Niệm và Di Tích Lịch Sử"
+                }
+              ],
+              "nearbyProperties": [
+                {
+                  "categoryName": "Sân bay lân cận",
+                  "categorySymbol": "airports",
+                  "places": [
+                    {
+                      "name": "Sân bay LaGuardia (LGA)",
+                      "distanceInKm": 10.35,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.776927,
+                        "longitude": -73.873965
+                      }
+                    },
+                    {
+                      "name": "Sân bay Teterboro (TEB)",
+                      "distanceInKm": 12.57,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.855548,
+                        "longitude": -74.064221
+                      }
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Phương tiện công cộng",
+                  "categorySymbol": "bus-and-rail-stations",
+                  "places": [
+                    {
+                      "name": "Ga tàu điện ngầm 42nd St Port Authority Bus Terminal",
+                      "distanceInKm": 0.35,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.757205,
+                        "longitude": -73.98983
+                      }
+                    },
+                    {
+                      "name": "Ga tàu điện ngầm 34th Street-Penn",
+                      "distanceInKm": 0.42,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.752166,
+                        "longitude": -73.993521
+                      }
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Bệnh viện & phòng khám",
+                  "categorySymbol": "hospitals-clinics",
+                  "places": [
+                    {
+                      "name": "MD BERRY",
+                      "distanceInKm": 1.18,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.74794755,
+                        "longitude": -73.98450625
+                      }
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Nơi mua sắm",
+                  "categorySymbol": "shopping-markets",
+                  "places": [
+                    {
+                      "name": "Trung tâm mua sắm Macy's Herald Square",
+                      "distanceInKm": 0.83,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.749924,
+                        "longitude": -73.987957
+                      }
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Cửa hàng tạp hóa",
+                  "categorySymbol": "Convenience Store",
+                  "places": [
+                    {
+                      "name": "7 Eleven",
+                      "distanceInKm": 0.25,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.75398,
+                        "longitude": -73.992348
+                      }
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Rút tiền mặt",
+                  "categorySymbol": "ATM",
+                  "places": [
+                    {
+                      "name": "ATM",
+                      "distanceInKm": 0.02,
+                      "duration": null,
+                      "durationIcon": null,
+                      "geoInfo": {
+                        "latitude": 40.756057,
+                        "longitude": -73.993948
+                      }
+                    }
+                  ]
+                }
+              ],
+              "walkablePlaces": {
+                "title": "Trên cả tuyệt vời để đi bộ",
+                "description": "185 nơi nằm trong khoảng cách có thể đi bộ",
+                "totalCount": 185,
+                "walkableCategories": [
+                  {
+                    "categoryName": "Điểm thu hút du lịch và Nhà hàng (183)",
+                    "totalCount": 183,
+                    "topPlaces": [
+                      {
+                        "name": "Blatt Billiards",
+                        "distanceInKm": 0.08,
+                        "geoInfo": {
+                          "latitude": 40.75524,
+                          "longitude": -73.9935
+                        }
+                      },
+                      {
+                        "name": "Hell’s Kitchen Flea Market",
+                        "distanceInKm": 0.1,
+                        "geoInfo": {
+                          "latitude": 40.756828,
+                          "longitude": -73.994064
+                        }
+                      },
+                      {
+                        "name": "The Annex / Hell's Kitchen Flea Market",
+                        "distanceInKm": 0.11,
+                        "geoInfo": {
+                          "latitude": 40.756784,
+                          "longitude": -73.994337
+                        }
+                      },
+                      {
+                        "name": "Shopping Girlfriend NYC",
+                        "distanceInKm": 0.14,
+                        "geoInfo": {
+                          "latitude": 40.755971,
+                          "longitude": -73.992045
+                        }
+                      },
+                      {
+                        "name": "Mood Fabrics",
+                        "distanceInKm": 0.25,
+                        "geoInfo": {
+                          "latitude": 40.75409,
+                          "longitude": -73.99208
+                        }
+                      },
+                      {
+                        "name": "Tòa tháp thời báo New York",
+                        "distanceInKm": 0.27,
+                        "geoInfo": {
+                          "latitude": 40.756012,
+                          "longitude": -73.990516
+                        }
+                      },
+                      {
+                        "name": "Playwrights Horizons",
+                        "distanceInKm": 0.28,
+                        "geoInfo": {
+                          "latitude": 40.758467,
+                          "longitude": -73.993677
+                        }
+                      },
+                      {
+                        "name": "Leisure Time Bowling Center",
+                        "distanceInKm": 0.29,
+                        "geoInfo": {
+                          "latitude": 40.757153,
+                          "longitude": -73.99067
+                        }
+                      },
+                      {
+                        "name": "Lyric",
+                        "distanceInKm": 0.3,
+                        "geoInfo": {
+                          "latitude": 40.75783,
+                          "longitude": -73.99121
+                        }
+                      },
+                      {
+                        "name": "Library Way",
+                        "distanceInKm": 0.3,
+                        "geoInfo": {
+                          "latitude": 40.75855,
+                          "longitude": -73.9949
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "categoryName": "Phương tiện đi lại (2)",
+                    "totalCount": 2,
+                    "topPlaces": [
+                      {
+                        "name": "Ga tàu điện ngầm 42nd St Port Authority Bus Terminal",
+                        "distanceInKm": 0.35,
+                        "geoInfo": {
+                          "latitude": 40.757205,
+                          "longitude": -73.98983
+                        }
+                      },
+                      {
+                        "name": "Ga tàu điện ngầm 34th Street-Penn",
+                        "distanceInKm": 0.42,
+                        "geoInfo": {
+                          "latitude": 40.752166,
+                          "longitude": -73.993521
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "nearbyShops": [
+                {
+                  "name": "Blatt Billiards",
+                  "typeId": 24,
+                  "distanceInKm": 0.08,
+                  "geoInfo": {
+                    "latitude": 40.75524,
+                    "longitude": -73.9935
+                  }
+                },
+                {
+                  "name": "Hell’s Kitchen Flea Market",
+                  "typeId": 24,
+                  "distanceInKm": 0.1,
+                  "geoInfo": {
+                    "latitude": 40.756828,
+                    "longitude": -73.994064
+                  }
+                },
+                {
+                  "name": "The Annex / Hell's Kitchen Flea Market",
+                  "typeId": 24,
+                  "distanceInKm": 0.11,
+                  "geoInfo": {
+                    "latitude": 40.756784,
+                    "longitude": -73.994337
+                  }
+                },
+                {
+                  "name": "Han Ah Reum Supermarket",
+                  "typeId": 48,
+                  "distanceInKm": 1.08,
+                  "geoInfo": {
+                    "latitude": 40.74773,
+                    "longitude": -73.98688
+                  }
+                },
+                {
+                  "name": "Mrs. K's",
+                  "typeId": 48,
+                  "distanceInKm": 1.39,
+                  "geoInfo": {
+                    "latitude": 40.7453997,
+                    "longitude": -73.984887
+                  }
+                }
+              ]
+            },
+            "contentExperiences": {
+              "experience": [
+                {
+                  "symbol": "map-attraction",
+                  "landmarks": [
+                    {
+                      "name": "Tòa tháp thời báo New York",
+                      "geoInfo": {
+                        "latitude": 40.756012,
+                        "longitude": -73.990516
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.27
+                    },
+                    {
+                      "name": "The New York Times Building",
+                      "geoInfo": {
+                        "latitude": 40.755923,
+                        "longitude": -73.989723
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.34
+                    },
+                    {
+                      "name": "Seventh Avenue",
+                      "geoInfo": {
+                        "latitude": 40.75722,
+                        "longitude": -73.9898
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.36
+                    },
+                    {
+                      "name": "Bảo tàng First World",
+                      "geoInfo": {
+                        "latitude": 40.756217,
+                        "longitude": -73.997988
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.36
+                    },
+                    {
+                      "name": "Đường 34th",
+                      "geoInfo": {
+                        "latitude": 40.752946,
+                        "longitude": -73.995152
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.36
+                    }
+                  ]
+                },
+                {
+                  "symbol": "balloon",
+                  "landmarks": [
+                    {
+                      "name": "Stage 42",
+                      "geoInfo": {
+                        "latitude": 40.758881,
+                        "longitude": -73.993866
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.32
+                    },
+                    {
+                      "name": "Westside Theatre",
+                      "geoInfo": {
+                        "latitude": 40.759396,
+                        "longitude": -73.992714
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.39
+                    },
+                    {
+                      "name": "The Green Room 42",
+                      "geoInfo": {
+                        "latitude": 40.759529,
+                        "longitude": -73.995003
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.41
+                    },
+                    {
+                      "name": "Kemia Bar",
+                      "geoInfo": {
+                        "latitude": 40.759636,
+                        "longitude": -73.99206
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.43
+                    }
+                  ]
+                },
+                {
+                  "symbol": "shopping",
+                  "landmarks": [
+                    {
+                      "name": "Blatt Billiards",
+                      "geoInfo": {
+                        "latitude": 40.75524,
+                        "longitude": -73.9935
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.08
+                    },
+                    {
+                      "name": "Hell’s Kitchen Flea Market",
+                      "geoInfo": {
+                        "latitude": 40.756828,
+                        "longitude": -73.994064
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.1
+                    },
+                    {
+                      "name": "The Annex / Hell's Kitchen Flea Market",
+                      "geoInfo": {
+                        "latitude": 40.756784,
+                        "longitude": -73.994337
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.11
+                    },
+                    {
+                      "name": "Shopping Girlfriend NYC",
+                      "geoInfo": {
+                        "latitude": 40.755971,
+                        "longitude": -73.992045
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.14
+                    },
+                    {
+                      "name": "Mood Fabrics",
+                      "geoInfo": {
+                        "latitude": 40.75409,
+                        "longitude": -73.99208
+                      },
+                      "scores": null,
+                      "distanceInKm": 0.25
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "metaLab": {
+            "propertyAttributes": [
+              {
+                "attributeId": 2,
+                "value": "false"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2829 @@
+{
+  "/hotels/auto-complete": {
+    "places": [
+      {
+        "id": "int",
+        "name": "str",
+        "typeId": "int",
+        "typeName": "str",
+        "subTypeId": "int",
+        "subTypeName": "str",
+        "city": {
+          "id": "int",
+          "name": "str"
+        },
+        "country": {
+          "id": "int",
+          "name": "str"
+        },
+        "latitude": "float",
+        "longitude": "float",
+        "searchType": "int",
+        "activeHotels": "int",
+        "state": {
+          "id": "int",
+          "name": "str"
+        }
+      }
+    ],
+    "resultStatus": {
+      "category": "int",
+      "serverStatus": "int",
+      "message": "str",
+      "serverMessage": "str",
+      "severity": "int",
+      "isSuccess": "bool"
+    },
+    "serverTime": "str",
+    "serverName": "str"
+  },
+  "/hotels/search-overnight": {
+    "data": {
+      "citySearch": {
+        "searchResult": {
+          "searchInfo": {
+            "totalActiveHotels": "int",
+            "totalFilteredHotels": "int",
+            "totalAvailableHotelsWithoutFilter": "int",
+            "searchStatus": {
+              "searchStatus": "str",
+              "searchCriteria": {
+                "checkIn": "str"
+              }
+            },
+            "objectInfo": {
+              "cityId": "int",
+              "cityName": "str",
+              "cityEnglishName": "str",
+              "countryId": "int",
+              "countryName": "str",
+              "countryEnglishName": "str",
+              "centerLatitude": "float",
+              "centerLongitude": "float",
+              "objectName": "str"
+            },
+            "isComplete": "bool",
+            "hasSecretDeal": "bool",
+            "hasInsiderDeal": "bool",
+            "hasEscapesPackage": "bool"
+          },
+          "urgencyDetail": {
+            "urgencyScore": "float"
+          },
+          "histogram": {
+            "bins": [
+              {
+                "numOfElements": "int",
+                "upperBound": {
+                  "perNightPerRoom": "int",
+                  "perBooking": "int"
+                }
+              }
+            ],
+            "maxMinPrice": {
+              "perRoomPerNight": {
+                "max": "int",
+                "min": "int"
+              },
+              "perBook": {
+                "max": "int",
+                "min": "int"
+              }
+            }
+          },
+          "nhaProbability": "str",
+          "cid": "int"
+        },
+        "properties": [
+          {
+            "propertyId": "int",
+            "propertyResultType": "str",
+            "metaLab": {
+              "attributes": [
+                {
+                  "attributeId": "int",
+                  "value": "str"
+                }
+              ]
+            },
+            "content": {
+              "propertyId": "int",
+              "features": {
+                "hotelFacilities": [
+                  {
+                    "id": "int"
+                  }
+                ]
+              },
+              "informationSummary": {
+                "localeName": "str",
+                "defaultName": "str",
+                "propertyType": "str",
+                "accommodation": {
+                  "accommodationName": "str",
+                  "accommodationType": "int"
+                },
+                "remarks": {
+                  "renovationInfo": {
+                    "renovationType": "int",
+                    "year": "int"
+                  }
+                },
+                "address": {
+                  "country": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "city": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "area": {
+                    "id": "int",
+                    "name": "str"
+                  }
+                },
+                "geoInfo": {
+                  "latitude": "float",
+                  "longitude": "float",
+                  "obfuscatedLat": "float",
+                  "obfuscatedLong": "float"
+                },
+                "rating": "float",
+                "spokenLanguages": [
+                  {
+                    "id": "int"
+                  }
+                ],
+                "hasHostExperience": "bool",
+                "agodaGuaranteeProgram": "bool",
+                "isSustainableTravel": "bool"
+              },
+              "highlight": {
+                "cityCenter": {
+                  "isInsideCityCenter": "bool",
+                  "distanceFromCityCenter": "float"
+                },
+                "hasNearbyPublicTransportation": "bool"
+              },
+              "nonHotelAccommodation": {},
+              "reviews": {
+                "cumulative": {
+                  "reviewCount": "int",
+                  "score": "float"
+                },
+                "contentReview": [
+                  {
+                    "providerId": "int",
+                    "isDefault": "bool",
+                    "demographics": {
+                      "groups": [
+                        {
+                          "id": "int",
+                          "reviewCount": "int",
+                          "grades": [
+                            {
+                              "id": "str",
+                              "score": "float"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "summaries": {
+                      "recommendationScores": [
+                        {
+                          "recommendationScore": "int"
+                        }
+                      ]
+                    },
+                    "cumulative": {
+                      "reviewCount": "int",
+                      "score": "float"
+                    }
+                  }
+                ]
+              },
+              "familyFeatures": {
+                "isFamilyRoom": "bool",
+                "isInterConnectingRoom": "bool",
+                "isInfantCottageAvailable": "bool",
+                "hasKidsClub": "bool",
+                "hasKidsPool": "bool"
+              },
+              "propertyEngagement": {
+                "peopleLooking": "int",
+                "lastBooking": "str",
+                "todayBooking": "str"
+              },
+              "images": {
+                "hotelImages": [
+                  {
+                    "id": "int",
+                    "caption": "str",
+                    "urls": [
+                      {
+                        "key": "str",
+                        "value": "str"
+                      }
+                    ],
+                    "groupId": "str",
+                    "typeId": "int"
+                  }
+                ]
+              },
+              "localInformation": {
+                "landmarks": {
+                  "topLandmark": [
+                    {
+                      "landmarkName": "str",
+                      "distanceInM": "float"
+                    }
+                  ]
+                },
+                "hasAirportTransfer": "bool"
+              },
+              "rateCategories": {
+                "escapeRateCategories": [
+                  {
+                    "rateCategoryId": "int",
+                    "localizedRateCategoryName": "str"
+                  }
+                ]
+              }
+            },
+            "enrichment": {
+              "topSellingPoint": [
+                {
+                  "tspType": "str",
+                  "cmsId": "int"
+                }
+              ],
+              "uniqueSellingPoint": [
+                {
+                  "uspType": "str",
+                  "value": "float",
+                  "rank": "int",
+                  "segment": "str"
+                }
+              ],
+              "roomInformation": {
+                "cheapestRoomName": "str"
+              }
+            },
+            "sponsoredDetail": {
+              "sponsoredType": "str",
+              "isShowSponsoredFlag": "bool"
+            },
+            "pricing": {
+              "hotelId": "int",
+              "isReady": "bool",
+              "isAvailable": "bool",
+              "isEasyCancel": "bool",
+              "isSuggested": "bool",
+              "payment": {
+                "payLater": {
+                  "isEligible": "bool",
+                  "authDate": "str",
+                  "chargeDate": "str"
+                },
+                "cancellation": {
+                  "code": "str",
+                  "cancellationType": "str"
+                },
+                "noCreditCard": {
+                  "isEligible": "bool"
+                },
+                "payAtHotel": {
+                  "isEligible": "bool"
+                }
+              },
+              "pricingMessages": [
+                {
+                  "location": "int",
+                  "ids": [
+                    "int"
+                  ]
+                }
+              ],
+              "benefits": [
+                "int"
+              ],
+              "offers": [
+                {
+                  "bundleType": "str",
+                  "roomOffers": [
+                    {
+                      "room": {
+                        "uid": "str",
+                        "supplierId": "int",
+                        "availableRooms": "int",
+                        "benefits": [
+                          {
+                            "id": "int",
+                            "value": "float",
+                            "remark": "str",
+                            "unit": "int",
+                            "targetType": "int",
+                            "description": "str"
+                          }
+                        ],
+                        "payment": {
+                          "payLater": {
+                            "isEligible": "bool",
+                            "authDate": "str",
+                            "chargeDate": "str"
+                          },
+                          "cancellation": {
+                            "code": "str",
+                            "cancellationType": "str"
+                          },
+                          "noCreditCard": {
+                            "isEligible": "bool"
+                          },
+                          "payAtHotel": {
+                            "isEligible": "bool"
+                          },
+                          "paymentModel": "str"
+                        },
+                        "isPromoEligible": "bool",
+                        "occupancy": "int",
+                        "agodaCash": {
+                          "showBadge": "bool",
+                          "giftcardGuid": "str",
+                          "dayToEarn": "int",
+                          "earnId": "int",
+                          "expiryDay": "int"
+                        },
+                        "discount": {
+                          "channelDiscount": "str",
+                          "deals": [
+                            "str"
+                          ]
+                        },
+                        "channel": {
+                          "id": "int"
+                        },
+                        "promotions": {
+                          "typeId": "int",
+                          "promotionDiscount": {
+                            "value": "float",
+                            "discountType": "str"
+                          }
+                        },
+                        "corInfo": {
+                          "corBreakdown": {
+                            "taxExPRPN": [
+                              {
+                                "cmsId": "int",
+                                "id": "int",
+                                "isDiscount": "bool",
+                                "price": "float"
+                              }
+                            ],
+                            "taxInPRPN": [
+                              {
+                                "cmsId": "int",
+                                "id": "int",
+                                "isDiscount": "bool",
+                                "price": "float"
+                              }
+                            ]
+                          }
+                        },
+                        "pricing": [
+                          {
+                            "currency": "str",
+                            "price": {
+                              "perBook": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perRoomPerNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "totalDiscount": "int"
+                            },
+                            "channelDiscountSummary": {
+                              "channelId": "int",
+                              "channelDiscountBreakdown": [
+                                {
+                                  "channelId": "int",
+                                  "display": "bool",
+                                  "discountPercent": "float"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "stayPackageType": "int",
+                        "pricingMessages": {
+                          "formatted": [
+                            {
+                              "location": "int",
+                              "texts": [
+                                {
+                                  "index": "int",
+                                  "text": "str"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "suggestedRoomQuantity": "int",
+              "suggestPriceType": {
+                "suggestPrice": "str",
+                "applyType": "str"
+              },
+              "loyaltyDisplay": {},
+              "cheapestStayPackageRatePlans": [
+                {
+                  "stayPackageType": "int",
+                  "ratePlanId": "int"
+                }
+              ]
+            }
+          }
+        ],
+        "aggregation": {
+          "matrixGroupResults": [
+            {
+              "matrixGroup": "str",
+              "matrixItemResults": [
+                {
+                  "id": "int",
+                  "filterKey": "str",
+                  "filterRequestType": "str",
+                  "name": "str",
+                  "count": "int"
+                }
+              ]
+            }
+          ]
+        },
+        "searchEnrichment": {},
+        "highlyRatedAgodaHomes": [
+          {
+            "propertyId": "int",
+            "content": {
+              "propertyId": "int",
+              "features": {
+                "hotelFacilities": [
+                  {
+                    "id": "int"
+                  }
+                ]
+              },
+              "informationSummary": {
+                "localeName": "str",
+                "defaultName": "str",
+                "propertyType": "str",
+                "accommodation": {
+                  "accommodationName": "str",
+                  "accommodationType": "int"
+                },
+                "address": {
+                  "country": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "city": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "area": {
+                    "id": "int",
+                    "name": "str"
+                  }
+                },
+                "geoInfo": {
+                  "latitude": "float",
+                  "longitude": "float"
+                },
+                "rating": "float",
+                "spokenLanguages": [
+                  {
+                    "id": "int"
+                  }
+                ],
+                "hasHostExperience": "bool",
+                "agodaGuaranteeProgram": "bool"
+              },
+              "highlight": {},
+              "nonHotelAccommodation": {},
+              "reviews": {
+                "cumulative": {
+                  "reviewCount": "int",
+                  "score": "float"
+                },
+                "contentReview": [
+                  {
+                    "providerId": "int",
+                    "isDefault": "bool",
+                    "demographics": {
+                      "groups": [
+                        {
+                          "id": "int",
+                          "reviewCount": "int",
+                          "grades": [
+                            {
+                              "id": "str",
+                              "score": "float"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "summaries": {
+                      "snippets": [
+                        {
+                          "snippet": "str",
+                          "date": "str",
+                          "reviewer": "str",
+                          "countryId": "int",
+                          "countryName": "str",
+                          "reviewRating": "float"
+                        }
+                      ]
+                    },
+                    "cumulative": {
+                      "reviewCount": "int",
+                      "score": "float"
+                    }
+                  }
+                ]
+              },
+              "propertyEngagement": {
+                "peopleLooking": "int",
+                "lastBooking": "str",
+                "todayBooking": "str"
+              },
+              "images": {
+                "hotelImages": [
+                  {
+                    "id": "int",
+                    "caption": "str",
+                    "urls": [
+                      {
+                        "key": "str",
+                        "value": "str"
+                      }
+                    ],
+                    "groupId": "str",
+                    "typeId": "int"
+                  }
+                ]
+              }
+            },
+            "enrichment": {
+              "topSellingPoint": [
+                {}
+              ],
+              "uniqueSellingPoint": [
+                {
+                  "value": "float",
+                  "rank": "int"
+                }
+              ]
+            },
+            "sponsoredDetail": {
+              "sponsoredType": "str"
+            },
+            "pricing": {
+              "hotelId": "int",
+              "isReady": "bool",
+              "isAvailable": "bool",
+              "payment": {
+                "payLater": {
+                  "isEligible": "bool",
+                  "authDate": "str",
+                  "chargeDate": "str"
+                },
+                "cancellation": {
+                  "code": "str",
+                  "cancellationType": "str"
+                },
+                "noCreditCard": {
+                  "isEligible": "bool"
+                },
+                "payAtHotel": {
+                  "isEligible": "bool"
+                }
+              },
+              "pricingMessages": [
+                {
+                  "location": "int",
+                  "ids": [
+                    "int"
+                  ]
+                }
+              ],
+              "offers": [
+                {
+                  "bundleType": "str",
+                  "roomOffers": [
+                    {
+                      "room": {
+                        "uid": "str",
+                        "supplierId": "int",
+                        "availableRooms": "int",
+                        "benefits": [
+                          {
+                            "id": "int",
+                            "value": "float",
+                            "remark": "str",
+                            "unit": "int",
+                            "targetType": "int",
+                            "description": "str"
+                          }
+                        ],
+                        "payment": {
+                          "payLater": {
+                            "isEligible": "bool",
+                            "authDate": "str",
+                            "chargeDate": "str"
+                          },
+                          "cancellation": {
+                            "code": "str",
+                            "cancellationType": "str"
+                          },
+                          "noCreditCard": {
+                            "isEligible": "bool"
+                          },
+                          "payAtHotel": {
+                            "isEligible": "bool"
+                          },
+                          "paymentModel": "str"
+                        },
+                        "pricing": [
+                          {
+                            "currency": "str",
+                            "price": {
+                              "perBook": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perRoomPerNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "totalDiscount": "int"
+                            }
+                          }
+                        ],
+                        "isPromoEligible": "bool",
+                        "occupancy": "int",
+                        "agodaCash": {
+                          "showBadge": "bool",
+                          "giftcardGuid": "str",
+                          "dayToEarn": "int",
+                          "earnId": "int",
+                          "expiryDay": "int"
+                        },
+                        "discount": {
+                          "deals": [
+                            "str"
+                          ]
+                        },
+                        "channel": {
+                          "id": "int"
+                        },
+                        "promotions": {
+                          "typeId": "int",
+                          "promotionDiscount": {
+                            "value": "float",
+                            "discountType": "str"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "suggestedRoomQuantity": "int",
+              "suggestPriceType": {
+                "suggestPrice": "str",
+                "applyType": "str"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "/hotels/search-day-use": {
+    "data": {
+      "citySearch": {
+        "searchResult": {
+          "searchInfo": {
+            "totalActiveHotels": "int",
+            "totalFilteredHotels": "int",
+            "totalAvailableHotelsWithoutFilter": "int",
+            "searchStatus": {
+              "searchStatus": "str",
+              "searchCriteria": {
+                "checkIn": "str"
+              }
+            },
+            "objectInfo": {
+              "cityId": "int",
+              "cityName": "str",
+              "cityEnglishName": "str",
+              "countryId": "int",
+              "countryName": "str",
+              "countryEnglishName": "str",
+              "centerLatitude": "float",
+              "centerLongitude": "float",
+              "objectName": "str"
+            },
+            "isComplete": "bool",
+            "hasSecretDeal": "bool",
+            "hasInsiderDeal": "bool",
+            "hasEscapesPackage": "bool"
+          },
+          "urgencyDetail": {
+            "urgencyScore": "float"
+          },
+          "histogram": {
+            "bins": [
+              {
+                "numOfElements": "int",
+                "upperBound": {
+                  "perNightPerRoom": "int",
+                  "perBooking": "int"
+                }
+              }
+            ],
+            "maxMinPrice": {
+              "perRoomPerNight": {
+                "max": "int",
+                "min": "int"
+              },
+              "perBook": {
+                "max": "int",
+                "min": "int"
+              }
+            }
+          },
+          "nhaProbability": "str",
+          "cid": "int"
+        },
+        "properties": [
+          {
+            "propertyId": "int",
+            "propertyResultType": "str",
+            "metaLab": {
+              "attributes": [
+                {
+                  "attributeId": "int",
+                  "value": "str"
+                }
+              ]
+            },
+            "content": {
+              "propertyId": "int",
+              "features": {
+                "hotelFacilities": [
+                  {
+                    "id": "int"
+                  }
+                ]
+              },
+              "informationSummary": {
+                "localeName": "str",
+                "defaultName": "str",
+                "propertyType": "str",
+                "accommodation": {
+                  "accommodationName": "str",
+                  "accommodationType": "int"
+                },
+                "remarks": {
+                  "renovationInfo": {
+                    "renovationType": "int",
+                    "year": "int"
+                  }
+                },
+                "address": {
+                  "country": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "city": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "area": {
+                    "id": "int",
+                    "name": "str"
+                  }
+                },
+                "geoInfo": {
+                  "latitude": "float",
+                  "longitude": "float",
+                  "obfuscatedLat": "float",
+                  "obfuscatedLong": "float"
+                },
+                "rating": "float",
+                "spokenLanguages": [
+                  {
+                    "id": "int"
+                  }
+                ],
+                "hasHostExperience": "bool",
+                "agodaGuaranteeProgram": "bool",
+                "isSustainableTravel": "bool"
+              },
+              "highlight": {
+                "cityCenter": {
+                  "isInsideCityCenter": "bool",
+                  "distanceFromCityCenter": "float"
+                },
+                "hasNearbyPublicTransportation": "bool"
+              },
+              "nonHotelAccommodation": {},
+              "reviews": {
+                "cumulative": {
+                  "reviewCount": "int",
+                  "score": "float"
+                },
+                "contentReview": [
+                  {
+                    "providerId": "int",
+                    "isDefault": "bool",
+                    "demographics": {
+                      "groups": [
+                        {
+                          "id": "int",
+                          "reviewCount": "int",
+                          "grades": [
+                            {
+                              "id": "str",
+                              "score": "float"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "summaries": {},
+                    "cumulative": {
+                      "reviewCount": "int",
+                      "score": "float"
+                    }
+                  }
+                ]
+              },
+              "familyFeatures": {
+                "isFamilyRoom": "bool",
+                "isInterConnectingRoom": "bool",
+                "isInfantCottageAvailable": "bool",
+                "hasKidsClub": "bool",
+                "hasKidsPool": "bool"
+              },
+              "propertyEngagement": {
+                "peopleLooking": "int",
+                "lastBooking": "str",
+                "todayBooking": "str"
+              },
+              "images": {
+                "hotelImages": [
+                  {
+                    "id": "int",
+                    "caption": "str",
+                    "urls": [
+                      {
+                        "key": "str",
+                        "value": "str"
+                      }
+                    ],
+                    "groupId": "str",
+                    "typeId": "int",
+                    "blurhash": "str"
+                  }
+                ]
+              },
+              "localInformation": {
+                "landmarks": {
+                  "topLandmark": [
+                    {
+                      "landmarkName": "str",
+                      "distanceInM": "float"
+                    }
+                  ]
+                },
+                "hasAirportTransfer": "bool"
+              },
+              "rateCategories": {}
+            },
+            "enrichment": {
+              "topSellingPoint": [
+                {
+                  "tspType": "str",
+                  "cmsId": "int"
+                }
+              ],
+              "uniqueSellingPoint": [
+                {
+                  "uspType": "str",
+                  "value": "float",
+                  "rank": "int",
+                  "segment": "str"
+                }
+              ],
+              "roomInformation": {
+                "cheapestRoomName": "str"
+              }
+            },
+            "sponsoredDetail": {
+              "sponsoredType": "str",
+              "isShowSponsoredFlag": "bool"
+            },
+            "pricing": {
+              "hotelId": "int",
+              "isReady": "bool",
+              "isAvailable": "bool",
+              "isEasyCancel": "bool",
+              "isSuggested": "bool",
+              "payment": {
+                "payLater": {
+                  "isEligible": "bool",
+                  "authDate": "str",
+                  "chargeDate": "str"
+                },
+                "cancellation": {
+                  "code": "str",
+                  "cancellationType": "str"
+                },
+                "noCreditCard": {
+                  "isEligible": "bool"
+                },
+                "payAtHotel": {
+                  "isEligible": "bool"
+                }
+              },
+              "pricingMessages": [
+                {
+                  "location": "int",
+                  "ids": [
+                    "int"
+                  ]
+                }
+              ],
+              "benefits": [
+                "int"
+              ],
+              "offers": [
+                {
+                  "bundleType": "str",
+                  "roomOffers": [
+                    {
+                      "room": {
+                        "uid": "str",
+                        "supplierId": "int",
+                        "availableRooms": "int",
+                        "benefits": [
+                          {
+                            "id": "int",
+                            "value": "float",
+                            "remark": "str",
+                            "unit": "int",
+                            "targetType": "int",
+                            "description": "str"
+                          }
+                        ],
+                        "payment": {
+                          "payLater": {
+                            "isEligible": "bool",
+                            "authDate": "str",
+                            "chargeDate": "str"
+                          },
+                          "cancellation": {
+                            "code": "str",
+                            "cancellationType": "str"
+                          },
+                          "noCreditCard": {
+                            "isEligible": "bool"
+                          },
+                          "payAtHotel": {
+                            "isEligible": "bool"
+                          },
+                          "paymentModel": "str"
+                        },
+                        "isPromoEligible": "bool",
+                        "occupancy": "int",
+                        "agodaCash": {
+                          "showBadge": "bool",
+                          "giftcardGuid": "str",
+                          "dayToEarn": "int",
+                          "earnId": "int",
+                          "expiryDay": "int"
+                        },
+                        "discount": {
+                          "deals": [
+                            "str"
+                          ]
+                        },
+                        "channel": {
+                          "id": "int"
+                        },
+                        "promotions": {
+                          "typeId": "int",
+                          "promotionDiscount": {
+                            "value": "float",
+                            "discountType": "str"
+                          }
+                        },
+                        "bookingDuration": {
+                          "value": "int",
+                          "unit": "str"
+                        },
+                        "corInfo": {
+                          "corBreakdown": {
+                            "taxExPRPN": [
+                              {
+                                "cmsId": "int",
+                                "id": "int",
+                                "isDiscount": "bool",
+                                "price": "float"
+                              }
+                            ],
+                            "taxInPRPN": [
+                              {
+                                "cmsId": "int",
+                                "id": "int",
+                                "isDiscount": "bool",
+                                "price": "float"
+                              }
+                            ]
+                          }
+                        },
+                        "pricing": [
+                          {
+                            "currency": "str",
+                            "price": {
+                              "perBook": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perRoomPerNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "perNight": {
+                                "exclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                },
+                                "inclusive": {
+                                  "display": "float",
+                                  "chargeTotal": "float",
+                                  "originalPrice": "float",
+                                  "crossedOutPrice": "float",
+                                  "rebatePrice": "float",
+                                  "pseudoCouponPrice": "float"
+                                }
+                              },
+                              "totalDiscount": "int"
+                            },
+                            "channelDiscountSummary": {
+                              "channelId": "int",
+                              "channelDiscountBreakdown": [
+                                {
+                                  "channelId": "int",
+                                  "display": "bool",
+                                  "discountPercent": "float"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "stayPackageType": "int",
+                        "pricingMessages": {
+                          "formatted": [
+                            {
+                              "location": "int",
+                              "texts": [
+                                {
+                                  "index": "int",
+                                  "text": "str"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "suggestedRoomQuantity": "int",
+              "suggestPriceType": {
+                "suggestPrice": "str",
+                "applyType": "str"
+              },
+              "loyaltyDisplay": {},
+              "cheapestStayPackageRatePlans": [
+                {
+                  "stayPackageType": "int",
+                  "ratePlanId": "int"
+                }
+              ]
+            }
+          }
+        ],
+        "aggregation": {
+          "matrixGroupResults": [
+            {
+              "matrixGroup": "str",
+              "matrixItemResults": [
+                {
+                  "id": "int",
+                  "filterKey": "str",
+                  "filterRequestType": "str",
+                  "name": "str",
+                  "count": "int"
+                }
+              ]
+            }
+          ]
+        },
+        "searchEnrichment": {}
+      }
+    }
+  },
+  "/hotels/details": {
+    "data": {
+      "propertyDetailsSearch": {
+        "propertyDetails": [
+          {
+            "propertyId": "int",
+            "contentDetail": {
+              "propertyId": "int",
+              "contentImages": {
+                "hotelImages": [
+                  {
+                    "id": "int",
+                    "caption": "str",
+                    "groupId": "str",
+                    "urls": [
+                      {
+                        "key": "str",
+                        "value": "str"
+                      }
+                    ],
+                    "typeId": "int",
+                    "uploadedDate": "str"
+                  }
+                ],
+                "categories": [
+                  {
+                    "category": "str",
+                    "count": "int"
+                  }
+                ]
+              },
+              "contentReviewScore": {
+                "combinedReviewScore": {
+                  "cumulative": {
+                    "score": "float",
+                    "reviewCount": "int"
+                  }
+                },
+                "providerReviewScore": [
+                  {
+                    "providerId": "int",
+                    "isDefault": "bool",
+                    "cumulative": {
+                      "score": "float",
+                      "reviewCount": "int"
+                    },
+                    "demographics": {
+                      "groups": [
+                        {
+                          "id": "int",
+                          "reviewCount": "int",
+                          "grades": [
+                            {
+                              "id": "str",
+                              "score": "float"
+                            }
+                          ]
+                        }
+                      ],
+                      "allGuest": {
+                        "id": "int",
+                        "reviewCount": "int",
+                        "grades": [
+                          {
+                            "id": "str",
+                            "score": "float"
+                          }
+                        ]
+                      }
+                    },
+                    "trendingScore": {
+                      "past14DaysUplift": "float",
+                      "past30DaysUplift": "float"
+                    }
+                  }
+                ]
+              },
+              "contentReviewSummaries": {
+                "recommendationScores": {},
+                "positiveMentions": {}
+              },
+              "contentEngagement": {
+                "lastBooked": "str",
+                "noOfPeopleLooking": "int"
+              },
+              "contentHighlights": {
+                "locationHighlights": [
+                  {
+                    "distanceKm": "float",
+                    "highlightType": "str"
+                  }
+                ],
+                "favoriteFeatures": [
+                  {
+                    "id": "int",
+                    "name": "str",
+                    "symbol": "str"
+                  }
+                ]
+              },
+              "contentFeatures": {
+                "featureGroups": [
+                  {
+                    "id": "int",
+                    "name": "str",
+                    "order": "int",
+                    "features": [
+                      {
+                        "id": "int",
+                        "featureName": "str",
+                        "symbol": "str",
+                        "available": "bool",
+                        "order": "int",
+                        "images": [
+                          {
+                            "caption": "str",
+                            "urls": [
+                              {
+                                "value": "str"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hotelFacilities": [
+                  {
+                    "id": "int"
+                  }
+                ],
+                "summary": {
+                  "chineseFriendly": "bool"
+                }
+              },
+              "contentInformation": {
+                "policies": {
+                  "children": {
+                    "stayFreeAgeRange": {
+                      "min": "int",
+                      "max": "int"
+                    },
+                    "details": [
+                      {
+                        "title": "str",
+                        "description": "str"
+                      }
+                    ]
+                  },
+                  "hotelAgePolicy": {
+                    "infantAges": {
+                      "min": "int",
+                      "max": "int"
+                    },
+                    "childAges": {
+                      "min": "int",
+                      "max": "int"
+                    },
+                    "isChildStayFree": "bool",
+                    "minGuestAge": "int"
+                  },
+                  "extraBed": [
+                    "str"
+                  ],
+                  "additional": [
+                    "str"
+                  ],
+                  "adult": [
+                    "str"
+                  ]
+                },
+                "isAgodaVerified": "bool",
+                "messaging": {
+                  "isAllowedPreBooking": "bool",
+                  "isAllowedPostBooking": "bool",
+                  "isAllowedWithBooking": "bool",
+                  "isAllowedInHouseFeedback": "bool",
+                  "isAllowedInHouseRequest": "bool"
+                },
+                "checkInInformation": {
+                  "checkInFrom": {
+                    "hh": "int",
+                    "mm": "int"
+                  },
+                  "checkOutUntil": {
+                    "hh": "int",
+                    "mm": "int"
+                  }
+                },
+                "usefulInfoGroups": [
+                  {
+                    "id": "int",
+                    "name": "str",
+                    "usefulInfo": [
+                      {
+                        "id": "int",
+                        "name": "str",
+                        "description": "str",
+                        "symbol": "str"
+                      }
+                    ]
+                  }
+                ],
+                "notes": {
+                  "publicNotes": [
+                    "str"
+                  ]
+                },
+                "description": {
+                  "short": "str",
+                  "long": "str"
+                },
+                "restaurantOnSite": [
+                  {
+                    "id": "int",
+                    "name": "str",
+                    "servings": [
+                      "str"
+                    ],
+                    "cuisines": [
+                      "str"
+                    ]
+                  }
+                ]
+              },
+              "contentSummary": {
+                "accommodation": {
+                  "accommodationType": "int",
+                  "accommodationName": "str"
+                },
+                "agodaGuaranteeProgram": "bool",
+                "hasHostExperience": "bool",
+                "localeName": "str",
+                "defaultName": "str",
+                "propertyType": "str",
+                "propertyLinks": {
+                  "propertyPage": "str"
+                },
+                "geoInfo": {
+                  "latitude": "float",
+                  "longitude": "float",
+                  "obfuscatedLat": "float",
+                  "obfuscatedLong": "float"
+                },
+                "address": {
+                  "address1": "str",
+                  "address2": "str",
+                  "postalCode": "str",
+                  "country": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "city": {
+                    "id": "int",
+                    "name": "str"
+                  },
+                  "area": {
+                    "name": "str"
+                  }
+                },
+                "spokenLanguages": [
+                  {
+                    "id": "int"
+                  }
+                ],
+                "nhaSummary": {},
+                "rating": "float"
+              },
+              "contentLocalInformation": {
+                "nearbyPlaces": [
+                  {
+                    "name": "str",
+                    "distanceInKm": "float",
+                    "geoInfo": {
+                      "latitude": "float",
+                      "longitude": "float"
+                    },
+                    "typeId": "int",
+                    "typeName": "str"
+                  }
+                ],
+                "topPlaces": [
+                  {
+                    "name": "str",
+                    "distanceInKm": "float",
+                    "geoInfo": {
+                      "latitude": "float",
+                      "longitude": "float"
+                    },
+                    "typeId": "int",
+                    "typeName": "str"
+                  }
+                ],
+                "nearbyProperties": [
+                  {
+                    "categoryName": "str",
+                    "categorySymbol": "str",
+                    "places": [
+                      {
+                        "name": "str",
+                        "distanceInKm": "float",
+                        "geoInfo": {
+                          "latitude": "float",
+                          "longitude": "float"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "walkablePlaces": {
+                  "title": "str",
+                  "description": "str",
+                  "totalCount": "int",
+                  "walkableCategories": [
+                    {
+                      "categoryName": "str",
+                      "totalCount": "int",
+                      "topPlaces": [
+                        {
+                          "name": "str",
+                          "distanceInKm": "float",
+                          "geoInfo": {
+                            "latitude": "float",
+                            "longitude": "float"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nearbyShops": [
+                  {
+                    "name": "str",
+                    "typeId": "int",
+                    "distanceInKm": "float",
+                    "geoInfo": {
+                      "latitude": "float",
+                      "longitude": "float"
+                    }
+                  }
+                ]
+              },
+              "contentExperiences": {
+                "experience": [
+                  {
+                    "symbol": "str",
+                    "landmarks": [
+                      {
+                        "name": "str",
+                        "geoInfo": {
+                          "latitude": "float",
+                          "longitude": "float"
+                        },
+                        "distanceInKm": "float"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "metaLab": {
+              "propertyAttributes": [
+                {
+                  "attributeId": "int",
+                  "value": "str"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "/hotels/details-others": {
+    "type": "str",
+    "name": "str",
+    "children": [
+      {
+        "type": "str",
+        "property": {
+          "id": "int",
+          "name": "str",
+          "imageUrl": "str",
+          "latitude": "float",
+          "longitude": "float",
+          "cityId": "int",
+          "countryId": "int",
+          "priceAmount": "float",
+          "priceCrossOut": "float",
+          "cashbackVersion": "str",
+          "isLocationHidden": "bool",
+          "isSingleRoomNha": "bool",
+          "isSoldOut": "bool",
+          "bookingDuration": {
+            "type": "str",
+            "duration": "int"
+          },
+          "shouldShowAgodaHomesBadge": "bool",
+          "distanceDescription": "str",
+          "review": {
+            "score": "float",
+            "quote": "str",
+            "count": "int"
+          },
+          "rating": {
+            "rating": "float",
+            "shape": "str",
+            "style": "str"
+          },
+          "propertyType": "str"
+        },
+        "pois": [
+          {
+            "latitude": "float",
+            "longitude": "float",
+            "name": "str",
+            "distance": "float",
+            "type": "str",
+            "filterType": "str"
+          }
+        ],
+        "isSelectRoomAvailable": "bool",
+        "viewMode": "str",
+        "child": {
+          "type": "str",
+          "header": {
+            "type": "str",
+            "isTransparent": "bool",
+            "backVariant": "str",
+            "content": {
+              "type": "str",
+              "title": "str",
+              "subtitle": "str",
+              "icon": "str",
+              "analytics": {
+                "elementName": "str",
+                "version": "int",
+                "actions": [
+                  "str"
+                ]
+              },
+              "onClick": {
+                "type": "str"
+              }
+            },
+            "trailingItems": [
+              {
+                "type": "str",
+                "shouldHighlight": "bool",
+                "analytics": {
+                  "elementName": "str",
+                  "version": "int",
+                  "actions": [
+                    "str"
+                  ]
+                },
+                "onClick": {
+                  "type": "str",
+                  "id": "int",
+                  "name": "str",
+                  "imageUrl": "str",
+                  "isNha": "bool",
+                  "title": "str"
+                }
+              }
+            ]
+          },
+          "headerIsOverlay": "bool",
+          "content": {
+            "type": "str",
+            "isRootList": "bool",
+            "children": [
+              {
+                "type": "str",
+                "alignment": "str",
+                "children": [
+                  {
+                    "type": "str",
+                    "spacing": "str",
+                    "alignment": "str",
+                    "children": [
+                      {
+                        "type": "str",
+                        "spacing": "str",
+                        "alignment": "str",
+                        "children": [
+                          {
+                            "type": "str",
+                            "baseElement": {
+                              "type": "str",
+                              "imagesInfo": [
+                                {
+                                  "imageID": "int",
+                                  "typeId": "int",
+                                  "url": "str"
+                                }
+                              ],
+                              "shouldShowIndicator": "bool",
+                              "isFade": "bool",
+                              "variant": "str",
+                              "analytics": {
+                                "elementName": "str",
+                                "version": "int",
+                                "context": {
+                                  "action_element_index": "int"
+                                },
+                                "actions": [
+                                  "str"
+                                ]
+                              },
+                              "onClick": {
+                                "type": "str",
+                                "defaultIndex": "int",
+                                "galleryVariant": "str"
+                              }
+                            },
+                            "overlayElements": [
+                              {
+                                "content": {
+                                  "type": "str",
+                                  "spacing": "str",
+                                  "alignment": "str",
+                                  "variant": "str",
+                                  "children": [
+                                    {
+                                      "type": "str",
+                                      "title": "str",
+                                      "icon": "str",
+                                      "analytics": {
+                                        "elementName": "str",
+                                        "version": "int",
+                                        "context": {
+                                          "action_element_index": "int"
+                                        },
+                                        "actions": [
+                                          "str"
+                                        ]
+                                      },
+                                      "onClick": {
+                                        "type": "str",
+                                        "defaultIndex": "int",
+                                        "galleryVariant": "str"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "contentAnchorAlignment": "str",
+                                "baseAnchorAlignment": "str",
+                                "xOffset": "int",
+                                "yOffset": "int"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "footer": {
+            "type": "str",
+            "verticalPadding": "str",
+            "horizontalPadding": "str",
+            "color": "str",
+            "widthType": "str",
+            "content": {
+              "type": "str",
+              "priorityContainer": "str",
+              "priorityContainerMaxWidth": "float",
+              "contentSpacing": "str",
+              "start": {
+                "type": "str",
+                "alignment": "str",
+                "children": [
+                  {
+                    "type": "str",
+                    "value": "str",
+                    "maxLines": "int",
+                    "textStyle": {
+                      "typography": "str",
+                      "color": "str",
+                      "textAlign": "str"
+                    }
+                  }
+                ]
+              },
+              "end": {
+                "type": "str",
+                "title": "str",
+                "variant": "str",
+                "state": "str",
+                "widthType": "str",
+                "analytics": {
+                  "elementName": "str",
+                  "version": "int",
+                  "actions": [
+                    "str"
+                  ]
+                },
+                "onClick": {
+                  "type": "str"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "/hotels/room-prices": {
+    "resultStatus": {
+      "category": "int",
+      "serverStatus": "int",
+      "message": "str",
+      "serverMessage": "str",
+      "severity": "int",
+      "isSuccess": "bool"
+    },
+    "serverTime": "str",
+    "serverName": "str",
+    "roomGroups": [
+      {
+        "masterRoomTypeId": "int",
+        "masterRoomTypeName": "str",
+        "masterRoomTypeAlternateName": "str",
+        "masterRoomTypeEnglishName": "str",
+        "cheapestRoomToken": "str",
+        "cheapestRoomTokens": [
+          "str"
+        ],
+        "rooms": [
+          {
+            "roomToken": "str",
+            "uid": "str",
+            "pc": {
+              "a": "float",
+              "i": "str",
+              "e": "str",
+              "t": "int",
+              "s": "int",
+              "cor": "float",
+              "ccor": "float",
+              "tf": "float",
+              "tfPRPN": "float",
+              "sdni": {
+                "i": "int"
+              },
+              "promotionPricePeek": "float",
+              "originalTotal": "float",
+              "pseudoCoupon": "float",
+              "priceFreezePrice": {
+                "exclusive": "float",
+                "inclusive": "float"
+              },
+              "hasPromotionPricePeek": "bool"
+            },
+            "breakfastIncluded": "bool",
+            "benefits": [
+              {
+                "id": "int",
+                "displayText": "str",
+                "available": "bool",
+                "targetType": "str",
+                "benefitValue": "float"
+              }
+            ],
+            "badgeType": "int",
+            "roomOccupancyDescription": "str",
+            "remainRoom": "int",
+            "roomInfoComponent": [
+              {
+                "title": "str",
+                "subSectionComponents": [
+                  {
+                    "subTitle": "str",
+                    "des": "str",
+                    "icontype": "int"
+                  }
+                ],
+                "sectionType": "int",
+                "type": "int"
+              }
+            ],
+            "providerText": {
+              "room": {
+                "title": "str",
+                "subtitle": "str",
+                "note": "str"
+              },
+              "payment": {
+                "title": "str",
+                "subtitle": "str",
+                "note": "str"
+              }
+            },
+            "cancellationPolicyType": "int",
+            "currentCancellationPolicyType": "int",
+            "cancellationPolicyTitle": "str",
+            "cancellationPolicyTitleTemplate": {
+              "template": "str",
+              "arguments": [
+                {
+                  "id": "str",
+                  "type": "int",
+                  "value": "str"
+                }
+              ]
+            },
+            "cancellationPolicy": "str",
+            "cancellationInfo": {
+              "type": "int",
+              "currentType": "int",
+              "freeCancellationDate": "str",
+              "titleTemplate": {
+                "template": "str",
+                "arguments": [
+                  {
+                    "id": "str",
+                    "type": "int",
+                    "value": "str"
+                  }
+                ]
+              },
+              "descriptionTemplate": {
+                "template": "str",
+                "arguments": [
+                  {
+                    "id": "str",
+                    "type": "int",
+                    "value": "str"
+                  }
+                ]
+              },
+              "noShowPolicy": "str",
+              "policies": [
+                "str"
+              ],
+              "cancellationCode": "str",
+              "title": "str",
+              "externalUrl": "str"
+            },
+            "isBnpl": "bool",
+            "isBwzp": "bool",
+            "isAgency": "bool",
+            "isMultiHotelEligible": "bool",
+            "isPromoCodeEligible": "bool",
+            "isVipDiscountEligible": "bool",
+            "isFullyChargeAtAgoda": "bool",
+            "isCreditCardRequired": "bool",
+            "isApplePayAvailable": "bool",
+            "isImportantInformationTextRequired": "bool",
+            "masterRoomTypeId": "int",
+            "roomName": "str",
+            "englishRoomName": "str",
+            "roomView": "str",
+            "roomSize": "float",
+            "isPromotionEligible": "bool",
+            "maxRoomOccupancy": "int",
+            "isExtrabedAvaiable": "bool",
+            "hasSurcharge": "bool",
+            "minimumFitRooms": "int",
+            "numberOfGuestsWithoutRoom": "int",
+            "isBOR": "bool",
+            "occupancyInfo": {
+              "maxOccupancy": "int",
+              "extraBed": "int",
+              "maxFreeChildren": "int",
+              "perOfferFreeChildrenAndInfants": "int",
+              "perRoomMaxAdults": "int",
+              "perRoomMaxChildren": "int",
+              "perBookMaxAdults": "int",
+              "perBookMaxChildren": "int",
+              "noOfFreeChildren": "int",
+              "noOfChildrenWithChildRate": "int",
+              "noOfMaxFreeChildren": "int"
+            },
+            "occupancyPolicies": {
+              "childPolicyDetails": [
+                {
+                  "title": "str",
+                  "description": "str"
+                }
+              ],
+              "stayFreeAgeRange": {
+                "min": "int",
+                "max": "int"
+              },
+              "extraBed": [
+                "str"
+              ],
+              "additional": [
+                "str"
+              ]
+            },
+            "hasBookingFee": "bool",
+            "paymentInfo": {
+              "isPrepay": "bool",
+              "paymentModel": "int",
+              "noPrePaymentRequired": "bool"
+            },
+            "suggestedRoomQuantity": "int",
+            "isFreeChildrenSuggestionEligible": "bool",
+            "channelId": "int",
+            "stackedChannels": {
+              "id": "int"
+            },
+            "isEasyCancel": "bool",
+            "roomIdentifiers": "str",
+            "rareFindType": "int",
+            "roomOfferNameType": "str",
+            "hasAnyBreakfastRelatedBenefits": "bool",
+            "isTaiwanCampaignEligible": "bool",
+            "isGoLocalEligible": "bool",
+            "cartEligible": "bool",
+            "pricingDisplaySummary": {
+              "perBook": {
+                "chargeTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateExtraBed": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "displayTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "pseudoCoupon": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "originalTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "crossedOut": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payToAgoda": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payAtHotel": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "ignoreDownliftAmount": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "loyaltyOffersSummary": {
+                  "basePrice": {
+                    "exclusive": "float",
+                    "allInclusive": "float"
+                  }
+                }
+              },
+              "perRoomPerBook": {
+                "chargeTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateExtraBed": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "displayTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "pseudoCoupon": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "originalTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payToAgoda": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payAtHotel": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "ignoreDownliftAmount": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "loyaltyOffersSummary": {
+                  "basePrice": {
+                    "exclusive": "float",
+                    "allInclusive": "float"
+                  }
+                }
+              },
+              "perRoomPerNight": {
+                "chargeTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateExtraBed": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "displayTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "pseudoCoupon": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "originalTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "crossedOut": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payToAgoda": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payAtHotel": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "ignoreDownliftAmount": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "loyaltyOffersSummary": {
+                  "basePrice": {
+                    "exclusive": "float",
+                    "allInclusive": "float"
+                  }
+                }
+              },
+              "perNight": {
+                "chargeTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "rebateExtraBed": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "displayTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "pseudoCoupon": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "originalTotal": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "crossedOut": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payToAgoda": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "payAtHotel": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "ignoreDownliftAmount": {
+                  "exclusive": "float",
+                  "allInclusive": "float"
+                },
+                "loyaltyOffersSummary": {
+                  "basePrice": {
+                    "exclusive": "float",
+                    "allInclusive": "float"
+                  }
+                }
+              }
+            },
+            "isCartRestricted": "bool",
+            "allowMultipleBooking": "bool",
+            "papiRoomIdentifier": "str",
+            "roomTypeId": "int",
+            "bfUrl": "str",
+            "roomOccupancy": "int",
+            "cancellationPolicyCode": "str",
+            "rateplanID": "int",
+            "promotionID": "int",
+            "roomNumAdult": "int",
+            "roomNumChild": "int",
+            "roomDMCId": "str",
+            "rateCategory": {
+              "id": "int",
+              "stayPackageType": "int",
+              "isChildRateEnabled": "bool"
+            },
+            "price": "float",
+            "pricePerNight": "float",
+            "priceType": "int",
+            "crossedPrice": "float",
+            "isInclusive": "bool",
+            "promotionType": "int",
+            "promotionSavings": "float",
+            "maxChildren": "int",
+            "lastBookedTimeStamp": "str",
+            "HasSummaryData": "bool",
+            "hasTaxPerPerson": "bool",
+            "isRequiredAddress": "bool",
+            "priority": "float",
+            "filterTags": [
+              "str"
+            ],
+            "suggestedPriceType": "str"
+          }
+        ],
+        "bedType": "str",
+        "bedroomLayout": [
+          {
+            "title": "str",
+            "bedType": "str"
+          }
+        ],
+        "roomSize": "float",
+        "sizeInfo": {
+          "size": "float",
+          "unit": "str",
+          "fullDescription": "str"
+        },
+        "facilities": [
+          "int"
+        ],
+        "topFacilitiesData": [
+          {
+            "id": "int",
+            "featureName": "str",
+            "symbol": "str",
+            "emphasis": "bool",
+            "available": "bool",
+            "order": "int",
+            "highlighted": "bool"
+          }
+        ],
+        "occupancyInfo": {
+          "maxOccupancy": "int",
+          "extraBed": "int",
+          "maxFreeChildren": "int",
+          "perOfferFreeChildrenAndInfants": "int",
+          "perRoomMaxAdults": "int",
+          "perRoomMaxChildren": "int",
+          "perBookMaxAdults": "int",
+          "perBookMaxChildren": "int",
+          "noOfFreeChildren": "int",
+          "noOfChildrenWithChildRate": "int",
+          "noOfMaxFreeChildren": "int"
+        },
+        "features": [
+          {
+            "name": "str",
+            "text": "str",
+            "symbol": "str"
+          }
+        ],
+        "images": [
+          {
+            "url": "str",
+            "caption": "str",
+            "id": "int",
+            "typeId": "int",
+            "uploadedDate": "str",
+            "blurhash": "str",
+            "providerId": "int"
+          }
+        ],
+        "lastBookedDateTime": "str",
+        "allowChildren": "bool",
+        "roomLicenseId": "str",
+        "roomReviewInformation": {
+          "score": "float",
+          "scoreText": "str"
+        },
+        "isRecommended": "bool"
+      }
+    ],
+    "refreshComplete": "bool",
+    "roomFilters": [
+      {
+        "id": "int",
+        "displayText": "str",
+        "roomGroups": [
+          "str"
+        ]
+      }
+    ],
+    "benefitOrders": [
+      "int"
+    ],
+    "cheapestRoomTokens": [
+      "str"
+    ],
+    "soldOut": {
+      "roomGroups": [
+        {
+          "masterRoomTypeId": "int",
+          "masterRoomTypeName": "str",
+          "masterRoomTypeAlternateName": "str",
+          "masterRoomTypeEnglishName": "str",
+          "rooms": [
+            {
+              "pc": {
+                "a": "float",
+                "i": "str",
+                "e": "str",
+                "t": "int",
+                "s": "int",
+                "cor": "float",
+                "ccor": "float",
+                "tf": "float",
+                "tfPRPN": "float",
+                "promotionPricePeek": "float",
+                "originalTotal": "float",
+                "pseudoCoupon": "float"
+              },
+              "breakfastIncluded": "bool",
+              "benefits": [
+                {
+                  "id": "int",
+                  "displayText": "str",
+                  "available": "bool",
+                  "targetType": "str",
+                  "benefitValue": "float"
+                }
+              ],
+              "badgeType": "int",
+              "roomOccupancyDescription": "str",
+              "remainRoom": "int",
+              "roomInfoComponent": [
+                {
+                  "title": "str",
+                  "subSectionComponents": [
+                    {
+                      "subTitle": "str",
+                      "des": "str",
+                      "icontype": "int"
+                    }
+                  ],
+                  "sectionType": "int",
+                  "type": "int"
+                }
+              ],
+              "providerText": {
+                "room": {
+                  "title": "str",
+                  "subtitle": "str",
+                  "note": "str"
+                },
+                "payment": {
+                  "title": "str",
+                  "subtitle": "str",
+                  "note": "str"
+                }
+              },
+              "cancellationPolicyType": "int",
+              "currentCancellationPolicyType": "int",
+              "cancellationPolicyTitle": "str",
+              "cancellationPolicy": "str",
+              "isBnpl": "bool",
+              "isAgency": "bool",
+              "isMultiHotelEligible": "bool",
+              "isPromoCodeEligible": "bool",
+              "isVipDiscountEligible": "bool",
+              "isFullyChargeAtAgoda": "bool",
+              "isCreditCardRequired": "bool",
+              "isApplePayAvailable": "bool",
+              "isImportantInformationTextRequired": "bool",
+              "masterRoomTypeId": "int",
+              "roomName": "str",
+              "englishRoomName": "str",
+              "roomView": "str",
+              "roomSize": "float",
+              "isPromotionEligible": "bool",
+              "maxRoomOccupancy": "int",
+              "isExtrabedAvaiable": "bool",
+              "hasSurcharge": "bool",
+              "minimumFitRooms": "int",
+              "numberOfGuestsWithoutRoom": "int",
+              "isBOR": "bool",
+              "occupancyInfo": {
+                "maxOccupancy": "int",
+                "extraBed": "int",
+                "maxFreeChildren": "int",
+                "perOfferFreeChildrenAndInfants": "int",
+                "perRoomMaxAdults": "int",
+                "perRoomMaxChildren": "int",
+                "noOfFreeChildren": "int",
+                "noOfChildrenWithChildRate": "int",
+                "noOfMaxFreeChildren": "int"
+              },
+              "hasBookingFee": "bool",
+              "suggestedRoomQuantity": "int",
+              "isFreeChildrenSuggestionEligible": "bool",
+              "channelId": "int",
+              "isEasyCancel": "bool",
+              "rareFindType": "int",
+              "hasAnyBreakfastRelatedBenefits": "bool",
+              "isTaiwanCampaignEligible": "bool",
+              "isGoLocalEligible": "bool",
+              "cartEligible": "bool",
+              "isCartRestricted": "bool",
+              "roomTypeId": "int",
+              "roomOccupancy": "int",
+              "cancellationPolicyCode": "str",
+              "rateplanID": "int",
+              "promotionID": "int",
+              "roomNumAdult": "int",
+              "roomNumChild": "int",
+              "roomDMCId": "str",
+              "price": "float",
+              "pricePerNight": "float",
+              "priceType": "int",
+              "crossedPrice": "float",
+              "isInclusive": "bool",
+              "promotionType": "int",
+              "promotionSavings": "float",
+              "maxChildren": "int",
+              "lastBookedTimeStamp": "str",
+              "HasSummaryData": "bool",
+              "hasTaxPerPerson": "bool",
+              "isRequiredAddress": "bool"
+            }
+          ],
+          "bedType": "str",
+          "bedroomLayout": [
+            {
+              "title": "str",
+              "bedType": "str"
+            }
+          ],
+          "roomSize": "float",
+          "sizeInfo": {
+            "size": "float",
+            "unit": "str",
+            "fullDescription": "str"
+          },
+          "facilities": [
+            "int"
+          ],
+          "topFacilitiesData": [
+            {
+              "id": "int",
+              "featureName": "str",
+              "symbol": "str",
+              "emphasis": "bool",
+              "available": "bool",
+              "order": "int",
+              "highlighted": "bool"
+            }
+          ],
+          "occupancyInfo": {
+            "maxOccupancy": "int",
+            "extraBed": "int",
+            "maxFreeChildren": "int",
+            "perOfferFreeChildrenAndInfants": "int",
+            "perRoomMaxAdults": "int",
+            "perRoomMaxChildren": "int",
+            "noOfFreeChildren": "int",
+            "noOfChildrenWithChildRate": "int",
+            "noOfMaxFreeChildren": "int"
+          },
+          "features": [
+            {
+              "name": "str",
+              "text": "str",
+              "symbol": "str"
+            }
+          ],
+          "images": [
+            {
+              "url": "str",
+              "caption": "str",
+              "id": "int",
+              "typeId": "int",
+              "uploadedDate": "str",
+              "blurhash": "str",
+              "providerId": "int"
+            }
+          ],
+          "lastBookedDateTime": "str",
+          "allowChildren": "bool",
+          "roomLicenseId": "str",
+          "isRecommended": "bool"
+        }
+      ],
+      "badgeText": "str",
+      "description": "str"
+    },
+    "breakfastInfo": {
+      "pricePerPersonPerNight": "float"
+    },
+    "jtbRatePlanExist": "bool",
+    "searchToken": "str",
+    "searchId": "str",
+    "enableChildWidget": "bool",
+    "searchInfo": {
+      "status": "int",
+      "criteria": {
+        "checkIn": "str",
+        "los": "int",
+        "numberOfAdults": "int",
+        "numberOfChildren": "int",
+        "numberOfRooms": "int"
+      }
+    },
+    "isEligibleForBasket": "bool",
+    "uptierEligible": "bool",
+    "availableFilters": {
+      "title": "str",
+      "tags": [
+        {
+          "id": "str",
+          "title": "str",
+          "symbol": "str",
+          "groupId": "str",
+          "syncId": "str"
+        }
+      ],
+      "filterGroups": [
+        {
+          "id": "str",
+          "groupName": "str"
+        }
+      ]
+    },
+    "propertySupplierId": "int"
+  },
+  "/hotels/room-grid": {
+    "type": "str",
+    "name": "str",
+    "children": [
+      {
+        "type": "str",
+        "summary": {
+          "propertyId": "int",
+          "localeName": "str",
+          "imageUrl": "str",
+          "isAgodaVerified": "bool",
+          "isAgodaGuaranteeProgram": "bool",
+          "isSoldOut": "bool",
+          "propertyType": "str",
+          "facilityIds": [
+            "int"
+          ],
+          "peopleLooking": "int",
+          "checkInInformation": {
+            "checkInFrom": "str",
+            "checkOutUntil": "str"
+          }
+        },
+        "address": {
+          "address": "str",
+          "cityName": "str",
+          "cityId": "int",
+          "countryId": "int"
+        },
+        "policy": {
+          "isFreeChildrenStay": "bool",
+          "minChildAgeStayFree": "int",
+          "maxChildAgeStayFree": "int",
+          "minDisplayedChildAge": "int",
+          "maxDisplayedChildAge": "int",
+          "minInfantAge": "int",
+          "maxInfantAge": "int",
+          "additionalPolicies": [
+            "str"
+          ]
+        },
+        "reviewInfo": {
+          "defaultProviderId": "int",
+          "defaultScoreBreakdown": {
+            "overall": "float",
+            "cleanliness": "float",
+            "facilities": "float",
+            "location": "float",
+            "staffPerformance": "float",
+            "valueForMoney": "float"
+          },
+          "defaultReviewCount": "int",
+          "recommendationScore": "int",
+          "combinedReviewScore": "float",
+          "combinedReviewScoreText": "str",
+          "combinedReviewCount": "int"
+        },
+        "child": {
+          "type": "str",
+          "header": {
+            "type": "str",
+            "isTransparent": "bool",
+            "backVariant": "str",
+            "content": {
+              "type": "str",
+              "title": "str",
+              "subtitle": "str",
+              "icon": "str",
+              "analytics": {
+                "elementName": "str",
+                "version": "int",
+                "actions": [
+                  "str"
+                ]
+              },
+              "onClick": {
+                "type": "str"
+              }
+            },
+            "trailingItems": [
+              {
+                "type": "str",
+                "propertyId": "int",
+                "icon": "str",
+                "selectedIcon": "str",
+                "shouldHighlight": "bool",
+                "analytics": {
+                  "elementName": "str",
+                  "version": "int",
+                  "context": {
+                    "is_property_favorite": "bool"
+                  },
+                  "actions": [
+                    "str"
+                  ]
+                }
+              }
+            ]
+          },
+          "headerIsOverlay": "bool",
+          "content": {
+            "type": "str",
+            "filterGroupId": "str",
+            "content": {
+              "type": "str",
+              "isRootList": "bool",
+              "children": [
+                {
+                  "type": "str",
+                  "verticalPadding": "str",
+                  "horizontalPadding": "str",
+                  "widthType": "str",
+                  "content": {
+                    "type": "str",
+                    "spacing": "str",
+                    "alignment": "str",
+                    "children": [
+                      {
+                        "type": "str",
+                        "verticalPadding": "str",
+                        "horizontalPadding": "str",
+                        "widthType": "str"
+                      }
+                    ]
+                  },
+                  "analytics": {
+                    "elementName": "str",
+                    "version": "int",
+                    "actions": [
+                      "str"
+                    ]
+                  }
+                }
+              ],
+              "isLazy": "bool"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "/hotels/reviews": {
+    "comments": [
+      {
+        "id": "int",
+        "providerId": "int",
+        "reviewerInfo": {
+          "name": "str",
+          "demographicName": "str",
+          "country": {
+            "id": "int",
+            "name": "str",
+            "countryIso2": "str"
+          },
+          "checkInDate": "str",
+          "checkOutDate": "str"
+        },
+        "reviewDetail": {
+          "date": "str",
+          "title": "str",
+          "originalTitle": "str",
+          "positive": "str",
+          "negative": "str",
+          "comment": "str",
+          "originalComment": "str",
+          "languageId": "int"
+        },
+        "rating": {
+          "score": "float",
+          "scoreText": "str"
+        }
+      }
+    ],
+    "resultStatus": {
+      "category": "int",
+      "serverStatus": "int",
+      "message": "str",
+      "serverMessage": "str",
+      "severity": "int",
+      "isSuccess": "bool"
+    },
+    "serverTime": "str",
+    "serverName": "str"
+  }
+}

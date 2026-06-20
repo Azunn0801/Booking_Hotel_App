@@ -1,0 +1,966 @@
+[
+  {
+    "group": "NumberOfBedrooms",
+    "items": [
+      {
+        "name": "1 bedroom/studio",
+        "id": 1,
+        "filterKey": "NumberOfBedrooms",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "2 bedrooms",
+        "id": 2,
+        "filterKey": "NumberOfBedrooms",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "3+ bedrooms",
+        "id": 3,
+        "filterKey": "NumberOfBedrooms",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "Deals",
+    "items": [
+      {
+        "name": "50% discount or more",
+        "id": 81485,
+        "filterKey": "Deals",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "2X AgodaCash",
+        "id": 119520,
+        "filterKey": "Deals",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Secret deals",
+        "id": 81337,
+        "filterKey": "Deals",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "AgodaVIP Deals",
+        "id": 105046,
+        "filterKey": "Deals",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Insider deals",
+        "id": 81338,
+        "filterKey": "Deals",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "HotelFacilities",
+    "items": [
+      {
+        "name": "Swimming pool",
+        "id": 93,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Internet",
+        "id": 90,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Car park",
+        "id": 80,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Airport transfer",
+        "id": 17,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Gym/fitness",
+        "id": 92,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Front desk [24-hour]",
+        "id": 116,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Family/child friendly",
+        "id": 89,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Non-smoking",
+        "id": 15,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Spa/sauna",
+        "id": 91,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Restaurants",
+        "id": 11,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Smoking area",
+        "id": 83,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pets allowed",
+        "id": 24,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Nightclub",
+        "id": 10,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Facilities for disabled guests",
+        "id": 16,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Business facilities",
+        "id": 88,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "TripPurpose",
+    "items": [
+      {
+        "name": "Great for Families",
+        "id": 2,
+        "filterKey": "TripPurpose",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Great for Groups",
+        "id": 1,
+        "filterKey": "TripPurpose",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pets Allowed",
+        "id": 4,
+        "filterKey": "TripPurpose",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Workation Friendly",
+        "id": 3,
+        "filterKey": "TripPurpose",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "HotelAreaId",
+    "items": [
+      {
+        "name": "Thang Tam",
+        "id": 80639,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 2",
+        "id": 20467,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Ho Tram Beach",
+        "id": 281119,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Long Hai Beach",
+        "id": 281118,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 8",
+        "id": 519700,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 10",
+        "id": 597852,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Ho Coc",
+        "id": 483838,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phuoc Hai Beach",
+        "id": 281120,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 5",
+        "id": 93600,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 1",
+        "id": 62139,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phu My",
+        "id": 481396,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Nguyen An Ninh",
+        "id": 93514,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Thang Nhat",
+        "id": 514765,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 3",
+        "id": 93980,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phuong 4",
+        "id": 519697,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "RecommendedByDestinationCity",
+    "items": [
+      {
+        "name": "",
+        "id": 5,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "",
+        "id": 4,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Excellent",
+        "id": 8,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Book without credit card",
+        "id": 80031,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Exceptional",
+        "id": 9,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Pay at the hotel",
+        "id": 56649,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pets allowed",
+        "id": 24,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Free cancellation",
+        "id": 49499,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Thang Tam",
+        "id": 80639,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "ReviewScore",
+    "items": [
+      {
+        "name": "Exceptional",
+        "id": 9,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Excellent",
+        "id": 8,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Very good",
+        "id": 7,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "Good",
+        "id": 6,
+        "filterKey": "ReviewScore",
+        "filterRequestType": "Range"
+      }
+    ]
+  },
+  {
+    "group": "KidsStayForFree",
+    "items": [
+      {
+        "name": "Kids stay for free",
+        "id": 250691,
+        "filterKey": "KidsStayForFree",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "FamilyFacilities",
+    "items": [
+      {
+        "name": "Facilities for Kids",
+        "id": 1,
+        "filterKey": "FamilyFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Facilities for Infants",
+        "id": 2,
+        "filterKey": "FamilyFacilities",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "IsSustainableTravel",
+    "items": [
+      {
+        "name": "",
+        "id": 0,
+        "filterKey": "IsSustainableTravel",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "PaymentOptions",
+    "items": [
+      {
+        "name": "Book without credit card",
+        "id": 80031,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pay at the hotel",
+        "id": 56649,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pay now",
+        "id": 84640,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Free cancellation",
+        "id": 49499,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "AccommodationType",
+    "items": [
+      {
+        "name": "Hotel",
+        "id": 34,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Apartment/Flat",
+        "id": 29,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Villa",
+        "id": 28,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Homestay",
+        "id": 108,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Serviced apartment",
+        "id": 120,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Resort",
+        "id": 37,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Guesthouse/bed and breakfast",
+        "id": 32,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Entire House",
+        "id": 131,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Motel",
+        "id": 35,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Resort villa",
+        "id": 122,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Entire bungalow",
+        "id": 103,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Lodge",
+        "id": 112,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Hostel",
+        "id": 33,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Guest House",
+        "id": 141,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Capsule hotel",
+        "id": 105,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "RoomBenefits",
+    "items": [
+      {
+        "name": "Breakfast included",
+        "id": 78322,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Outside food delivery allowed",
+        "id": 128283,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Delivery from family and relatives allowed",
+        "id": 128281,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Lunch included",
+        "id": 78306,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Early check-in ",
+        "id": 78310,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Free sauna access ",
+        "id": 78311,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Free shuttle service ",
+        "id": 78312,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Dinner included",
+        "id": 78307,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Delivery from nearby convenience store",
+        "id": 128282,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Late check-out",
+        "id": 78309,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Car rental",
+        "id": 84842,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Afternoon tea",
+        "id": 84841,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Airport transfer",
+        "id": 78308,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Recreation area access with conditions",
+        "id": 128284,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Exercise bike",
+        "id": 128276,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "StarRating",
+    "items": [
+      {
+        "name": "",
+        "id": 5,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "",
+        "id": 1,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "",
+        "id": 2,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "",
+        "id": 3,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      },
+      {
+        "name": "",
+        "id": 4,
+        "filterKey": "StarRating",
+        "filterRequestType": "Range"
+      }
+    ]
+  },
+  {
+    "group": "HostLevel",
+    "items": [
+      {
+        "name": "Verified Host",
+        "id": 1,
+        "filterKey": "HostLevel",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Top Host",
+        "id": 2,
+        "filterKey": "HostLevel",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "RoomAmenities",
+    "items": [
+      {
+        "name": "TV",
+        "id": 35,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Balcony/terrace",
+        "id": 43,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Refrigerator",
+        "id": 86,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Air conditioning",
+        "id": 25,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Washing machine",
+        "id": 87,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Kitchen",
+        "id": 42,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Bathtub",
+        "id": 37,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Private pool",
+        "id": 50,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Internet access",
+        "id": 31,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Ironing facilities",
+        "id": 33,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Coffee/tea maker",
+        "id": 47,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Heating",
+        "id": 143,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pets allowed in room",
+        "id": 342,
+        "filterKey": "RoomAmenities",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "Characteristics",
+    "items": [
+      {
+        "name": "Beach",
+        "id": 14,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Value For Money",
+        "id": 10,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Family",
+        "id": 15,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Sightseeing",
+        "id": 16,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Remarkable Service",
+        "id": 5,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Backpacker Favorite",
+        "id": 1,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Transit",
+        "id": 9,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Spacious Room",
+        "id": 6,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Easy Access",
+        "id": 11,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Shopping",
+        "id": 13,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Stunning View",
+        "id": 7,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Peaceful",
+        "id": 4,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Nature",
+        "id": 17,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Stylish",
+        "id": 8,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Hidden Gem",
+        "id": 3,
+        "filterKey": "Characteristics",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "Popular",
+    "items": [
+      {
+        "name": "Phường 1 area",
+        "id": 62139,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Phường 8 area",
+        "id": 519700,
+        "filterKey": "HotelAreaId",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pay at the hotel",
+        "id": 56649,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Car park",
+        "id": 80,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Resort villa",
+        "id": 122,
+        "filterKey": "AccommodationType",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Family/child friendly",
+        "id": 89,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Front desk [24-hour]",
+        "id": 116,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "Segment",
+    "items": [
+      {
+        "name": "Breakfast included",
+        "id": 78322,
+        "filterKey": "RoomBenefits",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Internet",
+        "id": 90,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Free cancellation",
+        "id": 49499,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Spa/sauna",
+        "id": 91,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Swimming pool",
+        "id": 93,
+        "filterKey": "HotelFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Pay at the hotel",
+        "id": 56649,
+        "filterKey": "PaymentOptions",
+        "filterRequestType": "IDs"
+      }
+    ]
+  },
+  {
+    "group": "PopularForFamily",
+    "items": [
+      {
+        "name": "Facilities for Kids",
+        "id": 1,
+        "filterKey": "FamilyFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Facilities for Infants",
+        "id": 2,
+        "filterKey": "FamilyFacilities",
+        "filterRequestType": "IDs"
+      },
+      {
+        "name": "Kids stay for free",
+        "id": 250691,
+        "filterKey": "KidsStayForFree",
+        "filterRequestType": "IDs"
+      }
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><% block title %>Agoda Clone<% endblock %></title>
+    <meta name="description" content="<% block meta_description %>Đặt phòng khách sạn, căn hộ, khu nghỉ dưỡng và villa tại Agoda Clone — Giá tốt, đặt nhanh, thanh toán dễ dàng.<% endblock %>">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- === Agoda Design System (Kite) === -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-design-system/themes/4.67.0/agoda.css" rel="stylesheet">
+
+    <!-- === Agoda Core Browser Bundles (theo thứ tự load của trang gốc) === -->
+    <!-- 1. Core shared (874KB) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/6272-0deb1a2d29cc.css" rel="stylesheet">
+    <!-- 2. Additional components (238KB) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/6176-204b38b0e1a8.css" rel="stylesheet">
+    <!-- 3. Search/listing CSS (351KB) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/9181-57257155500f.css" rel="stylesheet">
+    <!-- 4. Small component (9KB) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/4202-084ce1c6103b.css" rel="stylesheet">
+    <!-- 5. Small component (6KB) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/4893-61bf6bdde738.css" rel="stylesheet">
+    <!-- 6. Tiny util (626B) -->
+    <link href="/resources_web/homepage/cdn6.agoda.net/cdn-accom-web/js/assets/browser-bundle/ADSEFF-1308B/7487-0447de72b94b.css" rel="stylesheet">
+
+    <!-- === Custom CSS (overrides, bổ sung) === -->
+    <link href="/static/css/app.css" rel="stylesheet">
+
+    <% block extra_css %><% endblock %>
+</head>
+<body>
+    <div id="page-container">
+        <!-- ===================== HEADER ===================== -->
+        <header class="AgHeader" id="page-header">
+            <div class="AgHeader__inner">
+                <!-- Logo -->
+                <div class="AgHeader__logo-wrap">
+                    <a href="/" class="AgHeader__logo-link" aria-label="Agoda - Trang chủ">
+                        <img src="/resources_web/cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg"
+                             alt="Agoda" class="AgHeader__logo-img">
+                    </a>
+                </div>
+
+                <!-- Nav links -->
+                <nav class="AgHeader__nav" aria-label="Điều hướng chính">
+                    <a href="/search?property_type=hotel" class="AgHeader__nav-link">Khách sạn</a>
+                    <a href="/search?property_type=apartment" class="AgHeader__nav-link">Căn hộ</a>
+                    <a href="/search?property_type=villa" class="AgHeader__nav-link">Villa &amp; Biệt thự</a>
+                    <a href="/search?property_type=resort" class="AgHeader__nav-link">Khu nghỉ dưỡng</a>
+                    <a href="/deals" class="AgHeader__nav-link AgHeader__nav-link--deals">
+                        Ưu đãi &amp; Phiếu giảm giá
+                        <span class="AgHeader__new-badge">MỚI</span>
+                    </a>
+                </nav>
+
+                <!-- Right side -->
+                <div class="AgHeader__right">
+                    <!-- Language / Currency -->
+                    <div class="AgHeader__user-menu" id="locale-menu">
+                        <div class="AgHeader__locale-btn" title="Ngôn ngữ và Tiền tệ" style="cursor: pointer;" onclick="document.getElementById('locale-dropdown').classList.toggle('show')">
+                            <span class="AgHeader__flag" id="current-flag">🇻🇳</span>
+                            <span class="AgHeader__currency-code" id="current-currency">VND</span>
+                        </div>
+                        <div class="AgHeader__user-dropdown" id="locale-dropdown" style="width: 250px; padding: 15px; cursor: default;">
+                            <div style="margin-bottom: 12px;">
+                                <strong style="display: block; margin-bottom: 5px; font-size: 14px;">Ngôn ngữ</strong>
+                                <select id="language-select" class="SortSelect" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ccc;"></select>
+                            </div>
+                            <div>
+                                <strong style="display: block; margin-bottom: 5px; font-size: 14px;">Tiền tệ</strong>
+                                <select id="currency-select" class="SortSelect" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ccc;"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        #locale-menu .show { display: block !important; }
+                    </style>
+
+                    <!-- List property -->
+                    <a href="/list-property" class="AgHeader__list-btn">Đăng chỗ ở</a>
+
+                    <!-- Auth -->
+                    <% if user %>
+                        <div class="AgHeader__user-menu">
+                            <div class="AgHeader__user-trigger">
+                                <div class="AgHeader__user-avatar">
+                                    <%= user.full_name[0] | upper if user.full_name else 'U' %>
+                                </div>
+                                <div class="AgHeader__user-info">
+                                    <span class="AgHeader__user-name"><%= user.full_name %></span>
+                                    <span class="AgHeader__vip-badge" id="header-vip-badge">VIP Bronze</span>
+                                </div>
+                            </div>
+                            <div class="AgHeader__user-dropdown">
+                                <a href="/profile" class="AgHeader__dropdown-item">Hồ sơ của tôi</a>
+                                <a href="/profile#bookings" class="AgHeader__dropdown-item">Đơn đặt phòng</a>
+                                <div class="AgHeader__dropdown-divider"></div>
+                                <button onclick="logout()" class="AgHeader__dropdown-item AgHeader__dropdown-item--logout">Đăng xuất</button>
+                            </div>
+                        </div>
+                    <% else %>
+                        <div class="AgHeader__auth">
+                            <a href="/login" class="AgHeader__btn-login">Đăng nhập</a>
+                            <a href="/register" class="AgHeader__btn-register">Tạo tài khoản</a>
+                        </div>
+                    <% endif %>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===================== MAIN ===================== -->
+        <main class="AgMain">
+            <% block content %><% endblock %>
+        </main>
+
+        <!-- ===================== FOOTER ===================== -->
+        <footer class="AgFooter">
+            <!-- Top: SEO Links -->
+            <div class="AgFooter__seo">
+                <div class="AgFooter__seo-inner">
+
+                    <!-- Thành phố -->
+                    <div class="AgFooter__col">
+                        <h3 class="AgFooter__col-title">Thành phố Đích đến</h3>
+                        <div class="AgFooter__col-sections">
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Á</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Bali</a></li>
+                                    <li><a href="#">Khách sạn Bangkok</a></li>
+                                    <li><a href="#">Khách sạn Đà Nẵng</a></li>
+                                    <li><a href="#">Khách sạn Hà Nội</a></li>
+                                    <li><a href="#">Khách sạn TP Hồ Chí Minh</a></li>
+                                    <li><a href="#">Khách sạn Hội An</a></li>
+                                    <li><a href="#">Khách sạn Hồng Kông</a></li>
+                                    <li><a href="#">Khách sạn Kuala Lumpur</a></li>
+                                    <li><a href="#">Khách sạn Kyoto</a></li>
+                                    <li><a href="#">Khách sạn Nha Trang</a></li>
+                                    <li><a href="#">Khách sạn Osaka</a></li>
+                                    <li><a href="#">Khách sạn Pattaya</a></li>
+                                    <li><a href="#">Khách sạn Phuket</a></li>
+                                    <li><a href="#">Khách sạn Seoul</a></li>
+                                    <li><a href="#">Khách sạn Singapore</a></li>
+                                    <li><a href="#">Khách sạn Tokyo</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Âu</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Luân Đôn</a></li>
+                                    <li><a href="#">Khách sạn Paris</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Trung Đông</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Dubai</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quốc gia -->
+                    <div class="AgFooter__col">
+                        <h3 class="AgFooter__col-title">Quốc gia và Vùng lãnh thổ</h3>
+                        <div class="AgFooter__col-sections">
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Á</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Campuchia</a></li>
+                                    <li><a href="#">Khách sạn Trung Quốc</a></li>
+                                    <li><a href="#">Khách sạn Ấn Độ</a></li>
+                                    <li><a href="#">Khách sạn Indonesia</a></li>
+                                    <li><a href="#">Khách sạn Nhật Bản</a></li>
+                                    <li><a href="#">Khách sạn Malaysia</a></li>
+                                    <li><a href="#">Khách sạn Philippines</a></li>
+                                    <li><a href="#">Khách sạn Hàn Quốc</a></li>
+                                    <li><a href="#">Khách sạn Thái Lan</a></li>
+                                    <li><a href="#">Khách sạn Việt Nam</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Âu</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Pháp</a></li>
+                                    <li><a href="#">Khách sạn Đức</a></li>
+                                    <li><a href="#">Khách sạn Ý</a></li>
+                                    <li><a href="#">Khách sạn Tây Ban Nha</a></li>
+                                    <li><a href="#">Khách sạn Vương quốc Anh</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Đại Dương</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Khách sạn Úc</a></li>
+                                    <li><a href="#">Khách sạn New Zealand</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agoda Homes -->
+                    <div class="AgFooter__col">
+                        <h3 class="AgFooter__col-title">Agoda Homes</h3>
+                        <div class="AgFooter__col-sections">
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Căn hộ châu Á</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Căn hộ Bangkok</a></li>
+                                    <li><a href="#">Căn hộ Kuala Lumpur</a></li>
+                                    <li><a href="#">Căn hộ Manila</a></li>
+                                    <li><a href="#">Căn hộ Osaka</a></li>
+                                    <li><a href="#">Căn hộ Tokyo</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Biệt thự châu Á</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Biệt thự Bali</a></li>
+                                    <li><a href="#">Biệt thự Phuket</a></li>
+                                    <li><a href="#">Biệt thự Pattaya</a></li>
+                                    <li><a href="#">Biệt thự Hua Hin</a></li>
+                                    <li><a href="#">Biệt thự Seoul</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Khu nghỉ dưỡng</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Resort Phú Quốc</a></li>
+                                    <li><a href="#">Resort Đà Lạt</a></li>
+                                    <li><a href="#">Resort Nha Trang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cẩm nang -->
+                    <div class="AgFooter__col">
+                        <h3 class="AgFooter__col-title">Cẩm nang Điểm đến</h3>
+                        <div class="AgFooter__col-sections">
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Á</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Hướng dẫn Bali</a></li>
+                                    <li><a href="#">Hướng dẫn Đà Nẵng</a></li>
+                                    <li><a href="#">Hướng dẫn Hồng Kông</a></li>
+                                    <li><a href="#">Hướng dẫn đảo Jeju</a></li>
+                                    <li><a href="#">Hướng dẫn Kuala Lumpur</a></li>
+                                    <li><a href="#">Hướng dẫn Kyoto</a></li>
+                                    <li><a href="#">Hướng dẫn Osaka</a></li>
+                                    <li><a href="#">Hướng dẫn Phuket</a></li>
+                                    <li><a href="#">Hướng dẫn Seoul</a></li>
+                                    <li><a href="#">Hướng dẫn Singapore</a></li>
+                                    <li><a href="#">Hướng dẫn Tokyo</a></li>
+                                </ul>
+                            </div>
+                            <div class="AgFooter__subsection">
+                                <h4 class="AgFooter__subsection-title">Châu Âu</h4>
+                                <ul class="AgFooter__link-list">
+                                    <li><a href="#">Hướng dẫn Paris</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="AgFooter__bottom">
+                <div class="AgFooter__bottom-inner">
+                    <div class="AgFooter__bottom-links">
+                        <a href="#">Về Agoda</a>
+                        <a href="#">Điều khoản sử dụng</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Hỗ trợ</a>
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký đối tác</a>
+                    </div>
+                    <div class="AgFooter__bottom-right">
+                        <span class="AgFooter__copyright">&copy; 2026 Agoda Company Pte. Ltd.</span>
+                        <span class="AgFooter__booking-holdings">Một phần của <strong>Booking Holdings</strong></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- /#page-container -->
+
+    <!-- Design System JS -->
+    <script src="/resources_web/homepage/cdn6.agoda.net/cdn-design-system/themes/4.67.0/agoda.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/app.js"></script>
+    <script>
+    // Fetch and populate Languages and Currencies
+    document.addEventListener('DOMContentLoaded', async () => {
+        const langSelect = document.getElementById('language-select');
+        const currSelect = document.getElementById('currency-select');
+        const flagSpan = document.getElementById('current-flag');
+        const currSpan = document.getElementById('current-currency');
+
+        try {
+            // Load Languages
+            const langRes = await fetch('/languages');
+            if (langRes.ok) {
+                const languages = await langRes.json();
+                langSelect.innerHTML = languages.map(l => 
+                    `<option value="${l.Code}" ${l.IsSelected ? 'selected' : ''}>${l.Translation || l.name}</option>`
+                ).join('');
+            }
+            
+            // Load Currencies
+            const currRes = await fetch('/currencies');
+            if (currRes.ok) {
+                const currencies = await currRes.json();
+                currSelect.innerHTML = currencies.map(c => 
+                    `<option value="${c.Code}" ${c.Code === 'VND' ? 'selected' : ''}>${c.Code} - ${c.name || c.Text}</option>`
+                ).join('');
+            }
+            
+            // Update displayed values when selection changes (can also save to localStorage/cookie later)
+            langSelect.addEventListener('change', (e) => {
+                // simple mapping for demo, in real app you might reload the page with new lang
+            });
+            currSelect.addEventListener('change', (e) => {
+                currSpan.textContent = e.target.value;
+            });
+        } catch(e) {
+            console.error('Error loading locale data:', e);
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', e => {
+            if (!e.target.closest('#locale-menu')) {
+                const dd = document.getElementById('locale-dropdown');
+                if (dd && dd.classList.contains('show')) dd.classList.remove('show');
+            }
+        });
+    });
+    </script>
+    <% block extra_js %><% endblock %>
+    <% if user %>
+    <script>
+    // Fetch VIP status động sau khi page load
+    (async function() {
+        try {
+            const userId = <%= user.id %>;
+            const res = await fetch(`/api/user/${userId}`);
+            if (res.ok) {
+                const data = await res.json();
+                const badge = document.getElementById('header-vip-badge');
+                if (badge && data.vip_status) {
+                    badge.textContent = data.vip_status;
+                    // Đổi màu badge theo level
+                    if (data.vip_status.includes('Diamond')) badge.style.background = 'linear-gradient(135deg,#b9f2ff,#00bcd4)';
+                    else if (data.vip_status.includes('Platinum')) badge.style.background = 'linear-gradient(135deg,#e0e0e0,#9e9e9e)';
+                    else if (data.vip_status.includes('Gold')) badge.style.background = 'linear-gradient(135deg,#ffe082,#ffa000)';
+                    else if (data.vip_status.includes('Silver')) badge.style.background = 'linear-gradient(135deg,#cfd8dc,#78909c)';
+                }
+            }
+        } catch(e) { /* sử dụng badge mặc định nếu lỗi */ }
+    })();
+    </script>
+    <% endif %>
+</html>

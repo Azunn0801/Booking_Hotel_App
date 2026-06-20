@@ -1,0 +1,5 @@
+Match: ked="1"></div>      <div id="pointsmax-panel-react-root" data-hotel-id="" data-signin-landing="" bis_skin_checked="1"></div> <input id="backwardRequestVerificationToken" 
+Match: >                   <button data-element-name="header-list-your-place-button" data-selenium="header-list-your-place-button" type="button" class="aa00d-box aa00d-bg-generi
+Match: 1">                 <button aria-label="Xe đẩy hàng" leadingicon="line.symbol.cart" data-component="ShoppingCartIngressWithCounter" type="button" class="aa00d-box aa00d-b
+Match: em-pointsmax-link"> <i class="mmb-menu-icon ficon ficon-24 ficon-mmb-pointsmax" data-selenium="mmb-menuitem-pointsmax-icon"></i> <span data-selenium="mmb-menuitem-pointsm
+Match: cUda LinksListLink"><a data-savepage-href="//www.agoda.com/vi-vn/pointsmax.html" href="https://www.agoda.com/vi-vn/pointsmax.html" target="" rel="nofollow" id="footer-poi

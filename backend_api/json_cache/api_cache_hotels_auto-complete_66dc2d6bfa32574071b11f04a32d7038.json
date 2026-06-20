@@ -1,0 +1,424 @@
+{
+  "expires_at": "2026-06-17T05:26:08.643494",
+  "data": {
+    "places": [
+      {
+        "id": 5085,
+        "name": "Tokyo",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.679052,
+        "longitude": 139.768753,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 12486,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 4495,
+        "name": "Toronto (ON)",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 4495,
+          "name": "Toronto (ON)"
+        },
+        "country": {
+          "id": 100,
+          "name": "Canada"
+        },
+        "latitude": 43.653714,
+        "longitude": -79.381027,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 1119,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Ontario"
+        }
+      },
+      {
+        "id": 16573,
+        "name": "Florence",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 16573,
+          "name": "Florence"
+        },
+        "country": {
+          "id": 205,
+          "name": "Ý"
+        },
+        "latitude": 43.768491,
+        "longitude": 11.253262,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 5853,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Tuscany"
+        }
+      },
+      {
+        "id": 6343,
+        "name": "Tô Châu",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 6343,
+          "name": "Tô Châu"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 31.31139,
+        "longitude": 120.618057,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 4414,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Giang Tô"
+        }
+      },
+      {
+        "id": 1063,
+        "name": "Mũi hảo vọng",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 1063,
+          "name": "Mũi hảo vọng"
+        },
+        "country": {
+          "id": 62,
+          "name": "Nam Phi"
+        },
+        "latitude": -33.924275,
+        "longitude": 18.416519,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 8242,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Mũi phương Tây"
+        }
+      },
+      {
+        "id": 13890,
+        "name": "Lomé",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 13890,
+          "name": "Lomé"
+        },
+        "country": {
+          "id": 121,
+          "name": "Togo"
+        },
+        "latitude": 6.153526,
+        "longitude": 1.229095,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 257,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Maritime"
+        }
+      },
+      {
+        "id": 16404,
+        "name": "Turin",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 16404,
+          "name": "Turin"
+        },
+        "country": {
+          "id": 205,
+          "name": "Ý"
+        },
+        "latitude": 45.049999,
+        "longitude": 7.666667,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 2549,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Piemonte"
+        }
+      },
+      {
+        "id": 11692,
+        "name": "Sô-ren-tô",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 11692,
+          "name": "Sô-ren-tô"
+        },
+        "country": {
+          "id": 205,
+          "name": "Ý"
+        },
+        "latitude": 40.628285,
+        "longitude": 14.373207,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 1604,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Campania"
+        }
+      },
+      {
+        "id": 213092,
+        "name": "Tongyeong",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 213092,
+          "name": "Tongyeong"
+        },
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc"
+        },
+        "latitude": 34.8258,
+        "longitude": 128.374598,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 468,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Nam Gyongsang"
+        }
+      },
+      {
+        "id": 5086,
+        "name": "Port Of Spain",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5086,
+          "name": "Port Of Spain"
+        },
+        "country": {
+          "id": 95,
+          "name": "Trinidad và Tobago"
+        },
+        "latitude": 10.65,
+        "longitude": -61.5167,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 119,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Port-of-Spain"
+        }
+      },
+      {
+        "id": 7875,
+        "name": "Nam Kinh",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 7875,
+          "name": "Nam Kinh"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 32.061667,
+        "longitude": 118.777779,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 4034,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Giang Tô"
+        }
+      },
+      {
+        "id": 108443,
+        "name": "Nikko",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 108443,
+          "name": "Nikko"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 36.81884,
+        "longitude": 139.58118,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 527,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tochigi"
+        }
+      },
+      {
+        "id": 13002,
+        "name": "Tashkent",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 13002,
+          "name": "Tashkent"
+        },
+        "country": {
+          "id": 172,
+          "name": "Uzbekistan"
+        },
+        "latitude": 41.316666,
+        "longitude": 69.25,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 972,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Thành phố Toshkent"
+        }
+      },
+      {
+        "id": 8453,
+        "name": "Đào Viên",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 8453,
+          "name": "Đào Viên"
+        },
+        "country": {
+          "id": 140,
+          "name": "Đài Loan"
+        },
+        "latitude": 24.989599,
+        "longitude": 121.318703,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 436,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Đào Viên"
+        }
+      },
+      {
+        "id": 14562,
+        "name": "Toulouse",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 14562,
+          "name": "Toulouse"
+        },
+        "country": {
+          "id": 153,
+          "name": "Pháp"
+        },
+        "latitude": 43.611552,
+        "longitude": 1.327003,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 1550,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Vùng Midi-Pyrenees"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:26:09.9105107+07:00",
+    "serverName": "as-pc-3f-mapi-cronos-prod-7d4dd66c94-4jtpq",
+    "processTime": null
+  }
+}

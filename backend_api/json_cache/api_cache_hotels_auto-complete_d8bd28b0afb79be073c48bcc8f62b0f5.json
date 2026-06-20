@@ -1,0 +1,388 @@
+{
+  "expires_at": "2026-06-17T05:08:03.259253",
+  "data": {
+    "places": [
+      {
+        "id": 17190,
+        "name": "Vũng Tàu",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 17190,
+          "name": "Vũng Tàu"
+        },
+        "country": {
+          "id": 38,
+          "name": "Việt Nam"
+        },
+        "latitude": 10.402391,
+        "longitude": 107.148628,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 6329,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Thành phố Hồ Chí Minh"
+        }
+      },
+      {
+        "id": 389,
+        "name": "Vùng Kanto",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 40872,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 212624,
+        "name": "Vùng quê Hongcheon",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 212624,
+          "name": "Vùng quê Hongcheon"
+        },
+        "country": {
+          "id": 212,
+          "name": "Hàn Quốc"
+        },
+        "latitude": 37.696589,
+        "longitude": 127.887383,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 344,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Đảo Kangwon"
+        }
+      },
+      {
+        "id": 388,
+        "name": "Vùng Kansai",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 25070,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 479,
+        "name": "Vùng Tokai",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 8984,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 11350,
+        "name": "Batumi",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 11350,
+          "name": "Batumi"
+        },
+        "country": {
+          "id": 71,
+          "name": "Georgia"
+        },
+        "latitude": 41.641945,
+        "longitude": 41.63361,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 5283,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Batumi"
+        }
+      },
+      {
+        "id": 390,
+        "name": "Vùng Koshinetsu",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 8058,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 597460,
+        "name": "Vùng Tokyo Dome",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5085,
+          "name": "Tokyo"
+        },
+        "country": {
+          "id": 3,
+          "name": "Nhật Bản"
+        },
+        "latitude": 35.711714,
+        "longitude": 139.747343,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 141,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tokyo"
+        }
+      },
+      {
+        "id": 669595,
+        "name": "Vùng Everest  (Nepal)",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 669595,
+          "name": "Vùng Everest  (Nepal)"
+        },
+        "country": {
+          "id": 120,
+          "name": "Nepal"
+        },
+        "latitude": 27.74887,
+        "longitude": 86.63635,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 34,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Khu Sagarmatha"
+        }
+      },
+      {
+        "id": 1501,
+        "name": "Bethlehem",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 1501,
+          "name": "Bethlehem"
+        },
+        "country": {
+          "id": 401,
+          "name": "Vùng lãnh thổ Palestine"
+        },
+        "latitude": 31.706099,
+        "longitude": 35.202684,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 97,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Khu Bờ Tây"
+        }
+      },
+      {
+        "id": 512695,
+        "name": "Kobuleti",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 512695,
+          "name": "Kobuleti"
+        },
+        "country": {
+          "id": 71,
+          "name": "Georgia"
+        },
+        "latitude": 41.815,
+        "longitude": 41.7853,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 572,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Batumi"
+        }
+      },
+      {
+        "id": 630,
+        "name": "Vùng Marmara",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 45,
+          "name": "Thổ Nhĩ Kỳ"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 20785,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 2525,
+        "name": "Vùng Gurugram",
+        "typeId": 5,
+        "typeName": "Vùng miền",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": null,
+        "country": {
+          "id": 35,
+          "name": "Ấn Độ"
+        },
+        "latitude": 0,
+        "longitude": 0,
+        "searchType": 20,
+        "imageUrl": null,
+        "activeHotels": 16346,
+        "landingUrl": null,
+        "state": null
+      },
+      {
+        "id": 18171,
+        "name": "Piran",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 18171,
+          "name": "Piran"
+        },
+        "country": {
+          "id": 27,
+          "name": "Slovenia"
+        },
+        "latitude": 45.527779,
+        "longitude": 13.570556,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 449,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Coastal - Karst Region"
+        }
+      },
+      {
+        "id": 67640,
+        "name": "Koper",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 67640,
+          "name": "Koper"
+        },
+        "country": {
+          "id": 27,
+          "name": "Slovenia"
+        },
+        "latitude": 45.548265,
+        "longitude": 13.731171,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 434,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Coastal - Karst Region"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:08:04.2754683+07:00",
+    "serverName": "sg-pc-6h-mapi-cronos-prod-fd4b4757f-sdml9",
+    "processTime": null
+  }
+}

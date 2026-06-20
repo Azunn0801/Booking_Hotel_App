@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android_app</string>
+    <string name="hint_search_city">Nhập tên thành phố&#8230;</string>
 </resources>

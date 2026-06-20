@@ -1,0 +1,448 @@
+{
+  "expires_at": "2026-06-17T05:07:54.989217",
+  "data": {
+    "places": [
+      {
+        "id": 80610,
+        "name": "Nhà ga Vũ Xương (Wuchang)",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5818,
+          "name": "Vũ Hán"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 30.55592,
+        "longitude": 114.300228,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 633,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hồ Bắc"
+        }
+      },
+      {
+        "id": 556613,
+        "name": "Vũ Xương (Wuchang)",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 2772,
+          "name": "Cáp Nhĩ Tân"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 44.760386,
+        "longitude": 127.476944,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 211,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hắc Long Giang"
+        }
+      },
+      {
+        "id": 56478,
+        "name": "Dịch vụ xuất nhập cảnh & quyền công dân Hoa Kỳ",
+        "typeId": 3,
+        "typeName": "Điểm du lịch",
+        "subTypeId": 28,
+        "subTypeName": "Đại Sứ Quán và Lãnh Sự Quán",
+        "area": {
+          "id": 378539,
+          "name": "Loop"
+        },
+        "city": {
+          "id": 13899,
+          "name": "Chicago"
+        },
+        "country": {
+          "id": 181,
+          "name": "Hoa Kỳ"
+        },
+        "latitude": 41.878369,
+        "longitude": -87.628994,
+        "searchType": 3,
+        "imageUrl": null,
+        "activeHotels": 1598,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Bang Illinois"
+        }
+      },
+      {
+        "id": 438912,
+        "name": "Vũ Xuyên Gelao và Miao",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 160216,
+          "name": "Tuân Nghĩa"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 28.649667,
+        "longitude": 107.908057,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 51,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Quý Châu"
+        }
+      },
+      {
+        "id": 19605,
+        "name": "Dịch vụ xử lý Bgsp",
+        "typeId": 3,
+        "typeName": "Điểm du lịch",
+        "subTypeId": 9,
+        "subTypeName": "Trường Cao Đẳng và Đại Học",
+        "area": {
+          "id": 36205,
+          "name": "Brookline"
+        },
+        "city": {
+          "id": 23278,
+          "name": "Brookline (MA)"
+        },
+        "country": {
+          "id": 181,
+          "name": "Hoa Kỳ"
+        },
+        "latitude": 42.339499,
+        "longitude": -71.133445,
+        "searchType": 3,
+        "imageUrl": null,
+        "activeHotels": 107,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Bang Massachusetts"
+        }
+      },
+      {
+        "id": 144481,
+        "name": "Dịch vụ xe bus Citybug",
+        "typeId": 3,
+        "typeName": "Điểm du lịch",
+        "subTypeId": 46,
+        "subTypeName": "Phương Tiện Vận Chuyển",
+        "area": {
+          "id": 514521,
+          "name": "Broham"
+        },
+        "city": {
+          "id": 7247,
+          "name": "Nelspruit"
+        },
+        "country": {
+          "id": 62,
+          "name": "Nam Phi"
+        },
+        "latitude": -25.477333,
+        "longitude": 30.976113,
+        "searchType": 3,
+        "imageUrl": null,
+        "activeHotels": 101,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Mpumalanga"
+        }
+      },
+      {
+        "id": 135044,
+        "name": "Phòng khiêu vũ Xinyuan",
+        "typeId": 3,
+        "typeName": "Điểm du lịch",
+        "subTypeId": 33,
+        "subTypeName": "Nơi Biểu Diễn Văn Nghệ",
+        "area": {
+          "id": 517870,
+          "name": "Quận Sùng Xuyên (Chongchuan)"
+        },
+        "city": {
+          "id": 79761,
+          "name": "Nam Thông"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 32.00903,
+        "longitude": 120.8568,
+        "searchType": 3,
+        "imageUrl": null,
+        "activeHotels": 99,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Giang Tô"
+        }
+      },
+      {
+        "id": 1931596,
+        "name": "Vuxenpsykiatrisk mottagning",
+        "typeId": 3,
+        "typeName": "Điểm du lịch",
+        "subTypeId": 25,
+        "subTypeName": "Bệnh Viện và Cơ Sở Y Tế",
+        "area": {
+          "id": 570769,
+          "name": "Ugglum"
+        },
+        "city": {
+          "id": 16062,
+          "name": "Gothenburg"
+        },
+        "country": {
+          "id": 49,
+          "name": "Thụy Điển"
+        },
+        "latitude": 57.731465,
+        "longitude": 12.062627,
+        "searchType": 3,
+        "imageUrl": null,
+        "activeHotels": 27,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tây Gothland"
+        }
+      },
+      {
+        "id": 523614,
+        "name": "Tu Vũ (Xiuwu)",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 105939,
+          "name": "Tiêu Tác"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 35.220097,
+        "longitude": 113.430661,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 270,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hà Nam"
+        }
+      },
+      {
+        "id": 22487,
+        "name": "Vũ Xương",
+        "typeId": 2,
+        "typeName": "Vùng",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5818,
+          "name": "Vũ Hán"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 30.489213,
+        "longitude": 114.43634,
+        "searchType": 2,
+        "imageUrl": null,
+        "activeHotels": 1,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hồ Bắc"
+        }
+      },
+      {
+        "id": 52715787,
+        "name": "Căn hộ 65 m² 1 phòng ngủ, 1 phòng tắm riêng ở Floda",
+        "typeId": 4,
+        "typeName": "Khách Sạn",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": {
+          "id": 223505,
+          "name": "Floda"
+        },
+        "city": {
+          "id": 171537,
+          "name": "Floda"
+        },
+        "country": {
+          "id": 49,
+          "name": "Thụy Điển"
+        },
+        "latitude": 57.7984895,
+        "longitude": 12.3749853,
+        "searchType": 4,
+        "imageUrl": null,
+        "activeHotels": 0,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tây Gothland"
+        }
+      },
+      {
+        "id": 32926274,
+        "name": "Floda, Minihus på 62m2 för plats för 4 vuxna och 2 barn",
+        "typeId": 4,
+        "typeName": "Khách Sạn",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": {
+          "id": 223505,
+          "name": "Floda"
+        },
+        "city": {
+          "id": 171537,
+          "name": "Floda"
+        },
+        "country": {
+          "id": 49,
+          "name": "Thụy Điển"
+        },
+        "latitude": 57.80238723754883,
+        "longitude": 12.379535675048828,
+        "searchType": 4,
+        "imageUrl": null,
+        "activeHotels": 0,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Quận Tây Gothland"
+        }
+      },
+      {
+        "id": 4848012,
+        "name": "Chung cư 40 m² 1 phòng ngủ, 1 phòng tắm riêng ở Nhà ga Vũ Xương (Wuchang)",
+        "typeId": 4,
+        "typeName": "Khách Sạn",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": {
+          "id": 80610,
+          "name": "Nhà ga Vũ Xương (Wuchang)"
+        },
+        "city": {
+          "id": 5818,
+          "name": "Vũ Hán"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 30.53206,
+        "longitude": 114.317571,
+        "searchType": 4,
+        "imageUrl": null,
+        "activeHotels": 0,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hồ Bắc"
+        }
+      },
+      {
+        "id": 5818,
+        "name": "Vũ Hán",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 5818,
+          "name": "Vũ Hán"
+        },
+        "country": {
+          "id": 191,
+          "name": "Trung Quốc"
+        },
+        "latitude": 30.570065,
+        "longitude": 114.292145,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 5024,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tỉnh Hồ Bắc"
+        }
+      },
+      {
+        "id": 665309,
+        "name": "Vex",
+        "typeId": 1,
+        "typeName": "Thành Phố",
+        "subTypeId": 0,
+        "subTypeName": "",
+        "area": null,
+        "city": {
+          "id": 665309,
+          "name": "Vex"
+        },
+        "country": {
+          "id": 51,
+          "name": "Thụy Sĩ"
+        },
+        "latitude": 46.2,
+        "longitude": 7.4,
+        "searchType": 1,
+        "imageUrl": null,
+        "activeHotels": 109,
+        "landingUrl": null,
+        "state": {
+          "id": 1,
+          "name": "Tổng Valais"
+        }
+      }
+    ],
+    "errors": [],
+    "resultStatus": {
+      "category": 1,
+      "serverStatus": 9000,
+      "message": "",
+      "serverMessage": "",
+      "severity": 1,
+      "isSuccess": true
+    },
+    "serverTime": "2026-06-16T12:07:56.2544784+07:00",
+    "serverName": "as-pc-3f-mapi-cronos-prod-7d4dd66c94-wf98j",
+    "processTime": null
+  }
+}

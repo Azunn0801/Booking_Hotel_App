@@ -1,0 +1,10 @@
+Searching in bookings_list.html:
+ID: contact.contactFirstName ->       <div data-testid="field-wrapper" data-field-id="contact.contactFirstName" data-is-prefilled="true" class="GridItem__GridItemStyled-sc-3btv1u-0 hQxXcY" bis_skin_checked="1">                      
+ID: contact.contactLastName ->       <div data-testid="field-wrapper" data-field-id="contact.contactLastName" data-is-prefilled="true" class="GridItem__GridItemStyled-sc-3btv1u-0 hQxXcY" bis_skin_checked="1">                       
+ID: contact.contactEmail ->       <div data-testid="field-wrapper" data-field-id="contact.contactEmail" data-is-prefilled="true" class="GridItem__GridItemStyled-sc-3btv1u-0 hQxXcY" bis_skin_checked="1">                          
+ID: contact.contactPhoneNumber ->       <div data-testid="field-wrapper" data-field-id="contact.contactPhoneNumber" data-is-prefilled="false" class="GridItem__GridItemStyled-sc-3btv1u-0 hQxXcY" bis_skin_checked="1">                   
+ID: property.address1 -> </div><div data-testid="field-wrapper" data-field-id="property.address1" data-is-prefilled="false" class="GridItem__GridItemStyled-sc-3btv1u-0 hgaEII" bis_skin_checked="1"><div aria-hidden="true" iner
+Attr: property-name-id -> iUJbYH" data-section="property-name" data-testid="property-name-id">Khách sạn căn hộ Vy Vân</h2>                                                     </div>                                             
+Attr: fpc-room-price -> Q BreakdownItem__price--3soft" data-element-name="fpc-room-price" data-fpc-value="251.852 ₫">251.852 ₫</span>                                           </div>                                          
+Attr: fpc-tax-and-fee-amount -> Q BreakdownItem__price--3soft" data-element-name="fpc-tax-and-fee-amount" data-fpc-value="20.148 ₫">20.148 ₫</span>                                           </div>                                    
+Attr: fpc-total-price -> 2000" data-currency-code="vnd" data-element-name="fpc-total-price" data-fpc-value="272.000 ₫" bis_skin_checked="1">272.000 ₫</div>                                           </div>                     

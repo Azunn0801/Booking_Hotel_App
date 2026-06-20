@@ -4,7 +4,8 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class Room implements Serializable {
-    private int id;
+    @SerializedName("id")
+    private String id;
 
     @SerializedName("hotel_id")
     private int hotelId;
@@ -25,11 +26,38 @@ public class Room implements Serializable {
     @com.google.gson.annotations.SerializedName("discount_percent")
     private int discountPercent;
 
+    @SerializedName("breakfast_included")
+    private boolean breakfastIncluded;
+
+    @SerializedName("cancellation_policy")
+    private String cancellationPolicy;
+
+    @SerializedName("cancellation_policy_type")
+    private int cancellationPolicyType;
+
+    @SerializedName("is_free_cancellation")
+    private boolean isFreeCancellation;
+
+    @SerializedName("remain_room")
+    private int remainRoom;
+
+    @SerializedName("room_occupancy_description")
+    private String roomOccupancyDescription;
+
+    @SerializedName("images")
+    private java.util.List<String> images;
+
+    @SerializedName("check_in")
+    private String checkIn;
+
+    @SerializedName("check_out")
+    private String checkOut;
+
     public Room() {}
 
     // Getter và Setter
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
 
     public int getHotelId() { return hotelId; }
     public void setHotelId(int hotelId) { this.hotelId = hotelId; }
@@ -62,4 +90,31 @@ public class Room implements Serializable {
     public void setDiscountPercent(int discountPercent) {
         this.discountPercent = discountPercent;
     }
+
+    public boolean isBreakfastIncluded() { return breakfastIncluded; }
+    public void setBreakfastIncluded(boolean breakfastIncluded) { this.breakfastIncluded = breakfastIncluded; }
+
+    public String getCancellationPolicy() { return cancellationPolicy; }
+    public void setCancellationPolicy(String cancellationPolicy) { this.cancellationPolicy = cancellationPolicy; }
+
+    public int getCancellationPolicyType() { return cancellationPolicyType; }
+    public void setCancellationPolicyType(int cancellationPolicyType) { this.cancellationPolicyType = cancellationPolicyType; }
+
+    public boolean isFreeCancellation() { return isFreeCancellation; }
+    public void setFreeCancellation(boolean freeCancellation) { this.isFreeCancellation = freeCancellation; }
+
+    public int getRemainRoom() { return remainRoom; }
+    public void setRemainRoom(int remainRoom) { this.remainRoom = remainRoom; }
+
+    public String getRoomOccupancyDescription() { return roomOccupancyDescription; }
+    public void setRoomOccupancyDescription(String roomOccupancyDescription) { this.roomOccupancyDescription = roomOccupancyDescription; }
+
+    public java.util.List<String> getImages() { return images; }
+    public void setImages(java.util.List<String> images) { this.images = images; }
+
+    public String getCheckIn() { return checkIn; }
+    public void setCheckIn(String checkIn) { this.checkIn = checkIn; }
+
+    public String getCheckOut() { return checkOut; }
+    public void setCheckOut(String checkOut) { this.checkOut = checkOut; }
 }

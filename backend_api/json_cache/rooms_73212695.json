@@ -1,0 +1,4286 @@
+{
+  "resultStatus": {
+    "category": 1,
+    "serverStatus": 9000,
+    "message": "",
+    "serverMessage": "",
+    "severity": 1,
+    "isSuccess": true
+  },
+  "serverTime": "2026-06-16T12:22:41.407778688",
+  "serverName": "as-pc-3h-asgard-property-main-5fdc7f94f9-jgb8s",
+  "debugLogs": [],
+  "roomGroups": [
+    {
+      "masterRoomTypeId": 1145303217,
+      "masterRoomTypeName": "Phòng Tiêu Chuẩn",
+      "masterRoomTypeAlternateName": "",
+      "masterRoomTypeEnglishName": "Standard Room",
+      "cheapestRoomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:20621785;rid:0;uid:20d7ac45-675e-d0a9-eae7-f811289aed9f;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgIqbBoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:341958;rcy:VND",
+      "cheapestRoomTokens": [
+        "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:20621785;rid:0;uid:20d7ac45-675e-d0a9-eae7-f811289aed9f;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgIqbBoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:341958;rcy:VND"
+      ],
+      "rooms": [
+        {
+          "roomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:20621785;rid:0;uid:20d7ac45-675e-d0a9-eae7-f811289aed9f;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgIqbBoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:341958;rcy:VND",
+          "uid": "20d7ac45-675e-d0a9-eae7-f811289aed9f",
+          "pc": {
+            "a": 301191.0,
+            "i": "",
+            "e": "Thuế và phí",
+            "t": 101,
+            "s": 1,
+            "cor": 743324.0,
+            "ccor": 0.0,
+            "tf": 40767.0,
+            "tfPRPN": 40767.0,
+            "sdni": {
+              "i": 332
+            },
+            "promotionPricePeek": 301191.0,
+            "originalTotal": 304233.0,
+            "pseudoCoupon": 0.0,
+            "priceFreezePrice": {
+              "exclusive": 301191.0,
+              "inclusive": 341958.0
+            },
+            "promoAppliedOnFinalPrice": true,
+            "hasPromotionPricePeek": true
+          },
+          "breakfastIncluded": false,
+          "benefits": [
+            {
+              "id": 10004,
+              "displayText": "Không hút thuốc",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0
+            },
+            {
+              "id": 6,
+              "displayText": "Bãi đậu xe",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 10,
+              "displayText": "Nước uống chào đón",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 95,
+              "displayText": "WiFi miễn phí",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 230,
+              "displayText": "Nước uống",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            }
+          ],
+          "badgeType": 0,
+          "badges": [],
+          "roomOccupancyDescription": "Tối đa 2 người lớn",
+          "remainRoom": 8,
+          "roomInfoComponent": [
+            {
+              "title": "Chính sách Khách sạn",
+              "subSectionComponents": [
+                {
+                  "subTitle": "Trẻ em và giường phụ",
+                  "des": "",
+                  "icontype": 0
+                },
+                {
+                  "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                  "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 2,
+              "type": 2
+            },
+            {
+              "title": "Chính sách hủy",
+              "subSectionComponents": [
+                {
+                  "subTitle": "",
+                  "des": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 3,
+              "type": 3
+            }
+          ],
+          "providerText": {
+            "room": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            },
+            "payment": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            }
+          },
+          "cancellationPolicyType": 0,
+          "currentCancellationPolicyType": 2,
+          "cancellationPolicyTitle": "Chính sách hủy",
+          "cancellationPolicyTitleTemplate": {
+            "template": "Chính sách hủy"
+          },
+          "cancellationPolicy": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+          "cancellationInfo": {
+            "type": 0,
+            "currentType": 2,
+            "freeCancellationDate": "/Date(1781370000000+0700)/",
+            "titleTemplate": {
+              "template": "Chính sách hủy"
+            },
+            "descriptionTemplate": {
+              "template": ""
+            },
+            "noShowPolicy": "Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+            "policies": [
+              "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở."
+            ],
+            "cancellationCode": "3D100P_100P",
+            "title": "Chính sách hủy",
+            "externalUrl": ""
+          },
+          "isBnpl": false,
+          "isBwzp": false,
+          "isAgency": false,
+          "isMultiHotelEligible": false,
+          "isPromoCodeEligible": false,
+          "isVipDiscountEligible": false,
+          "isFullyChargeAtAgoda": true,
+          "isCreditCardRequired": true,
+          "isApplePayAvailable": false,
+          "isImportantInformationTextRequired": false,
+          "masterRoomTypeId": 0,
+          "roomName": "",
+          "englishRoomName": "",
+          "roomView": "",
+          "roomSize": 0.0,
+          "isPromotionEligible": true,
+          "promotionDiscount": {
+            "typeId": 0,
+            "v": 59.0,
+            "u": 1,
+            "id": 0
+          },
+          "maxRoomOccupancy": 2,
+          "isExtrabedAvaiable": false,
+          "hasSurcharge": false,
+          "minimumFitRooms": 1,
+          "numberOfGuestsWithoutRoom": 0,
+          "isBOR": false,
+          "occupancyInfo": {
+            "maxOccupancy": 2,
+            "extraBed": 0,
+            "maxFreeChildren": 1,
+            "perOfferFreeChildrenAndInfants": 0,
+            "perRoomMaxAdults": 2,
+            "perRoomMaxChildren": 0,
+            "perBookMaxAdults": 2,
+            "perBookMaxChildren": 0,
+            "noOfFreeChildren": 0,
+            "noOfChildrenWithChildRate": 0,
+            "noOfMaxFreeChildren": 1
+          },
+          "occupancyPolicies": {
+            "childPolicyDetails": [
+              {
+                "title": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+              }
+            ],
+            "stayFreeAgeRange": {
+              "min": 0,
+              "max": 6
+            },
+            "extraBed": [
+              "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+            ],
+            "additional": [
+              "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+            ]
+          },
+          "hasBookingFee": false,
+          "paymentInfo": {
+            "isPrepay": true,
+            "paymentModel": 1,
+            "noPrePaymentRequired": false,
+            "paymentChannels": []
+          },
+          "suggestedRoomQuantity": 0,
+          "discountMessages": [
+            "last-minute-deal"
+          ],
+          "isFreeChildrenSuggestionEligible": true,
+          "channelId": 535,
+          "stackedChannels": {
+            "id": 535,
+            "channelBreakDowns": [
+              {
+                "id": 21,
+                "discountPercent": 15.0,
+                "display": true
+              },
+              {
+                "id": 54,
+                "discountPercent": 10.0,
+                "display": true
+              }
+            ]
+          },
+          "isEasyCancel": false,
+          "appliedPromotionCoupon": {
+            "cid": 1902770,
+            "campaignId": 157341,
+            "code": "PRICING1PCT",
+            "percentage": 1.0,
+            "title": "Ưu đãi Giảm giá",
+            "autoApplied": true,
+            "messageInfo": {
+              "campaignName": "Ưu đãi Giảm giá",
+              "title": "Đã dùng Ưu đãi Giảm giá",
+              "titleWithDiscount": "Đã áp dụng Ưu đãi Giảm giá – GIẢM 3.042 ₫!"
+            },
+            "campaignType": 5,
+            "analyticsInfo": {
+              "crgw_id": "157341",
+              "is_optimizable": "false",
+              "promotion_campaign_type_id": "6",
+              "is_auto_assign": "true",
+              "is_llama_campaign": "false",
+              "user_wallet_count": "0",
+              "is_bin_wallet": "false"
+            }
+          },
+          "campaignPeek": {
+            "campaignId": 157341,
+            "cid": 1902770,
+            "campaignName": "Ưu đãi Giảm giá",
+            "promotionCode": "PRICING1PCT",
+            "discountType": 1,
+            "discountAmount": 1.0,
+            "dateValidType": 1,
+            "dateValidFrom": "/Date(1781024400000+0700)/",
+            "dateValidUntil": "/Date(1783616399000+0700)/",
+            "autoApplyType": 2
+          },
+          "corInfoText": "Giá có thể đặt trước của loại phòng này, trước khi chúng tôi áp dụng bất kỳ chương trình giảm giá hoặc khuyến mại nào.",
+          "roomIdentifiers": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb29tSWRlbnRpZmllciI6IkNpY0k0c0tmeEFnUUFoaisyY1FKSUs0SUtMS24xUk13QkVvTE0wUXhNREJRWHpFd01GQlFtQVVTQmdnQklnSXFiQm9FS0FRd0FTSUVDQVFZQWc9PSIsInByaWNlUGFyYW1ldGVycyI6eyJCb29raW5nRHVyYXRpb25UeXBlIjpbIm5pZ2h0bHkiXSwiRmVhdHVyZUZsYWciOlszLDE1LDIsMSw0LDg4LDksNTAsMTYsNjIsNTYsNjEsMjQsOTIsMzEsNDAsMzksMzcsNTcsNjksODAsNzFdLCJGb3JjZWRFeHBlcmltZW50cyI6W3siSWQiOiJQTEVDUy0yNTIxIiwiVmFyaWFudCI6IkIifSx7IklkIjoiUEZFQVBQLTIzODMiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJMT1ZFLTY3IiwiVmFyaWFudCI6IkIifSx7IklkIjoiVEhBSS1HT1YiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJKR0NXLTIwNCIsIlZhcmlhbnQiOiJCIn0seyJJZCI6IlBBQ0tBR0VTLTc3MCIsIlZhcmlhbnQiOiJCIn1dLCJNc2VIb3RlbElkcyI6W10sIlBvaW50c01heElkIjowLCJSZWZJZCI6MCwiU3VwcG9ydGVkRmVhdHVyZXMiOnsiU2hvd0NtcyI6ZmFsc2UsIk0xNTAiOmZhbHNlLCJTaG93RmFtaWx5RmlsdGVycyI6ZmFsc2UsIlJhdGVQbGFuQ2hlY2tJbkNoZWNrT3V0IjpmYWxzZSwiRXhjbHVkZVZvdWNoZXJSb29tcyI6ZmFsc2UsIkZldGNoUGFzdEJvb2tpbmdJbmZvcm1hdGlvblJvb21MZXZlbCI6dHJ1ZSwiRXNjYXBlUGFja2FnZSI6dHJ1ZSwiUHVzaERheVVzZVJhdGVzIjpmYWxzZSwiSXNNdWx0aUhvdGVsU2VhcmNoIjpmYWxzZSwiRW5hYmxlUmljaENvbnRlbnRPZmZlciI6dHJ1ZSwiRGlzYWJsZUVzY2FwZXNQYWNrYWdlIjpmYWxzZSwiU2hvd1NvbGRPdXRQcmljZSI6dHJ1ZSwiU2hvd1NvbGRPdXRSb29tcyI6dHJ1ZSwiRW5hYmxlQVNPQmVuZWZpdERpc2NvdW50IjpmYWxzZSwiQm9va09uUmVxdWVzdCI6ZmFsc2V9fX0.E8b2ToJfyYFQaNwB5EQg0v5QxRFO_jsCybE5swG1TFj26R9mOc55xmHlqBAQa-eq",
+          "rareFindType": 0,
+          "roomOfferNameType": "CheapestOffer",
+          "hasAnyBreakfastRelatedBenefits": false,
+          "isTaiwanCampaignEligible": false,
+          "isGoLocalEligible": false,
+          "cartEligible": true,
+          "pricingDisplaySummary": {
+            "perBook": {
+              "chargeTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 304233.0,
+                "allInclusive": 345000.0
+              },
+              "crossedOut": {
+                "exclusive": 743324.0,
+                "allInclusive": 784091.0
+              },
+              "payToAgoda": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3042.0,
+                "allInclusive": 3042.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 304233.0,
+                  "allInclusive": 345000.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerBook": {
+              "chargeTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 304233.0,
+                "allInclusive": 345000.0
+              },
+              "crossedOut": {},
+              "payToAgoda": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3042.0,
+                "allInclusive": 3042.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 304233.0,
+                  "allInclusive": 345000.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerNight": {
+              "chargeTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 304233.0,
+                "allInclusive": 345000.0
+              },
+              "crossedOut": {
+                "exclusive": 743324.0,
+                "allInclusive": 784091.0
+              },
+              "payToAgoda": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3042.0,
+                "allInclusive": 3042.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 304233.0,
+                  "allInclusive": 345000.0
+                },
+                "offers": []
+              }
+            },
+            "perNight": {
+              "chargeTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 304233.0,
+                "allInclusive": 345000.0
+              },
+              "crossedOut": {
+                "exclusive": 743324.0,
+                "allInclusive": 784091.0
+              },
+              "payToAgoda": {
+                "exclusive": 301191.0,
+                "allInclusive": 341958.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3042.0,
+                "allInclusive": 3042.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 304233.0,
+                  "allInclusive": 345000.0
+                },
+                "offers": []
+              }
+            }
+          },
+          "isCartRestricted": false,
+          "allowMultipleBooking": true,
+          "papiRoomIdentifier": "CicI4sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgIqbBoEKAQwASIECAQYAg==",
+          "roomTypeId": 1145303217,
+          "pricingMessages": {
+            "formatted": [
+              {
+                "location": 4,
+                "texts": [
+                  {
+                    "index": 0,
+                    "text": "Gửi \"Kết hợp và Tiết kiệm\" đến PP"
+                  }
+                ]
+              }
+            ]
+          },
+          "bfUrl": "https://searchapi.agoda.com/vi-vn/book/?secdat=rAp1E7%252F8FMP8kuaEVNMpeTmzGwUI7y0HHmqBY58L%252F9RbPaX4oFDWD9yKpQrolYBKug1q4glfFk%252B%252B78UBXffYW0NsLuH%252FoZgj1vNy1qk60UZ8SThzFwLZv0J4s3%252B%252B%252FnkrVMVwca%252FeyTTdead%252F%252F7M%252BaS7aPhI6kDRPCTnE8Uh2zbKjv3OCphsF9RJjHI%252BiFXF2uRDnsPG7FaipfIqi5VOJMJeP1lVnb3q9O3CmiO64hhM%253D&cnIcp=0&cnty=38&v=29&ori=MX&finc=false&siteId=1605717&dclid=-1&gclid=-1&ame=&aso=&aca=&aco=&ate=&r0=WK8PJioA266luvHxHjHOsLPcIqsZ%252BlM2Os4k8qYggxch6lkn1Kn8hdL51qUZuU97NrJjQAc3wmOOq0BFyzj9%252BtCkPLOm27pLc7T5kbyKVf5jv2%252BNLcbHx6%252B5Gg49UyOyF1wWlosF97cSFx%252FsGLV2EuGrQchPa6Y96r8sufH%252BYGBq7OAT%252BtopmXeCL%252BA4T5xYCwZXw2PnLQO2Q0gr4yKH3mBITriJ0Fefw9%252BOp%252BpYoUvTQklBHNKut2M8G%252BHLbaN9fCKeSvQKhxkgewOYkerG%252BwDptwM1P53ObzRRnpkOOh4sYDxTd0Hc6FXPKj5Qkvmo&nr0=1&xbr0=&sarg=OEdsOlM18FmXzuShcDfmwp135LYicfNcaL2aA3AG71GnQneq0bUkgFI1clw%252FvM32ANWHwj59t0eKIVCg7zmMTLFNgmvAipCT%252FhUMdY0NdaBCRv30sxbkAYeT69p1x0GkcmVgWtJ6kqFdEeeJFgPnFFVbq20MY2X018%252Bzwh9sgjaCBz61XYseXiChdLHfHqzYZuwOxgHuAtd28E11fN7EoQshRxoetqNK5jEOp8gD%252BlkOppZG0epeqkDGocJDxTq4",
+          "roomOccupancy": 0,
+          "cancellationPolicyCode": "3D100P_100P",
+          "rateplanID": 535,
+          "promotionID": 0,
+          "roomNumAdult": 0,
+          "roomNumChild": 0,
+          "roomDMCId": "332",
+          "rateCategory": {
+            "id": 20621785,
+            "stayPackageType": 0,
+            "checkIn": {},
+            "checkOut": {},
+            "isChildRateEnabled": false
+          },
+          "price": 0.0,
+          "pricePerNight": 0.0,
+          "priceType": 0,
+          "crossedPrice": 0.0,
+          "isInclusive": false,
+          "promotionType": 0,
+          "promotionSavings": 0.0,
+          "maxChildren": 0,
+          "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+          "HasSummaryData": false,
+          "hasTaxPerPerson": false,
+          "isRequiredAddress": false,
+          "priority": 1.0,
+          "filterTags": [
+            "non-smoking",
+            "queen-bed"
+          ],
+          "pulseCampaignMetadata": {
+            "campaignTypeId": 2178,
+            "promotionTypeId": 6716,
+            "campaignBadgeText": "SUMMER VIBES",
+            "campaignBadgeDescText": "Giá Đặc Biệt – Chỉ trong thời gian ngắn!",
+            "campaignBadgeType": "Seasonal"
+          },
+          "suggestedPriceType": "Exclusive",
+          "corBreakdown": {
+            "perRoomPerNightTaxExclusive": [
+              {
+                "id": 5,
+                "price": 230000.0
+              },
+              {
+                "id": 9,
+                "price": 209091.0
+              },
+              {
+                "id": 0,
+                "price": 743324.0
+              },
+              {
+                "id": 8,
+                "price": 3042.0
+              },
+              {
+                "id": 1,
+                "price": 301191.0
+              }
+            ],
+            "perRoomPerNightTaxInclusive": [
+              {
+                "id": 5,
+                "price": 230000.0
+              },
+              {
+                "id": 9,
+                "price": 209091.0
+              },
+              {
+                "id": 0,
+                "price": 784091.0
+              },
+              {
+                "id": 8,
+                "price": 3042.0
+              },
+              {
+                "id": 1,
+                "price": 341958.0
+              }
+            ]
+          }
+        }
+      ],
+      "bedType": "1 giường đôi lớn",
+      "bedroomLayout": [
+        {
+          "title": "Không gian chung",
+          "bedType": "1 giường đôi lớn"
+        }
+      ],
+      "roomSize": 15.0,
+      "sizeInfo": {
+        "size": 15.0,
+        "unit": "sqm",
+        "fullDescription": "15 m²"
+      },
+      "facilities": [
+        75,
+        49,
+        25,
+        36,
+        44,
+        15,
+        86,
+        30,
+        141,
+        33,
+        38,
+        29,
+        2227,
+        2237,
+        2596,
+        230,
+        222,
+        2662,
+        338,
+        227,
+        2679,
+        220,
+        2717,
+        2665,
+        210,
+        232,
+        280,
+        277,
+        2383,
+        2644,
+        221
+      ],
+      "topFacilitiesData": [
+        {
+          "id": 29,
+          "featureName": "Bàn làm việc",
+          "symbol": "desk",
+          "emphasis": false,
+          "available": true,
+          "order": 8,
+          "highlighted": false
+        },
+        {
+          "id": 338,
+          "featureName": "phòng tắm riêng",
+          "symbol": "Bathroom",
+          "emphasis": false,
+          "available": true,
+          "order": 21,
+          "highlighted": false
+        },
+        {
+          "id": 49,
+          "featureName": "Nước đóng chai miễn phí",
+          "symbol": "complimentary-bottled-water",
+          "emphasis": false,
+          "available": true,
+          "order": 29,
+          "highlighted": false
+        }
+      ],
+      "occupancyInfo": {
+        "maxOccupancy": 2,
+        "extraBed": 0,
+        "maxFreeChildren": 1,
+        "perOfferFreeChildrenAndInfants": 0,
+        "perRoomMaxAdults": 2,
+        "perRoomMaxChildren": 0,
+        "perBookMaxAdults": 2,
+        "perBookMaxChildren": 0,
+        "noOfFreeChildren": 0,
+        "noOfChildrenWithChildRate": 0,
+        "noOfMaxFreeChildren": 1
+      },
+      "features": [
+        {
+          "name": "size",
+          "text": "15 m²",
+          "symbol": "sqm"
+        },
+        {
+          "name": "non-smoking-room",
+          "text": "Không hút thuốc",
+          "symbol": "non-smoking-room"
+        },
+        {
+          "name": "shower",
+          "text": "Vòi sen",
+          "symbol": "shower"
+        },
+        {
+          "name": "room-size-sqm",
+          "text": "15",
+          "symbol": "room-size-sqm"
+        },
+        {
+          "name": "room-size-sqft",
+          "text": "161",
+          "symbol": "room-size-sqft"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/272236f25efbf66f94c99d68b2993554.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185709882,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765527360000+0700)/",
+          "blurhash": "LVLX6@8{D*R5?]n+tStRIUx]WFIU",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/acdbcfb80a1c595615077bfd93b182e3.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185691233,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765513560000+0700)/",
+          "blurhash": "LMMjXM?^M}tR?vk;R6M{WBMx%hxu",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/7b6662e393cccfb313cc955460695a15.jpg?ce=3&s=800x600",
+          "caption": "Phòng tắm",
+          "id": 185262568,
+          "typeId": 7,
+          "uploadedDate": "/Date(1764848220000+0700)/",
+          "blurhash": "LLLNxosqaJIn~qxsIUIU9GWXWBs:",
+          "providerId": 332
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529032.jpg?k=92bcb99f027fa523e35dfad279d7eb8909886a1a2e4acd8a46bff519cad5c9b5&o=",
+          "caption": "",
+          "id": 1356918196,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LMLE1kH@8wVs~qjYNGt7pItl%gj]",
+          "providerId": 3038
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/c9ca7f3c34c791258d437288f8926e52.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185709970,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765527360000+0700)/",
+          "blurhash": "LMO3zwxb.TR*P9ax$+axt7WXIpn$",
+          "providerId": 332
+        }
+      ],
+      "suitableFor": [],
+      "lastBookedDateTime": "",
+      "allowChildren": true,
+      "roomLicenseId": "",
+      "roomReviewInformation": {
+        "score": 9.283,
+        "scoreText": "Trên cả tuyệt vời"
+      },
+      "isRecommended": false
+    },
+    {
+      "masterRoomTypeId": 1294204945,
+      "masterRoomTypeName": "Phòng Superior Hướng Cảnh Giường Đôi",
+      "masterRoomTypeAlternateName": "Superior With View ",
+      "masterRoomTypeEnglishName": "Superior View Double",
+      "cheapestRoomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1294204945;rp:535;rc:20621785;rid:0;uid:22da1bd5-fc38-2210-c73e-53f1e5dc0e6b;mc:0;mo:2;eb:0;mri:1294204945;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicIooCg0gkQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:398951;rcy:VND",
+      "cheapestRoomTokens": [
+        "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1294204945;rp:535;rc:20621785;rid:0;uid:22da1bd5-fc38-2210-c73e-53f1e5dc0e6b;mc:0;mo:2;eb:0;mri:1294204945;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicIooCg0gkQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:398951;rcy:VND"
+      ],
+      "rooms": [
+        {
+          "roomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1294204945;rp:535;rc:20621785;rid:0;uid:22da1bd5-fc38-2210-c73e-53f1e5dc0e6b;mc:0;mo:2;eb:0;mri:1294204945;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicIooCg0gkQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:398951;rcy:VND",
+          "uid": "22da1bd5-fc38-2210-c73e-53f1e5dc0e6b",
+          "pc": {
+            "a": 351389.0,
+            "i": "",
+            "e": "Thuế và phí",
+            "t": 101,
+            "s": 1,
+            "cor": 867211.0,
+            "ccor": 0.0,
+            "tf": 47562.0,
+            "tfPRPN": 47562.0,
+            "sdni": {
+              "i": 332
+            },
+            "promotionPricePeek": 351389.0,
+            "originalTotal": 354938.0,
+            "pseudoCoupon": 0.0,
+            "priceFreezePrice": {
+              "exclusive": 351389.0,
+              "inclusive": 398951.0
+            },
+            "promoAppliedOnFinalPrice": true,
+            "hasPromotionPricePeek": true
+          },
+          "breakfastIncluded": false,
+          "benefits": [
+            {
+              "id": 10004,
+              "displayText": "Không hút thuốc",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0
+            },
+            {
+              "id": 6,
+              "displayText": "Bãi đậu xe",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 10,
+              "displayText": "Nước uống chào đón",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 95,
+              "displayText": "WiFi miễn phí",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 230,
+              "displayText": "Nước uống",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            }
+          ],
+          "badgeType": 0,
+          "badges": [],
+          "roomOccupancyDescription": "Tối đa 2 người lớn",
+          "remainRoom": 3,
+          "roomInfoComponent": [
+            {
+              "title": "Chính sách Khách sạn",
+              "subSectionComponents": [
+                {
+                  "subTitle": "Trẻ em và giường phụ",
+                  "des": "",
+                  "icontype": 0
+                },
+                {
+                  "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                  "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 2,
+              "type": 2
+            },
+            {
+              "title": "Chính sách hủy",
+              "subSectionComponents": [
+                {
+                  "subTitle": "",
+                  "des": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 3,
+              "type": 3
+            }
+          ],
+          "providerText": {
+            "room": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            },
+            "payment": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            }
+          },
+          "cancellationPolicyType": 0,
+          "currentCancellationPolicyType": 2,
+          "cancellationPolicyTitle": "Chính sách hủy",
+          "cancellationPolicyTitleTemplate": {
+            "template": "Chính sách hủy"
+          },
+          "cancellationPolicy": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+          "cancellationInfo": {
+            "type": 0,
+            "currentType": 2,
+            "freeCancellationDate": "/Date(1781370000000+0700)/",
+            "titleTemplate": {
+              "template": "Chính sách hủy"
+            },
+            "descriptionTemplate": {
+              "template": ""
+            },
+            "noShowPolicy": "Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+            "policies": [
+              "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở."
+            ],
+            "cancellationCode": "3D100P_100P",
+            "title": "Chính sách hủy",
+            "externalUrl": ""
+          },
+          "isBnpl": false,
+          "isBwzp": false,
+          "isAgency": false,
+          "isMultiHotelEligible": false,
+          "isPromoCodeEligible": false,
+          "isVipDiscountEligible": false,
+          "isFullyChargeAtAgoda": true,
+          "isCreditCardRequired": true,
+          "isApplePayAvailable": false,
+          "isImportantInformationTextRequired": false,
+          "masterRoomTypeId": 0,
+          "roomName": "",
+          "englishRoomName": "",
+          "roomView": "Hướng Công viên",
+          "roomSize": 0.0,
+          "isPromotionEligible": true,
+          "promotionDiscount": {
+            "typeId": 0,
+            "v": 59.0,
+            "u": 1,
+            "id": 0
+          },
+          "maxRoomOccupancy": 2,
+          "isExtrabedAvaiable": false,
+          "hasSurcharge": false,
+          "minimumFitRooms": 1,
+          "numberOfGuestsWithoutRoom": 0,
+          "isBOR": false,
+          "occupancyInfo": {
+            "maxOccupancy": 2,
+            "extraBed": 0,
+            "maxFreeChildren": 1,
+            "perOfferFreeChildrenAndInfants": 0,
+            "perRoomMaxAdults": 2,
+            "perRoomMaxChildren": 0,
+            "perBookMaxAdults": 2,
+            "perBookMaxChildren": 0,
+            "noOfFreeChildren": 0,
+            "noOfChildrenWithChildRate": 0,
+            "noOfMaxFreeChildren": 1
+          },
+          "occupancyPolicies": {
+            "childPolicyDetails": [
+              {
+                "title": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+              }
+            ],
+            "stayFreeAgeRange": {
+              "min": 0,
+              "max": 6
+            },
+            "extraBed": [
+              "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+            ],
+            "additional": [
+              "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+            ]
+          },
+          "hasBookingFee": false,
+          "paymentInfo": {
+            "isPrepay": true,
+            "paymentModel": 1,
+            "noPrePaymentRequired": false,
+            "paymentChannels": []
+          },
+          "suggestedRoomQuantity": 0,
+          "discountMessages": [
+            "last-minute-deal"
+          ],
+          "isFreeChildrenSuggestionEligible": true,
+          "channelId": 535,
+          "stackedChannels": {
+            "id": 535,
+            "channelBreakDowns": [
+              {
+                "id": 54,
+                "discountPercent": 10.0,
+                "display": true
+              },
+              {
+                "id": 21,
+                "discountPercent": 15.0,
+                "display": true
+              }
+            ]
+          },
+          "isEasyCancel": false,
+          "appliedPromotionCoupon": {
+            "cid": 1902770,
+            "campaignId": 157341,
+            "code": "PRICING1PCT",
+            "percentage": 1.0,
+            "title": "Ưu đãi Giảm giá",
+            "autoApplied": true,
+            "messageInfo": {
+              "campaignName": "Ưu đãi Giảm giá",
+              "title": "Đã dùng Ưu đãi Giảm giá",
+              "titleWithDiscount": "Đã áp dụng Ưu đãi Giảm giá – GIẢM 3.549 ₫!"
+            },
+            "campaignType": 5,
+            "analyticsInfo": {
+              "crgw_id": "157341",
+              "is_optimizable": "false",
+              "promotion_campaign_type_id": "6",
+              "is_auto_assign": "true",
+              "is_llama_campaign": "false",
+              "user_wallet_count": "0",
+              "is_bin_wallet": "false"
+            }
+          },
+          "campaignPeek": {
+            "campaignId": 157341,
+            "cid": 1902770,
+            "campaignName": "Ưu đãi Giảm giá",
+            "promotionCode": "PRICING1PCT",
+            "discountType": 1,
+            "discountAmount": 1.0,
+            "dateValidType": 1,
+            "dateValidFrom": "/Date(1781024400000+0700)/",
+            "dateValidUntil": "/Date(1783616399000+0700)/",
+            "autoApplyType": 2
+          },
+          "corInfoText": "Giá có thể đặt trước của loại phòng này, trước khi chúng tôi áp dụng bất kỳ chương trình giảm giá hoặc khuyến mại nào.",
+          "roomIdentifiers": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb29tSWRlbnRpZmllciI6IkNpY0lvb0NnMGdrUUFoaisyY1FKSUs0SUtMS24xUk13QkVvTE0wUXhNREJRWHpFd01GQlFtQVVTQmdnQklnSnNLaG9FS0FRd0FTSUVDQVFZQWc9PSIsInByaWNlUGFyYW1ldGVycyI6eyJCb29raW5nRHVyYXRpb25UeXBlIjpbIm5pZ2h0bHkiXSwiRmVhdHVyZUZsYWciOlszLDE1LDIsMSw0LDg4LDksNTAsMTYsNjIsNTYsNjEsMjQsOTIsMzEsNDAsMzksMzcsNTcsNjksODAsNzFdLCJGb3JjZWRFeHBlcmltZW50cyI6W3siSWQiOiJQTEVDUy0yNTIxIiwiVmFyaWFudCI6IkIifSx7IklkIjoiUEZFQVBQLTIzODMiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJMT1ZFLTY3IiwiVmFyaWFudCI6IkIifSx7IklkIjoiVEhBSS1HT1YiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJKR0NXLTIwNCIsIlZhcmlhbnQiOiJCIn0seyJJZCI6IlBBQ0tBR0VTLTc3MCIsIlZhcmlhbnQiOiJCIn1dLCJNc2VIb3RlbElkcyI6W10sIlBvaW50c01heElkIjowLCJSZWZJZCI6MCwiU3VwcG9ydGVkRmVhdHVyZXMiOnsiU2hvd0NtcyI6ZmFsc2UsIk0xNTAiOmZhbHNlLCJTaG93RmFtaWx5RmlsdGVycyI6ZmFsc2UsIlJhdGVQbGFuQ2hlY2tJbkNoZWNrT3V0IjpmYWxzZSwiRXhjbHVkZVZvdWNoZXJSb29tcyI6ZmFsc2UsIkZldGNoUGFzdEJvb2tpbmdJbmZvcm1hdGlvblJvb21MZXZlbCI6dHJ1ZSwiRXNjYXBlUGFja2FnZSI6dHJ1ZSwiUHVzaERheVVzZVJhdGVzIjpmYWxzZSwiSXNNdWx0aUhvdGVsU2VhcmNoIjpmYWxzZSwiRW5hYmxlUmljaENvbnRlbnRPZmZlciI6dHJ1ZSwiRGlzYWJsZUVzY2FwZXNQYWNrYWdlIjpmYWxzZSwiU2hvd1NvbGRPdXRQcmljZSI6dHJ1ZSwiU2hvd1NvbGRPdXRSb29tcyI6dHJ1ZSwiRW5hYmxlQVNPQmVuZWZpdERpc2NvdW50IjpmYWxzZSwiQm9va09uUmVxdWVzdCI6ZmFsc2V9fX0.hgD8jrRE_Iuf8vHmUFrSfNpBwunnoSdzi7tj8v46Q18sjSxBPO81WhwX3GWlYnMF",
+          "rareFindType": 0,
+          "roomOfferNameType": "CheapestOffer",
+          "hasAnyBreakfastRelatedBenefits": false,
+          "isTaiwanCampaignEligible": false,
+          "isGoLocalEligible": false,
+          "cartEligible": true,
+          "pricingDisplaySummary": {
+            "perBook": {
+              "chargeTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 354938.0,
+                "allInclusive": 402500.0
+              },
+              "crossedOut": {
+                "exclusive": 867211.0,
+                "allInclusive": 914773.0
+              },
+              "payToAgoda": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3549.0,
+                "allInclusive": 3549.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 354938.0,
+                  "allInclusive": 402500.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerBook": {
+              "chargeTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 354938.0,
+                "allInclusive": 402500.0
+              },
+              "crossedOut": {},
+              "payToAgoda": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3549.0,
+                "allInclusive": 3549.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 354938.0,
+                  "allInclusive": 402500.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerNight": {
+              "chargeTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 354938.0,
+                "allInclusive": 402500.0
+              },
+              "crossedOut": {
+                "exclusive": 867211.0,
+                "allInclusive": 914773.0
+              },
+              "payToAgoda": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3549.0,
+                "allInclusive": 3549.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 354938.0,
+                  "allInclusive": 402500.0
+                },
+                "offers": []
+              }
+            },
+            "perNight": {
+              "chargeTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 354938.0,
+                "allInclusive": 402500.0
+              },
+              "crossedOut": {
+                "exclusive": 867211.0,
+                "allInclusive": 914773.0
+              },
+              "payToAgoda": {
+                "exclusive": 351389.0,
+                "allInclusive": 398951.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 3549.0,
+                "allInclusive": 3549.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 354938.0,
+                  "allInclusive": 402500.0
+                },
+                "offers": []
+              }
+            }
+          },
+          "isCartRestricted": false,
+          "allowMultipleBooking": true,
+          "papiRoomIdentifier": "CicIooCg0gkQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==",
+          "roomTypeId": 1294204945,
+          "pricingMessages": {
+            "formatted": [
+              {
+                "location": 4,
+                "texts": [
+                  {
+                    "index": 0,
+                    "text": "Gửi \"Kết hợp và Tiết kiệm\" đến PP"
+                  }
+                ]
+              }
+            ]
+          },
+          "bfUrl": "https://searchapi.agoda.com/vi-vn/book/?secdat=rAp1E7%252F8FMP8kuaEVNMpeTmzGwUI7y0HHmqBY58L%252F9RbPaX4oFDWD9yKpQrolYBKug1q4glfFk%252B%252B78UBXffYW0NsLuH%252FoZgj1vNy1qk60UZ8SThzFwLZv0J4s3%252B%252B%252FnkrVMVwca%252FeyTTdead%252F%252F7M%252BaS7aPhI6kDRPCTnE8Uh2zbKjv3OCphsF9RJjHI%252BiFXF2uRDnsPG7FaipfIqi5VOJMJeP1lVnb3q9O3CmiO64hhM%253D&cnIcp=0&cnty=38&v=29&ori=MX&finc=false&siteId=1605717&dclid=-1&gclid=-1&ame=&aso=&aca=&aco=&ate=&r0=ZdcwCotrCf0vxARgKSZ5pgh1XQbkXD03ouCl316ly3xDyIFN00gwX7J3yUmlEtwGjwr2XpD2VZ2eh32QfPoiHyPWr1Ydj9dTKm2ynYjtofbxJP9O2HVqLs8ijReHN1lwy0q1PdJP%252FV5wR4dOkjDOyHcdyeFgcluXRDxBRN4fVxSzq3H01ftJECb%252ByY8gU0gJJdKoBADQ%252FPzyXC2Aja1HmAast7YUI5LT2GBwWr69YCvKmPEEw%252FTRmQsMtcfK3pM7EBcqhcA8S%252FiOYJXn4iVzGvkI6iHX%252BeCIyNPRLdZ8tUHp%252B4K01WZNycb5n7G7y1uL&nr0=1&xbr0=&sarg=SdYdgEXle%252Fd5Gb6VMA%252FYfLjJtq2u%252Bf7tImcLV55L78NT3qiHK%252BkLyipMnOZMWbI1bqAAHf0wQHP7WuJuHkFt8Fi2sEhVK4%252FZv9r%252FCDkf6wjilLdP9mrsR9WCSOgjErTMamejnGNSjmS1vkxtn8NOSJ8zaub%252FiHbqukYpzlLzZBgVv5PTHpYbTxQ0EKr1u6XgQwP9wb4MnToYsIAkq8uq2zppKzsoQgshWODU18SxQxrJp3WxI7VXHr8EraH1bUP5",
+          "roomOccupancy": 0,
+          "cancellationPolicyCode": "3D100P_100P",
+          "rateplanID": 535,
+          "promotionID": 0,
+          "roomNumAdult": 0,
+          "roomNumChild": 0,
+          "roomDMCId": "332",
+          "rateCategory": {
+            "id": 20621785,
+            "stayPackageType": 0,
+            "checkIn": {},
+            "checkOut": {},
+            "isChildRateEnabled": false
+          },
+          "price": 0.0,
+          "pricePerNight": 0.0,
+          "priceType": 0,
+          "crossedPrice": 0.0,
+          "isInclusive": false,
+          "promotionType": 0,
+          "promotionSavings": 0.0,
+          "maxChildren": 0,
+          "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+          "HasSummaryData": false,
+          "hasTaxPerPerson": false,
+          "isRequiredAddress": false,
+          "priority": 1.0,
+          "filterTags": [
+            "non-smoking",
+            "queen-bed"
+          ],
+          "pulseCampaignMetadata": {
+            "campaignTypeId": 2178,
+            "promotionTypeId": 6716,
+            "campaignBadgeText": "SUMMER VIBES",
+            "campaignBadgeDescText": "Giá Đặc Biệt – Chỉ trong thời gian ngắn!",
+            "campaignBadgeType": "Seasonal"
+          },
+          "suggestedPriceType": "Exclusive",
+          "corBreakdown": {
+            "perRoomPerNightTaxExclusive": [
+              {
+                "id": 5,
+                "price": 268333.0
+              },
+              {
+                "id": 9,
+                "price": 243939.0
+              },
+              {
+                "id": 0,
+                "price": 867211.0
+              },
+              {
+                "id": 4,
+                "price": 867210.0
+              },
+              {
+                "id": 8,
+                "price": 3549.0
+              },
+              {
+                "id": 1,
+                "price": 351389.0
+              }
+            ],
+            "perRoomPerNightTaxInclusive": [
+              {
+                "id": 5,
+                "price": 268333.0
+              },
+              {
+                "id": 9,
+                "price": 243939.0
+              },
+              {
+                "id": 0,
+                "price": 914773.0
+              },
+              {
+                "id": 4,
+                "price": 914772.0
+              },
+              {
+                "id": 8,
+                "price": 3549.0
+              },
+              {
+                "id": 1,
+                "price": 398951.0
+              }
+            ]
+          }
+        }
+      ],
+      "bedType": "1 giường đôi lớn",
+      "bedroomLayout": [
+        {
+          "title": "Không gian chung",
+          "bedType": "1 giường đôi lớn"
+        }
+      ],
+      "roomSize": 18.0,
+      "sizeInfo": {
+        "size": 18.0,
+        "unit": "sqm",
+        "fullDescription": "18 m²"
+      },
+      "facilities": [
+        75,
+        49,
+        25,
+        36,
+        44,
+        15,
+        86,
+        30,
+        141,
+        33,
+        38,
+        29,
+        150,
+        139,
+        2227,
+        2237,
+        2596,
+        230,
+        222,
+        338,
+        2676,
+        227,
+        2677,
+        2679,
+        2668,
+        220,
+        2717,
+        2685,
+        2594,
+        2239,
+        345,
+        2665,
+        210,
+        232,
+        280,
+        277,
+        2383,
+        2687,
+        2644,
+        221
+      ],
+      "topFacilitiesData": [
+        {
+          "id": 29,
+          "featureName": "Bàn làm việc",
+          "symbol": "desk",
+          "emphasis": false,
+          "available": true,
+          "order": 8,
+          "highlighted": false
+        },
+        {
+          "id": 345,
+          "featureName": "tầng cao",
+          "symbol": "high-floor",
+          "emphasis": false,
+          "available": true,
+          "order": 13,
+          "highlighted": false
+        },
+        {
+          "id": 338,
+          "featureName": "phòng tắm riêng",
+          "symbol": "Bathroom",
+          "emphasis": false,
+          "available": true,
+          "order": 21,
+          "highlighted": false
+        }
+      ],
+      "occupancyInfo": {
+        "maxOccupancy": 2,
+        "extraBed": 0,
+        "maxFreeChildren": 1,
+        "perOfferFreeChildrenAndInfants": 0,
+        "perRoomMaxAdults": 2,
+        "perRoomMaxChildren": 0,
+        "perBookMaxAdults": 2,
+        "perBookMaxChildren": 0,
+        "noOfFreeChildren": 0,
+        "noOfChildrenWithChildRate": 0,
+        "noOfMaxFreeChildren": 1
+      },
+      "features": [
+        {
+          "name": "size",
+          "text": "18 m²",
+          "symbol": "sqm"
+        },
+        {
+          "name": "view",
+          "text": "Hướng Công viên",
+          "symbol": "views"
+        },
+        {
+          "name": "non-smoking-room",
+          "text": "Không hút thuốc",
+          "symbol": "non-smoking-room"
+        },
+        {
+          "name": "shower",
+          "text": "Vòi sen",
+          "symbol": "shower"
+        },
+        {
+          "name": "room-size-sqm",
+          "text": "18",
+          "symbol": "room-size-sqm"
+        },
+        {
+          "name": "room-size-sqft",
+          "text": "194",
+          "symbol": "room-size-sqft"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1294204945/5b9b88eeb12181029131d10789869d9f.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185910135,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765889340000+0700)/",
+          "blurhash": "LUNwA$VYRitR?^S$tQ%2RPxan+M{",
+          "providerId": 332
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880530397.jpg?k=cf4e4d95a9a98f47e75bbe89204d07b87fc707dac13c4675bbc1cd1ab063e8e9&o=",
+          "caption": "",
+          "id": 1357581739,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780832820000+0700)/",
+          "blurhash": "LWMs+nL#DinP.RtlRPM{tRM|kWo}",
+          "providerId": 3038
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880530427.jpg?k=e4b78133cd015b58ea09ffc53c72d04c4c2d2f4298d20073c720e0cf3ca36aab&o=",
+          "caption": "",
+          "id": 1356918305,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LLM7rv4nRPWU~q%1M{Mx9FM{Rjj[",
+          "providerId": 3038
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1294204945/544ea10f4e34178f47db1e50346b3401.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185910133,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765889340000+0700)/",
+          "blurhash": "LHL}1:HX?uRk*IyXn$s;#Sa0IUtR",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1294204945/73c21bda78b75694167c6c6f27bbf4c1.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185910134,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765889340000+0700)/",
+          "blurhash": "LHN0^;.j_MMK-q-rt7X4%~H?H[x^",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1294204945/134424727a761df9b722d1d88acd0920.jpg?ce=3&s=800x600",
+          "caption": "Phòng tắm",
+          "id": 185910137,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765889340000+0700)/",
+          "blurhash": "LNJ8Lw.8Di%M~qM{WBRjtSVsxuxu",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1294204945/920c0f43fa5a9f274504d3b91919becf.jpg?ce=3&s=800x600",
+          "caption": "Cảnh quan",
+          "id": 185910138,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765889340000+0700)/",
+          "blurhash": "L*H:E,xXxajsu6oyRjWXNeWCofof",
+          "providerId": 332
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/792836096.jpg?k=dd759cb817c3212378e48e4d92295b3f5f67ccd308d9bb2e957aa6b52fee94d1&o=",
+          "caption": "",
+          "id": 1190230510,
+          "typeId": 7,
+          "uploadedDate": "/Date(1766058120000+0700)/",
+          "blurhash": "LqGmMoo~jERkyZX7t6WXIqxZa}WV",
+          "providerId": 3038
+        }
+      ],
+      "suitableFor": [],
+      "lastBookedDateTime": "",
+      "allowChildren": true,
+      "roomLicenseId": "",
+      "roomReviewInformation": {
+        "score": 9.8,
+        "scoreText": "Trên cả tuyệt vời"
+      },
+      "isRecommended": false,
+      "recommendedUpgrade": {
+        "priceDiff": 50198.0,
+        "roomView": "Hướng Công viên"
+      }
+    },
+    {
+      "masterRoomTypeId": 1145303219,
+      "masterRoomTypeName": "Deluxe có ban công",
+      "masterRoomTypeAlternateName": "",
+      "masterRoomTypeEnglishName": "Deluxe Balcony",
+      "cheapestRoomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303219;rp:535;rc:20621785;rid:0;uid:1ba4ab1a-ba7a-9421-06b7-9ebf811bf646;mc:0;mo:2;eb:0;mri:1145303219;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicI5sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:569929;rcy:VND",
+      "cheapestRoomTokens": [
+        "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303219;rp:535;rc:20621785;rid:0;uid:1ba4ab1a-ba7a-9421-06b7-9ebf811bf646;mc:0;mo:2;eb:0;mri:1145303219;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicI5sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:569929;rcy:VND"
+      ],
+      "rooms": [
+        {
+          "roomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303219;rp:535;rc:20621785;rid:0;uid:1ba4ab1a-ba7a-9421-06b7-9ebf811bf646;mc:0;mo:2;eb:0;mri:1145303219;bor:0;dtr:1;fsc:1;rft:2;avr:3;ri:CicI5sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:569929;rcy:VND",
+          "uid": "1ba4ab1a-ba7a-9421-06b7-9ebf811bf646",
+          "pc": {
+            "a": 501984.0,
+            "i": "",
+            "e": "Thuế và phí",
+            "t": 101,
+            "s": 1,
+            "cor": 1238873.0,
+            "ccor": 0.0,
+            "tf": 67945.0,
+            "tfPRPN": 67945.0,
+            "sdni": {
+              "i": 332
+            },
+            "promotionPricePeek": 501984.0,
+            "originalTotal": 507055.0,
+            "pseudoCoupon": 0.0,
+            "priceFreezePrice": {
+              "exclusive": 501984.0,
+              "inclusive": 569929.0
+            },
+            "promoAppliedOnFinalPrice": true,
+            "hasPromotionPricePeek": true
+          },
+          "breakfastIncluded": false,
+          "benefits": [
+            {
+              "id": 10004,
+              "displayText": "Không hút thuốc",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0
+            },
+            {
+              "id": 6,
+              "displayText": "Bãi đậu xe",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 10,
+              "displayText": "Nước uống chào đón",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 95,
+              "displayText": "WiFi miễn phí",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            },
+            {
+              "id": 230,
+              "displayText": "Nước uống",
+              "available": false,
+              "targetType": "Regular",
+              "benefitValue": 0.0,
+              "labels": [],
+              "droneSymbol": "fill.symbol.check"
+            }
+          ],
+          "badgeType": 0,
+          "badges": [],
+          "roomOccupancyDescription": "Tối đa 2 người lớn",
+          "remainRoom": 3,
+          "roomInfoComponent": [
+            {
+              "title": "Chính sách Khách sạn",
+              "subSectionComponents": [
+                {
+                  "subTitle": "Trẻ em và giường phụ",
+                  "des": "",
+                  "icontype": 0
+                },
+                {
+                  "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                  "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                  "icontype": 0
+                },
+                {
+                  "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 2,
+              "type": 2
+            },
+            {
+              "title": "Chính sách hủy",
+              "subSectionComponents": [
+                {
+                  "subTitle": "",
+                  "des": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+                  "icontype": 0
+                }
+              ],
+              "sectionType": 3,
+              "type": 3
+            }
+          ],
+          "providerText": {
+            "room": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            },
+            "payment": {
+              "title": "",
+              "subtitle": "",
+              "note": ""
+            }
+          },
+          "cancellationPolicyType": 0,
+          "currentCancellationPolicyType": 2,
+          "cancellationPolicyTitle": "Chính sách hủy",
+          "cancellationPolicyTitleTemplate": {
+            "template": "Chính sách hủy"
+          },
+          "cancellationPolicy": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+          "cancellationInfo": {
+            "type": 0,
+            "currentType": 2,
+            "freeCancellationDate": "/Date(1781370000000+0700)/",
+            "titleTemplate": {
+              "template": "Chính sách hủy"
+            },
+            "descriptionTemplate": {
+              "template": ""
+            },
+            "noShowPolicy": "Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+            "policies": [
+              "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở."
+            ],
+            "cancellationCode": "3D100P_100P",
+            "title": "Chính sách hủy",
+            "externalUrl": ""
+          },
+          "isBnpl": false,
+          "isBwzp": false,
+          "isAgency": false,
+          "isMultiHotelEligible": false,
+          "isPromoCodeEligible": false,
+          "isVipDiscountEligible": false,
+          "isFullyChargeAtAgoda": true,
+          "isCreditCardRequired": true,
+          "isApplePayAvailable": false,
+          "isImportantInformationTextRequired": false,
+          "masterRoomTypeId": 0,
+          "roomName": "",
+          "englishRoomName": "",
+          "roomView": "Hướng Ngoài trời",
+          "roomSize": 0.0,
+          "isPromotionEligible": true,
+          "promotionDiscount": {
+            "typeId": 0,
+            "v": 59.0,
+            "u": 1,
+            "id": 0
+          },
+          "maxRoomOccupancy": 2,
+          "isExtrabedAvaiable": false,
+          "hasSurcharge": false,
+          "minimumFitRooms": 1,
+          "numberOfGuestsWithoutRoom": 0,
+          "isBOR": false,
+          "occupancyInfo": {
+            "maxOccupancy": 2,
+            "extraBed": 0,
+            "maxFreeChildren": 1,
+            "perOfferFreeChildrenAndInfants": 0,
+            "perRoomMaxAdults": 2,
+            "perRoomMaxChildren": 0,
+            "perBookMaxAdults": 2,
+            "perBookMaxChildren": 0,
+            "noOfFreeChildren": 0,
+            "noOfChildrenWithChildRate": 0,
+            "noOfMaxFreeChildren": 1
+          },
+          "occupancyPolicies": {
+            "childPolicyDetails": [
+              {
+                "title": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+              }
+            ],
+            "stayFreeAgeRange": {
+              "min": 0,
+              "max": 6
+            },
+            "extraBed": [
+              "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+            ],
+            "additional": [
+              "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+            ]
+          },
+          "hasBookingFee": false,
+          "paymentInfo": {
+            "isPrepay": true,
+            "paymentModel": 1,
+            "noPrePaymentRequired": false,
+            "paymentChannels": []
+          },
+          "suggestedRoomQuantity": 0,
+          "discountMessages": [
+            "last-minute-deal"
+          ],
+          "isFreeChildrenSuggestionEligible": true,
+          "channelId": 535,
+          "stackedChannels": {
+            "id": 535,
+            "channelBreakDowns": [
+              {
+                "id": 54,
+                "discountPercent": 10.0,
+                "display": true
+              },
+              {
+                "id": 21,
+                "discountPercent": 15.0,
+                "display": true
+              }
+            ]
+          },
+          "isEasyCancel": false,
+          "appliedPromotionCoupon": {
+            "cid": 1902770,
+            "campaignId": 157341,
+            "code": "PRICING1PCT",
+            "percentage": 1.0,
+            "title": "Ưu đãi Giảm giá",
+            "autoApplied": true,
+            "messageInfo": {
+              "campaignName": "Ưu đãi Giảm giá",
+              "title": "Đã dùng Ưu đãi Giảm giá",
+              "titleWithDiscount": "Đã áp dụng Ưu đãi Giảm giá – GIẢM 5.071 ₫!"
+            },
+            "campaignType": 5,
+            "analyticsInfo": {
+              "crgw_id": "157341",
+              "is_optimizable": "false",
+              "promotion_campaign_type_id": "6",
+              "is_auto_assign": "true",
+              "is_llama_campaign": "false",
+              "user_wallet_count": "0",
+              "is_bin_wallet": "false"
+            }
+          },
+          "campaignPeek": {
+            "campaignId": 157341,
+            "cid": 1902770,
+            "campaignName": "Ưu đãi Giảm giá",
+            "promotionCode": "PRICING1PCT",
+            "discountType": 1,
+            "discountAmount": 1.0,
+            "dateValidType": 1,
+            "dateValidFrom": "/Date(1781024400000+0700)/",
+            "dateValidUntil": "/Date(1783616399000+0700)/",
+            "autoApplyType": 2
+          },
+          "corInfoText": "Giá có thể đặt trước của loại phòng này, trước khi chúng tôi áp dụng bất kỳ chương trình giảm giá hoặc khuyến mại nào.",
+          "roomIdentifiers": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb29tSWRlbnRpZmllciI6IkNpY0k1c0tmeEFnUUFoaisyY1FKSUs0SUtMS24xUk13QkVvTE0wUXhNREJRWHpFd01GQlFtQVVTQmdnQklnSnNLaG9FS0FRd0FTSUVDQVFZQWc9PSIsInByaWNlUGFyYW1ldGVycyI6eyJCb29raW5nRHVyYXRpb25UeXBlIjpbIm5pZ2h0bHkiXSwiRmVhdHVyZUZsYWciOlszLDE1LDIsMSw0LDg4LDksNTAsMTYsNjIsNTYsNjEsMjQsOTIsMzEsNDAsMzksMzcsNTcsNjksODAsNzFdLCJGb3JjZWRFeHBlcmltZW50cyI6W3siSWQiOiJQTEVDUy0yNTIxIiwiVmFyaWFudCI6IkIifSx7IklkIjoiUEZFQVBQLTIzODMiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJMT1ZFLTY3IiwiVmFyaWFudCI6IkIifSx7IklkIjoiVEhBSS1HT1YiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJKR0NXLTIwNCIsIlZhcmlhbnQiOiJCIn0seyJJZCI6IlBBQ0tBR0VTLTc3MCIsIlZhcmlhbnQiOiJCIn1dLCJNc2VIb3RlbElkcyI6W10sIlBvaW50c01heElkIjowLCJSZWZJZCI6MCwiU3VwcG9ydGVkRmVhdHVyZXMiOnsiU2hvd0NtcyI6ZmFsc2UsIk0xNTAiOmZhbHNlLCJTaG93RmFtaWx5RmlsdGVycyI6ZmFsc2UsIlJhdGVQbGFuQ2hlY2tJbkNoZWNrT3V0IjpmYWxzZSwiRXhjbHVkZVZvdWNoZXJSb29tcyI6ZmFsc2UsIkZldGNoUGFzdEJvb2tpbmdJbmZvcm1hdGlvblJvb21MZXZlbCI6dHJ1ZSwiRXNjYXBlUGFja2FnZSI6dHJ1ZSwiUHVzaERheVVzZVJhdGVzIjpmYWxzZSwiSXNNdWx0aUhvdGVsU2VhcmNoIjpmYWxzZSwiRW5hYmxlUmljaENvbnRlbnRPZmZlciI6dHJ1ZSwiRGlzYWJsZUVzY2FwZXNQYWNrYWdlIjpmYWxzZSwiU2hvd1NvbGRPdXRQcmljZSI6dHJ1ZSwiU2hvd1NvbGRPdXRSb29tcyI6dHJ1ZSwiRW5hYmxlQVNPQmVuZWZpdERpc2NvdW50IjpmYWxzZSwiQm9va09uUmVxdWVzdCI6ZmFsc2V9fX0.16nTeV2BAAVmxWSu4Qsp8yiTTRrglL8-tH9ep-EeQXF_J8wjRZSxOP3npE3PjLyf",
+          "rareFindType": 0,
+          "roomOfferNameType": "CheapestOffer",
+          "hasAnyBreakfastRelatedBenefits": false,
+          "isTaiwanCampaignEligible": false,
+          "isGoLocalEligible": false,
+          "cartEligible": true,
+          "pricingDisplaySummary": {
+            "perBook": {
+              "chargeTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 507055.0,
+                "allInclusive": 575000.0
+              },
+              "crossedOut": {
+                "exclusive": 1238873.0,
+                "allInclusive": 1306818.0
+              },
+              "payToAgoda": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 5071.0,
+                "allInclusive": 5071.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 507055.0,
+                  "allInclusive": 575000.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerBook": {
+              "chargeTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 507055.0,
+                "allInclusive": 575000.0
+              },
+              "crossedOut": {},
+              "payToAgoda": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 5071.0,
+                "allInclusive": 5071.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 507055.0,
+                  "allInclusive": 575000.0
+                },
+                "offers": []
+              }
+            },
+            "perRoomPerNight": {
+              "chargeTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 507055.0,
+                "allInclusive": 575000.0
+              },
+              "crossedOut": {
+                "exclusive": 1238873.0,
+                "allInclusive": 1306818.0
+              },
+              "payToAgoda": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 5071.0,
+                "allInclusive": 5071.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 507055.0,
+                  "allInclusive": 575000.0
+                },
+                "offers": []
+              }
+            },
+            "perNight": {
+              "chargeTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "rebateTotal": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "rebateExtraBed": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "displayTotal": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "pseudoCoupon": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "originalTotal": {
+                "exclusive": 507055.0,
+                "allInclusive": 575000.0
+              },
+              "crossedOut": {
+                "exclusive": 1238873.0,
+                "allInclusive": 1306818.0
+              },
+              "payToAgoda": {
+                "exclusive": 501984.0,
+                "allInclusive": 569929.0
+              },
+              "payAtHotel": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "ignoreDownliftAmount": {
+                "exclusive": 0.0,
+                "allInclusive": 0.0
+              },
+              "autoAppliedPromoDiscount": {
+                "exclusive": 5071.0,
+                "allInclusive": 5071.0
+              },
+              "loyaltyOffersSummary": {
+                "basePrice": {
+                  "exclusive": 507055.0,
+                  "allInclusive": 575000.0
+                },
+                "offers": []
+              }
+            }
+          },
+          "isCartRestricted": false,
+          "allowMultipleBooking": true,
+          "papiRoomIdentifier": "CicI5sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==",
+          "roomTypeId": 1145303219,
+          "pricingMessages": {
+            "formatted": [
+              {
+                "location": 4,
+                "texts": [
+                  {
+                    "index": 0,
+                    "text": "Gửi \"Kết hợp và Tiết kiệm\" đến PP"
+                  }
+                ]
+              }
+            ]
+          },
+          "bfUrl": "https://searchapi.agoda.com/vi-vn/book/?secdat=rAp1E7%252F8FMP8kuaEVNMpeTmzGwUI7y0HHmqBY58L%252F9RbPaX4oFDWD9yKpQrolYBKug1q4glfFk%252B%252B78UBXffYW0NsLuH%252FoZgj1vNy1qk60UZ8SThzFwLZv0J4s3%252B%252B%252FnkrVMVwca%252FeyTTdead%252F%252F7M%252BaS7aPhI6kDRPCTnE8Uh2zbKjv3OCphsF9RJjHI%252BiFXF2uRDnsPG7FaipfIqi5VOJMJeP1lVnb3q9O3CmiO64hhM%253D&cnIcp=0&cnty=38&v=29&ori=MX&finc=false&siteId=1605717&dclid=-1&gclid=-1&ame=&aso=&aca=&aco=&ate=&r0=1%252Fv1HT9r1Va2FN%252FfS56y%252BkIez9J5zTmKs3vz0VwD0jaFwi4GQizrxuBhK%252B54B6I9NEPQcQu%252FkVZqOhtzx8Sw%252B1DvueIDJ0lwAkph7KqE%252FDhLKJVmBFL0qViMGZ0GFpqNKuHZcGN7bUegzJLqBETLeEzu6HI%252FMNNgrqmwEflSAMu1akQwxajypm6i%252FWBSZpbtENYYY1mYxAHeT8JVbelIo9VouvRKnoGCcDVHbukiIvshpsPO0kfDwlBbSV6uFowEzjkduMrWl1vcTWmiYiOkhnSm43qIUu71brOxshFgwutnWgx12HTUaNgS0Y9yKnDI&nr0=1&xbr0=&sarg=OEdsOlM18FmXzuShcDfmwk2oK9D3rsF2wBFfMHSpWx34jDVL%252FgrGED5s5hbFl%252Fjueo7n7wjIkZI40oN8wM1GUSIrxEP6ai%252B3HKxIUqYX0X6aELsjaJbf913plwnShvyHrn2JMky%252FRfXRvs5L4Oj4KtnBwPFnZLXBGpYtSP9AbhB7XXkwN23DGoo%252B8KAzPXVgaTdOT4TJYxSYqg8CnG59AMVRwWUKqFKufVX3VxWdo2gY2LDceyQdhLK5OXtNKJLi",
+          "roomOccupancy": 0,
+          "cancellationPolicyCode": "3D100P_100P",
+          "rateplanID": 535,
+          "promotionID": 0,
+          "roomNumAdult": 0,
+          "roomNumChild": 0,
+          "roomDMCId": "332",
+          "rateCategory": {
+            "id": 20621785,
+            "stayPackageType": 0,
+            "checkIn": {},
+            "checkOut": {},
+            "isChildRateEnabled": false
+          },
+          "price": 0.0,
+          "pricePerNight": 0.0,
+          "priceType": 0,
+          "crossedPrice": 0.0,
+          "isInclusive": false,
+          "promotionType": 0,
+          "promotionSavings": 0.0,
+          "maxChildren": 0,
+          "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+          "HasSummaryData": false,
+          "hasTaxPerPerson": false,
+          "isRequiredAddress": false,
+          "priority": 1.0,
+          "filterTags": [
+            "non-smoking",
+            "queen-bed",
+            "balcony-terrace"
+          ],
+          "pulseCampaignMetadata": {
+            "campaignTypeId": 2178,
+            "promotionTypeId": 6716,
+            "campaignBadgeText": "SUMMER VIBES",
+            "campaignBadgeDescText": "Giá Đặc Biệt – Chỉ trong thời gian ngắn!",
+            "campaignBadgeType": "Seasonal"
+          },
+          "suggestedPriceType": "Exclusive",
+          "corBreakdown": {
+            "perRoomPerNightTaxExclusive": [
+              {
+                "id": 5,
+                "price": 383333.0
+              },
+              {
+                "id": 9,
+                "price": 348485.0
+              },
+              {
+                "id": 0,
+                "price": 1238873.0
+              },
+              {
+                "id": 8,
+                "price": 5071.0
+              },
+              {
+                "id": 1,
+                "price": 501984.0
+              }
+            ],
+            "perRoomPerNightTaxInclusive": [
+              {
+                "id": 5,
+                "price": 383333.0
+              },
+              {
+                "id": 9,
+                "price": 348485.0
+              },
+              {
+                "id": 0,
+                "price": 1306818.0
+              },
+              {
+                "id": 8,
+                "price": 5071.0
+              },
+              {
+                "id": 1,
+                "price": 569929.0
+              }
+            ]
+          }
+        }
+      ],
+      "bedType": "1 giường đôi lớn",
+      "bedroomLayout": [
+        {
+          "title": "Phòng 1",
+          "bedType": "1 giường đôi lớn"
+        }
+      ],
+      "roomSize": 30.0,
+      "sizeInfo": {
+        "size": 30.0,
+        "unit": "sqm",
+        "fullDescription": "30 m²"
+      },
+      "facilities": [
+        75,
+        49,
+        25,
+        43,
+        36,
+        44,
+        15,
+        86,
+        30,
+        141,
+        33,
+        38,
+        29,
+        2227,
+        2237,
+        2596,
+        230,
+        222,
+        2662,
+        338,
+        227,
+        2679,
+        220,
+        2717,
+        2665,
+        210,
+        232,
+        280,
+        277,
+        2383,
+        2684,
+        2687,
+        2644,
+        221
+      ],
+      "topFacilitiesData": [
+        {
+          "id": 29,
+          "featureName": "Bàn làm việc",
+          "symbol": "desk",
+          "emphasis": false,
+          "available": true,
+          "order": 8,
+          "highlighted": false
+        },
+        {
+          "id": 338,
+          "featureName": "phòng tắm riêng",
+          "symbol": "Bathroom",
+          "emphasis": false,
+          "available": true,
+          "order": 21,
+          "highlighted": false
+        },
+        {
+          "id": 49,
+          "featureName": "Nước đóng chai miễn phí",
+          "symbol": "complimentary-bottled-water",
+          "emphasis": false,
+          "available": true,
+          "order": 29,
+          "highlighted": false
+        }
+      ],
+      "occupancyInfo": {
+        "maxOccupancy": 2,
+        "extraBed": 0,
+        "maxFreeChildren": 1,
+        "perOfferFreeChildrenAndInfants": 0,
+        "perRoomMaxAdults": 2,
+        "perRoomMaxChildren": 0,
+        "perBookMaxAdults": 2,
+        "perBookMaxChildren": 0,
+        "noOfFreeChildren": 0,
+        "noOfChildrenWithChildRate": 0,
+        "noOfMaxFreeChildren": 1
+      },
+      "features": [
+        {
+          "name": "size",
+          "text": "30 m²",
+          "symbol": "sqm"
+        },
+        {
+          "name": "view",
+          "text": "Hướng Ngoài trời",
+          "symbol": "views"
+        },
+        {
+          "name": "balcony-terrace",
+          "text": "Ban công/sân hiên",
+          "symbol": "balcony-terrace"
+        },
+        {
+          "name": "non-smoking-room",
+          "text": "Không hút thuốc",
+          "symbol": "non-smoking-room"
+        },
+        {
+          "name": "shower",
+          "text": "Vòi sen",
+          "symbol": "shower"
+        },
+        {
+          "name": "room-size-sqm",
+          "text": "30",
+          "symbol": "room-size-sqm"
+        },
+        {
+          "name": "room-size-sqft",
+          "text": "323",
+          "symbol": "room-size-sqft"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529130.jpg?k=e43d242e401d3bc28b35daca52c30a276bc7e1ecdd9af0b3b2bbed52d038a1b2&o=",
+          "caption": "",
+          "id": 1356918288,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LGLg;H%2Mx.S_Nx[x]DiRkM{M{t7",
+          "providerId": 3038
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/dc98cafbe8bf1a57146d1c146523ca5c.jpg?ce=3&s=800x600",
+          "caption": "Ban công/sân hiên",
+          "id": 185262706,
+          "typeId": 7,
+          "uploadedDate": "/Date(1764848460000+0700)/",
+          "blurhash": "LMJR:Ux^X9RP?wx]MxIUM|tSjZRi",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/7b6662e393cccfb313cc955460695a15.jpg?ce=3&s=800x600",
+          "caption": "Phòng tắm",
+          "id": 185262716,
+          "typeId": 7,
+          "uploadedDate": "/Date(1764848460000+0700)/",
+          "blurhash": "LLLNxosqaJIn~qxsIUIU9GWXWBs:",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/983162a303f587ced3341db57c63e578.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185778732,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765649640000+0700)/",
+          "blurhash": "LCNKI-K+%$_N_1roH?RiOG%gD%4n",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/63f20864753ba4d2abfa87492d6649da.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185778734,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765649640000+0700)/",
+          "blurhash": "LOMtQ{tlNZR5_NIToLtlkWt7V@Rj",
+          "providerId": 332
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/a46dcd3b6e00eb77cedd75fe7b98b634.jpg?ce=3&s=800x600",
+          "caption": "Phòng ngủ",
+          "id": 185778733,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765649640000+0700)/",
+          "blurhash": "LAON5t029E%h.6xqs,M{%$o#D$Dj",
+          "providerId": 332
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529080.jpg?k=b83d63256c2e535d2172919f6607f486e8c80545ebb418b0e1be3a47c8005c52&o=",
+          "caption": "",
+          "id": 1356918284,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LCNAepY5ELQS*I=yMdpw^*tlNZZ$",
+          "providerId": 3038
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529079.jpg?k=d6028ca3766b405d8b84960d36941cf5c99dbe0282926941a3b44d6bcc9655db&o=",
+          "caption": "",
+          "id": 1356918286,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LMN^MNqtSho}?]TKRPi_-=-:M{xt",
+          "providerId": 3038
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/fd4ec053847c477286578d974581f592.jpg?ce=3&s=800x600",
+          "caption": "Ban công/sân hiên",
+          "id": 185262707,
+          "typeId": 7,
+          "uploadedDate": "/Date(1764848460000+0700)/",
+          "blurhash": "LSJl8FE3Ri%N.ANHWA%gVrnNRPo#",
+          "providerId": 332
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529131.jpg?k=6496c675256315a1c6f60810254e1fbd60f20ea72ffa5e6536af652f5bdb477a&o=",
+          "caption": "",
+          "id": 1356918285,
+          "typeId": 7,
+          "uploadedDate": "/Date(1780688700000+0700)/",
+          "blurhash": "LUM@Q7tRo}xv?^jZi_NGDiM{x]t7",
+          "providerId": 3038
+        },
+        {
+          "url": "https://pix7.agoda.net/property/73212695/1295611598/b8bfbe34d33b28daa2e7bf51811443ab.jpeg?ce=3&s=800x600",
+          "caption": "",
+          "id": 1312192266,
+          "typeId": 7,
+          "uploadedDate": "/Date(1765663008000+0700)/",
+          "blurhash": "LNJ8Lw.8Di%M~qM{WBRjtlVsxuxu",
+          "providerId": 28189
+        },
+        {
+          "url": "https://pix7.agoda.net/hotelImages/73212695/1145303219/3a718766595c3b93ee78633523f0c74a.jpg?ce=3&s=800x600",
+          "caption": "Phòng tắm",
+          "id": 185262705,
+          "typeId": 7,
+          "uploadedDate": "/Date(1764848460000+0700)/",
+          "blurhash": "LMLE1kH@8wVs~qjYNGt7pItl%gj]",
+          "providerId": 332
+        }
+      ],
+      "suitableFor": [],
+      "lastBookedDateTime": "",
+      "allowChildren": true,
+      "roomLicenseId": "",
+      "roomReviewInformation": {
+        "score": 7.2,
+        "scoreText": "Rất tốt"
+      },
+      "isRecommended": false,
+      "recommendedUpgrade": {
+        "priceDiff": 200793.0,
+        "roomView": "Hướng Ngoài trời"
+      }
+    }
+  ],
+  "refreshComplete": true,
+  "roomFilters": [],
+  "benefitOrders": [
+    10002,
+    26,
+    20,
+    2,
+    3,
+    10003,
+    10005,
+    10004,
+    5,
+    12,
+    14,
+    15,
+    9,
+    8,
+    4,
+    6,
+    10,
+    13,
+    11,
+    19,
+    16,
+    17,
+    18,
+    24,
+    23,
+    21,
+    22
+  ],
+  "cheapestRoomTokens": [
+    "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:20621785;rid:0;uid:20d7ac45-675e-d0a9-eae7-f811289aed9f;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKLKn1RMwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgIqbBoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:341958;rcy:VND"
+  ],
+  "soldOut": {
+    "roomGroups": [
+      {
+        "masterRoomTypeId": 1403073187,
+        "masterRoomTypeName": "Suite - 2 Người Lớn Và 1 Trẻ Em",
+        "masterRoomTypeAlternateName": "Suite Bath",
+        "masterRoomTypeEnglishName": "Suite - 2 Adults and 1 Child",
+        "cheapestRoomTokens": [],
+        "rooms": [
+          {
+            "pc": {
+              "a": 0.0,
+              "i": "",
+              "e": "",
+              "t": 0,
+              "s": 0,
+              "cor": 0.0,
+              "ccor": 0.0,
+              "tf": 0.0,
+              "tfPRPN": 0.0,
+              "promotionPricePeek": 0.0,
+              "originalTotal": 0.0,
+              "pseudoCoupon": 0.0
+            },
+            "breakfastIncluded": false,
+            "benefits": [
+              {
+                "id": 10004,
+                "displayText": "Không hút thuốc",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              },
+              {
+                "id": 95,
+                "displayText": "Miễn Phí Internet Không Dây",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              }
+            ],
+            "badgeType": 0,
+            "badges": [],
+            "roomOccupancyDescription": "Tối đa 2 người lớn",
+            "remainRoom": 0,
+            "roomInfoComponent": [
+              {
+                "title": "Chính sách Khách sạn",
+                "subSectionComponents": [
+                  {
+                    "subTitle": "Trẻ em và giường phụ",
+                    "des": "",
+                    "icontype": 0
+                  },
+                  {
+                    "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                    "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                    "icontype": 0
+                  }
+                ],
+                "sectionType": 2,
+                "type": 2
+              }
+            ],
+            "providerText": {
+              "room": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              },
+              "payment": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              }
+            },
+            "cancellationPolicyType": 0,
+            "currentCancellationPolicyType": 0,
+            "cancellationPolicyTitle": "",
+            "cancellationPolicy": "",
+            "isBnpl": false,
+            "isAgency": false,
+            "isMultiHotelEligible": false,
+            "isPromoCodeEligible": false,
+            "isVipDiscountEligible": false,
+            "isFullyChargeAtAgoda": true,
+            "isCreditCardRequired": true,
+            "isApplePayAvailable": false,
+            "isImportantInformationTextRequired": false,
+            "masterRoomTypeId": 0,
+            "roomName": "",
+            "englishRoomName": "",
+            "roomView": "",
+            "roomSize": 0.0,
+            "isPromotionEligible": false,
+            "maxRoomOccupancy": 2,
+            "isExtrabedAvaiable": false,
+            "hasSurcharge": false,
+            "minimumFitRooms": 0,
+            "numberOfGuestsWithoutRoom": 0,
+            "isBOR": false,
+            "occupancyInfo": {
+              "maxOccupancy": 0,
+              "extraBed": 0,
+              "maxFreeChildren": 0,
+              "perOfferFreeChildrenAndInfants": 0,
+              "perRoomMaxAdults": 0,
+              "perRoomMaxChildren": 0,
+              "noOfFreeChildren": 0,
+              "noOfChildrenWithChildRate": 0,
+              "noOfMaxFreeChildren": 0
+            },
+            "hasBookingFee": false,
+            "suggestedRoomQuantity": 0,
+            "discountMessages": [],
+            "isFreeChildrenSuggestionEligible": false,
+            "channelId": 0,
+            "isEasyCancel": false,
+            "rareFindType": 0,
+            "hasAnyBreakfastRelatedBenefits": false,
+            "isTaiwanCampaignEligible": false,
+            "isGoLocalEligible": false,
+            "cartEligible": false,
+            "isCartRestricted": false,
+            "roomTypeId": 0,
+            "roomOccupancy": 0,
+            "cancellationPolicyCode": "",
+            "rateplanID": 0,
+            "promotionID": 0,
+            "roomNumAdult": 0,
+            "roomNumChild": 0,
+            "roomDMCId": "0",
+            "price": 0.0,
+            "pricePerNight": 0.0,
+            "priceType": 0,
+            "crossedPrice": 0.0,
+            "isInclusive": false,
+            "promotionType": 0,
+            "promotionSavings": 0.0,
+            "maxChildren": 0,
+            "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+            "HasSummaryData": false,
+            "hasTaxPerPerson": false,
+            "isRequiredAddress": false
+          }
+        ],
+        "bedType": "1 giường đôi",
+        "bedroomLayout": [
+          {
+            "title": "Không gian chung",
+            "bedType": "1 giường đôi"
+          }
+        ],
+        "roomSize": 20.0,
+        "sizeInfo": {
+          "size": 20.0,
+          "unit": "sqm",
+          "fullDescription": "20 m²"
+        },
+        "facilities": [
+          75,
+          49,
+          25,
+          36,
+          15,
+          30,
+          33,
+          37,
+          38,
+          150,
+          148,
+          85,
+          222,
+          2365,
+          227,
+          2679,
+          2668,
+          2717,
+          228,
+          233,
+          207,
+          2665,
+          210,
+          232,
+          280,
+          279,
+          277
+        ],
+        "topFacilitiesData": [
+          {
+            "id": 2365,
+            "featureName": "Dịch vụ phát trực tuyến như Netflix",
+            "symbol": "confirmation-instant",
+            "emphasis": false,
+            "available": true,
+            "order": 10,
+            "highlighted": false
+          },
+          {
+            "id": 228,
+            "featureName": "Ghế sofa",
+            "symbol": "sofa",
+            "emphasis": false,
+            "available": true,
+            "order": 28,
+            "highlighted": false
+          },
+          {
+            "id": 49,
+            "featureName": "Nước đóng chai miễn phí",
+            "symbol": "complimentary-bottled-water",
+            "emphasis": false,
+            "available": true,
+            "order": 29,
+            "highlighted": false
+          }
+        ],
+        "occupancyInfo": {
+          "maxOccupancy": 0,
+          "extraBed": 0,
+          "maxFreeChildren": 0,
+          "perOfferFreeChildrenAndInfants": 0,
+          "perRoomMaxAdults": 0,
+          "perRoomMaxChildren": 0,
+          "noOfFreeChildren": 0,
+          "noOfChildrenWithChildRate": 0,
+          "noOfMaxFreeChildren": 0
+        },
+        "features": [
+          {
+            "name": "size",
+            "text": "20 m²",
+            "symbol": "sqm"
+          },
+          {
+            "name": "non-smoking-room",
+            "text": "Không hút thuốc",
+            "symbol": "non-smoking-room"
+          },
+          {
+            "name": "shower",
+            "text": "Vòi sen",
+            "symbol": "shower"
+          },
+          {
+            "name": "bathtub",
+            "text": "Bồn tắm",
+            "symbol": "bathtub"
+          },
+          {
+            "name": "room-size-sqm",
+            "text": "20",
+            "symbol": "room-size-sqm"
+          },
+          {
+            "name": "room-size-sqft",
+            "text": "215",
+            "symbol": "room-size-sqft"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403073187/76e0802216f3e8a0a6ded4c2f4e2d8b9.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048456,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368360000+0700)/",
+            "blurhash": "LiHn{P~pNGD*?H%2RjWBM|M|axt7",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403073187/c598ed2cfdc703c74e68d5859838bdb4.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048457,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368360000+0700)/",
+            "blurhash": "LVH.D_IAohae~pt7%NV@?bt7IVxu",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403073187/a3206affb66b146f37166e9c135da021.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048458,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368360000+0700)/",
+            "blurhash": "LKH2Dy~o-m^%tRs:axj[9Gaz-;t7",
+            "providerId": 332
+          }
+        ],
+        "suitableFor": [],
+        "lastBookedDateTime": "",
+        "allowChildren": true,
+        "roomLicenseId": "",
+        "isRecommended": false
+      },
+      {
+        "masterRoomTypeId": 1403070256,
+        "masterRoomTypeName": "Signature Balcony",
+        "masterRoomTypeAlternateName": "Signature Bacolny",
+        "masterRoomTypeEnglishName": "Signature Balcony",
+        "cheapestRoomTokens": [],
+        "rooms": [
+          {
+            "pc": {
+              "a": 0.0,
+              "i": "",
+              "e": "",
+              "t": 0,
+              "s": 0,
+              "cor": 0.0,
+              "ccor": 0.0,
+              "tf": 0.0,
+              "tfPRPN": 0.0,
+              "promotionPricePeek": 0.0,
+              "originalTotal": 0.0,
+              "pseudoCoupon": 0.0
+            },
+            "breakfastIncluded": false,
+            "benefits": [
+              {
+                "id": 10004,
+                "displayText": "Không hút thuốc",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              },
+              {
+                "id": 95,
+                "displayText": "Miễn Phí Internet Không Dây",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              }
+            ],
+            "badgeType": 0,
+            "badges": [],
+            "roomOccupancyDescription": "Tối đa 2 người lớn",
+            "remainRoom": 0,
+            "roomInfoComponent": [
+              {
+                "title": "Chính sách Khách sạn",
+                "subSectionComponents": [
+                  {
+                    "subTitle": "Trẻ em và giường phụ",
+                    "des": "",
+                    "icontype": 0
+                  },
+                  {
+                    "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                    "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                    "icontype": 0
+                  }
+                ],
+                "sectionType": 2,
+                "type": 2
+              }
+            ],
+            "providerText": {
+              "room": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              },
+              "payment": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              }
+            },
+            "cancellationPolicyType": 0,
+            "currentCancellationPolicyType": 0,
+            "cancellationPolicyTitle": "",
+            "cancellationPolicy": "",
+            "isBnpl": false,
+            "isAgency": false,
+            "isMultiHotelEligible": false,
+            "isPromoCodeEligible": false,
+            "isVipDiscountEligible": false,
+            "isFullyChargeAtAgoda": true,
+            "isCreditCardRequired": true,
+            "isApplePayAvailable": false,
+            "isImportantInformationTextRequired": false,
+            "masterRoomTypeId": 0,
+            "roomName": "",
+            "englishRoomName": "",
+            "roomView": "",
+            "roomSize": 0.0,
+            "isPromotionEligible": false,
+            "maxRoomOccupancy": 2,
+            "isExtrabedAvaiable": false,
+            "hasSurcharge": false,
+            "minimumFitRooms": 0,
+            "numberOfGuestsWithoutRoom": 0,
+            "isBOR": false,
+            "occupancyInfo": {
+              "maxOccupancy": 0,
+              "extraBed": 0,
+              "maxFreeChildren": 0,
+              "perOfferFreeChildrenAndInfants": 0,
+              "perRoomMaxAdults": 0,
+              "perRoomMaxChildren": 0,
+              "noOfFreeChildren": 0,
+              "noOfChildrenWithChildRate": 0,
+              "noOfMaxFreeChildren": 0
+            },
+            "hasBookingFee": false,
+            "suggestedRoomQuantity": 0,
+            "discountMessages": [],
+            "isFreeChildrenSuggestionEligible": false,
+            "channelId": 0,
+            "isEasyCancel": false,
+            "rareFindType": 0,
+            "hasAnyBreakfastRelatedBenefits": false,
+            "isTaiwanCampaignEligible": false,
+            "isGoLocalEligible": false,
+            "cartEligible": false,
+            "isCartRestricted": false,
+            "roomTypeId": 0,
+            "roomOccupancy": 0,
+            "cancellationPolicyCode": "",
+            "rateplanID": 0,
+            "promotionID": 0,
+            "roomNumAdult": 0,
+            "roomNumChild": 0,
+            "roomDMCId": "0",
+            "price": 0.0,
+            "pricePerNight": 0.0,
+            "priceType": 0,
+            "crossedPrice": 0.0,
+            "isInclusive": false,
+            "promotionType": 0,
+            "promotionSavings": 0.0,
+            "maxChildren": 0,
+            "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+            "HasSummaryData": false,
+            "hasTaxPerPerson": false,
+            "isRequiredAddress": false
+          }
+        ],
+        "bedType": "1 giường đôi",
+        "bedroomLayout": [
+          {
+            "title": "Không gian chung",
+            "bedType": "1 giường đôi"
+          }
+        ],
+        "roomSize": 20.0,
+        "sizeInfo": {
+          "size": 20.0,
+          "unit": "sqm",
+          "fullDescription": "20 m²"
+        },
+        "facilities": [
+          75,
+          49,
+          25,
+          43,
+          36,
+          15,
+          30,
+          33,
+          39,
+          29,
+          150,
+          148,
+          85,
+          222,
+          209,
+          2365,
+          227,
+          2679,
+          2668,
+          228,
+          233,
+          207,
+          2665,
+          210,
+          232,
+          280,
+          279,
+          277
+        ],
+        "topFacilitiesData": [
+          {
+            "id": 29,
+            "featureName": "Bàn làm việc",
+            "symbol": "desk",
+            "emphasis": false,
+            "available": true,
+            "order": 8,
+            "highlighted": false
+          },
+          {
+            "id": 2365,
+            "featureName": "Dịch vụ phát trực tuyến như Netflix",
+            "symbol": "confirmation-instant",
+            "emphasis": false,
+            "available": true,
+            "order": 10,
+            "highlighted": false
+          },
+          {
+            "id": 228,
+            "featureName": "Ghế sofa",
+            "symbol": "sofa",
+            "emphasis": false,
+            "available": true,
+            "order": 28,
+            "highlighted": false
+          }
+        ],
+        "occupancyInfo": {
+          "maxOccupancy": 0,
+          "extraBed": 0,
+          "maxFreeChildren": 0,
+          "perOfferFreeChildrenAndInfants": 0,
+          "perRoomMaxAdults": 0,
+          "perRoomMaxChildren": 0,
+          "noOfFreeChildren": 0,
+          "noOfChildrenWithChildRate": 0,
+          "noOfMaxFreeChildren": 0
+        },
+        "features": [
+          {
+            "name": "size",
+            "text": "20 m²",
+            "symbol": "sqm"
+          },
+          {
+            "name": "balcony-terrace",
+            "text": "Ban công/sân hiên",
+            "symbol": "balcony-terrace"
+          },
+          {
+            "name": "non-smoking-room",
+            "text": "Không hút thuốc",
+            "symbol": "non-smoking-room"
+          },
+          {
+            "name": "shower",
+            "text": "Vòi sen",
+            "symbol": "shower"
+          },
+          {
+            "name": "separate-shower-and-tub",
+            "text": "Bồn tắm/vòi sen riêng",
+            "symbol": "separate-shower-and-tub"
+          },
+          {
+            "name": "room-size-sqm",
+            "text": "20",
+            "symbol": "room-size-sqm"
+          },
+          {
+            "name": "room-size-sqft",
+            "text": "215",
+            "symbol": "room-size-sqft"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403070256/374f26571e4baf2cbf5b84856940f267.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048232,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368240000+0700)/",
+            "blurhash": "LJH.A;8wWUxv~qD%-;WBX5xuM{R*",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403070256/041eb490b1c8c83e01a65d0e6cf30761.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048233,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368240000+0700)/",
+            "blurhash": "LPHoB*00-;WB$*M{t7Rj9Yt7j]WB",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403070256/7b30a2388b88e11254601c2ffc71feab.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048234,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368240000+0700)/",
+            "blurhash": "LBF=w10eOYIU%2IUbHWB?be.M{WC",
+            "providerId": 332
+          }
+        ],
+        "suitableFor": [],
+        "lastBookedDateTime": "",
+        "allowChildren": true,
+        "roomLicenseId": "",
+        "isRecommended": false
+      },
+      {
+        "masterRoomTypeId": 1403074756,
+        "masterRoomTypeName": "Deluxe Family Room - Check-Out at 12PM",
+        "masterRoomTypeAlternateName": "Deluxe Family",
+        "masterRoomTypeEnglishName": "Deluxe Family Room - Check-Out at 12PM",
+        "cheapestRoomTokens": [],
+        "rooms": [
+          {
+            "pc": {
+              "a": 0.0,
+              "i": "",
+              "e": "",
+              "t": 0,
+              "s": 0,
+              "cor": 0.0,
+              "ccor": 0.0,
+              "tf": 0.0,
+              "tfPRPN": 0.0,
+              "promotionPricePeek": 0.0,
+              "originalTotal": 0.0,
+              "pseudoCoupon": 0.0
+            },
+            "breakfastIncluded": false,
+            "benefits": [
+              {
+                "id": 10004,
+                "displayText": "Không hút thuốc",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              },
+              {
+                "id": 95,
+                "displayText": "Miễn Phí Internet Không Dây",
+                "available": false,
+                "targetType": "Regular",
+                "benefitValue": 0.0
+              }
+            ],
+            "badgeType": 0,
+            "badges": [],
+            "roomOccupancyDescription": "Tối đa 4 người lớn",
+            "remainRoom": 0,
+            "roomInfoComponent": [
+              {
+                "title": "Chính sách Khách sạn",
+                "subSectionComponents": [
+                  {
+                    "subTitle": "Trẻ em và giường phụ",
+                    "des": "",
+                    "icontype": 0
+                  },
+                  {
+                    "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                    "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                    "icontype": 0
+                  },
+                  {
+                    "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                    "icontype": 0
+                  }
+                ],
+                "sectionType": 2,
+                "type": 2
+              }
+            ],
+            "providerText": {
+              "room": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              },
+              "payment": {
+                "title": "",
+                "subtitle": "",
+                "note": ""
+              }
+            },
+            "cancellationPolicyType": 0,
+            "currentCancellationPolicyType": 0,
+            "cancellationPolicyTitle": "",
+            "cancellationPolicy": "",
+            "isBnpl": false,
+            "isAgency": false,
+            "isMultiHotelEligible": false,
+            "isPromoCodeEligible": false,
+            "isVipDiscountEligible": false,
+            "isFullyChargeAtAgoda": true,
+            "isCreditCardRequired": true,
+            "isApplePayAvailable": false,
+            "isImportantInformationTextRequired": false,
+            "masterRoomTypeId": 0,
+            "roomName": "",
+            "englishRoomName": "",
+            "roomView": "",
+            "roomSize": 0.0,
+            "isPromotionEligible": false,
+            "maxRoomOccupancy": 4,
+            "isExtrabedAvaiable": false,
+            "hasSurcharge": false,
+            "minimumFitRooms": 0,
+            "numberOfGuestsWithoutRoom": 0,
+            "isBOR": false,
+            "occupancyInfo": {
+              "maxOccupancy": 0,
+              "extraBed": 0,
+              "maxFreeChildren": 0,
+              "perOfferFreeChildrenAndInfants": 0,
+              "perRoomMaxAdults": 0,
+              "perRoomMaxChildren": 0,
+              "noOfFreeChildren": 0,
+              "noOfChildrenWithChildRate": 0,
+              "noOfMaxFreeChildren": 0
+            },
+            "hasBookingFee": false,
+            "suggestedRoomQuantity": 0,
+            "discountMessages": [],
+            "isFreeChildrenSuggestionEligible": false,
+            "channelId": 0,
+            "isEasyCancel": false,
+            "rareFindType": 0,
+            "hasAnyBreakfastRelatedBenefits": false,
+            "isTaiwanCampaignEligible": false,
+            "isGoLocalEligible": false,
+            "cartEligible": false,
+            "isCartRestricted": false,
+            "roomTypeId": 0,
+            "roomOccupancy": 0,
+            "cancellationPolicyCode": "",
+            "rateplanID": 0,
+            "promotionID": 0,
+            "roomNumAdult": 0,
+            "roomNumChild": 0,
+            "roomDMCId": "0",
+            "price": 0.0,
+            "pricePerNight": 0.0,
+            "priceType": 0,
+            "crossedPrice": 0.0,
+            "isInclusive": false,
+            "promotionType": 0,
+            "promotionSavings": 0.0,
+            "maxChildren": 0,
+            "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+            "HasSummaryData": false,
+            "hasTaxPerPerson": false,
+            "isRequiredAddress": false
+          }
+        ],
+        "bedType": "2 giường đôi lớn",
+        "bedroomLayout": [
+          {
+            "title": "Không gian chung",
+            "bedType": "2 giường đôi lớn"
+          }
+        ],
+        "roomSize": 30.0,
+        "sizeInfo": {
+          "size": 30.0,
+          "unit": "sqm",
+          "fullDescription": "30 m²"
+        },
+        "facilities": [
+          75,
+          49,
+          25,
+          36,
+          15,
+          30,
+          33,
+          39,
+          150,
+          85,
+          222,
+          2365,
+          227,
+          2679,
+          2668,
+          2717,
+          228,
+          233,
+          2665,
+          210,
+          232,
+          280,
+          279,
+          277,
+          2687
+        ],
+        "topFacilitiesData": [
+          {
+            "id": 2365,
+            "featureName": "Dịch vụ phát trực tuyến như Netflix",
+            "symbol": "confirmation-instant",
+            "emphasis": false,
+            "available": true,
+            "order": 10,
+            "highlighted": false
+          },
+          {
+            "id": 228,
+            "featureName": "Ghế sofa",
+            "symbol": "sofa",
+            "emphasis": false,
+            "available": true,
+            "order": 28,
+            "highlighted": false
+          },
+          {
+            "id": 49,
+            "featureName": "Nước đóng chai miễn phí",
+            "symbol": "complimentary-bottled-water",
+            "emphasis": false,
+            "available": true,
+            "order": 29,
+            "highlighted": false
+          }
+        ],
+        "occupancyInfo": {
+          "maxOccupancy": 0,
+          "extraBed": 0,
+          "maxFreeChildren": 0,
+          "perOfferFreeChildrenAndInfants": 0,
+          "perRoomMaxAdults": 0,
+          "perRoomMaxChildren": 0,
+          "noOfFreeChildren": 0,
+          "noOfChildrenWithChildRate": 0,
+          "noOfMaxFreeChildren": 0
+        },
+        "features": [
+          {
+            "name": "size",
+            "text": "30 m²",
+            "symbol": "sqm"
+          },
+          {
+            "name": "non-smoking-room",
+            "text": "Không hút thuốc",
+            "symbol": "non-smoking-room"
+          },
+          {
+            "name": "shower",
+            "text": "Vòi sen",
+            "symbol": "shower"
+          },
+          {
+            "name": "separate-shower-and-tub",
+            "text": "Bồn tắm/vòi sen riêng",
+            "symbol": "separate-shower-and-tub"
+          },
+          {
+            "name": "room-size-sqm",
+            "text": "30",
+            "symbol": "room-size-sqm"
+          },
+          {
+            "name": "room-size-sqft",
+            "text": "323",
+            "symbol": "room-size-sqft"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403074756/3aafdffb327bd5b4eaff3053ad8d66dd.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048633,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368540000+0700)/",
+            "blurhash": "LdKJG8R-e.s.~AWWWBayNaoKWqay",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403074756/ad6a4a7828e579ed5dc58fb9122d16bf.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048631,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368540000+0700)/",
+            "blurhash": "LRKSz*oItQ%1~AxZozWCS5RkxFR+",
+            "providerId": 332
+          },
+          {
+            "url": "https://pix7.agoda.net/hotelImages/73212695/1403074756/b7aac40c1bde9350b734ca19e6aa8202.jpg?ce=3&s=800x600",
+            "caption": "Phòng ngủ",
+            "id": 199048632,
+            "typeId": 7,
+            "uploadedDate": "/Date(1780368540000+0700)/",
+            "blurhash": "LUK0A.~A9c%1^jt6NItQt7s.s.oL",
+            "providerId": 332
+          }
+        ],
+        "suitableFor": [
+          "group"
+        ],
+        "lastBookedDateTime": "",
+        "allowChildren": true,
+        "roomLicenseId": "",
+        "isRecommended": false
+      }
+    ],
+    "badgeText": "Hết phòng",
+    "description": "Phòng ở đây đang bán rất chạy! Nhanh tay đặt ngay khi vẫn còn phòng khác!"
+  },
+  "roomBundles": [],
+  "jtbRatePlanExist": false,
+  "searchToken": "CgYIgMfH0QYSBgiA6szRBhgBIJfG9CIqBAgCGAEyBgoCCAESAA==",
+  "searchId": "20e70e46-e18e-4b10-81b5-e7de562ca0b0",
+  "enableChildWidget": false,
+  "searchInfo": {
+    "status": 1,
+    "criteria": {
+      "checkIn": "/Date(1781629200000+0700)/",
+      "los": 1,
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "childAges": [],
+      "numberOfRooms": 1
+    }
+  },
+  "eligibleWalletPromotions": [
+    {
+      "campaignId": 157341
+    }
+  ],
+  "isEligibleForBasket": false,
+  "uptierEligible": false,
+  "cheapestHourlyRoomGroup": {
+    "masterRoomTypeId": 1145303217,
+    "masterRoomTypeName": "Phòng Tiêu Chuẩn",
+    "masterRoomTypeAlternateName": "",
+    "masterRoomTypeEnglishName": "Standard Room",
+    "cheapestRoomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:22884626;rid:0;uid:2284e21d-a562-5e09-a90e-713778389cac;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKKTE6RUwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:278026;rcy:VND",
+    "cheapestRoomTokens": [
+      "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:22884626;rid:0;uid:2284e21d-a562-5e09-a90e-713778389cac;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKKTE6RUwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:278026;rcy:VND"
+    ],
+    "rooms": [
+      {
+        "roomToken": "8b:0;c:3D100P_100P;cid:1605717;dmc:0;dmcid:332;h:73212695;o:2;p:9999999;pu:0;pm:1;r:1145303217;rp:535;rc:22884626;rid:0;uid:2284e21d-a562-5e09-a90e-713778389cac;mc:0;mo:2;eb:0;mri:1145303217;bor:0;dtr:1;fsc:1;rft:2;avr:8;ri:CicI4sKfxAgQAhj+2cQJIK4IKKTE6RUwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==;ec:0;thgc:0;sai:278026;rcy:VND",
+        "uid": "2284e21d-a562-5e09-a90e-713778389cac",
+        "pc": {
+          "a": 244880.0,
+          "i": "",
+          "e": "Thuế và phí",
+          "t": 101,
+          "s": 1,
+          "cor": 0.0,
+          "ccor": 0.0,
+          "tf": 33146.0,
+          "tfPRPN": 33146.0,
+          "sdni": {
+            "i": 332
+          },
+          "promotionPricePeek": 244880.0,
+          "originalTotal": 247354.0,
+          "pseudoCoupon": 0.0,
+          "priceFreezePrice": {
+            "exclusive": 244880.0,
+            "inclusive": 278026.0
+          },
+          "promoAppliedOnFinalPrice": true,
+          "hasPromotionPricePeek": true
+        },
+        "breakfastIncluded": false,
+        "benefits": [
+          {
+            "id": 10004,
+            "displayText": "Không hút thuốc",
+            "available": false,
+            "targetType": "Regular",
+            "benefitValue": 0.0
+          },
+          {
+            "id": 6,
+            "displayText": "Bãi đậu xe",
+            "available": false,
+            "targetType": "Regular",
+            "benefitValue": 0.0,
+            "labels": [],
+            "droneSymbol": "fill.symbol.check"
+          },
+          {
+            "id": 10,
+            "displayText": "Nước uống chào đón",
+            "available": false,
+            "targetType": "Regular",
+            "benefitValue": 0.0,
+            "labels": [],
+            "droneSymbol": "fill.symbol.check"
+          },
+          {
+            "id": 95,
+            "displayText": "WiFi miễn phí",
+            "available": false,
+            "targetType": "Regular",
+            "benefitValue": 0.0,
+            "labels": [],
+            "droneSymbol": "fill.symbol.check"
+          },
+          {
+            "id": 230,
+            "displayText": "Nước uống",
+            "available": false,
+            "targetType": "Regular",
+            "benefitValue": 0.0,
+            "labels": [],
+            "droneSymbol": "fill.symbol.check"
+          }
+        ],
+        "badgeType": 0,
+        "badges": [],
+        "roomOccupancyDescription": "Tối đa 2 người lớn",
+        "remainRoom": 8,
+        "roomInfoComponent": [
+          {
+            "title": "Chính sách Khách sạn",
+            "subSectionComponents": [
+              {
+                "subTitle": "Trẻ em và giường phụ",
+                "des": "",
+                "icontype": 0
+              },
+              {
+                "subTitle": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+                "des": "Ở miễn phí nếu sử dụng giường có sẵn.",
+                "icontype": 0
+              },
+              {
+                "des": "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết.",
+                "icontype": 0
+              },
+              {
+                "des": "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng.",
+                "icontype": 0
+              }
+            ],
+            "sectionType": 2,
+            "type": 2
+          },
+          {
+            "title": "Chính sách hủy",
+            "subSectionComponents": [
+              {
+                "subTitle": "",
+                "des": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+                "icontype": 0
+              }
+            ],
+            "sectionType": 3,
+            "type": 3
+          }
+        ],
+        "providerText": {
+          "room": {
+            "title": "",
+            "subtitle": "",
+            "note": ""
+          },
+          "payment": {
+            "title": "",
+            "subtitle": "",
+            "note": ""
+          }
+        },
+        "cancellationPolicyType": 0,
+        "currentCancellationPolicyType": 2,
+        "cancellationPolicyTitle": "Chính sách hủy",
+        "cancellationPolicyTitleTemplate": {
+          "template": "Chính sách hủy"
+        },
+        "cancellationPolicy": "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở. Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+        "cancellationInfo": {
+          "type": 0,
+          "currentType": 2,
+          "freeCancellationDate": "/Date(1781370000000+0700)/",
+          "titleTemplate": {
+            "template": "Chính sách hủy"
+          },
+          "descriptionTemplate": {
+            "template": ""
+          },
+          "noShowPolicy": "Không đến khách sạn hoặc chỗ nghỉ sẽ được giải quyết như là Vắng Mặt và sẽ phải trả một khoản tiền là 100% giá trị đặt phòng (Quy định của khách sạn).",
+          "policies": [
+            "Bất kỳ việc hủy phòng nào ghi nhận được trong vòng 3 ngày trước ngày đến sẽ phải trả phí cho toàn bộ thời gian ở."
+          ],
+          "cancellationCode": "3D100P_100P",
+          "title": "Chính sách hủy",
+          "externalUrl": ""
+        },
+        "isBnpl": false,
+        "isBwzp": false,
+        "isAgency": false,
+        "isMultiHotelEligible": false,
+        "isPromoCodeEligible": false,
+        "isVipDiscountEligible": false,
+        "isFullyChargeAtAgoda": true,
+        "isCreditCardRequired": true,
+        "isApplePayAvailable": false,
+        "isImportantInformationTextRequired": false,
+        "masterRoomTypeId": 0,
+        "roomName": "",
+        "englishRoomName": "",
+        "roomView": "",
+        "roomSize": 0.0,
+        "isPromotionEligible": true,
+        "maxRoomOccupancy": 2,
+        "isExtrabedAvaiable": false,
+        "hasSurcharge": false,
+        "minimumFitRooms": 1,
+        "numberOfGuestsWithoutRoom": 0,
+        "isBOR": false,
+        "occupancyInfo": {
+          "maxOccupancy": 2,
+          "extraBed": 0,
+          "maxFreeChildren": 1,
+          "perOfferFreeChildrenAndInfants": 0,
+          "perRoomMaxAdults": 2,
+          "perRoomMaxChildren": 0,
+          "perBookMaxAdults": 2,
+          "perBookMaxChildren": 0,
+          "noOfFreeChildren": 0,
+          "noOfChildrenWithChildRate": 0,
+          "noOfMaxFreeChildren": 1
+        },
+        "occupancyPolicies": {
+          "childPolicyDetails": [
+            {
+              "title": "Trẻ em 0-6 tuổi [bao gồm cả bé 6 tuổi]",
+              "description": "Ở miễn phí nếu sử dụng giường có sẵn."
+            }
+          ],
+          "stayFreeAgeRange": {
+            "min": 0,
+            "max": 6
+          },
+          "extraBed": [
+            "Giường phụ tùy thuộc vào loại phòng bạn chọn, xin vui lòng kiểm tra thông tin phòng để biết thêm chi tiết."
+          ],
+          "additional": [
+            "Khi đặt trên 5 phòng, chính sách và điều khoản bổ sung có thể được áp dụng."
+          ]
+        },
+        "hasBookingFee": false,
+        "paymentInfo": {
+          "isPrepay": true,
+          "paymentModel": 1,
+          "noPrePaymentRequired": false,
+          "paymentChannels": []
+        },
+        "suggestedRoomQuantity": 0,
+        "discountMessages": [
+          "last-minute-deal"
+        ],
+        "isFreeChildrenSuggestionEligible": true,
+        "channelId": 535,
+        "stackedChannels": {
+          "id": 535,
+          "channelBreakDowns": [
+            {
+              "id": 54,
+              "discountPercent": 10.0,
+              "display": true
+            },
+            {
+              "id": 21,
+              "discountPercent": 15.0,
+              "display": true
+            }
+          ]
+        },
+        "hourlyAvailableSlots": [
+          {
+            "from": "21:00",
+            "duration": 2
+          }
+        ],
+        "isEasyCancel": false,
+        "appliedPromotionCoupon": {
+          "cid": 1902770,
+          "campaignId": 157341,
+          "code": "PRICING1PCT",
+          "percentage": 1.0,
+          "title": "Ưu đãi Giảm giá",
+          "autoApplied": true,
+          "messageInfo": {
+            "campaignName": "Ưu đãi Giảm giá",
+            "title": "Đã dùng Ưu đãi Giảm giá",
+            "titleWithDiscount": "Đã áp dụng Ưu đãi Giảm giá – GIẢM 2.474 ₫!"
+          },
+          "campaignType": 5,
+          "analyticsInfo": {
+            "crgw_id": "157341",
+            "is_optimizable": "false",
+            "promotion_campaign_type_id": "6",
+            "is_auto_assign": "true",
+            "is_llama_campaign": "false",
+            "user_wallet_count": "0",
+            "is_bin_wallet": "false"
+          }
+        },
+        "campaignPeek": {
+          "campaignId": 157341,
+          "cid": 1902770,
+          "campaignName": "Ưu đãi Giảm giá",
+          "promotionCode": "PRICING1PCT",
+          "discountType": 1,
+          "discountAmount": 1.0,
+          "dateValidType": 1,
+          "dateValidFrom": "/Date(1781024400000+0700)/",
+          "dateValidUntil": "/Date(1783616399000+0700)/",
+          "autoApplyType": 2
+        },
+        "roomIdentifiers": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb29tSWRlbnRpZmllciI6IkNpY0k0c0tmeEFnUUFoaisyY1FKSUs0SUtLVEU2UlV3QkVvTE0wUXhNREJRWHpFd01GQlFtQVVTQmdnQklnSnNLaG9FS0FRd0FTSUVDQVFZQWc9PSIsInByaWNlUGFyYW1ldGVycyI6eyJCb29raW5nRHVyYXRpb25UeXBlIjpbIm5pZ2h0bHkiXSwiRmVhdHVyZUZsYWciOlszLDE1LDIsMSw0LDg4LDksNTAsMTYsNjIsNTYsNjEsMjQsOTIsMzEsNDAsMzksMzcsNTcsNjksODAsNzFdLCJGb3JjZWRFeHBlcmltZW50cyI6W3siSWQiOiJQTEVDUy0yNTIxIiwiVmFyaWFudCI6IkIifSx7IklkIjoiUEZFQVBQLTIzODMiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJMT1ZFLTY3IiwiVmFyaWFudCI6IkIifSx7IklkIjoiVEhBSS1HT1YiLCJWYXJpYW50IjoiQiJ9LHsiSWQiOiJKR0NXLTIwNCIsIlZhcmlhbnQiOiJCIn0seyJJZCI6IlBBQ0tBR0VTLTc3MCIsIlZhcmlhbnQiOiJCIn1dLCJNc2VIb3RlbElkcyI6W10sIlBvaW50c01heElkIjowLCJSZWZJZCI6MCwiU3VwcG9ydGVkRmVhdHVyZXMiOnsiU2hvd0NtcyI6ZmFsc2UsIk0xNTAiOmZhbHNlLCJTaG93RmFtaWx5RmlsdGVycyI6ZmFsc2UsIlJhdGVQbGFuQ2hlY2tJbkNoZWNrT3V0IjpmYWxzZSwiRXhjbHVkZVZvdWNoZXJSb29tcyI6ZmFsc2UsIkZldGNoUGFzdEJvb2tpbmdJbmZvcm1hdGlvblJvb21MZXZlbCI6dHJ1ZSwiRXNjYXBlUGFja2FnZSI6dHJ1ZSwiUHVzaERheVVzZVJhdGVzIjpmYWxzZSwiSXNNdWx0aUhvdGVsU2VhcmNoIjpmYWxzZSwiRW5hYmxlUmljaENvbnRlbnRPZmZlciI6dHJ1ZSwiRGlzYWJsZUVzY2FwZXNQYWNrYWdlIjpmYWxzZSwiU2hvd1NvbGRPdXRQcmljZSI6dHJ1ZSwiU2hvd1NvbGRPdXRSb29tcyI6dHJ1ZSwiRW5hYmxlQVNPQmVuZWZpdERpc2NvdW50IjpmYWxzZSwiQm9va09uUmVxdWVzdCI6ZmFsc2V9fX0.6UbzVoaxyuIofnL6ntECVF1pDb1a2AW888qEoN7ll2tp9MSTutZm07ChPJj-jX1N",
+        "rareFindType": 0,
+        "roomOfferNameType": "StandardOffer",
+        "hasAnyBreakfastRelatedBenefits": false,
+        "isTaiwanCampaignEligible": false,
+        "isGoLocalEligible": false,
+        "cartEligible": false,
+        "pricingDisplaySummary": {
+          "perBook": {
+            "chargeTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "rebateTotal": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "rebateExtraBed": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "displayTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "pseudoCoupon": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "originalTotal": {
+              "exclusive": 247354.0,
+              "allInclusive": 280500.0
+            },
+            "crossedOut": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "payToAgoda": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "payAtHotel": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "ignoreDownliftAmount": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "autoAppliedPromoDiscount": {
+              "exclusive": 2474.0,
+              "allInclusive": 2474.0
+            },
+            "loyaltyOffersSummary": {
+              "basePrice": {
+                "exclusive": 247354.0,
+                "allInclusive": 280500.0
+              },
+              "offers": []
+            }
+          },
+          "perRoomPerBook": {
+            "chargeTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "rebateTotal": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "rebateExtraBed": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "displayTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "pseudoCoupon": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "originalTotal": {
+              "exclusive": 247354.0,
+              "allInclusive": 280500.0
+            },
+            "crossedOut": {},
+            "payToAgoda": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "payAtHotel": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "ignoreDownliftAmount": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "autoAppliedPromoDiscount": {
+              "exclusive": 2474.0,
+              "allInclusive": 2474.0
+            },
+            "loyaltyOffersSummary": {
+              "basePrice": {
+                "exclusive": 247354.0,
+                "allInclusive": 280500.0
+              },
+              "offers": []
+            }
+          },
+          "perRoomPerNight": {
+            "chargeTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "rebateTotal": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "rebateExtraBed": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "displayTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "pseudoCoupon": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "originalTotal": {
+              "exclusive": 247354.0,
+              "allInclusive": 280500.0
+            },
+            "crossedOut": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "payToAgoda": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "payAtHotel": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "ignoreDownliftAmount": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "autoAppliedPromoDiscount": {
+              "exclusive": 2474.0,
+              "allInclusive": 2474.0
+            },
+            "loyaltyOffersSummary": {
+              "basePrice": {
+                "exclusive": 247354.0,
+                "allInclusive": 280500.0
+              },
+              "offers": []
+            }
+          },
+          "perNight": {
+            "chargeTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "rebateTotal": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "rebateExtraBed": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "displayTotal": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "pseudoCoupon": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "originalTotal": {
+              "exclusive": 247354.0,
+              "allInclusive": 280500.0
+            },
+            "crossedOut": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "payToAgoda": {
+              "exclusive": 244880.0,
+              "allInclusive": 278026.0
+            },
+            "payAtHotel": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "ignoreDownliftAmount": {
+              "exclusive": 0.0,
+              "allInclusive": 0.0
+            },
+            "autoAppliedPromoDiscount": {
+              "exclusive": 2474.0,
+              "allInclusive": 2474.0
+            },
+            "loyaltyOffersSummary": {
+              "basePrice": {
+                "exclusive": 247354.0,
+                "allInclusive": 280500.0
+              },
+              "offers": []
+            }
+          }
+        },
+        "isCartRestricted": false,
+        "allowMultipleBooking": false,
+        "papiRoomIdentifier": "CicI4sKfxAgQAhj+2cQJIK4IKKTE6RUwBEoLM0QxMDBQXzEwMFBQmAUSBggBIgJsKhoEKAQwASIECAQYAg==",
+        "roomTypeId": 1145303217,
+        "pricingMessages": {
+          "formatted": [
+            {
+              "location": 4,
+              "texts": [
+                {
+                  "index": 0,
+                  "text": "Gửi \"Kết hợp và Tiết kiệm\" đến PP"
+                }
+              ]
+            }
+          ]
+        },
+        "bfUrl": "https://searchapi.agoda.com/vi-vn/book/?secdat=rAp1E7%252F8FMP8kuaEVNMpeTmzGwUI7y0HHmqBY58L%252F9RbPaX4oFDWD9yKpQrolYBKug1q4glfFk%252B%252B78UBXffYW0NsLuH%252FoZgj1vNy1qk60UZ8SThzFwLZv0J4s3%252B%252B%252FnkrVMVwca%252FeyTTdead%252F%252F7M%252BaS7aPhI6kDRPCTnE8Uh2zbKjv3OCphsF9RJjHI%252BiFXF2uRDnsPG7FaipfIqi5VOJMJeP1lVnb3q9O3CmiO64hhM%253D&cnIcp=0&cnty=38&v=29&ori=MX&finc=false&siteId=1605717&dclid=-1&gclid=-1&ame=&aso=&aca=&aco=&ate=&r0=ZdcwCotrCf0vxARgKSZ5pg3Ax%252F7%252B6HWdxnzgKrD17rDfWeGSAJSNXZ63mPndbnOjG0%252FjnR1otmX5u6CDf9lW9MODFZQ6SVtt2lTV3HpmnX7xyQRgwwYm7DKjRtYCk9nJmqp%252B6nd6hQyjRJdUFe0uWLOhJ%252FV2vN%252Fwx84KdWxnCaxMORI2kDzIGjqKL5fZ7epEtHM32pabIjC4GF5oDwcovqIyhT5LYFwmJgeOoveRst2UPIY%252BKC9fa4wNEB79RB4NP%252B1%252FG%252B4lvxxxQwbpRJRq180ZDKZTAqhenkc5IGe4zHeK%252B5MbjcK9Z%252BvFuPj5qWd2&nr0=1&xbr0=&sarg=dYIx0aHyImw39ck%252F2KcuzcPNP1rn0PQZRmP8%252BSBoOCUI5jkRTYKsR74ZSARW3XSTgXsS%252BATkAmzf4Jot%252FbEboLo2n1ze2r%252BvbfwC07Q6dFamOuVlHJcxGMDTKwFRdycwDzIVP%252BMdpBHAmVTNm4p8neHC1sc3K5w%252Bnq8HkoDSA4cv8NjeGtyHcCoD3dD4Rv0Ohn%252BY2MrZ4CL1r%252FcwT7KDrqxLPx%252Fz%252FgQ30F%252F7dgwolX9GuHOqoUr7ggjywuq0trlJ",
+        "roomOccupancy": 0,
+        "cancellationPolicyCode": "3D100P_100P",
+        "rateplanID": 535,
+        "promotionID": 0,
+        "roomNumAdult": 0,
+        "roomNumChild": 0,
+        "roomDMCId": "332",
+        "rateCategory": {
+          "id": 22884626,
+          "stayPackageType": 0,
+          "checkIn": {},
+          "checkOut": {},
+          "isChildRateEnabled": false
+        },
+        "price": 0.0,
+        "pricePerNight": 0.0,
+        "priceType": 0,
+        "crossedPrice": 0.0,
+        "isInclusive": false,
+        "promotionType": 0,
+        "promotionSavings": 0.0,
+        "maxChildren": 0,
+        "lastBookedTimeStamp": "/Date(-62135534580000+0700)/",
+        "HasSummaryData": false,
+        "hasTaxPerPerson": false,
+        "isRequiredAddress": false,
+        "priority": 1.0,
+        "filterTags": [
+          "non-smoking",
+          "queen-bed"
+        ],
+        "pulseCampaignMetadata": {
+          "campaignTypeId": 2178,
+          "promotionTypeId": 6716,
+          "campaignBadgeText": "SUMMER VIBES",
+          "campaignBadgeDescText": "Giá Đặc Biệt – Chỉ trong thời gian ngắn!",
+          "campaignBadgeType": "Seasonal"
+        },
+        "suggestedPriceType": "Exclusive",
+        "corBreakdown": {
+          "perRoomPerNightTaxExclusive": [
+            {
+              "id": 5,
+              "price": 187000.0
+            },
+            {
+              "id": 9,
+              "price": 170000.0
+            },
+            {
+              "id": 4,
+              "price": 604354.0
+            },
+            {
+              "id": 8,
+              "price": 2474.0
+            },
+            {
+              "id": 1,
+              "price": 244880.0
+            }
+          ],
+          "perRoomPerNightTaxInclusive": [
+            {
+              "id": 5,
+              "price": 187000.0
+            },
+            {
+              "id": 9,
+              "price": 170000.0
+            },
+            {
+              "id": 4,
+              "price": 637500.0
+            },
+            {
+              "id": 8,
+              "price": 2474.0
+            },
+            {
+              "id": 1,
+              "price": 278026.0
+            }
+          ]
+        }
+      }
+    ],
+    "bedType": "1 giường đôi lớn",
+    "bedroomLayout": [
+      {
+        "title": "Không gian chung",
+        "bedType": "1 giường đôi lớn"
+      }
+    ],
+    "roomSize": 15.0,
+    "sizeInfo": {
+      "size": 15.0,
+      "unit": "sqm",
+      "fullDescription": "15 m²"
+    },
+    "facilities": [
+      75,
+      49,
+      25,
+      36,
+      44,
+      15,
+      86,
+      30,
+      141,
+      33,
+      38,
+      29,
+      2227,
+      2237,
+      2596,
+      230,
+      222,
+      2662,
+      338,
+      227,
+      2679,
+      220,
+      2717,
+      2665,
+      210,
+      232,
+      280,
+      277,
+      2383,
+      2644,
+      221
+    ],
+    "topFacilitiesData": [
+      {
+        "id": 29,
+        "featureName": "Bàn làm việc",
+        "symbol": "desk",
+        "emphasis": false,
+        "available": true,
+        "order": 8,
+        "highlighted": false
+      },
+      {
+        "id": 338,
+        "featureName": "phòng tắm riêng",
+        "symbol": "Bathroom",
+        "emphasis": false,
+        "available": true,
+        "order": 21,
+        "highlighted": false
+      },
+      {
+        "id": 49,
+        "featureName": "Nước đóng chai miễn phí",
+        "symbol": "complimentary-bottled-water",
+        "emphasis": false,
+        "available": true,
+        "order": 29,
+        "highlighted": false
+      }
+    ],
+    "occupancyInfo": {
+      "maxOccupancy": 2,
+      "extraBed": 0,
+      "maxFreeChildren": 1,
+      "perOfferFreeChildrenAndInfants": 0,
+      "perRoomMaxAdults": 2,
+      "perRoomMaxChildren": 0,
+      "perBookMaxAdults": 2,
+      "perBookMaxChildren": 0,
+      "noOfFreeChildren": 0,
+      "noOfChildrenWithChildRate": 0,
+      "noOfMaxFreeChildren": 1
+    },
+    "features": [
+      {
+        "name": "size",
+        "text": "15 m²",
+        "symbol": "sqm"
+      },
+      {
+        "name": "non-smoking-room",
+        "text": "Không hút thuốc",
+        "symbol": "non-smoking-room"
+      },
+      {
+        "name": "shower",
+        "text": "Vòi sen",
+        "symbol": "shower"
+      },
+      {
+        "name": "room-size-sqm",
+        "text": "15",
+        "symbol": "room-size-sqm"
+      },
+      {
+        "name": "room-size-sqft",
+        "text": "161",
+        "symbol": "room-size-sqft"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/272236f25efbf66f94c99d68b2993554.jpg?ce=3&s=800x600",
+        "caption": "Phòng ngủ",
+        "id": 185709882,
+        "typeId": 7,
+        "uploadedDate": "/Date(1765527360000+0700)/",
+        "blurhash": "LVLX6@8{D*R5?]n+tStRIUx]WFIU",
+        "providerId": 332
+      },
+      {
+        "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/acdbcfb80a1c595615077bfd93b182e3.jpg?ce=3&s=800x600",
+        "caption": "Phòng ngủ",
+        "id": 185691233,
+        "typeId": 7,
+        "uploadedDate": "/Date(1765513560000+0700)/",
+        "blurhash": "LMMjXM?^M}tR?vk;R6M{WBMx%hxu",
+        "providerId": 332
+      },
+      {
+        "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/7b6662e393cccfb313cc955460695a15.jpg?ce=3&s=800x600",
+        "caption": "Phòng tắm",
+        "id": 185262568,
+        "typeId": 7,
+        "uploadedDate": "/Date(1764848220000+0700)/",
+        "blurhash": "LLLNxosqaJIn~qxsIUIU9GWXWBs:",
+        "providerId": 332
+      },
+      {
+        "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/880529032.jpg?k=92bcb99f027fa523e35dfad279d7eb8909886a1a2e4acd8a46bff519cad5c9b5&o=",
+        "caption": "",
+        "id": 1356918196,
+        "typeId": 7,
+        "uploadedDate": "/Date(1780688700000+0700)/",
+        "blurhash": "LMLE1kH@8wVs~qjYNGt7pItl%gj]",
+        "providerId": 3038
+      },
+      {
+        "url": "https://pix7.agoda.net/hotelImages/73212695/1145303217/c9ca7f3c34c791258d437288f8926e52.jpg?ce=3&s=800x600",
+        "caption": "Phòng ngủ",
+        "id": 185709970,
+        "typeId": 7,
+        "uploadedDate": "/Date(1765527360000+0700)/",
+        "blurhash": "LMO3zwxb.TR*P9ax$+axt7WXIpn$",
+        "providerId": 332
+      }
+    ],
+    "suitableFor": [],
+    "lastBookedDateTime": "",
+    "allowChildren": true,
+    "roomLicenseId": "",
+    "roomReviewInformation": {
+      "score": 9.283,
+      "scoreText": "Trên cả tuyệt vời"
+    },
+    "isRecommended": false
+  },
+  "priceChange": {
+    "searchDate": "/Date(1781629200000+0700)/",
+    "price": {
+      "exclusive": 230283.91,
+      "allInclusive": 248159.83
+    },
+    "changePercentage": -39
+  },
+  "availableFilters": {
+    "title": "Chọn lọc:",
+    "tags": [
+      {
+        "id": "non-smoking",
+        "title": "Không hút thuốc",
+        "symbol": "fill.facility.smoke-no",
+        "groupId": "room-feature"
+      },
+      {
+        "id": "balcony-terrace",
+        "title": "Ban công/sân hiên",
+        "symbol": "fill.facility.balcony",
+        "groupId": "room-feature"
+      },
+      {
+        "id": "queen-bed",
+        "title": "Giường đôi lớn",
+        "symbol": "fill.facility.bed-queen",
+        "groupId": "bedding-configuration"
+      }
+    ],
+    "filterGroups": [
+      {
+        "id": "bedding-configuration",
+        "groupName": "Thông tin về Giường"
+      },
+      {
+        "id": "room-feature",
+        "groupName": "Đặc điểm phòng"
+      }
+    ]
+  },
+  "propertySupplierId": 332
+}
